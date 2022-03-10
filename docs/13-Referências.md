@@ -1,7 +1,19 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+BIGViagem. **Aluguel por temporada – Vantagens e Desvantagens**. Agosto de 2016. Disponível em: https://bigviagem.com/aluguel-por-temporada-vantagens-e-desvantagens/. Acessado em 19/02/2022.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+CAMPOS, Mari.**Turismo de isolamento faz surgir uma nova geração de "construtores"**. NEOFEED, 2022. Disponível em: https://neofeed.com.br/blog/home/turismo-de-isolamento-faz-surgir-uma-nova-geracao-de-construtores. Acessado em 05/03/2022.
+
+CASTRO, Luíza M. S.; LESO, Bernardo Henrique; CORTIMIGLIA, Marcelo N. **Transformação digital no mercado de locação de imóveis**. Ciudad del Saber: X Congreso Internacional de Conocimiento y Innovación, 2020. Disponível em: https://proceeding.ciki.ufsc.br/index.php/ciki/article/download/934/496/2923. Acessado em 22/02/2022.
+
+DevMedia. **O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML**. Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acessado em 09/03/2022.
+
+Go BlogCredpago. **Entenda como a tecnologia facilita o aluguel de imóveis**. Abril de 2021. Disponível em: https://blog.credpago.com.br/como-a-tecnologia-facilita-o-aluguel-de-imoveis/. Acessado em 20/02/2022.
+
+Superlógica Tecnologias. **Tecnologia Imobiliária: tempo é dinheiro na locação de imóveis**. Setembro de 2021. Disponível em: https://blog.superlogica.com/recorrencia/tecnologia-imobiliaria/. Acessado em 20/02/2022.
+
+TemporadaLivre. **5 vantagens para quem quer alugar um imóvel de temporada**. Maio de 2019. Disponível em: https://www.temporadalivre.com/blog/5-vantagens-para-quem-quer-alugar-um-imovel-de-temporada. Acessado em 20/02/2022.
+
+VILLAR, Marcela. **Preço do aluguel de casas por temporada no Litoral Norte aumenta até 70% neste verão**. Janeiro de 2021. Disponível em: https://www.correio24horas.com.br/noticia/nid/preco-do-aluguel-de-casas-por-temporada-no-litoral-norte-aumenta-ate-70-neste-verao/. Acessado em 19/02/2022.
+
+Wikepédia. **Diagrama de caso de uso**. Junho de 2020. Disponível em: https://pt.wikipedia.org/wiki/Diagrama_de_caso_de_uso. Acessado em 09/03/2022.
