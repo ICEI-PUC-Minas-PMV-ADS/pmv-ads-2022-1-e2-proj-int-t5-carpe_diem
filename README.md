@@ -10,14 +10,18 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+
+- Cristiane Fumagalli Navarro Martins
+- Eduardo Lordeiro Alves
+- Fabiana Bicalho Palhano Rocha Cossenzo
+- Guilherme da Silva Moreira
+- Márcia Maria de Paula Ferreira
+- Nayara Katlin Oliveira da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+
+* Luciana de Nardin
 
 ## Instruções de utilização
 
