@@ -34,16 +34,39 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 ## Histórias de Usuários
 
 
-## Requisitos
+### 2.3 Requisitos e Restrições do Projeto
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
 
-### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+### 2.3.1 Requisitos Funcionais
+
+Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
+
+Quadro 03 - Requisitos Funcionais
+
+|ID       | Descrição do Requisito  | Prioridade |
+|---------|-------------------------|------------|
+|RF-001   | O sistema deve permitir ao usuário realizar o cadastro como anfitrião (locador) e ou hóspede (locatário), realizando a validação através de um e-mail de confirmação. | Alta |
+|RF-002   | O sistema deve permitir ao usuário editar e excluir seu cadastro. | Alta | 
+|RF-003   | O sistema deve permitir ao anfitrião (locador) cadastrar e disponibilizar seu imóvel para locação de temporada. | Alta | 
+|RF-004   | O sistema deve permitir ao anfitrião (locador) editar as informações e excluir o imóvel cadastrado. | Alta |
+|RF-005   | O sistema deve permitir que o hóspede (locatário) alugue o imóvel escolhido. | Alta|
+|RF-006   | O sistema deve permitir ao hóspede (locatário) realizar a busca de imóveis por tipo de imóvel e quantidade de cômodos. | Média |
+|RF-007   | O sistema deve mostrar os imóveis separados por categorias personalizadas, para uma melhor interação do usuário. | Média |
+|RF-008   | O sistema deve permitir que os imóveis sejam salvos em uma lista de favoritos. | Baixa |
+|RF-009   | O sistema deve fornecer um campo específico para comentários e avaliação, pelos hóspedes (locatários), referentes a relatos de suas experiências de interação e/ou locação. | Média |
+|RF-010   | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um imóvel específico e fácil acesso aos imóveis já viabilizados na plataforma. | Média |
+|RF-011   | O sistema deve permitir visualizar as informações para contato e dúvidas, dos desenvolvedores do site. | Alta |
+|RF-012   | O sistema deve disponibilizar formas de pagamento para o imóvel alugado. | Média |
+|RF-013   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado. | Alta |      
+|RF-014   | O sistema deve dispor de um calendário para que o hóspede (locatário) verifique se o imóvel estará disponível na data desejada. | Alta |
+|RF-015   | O sistema deve permitir que o cliente faça login em sua conta através do seu e-mail e senha cadastrados. | Alta |
+|RF-016   | O sistema deve permitir que o cliente acesse suas reservas e possa alterar e cancelar a mesma, conforme regras contratuais e disponibilidade. | Alta |
+|RF-017   | O sistema deve permitir que o anfitrião cadastre dados para recebimento das reservas feitas no seu imóvel. | Alta |
+|RF-018   | O sistema deve disponibilizar um meio de contato para que anfitrião e hóspede possam comunicar-se entre si. | Alta |
+|RF-019   | O sistema deve permitir ao usuário compartilhar o imóvel escolhido. | Baixa |
+
 
 ### Requisitos não Funcionais
 
