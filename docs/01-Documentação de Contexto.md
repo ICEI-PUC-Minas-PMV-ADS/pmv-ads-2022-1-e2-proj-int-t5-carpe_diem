@@ -35,13 +35,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+As pessoas trabalham por um longo período durante o ano e como uma forma de descansar e fugir da rotina elas buscam viajar durante as férias ou feriados prolongados. Essas viagens abrangem destinos tanto para o litoral quanto para pontos turísticos, que por sua vez possuem infraestruturas de hospedagem que lhes oferecem acomodações.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Daí surge o público alvo que utilizará o sistema de gerenciamento de imóveis para temporada. Esse público compreende as pessoas que buscam uma acomodação para alugar e os anfitriões detentores dos imóveis a serem alugados. Não há distinção de gênero para o usuário, podendo ser de qualquer um, porém no quesito faixa etária para se usar o sistema deverá ter a maioridade. Também serão abrangidas todas as classes sociais, pois observa-se um grande potencial advindo de quaisquer uma dessas classes.
