@@ -5,7 +5,15 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 
 ## Personas
 
+| Theo Bernardo      |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|![Theo Bernardo](https://user-images.githubusercontent.com/91228798/157347426-ca6c5897-c4ec-43cc-9b56-d8d7101097fa.jpg) |**Idade:** 26 anos - **Ocupação:** Aposentado por invalidez|**Aplicativos:** WhatsApp|
+|**Motivações:** Gosta de realizar as sessões de fisioterapia na praia, pois se sente motivado.|**Frustrações:** Dificuldade em se deslocar de um lugar para o outro. Julgamento da sociedade em relação às pessoas com deficiência.|**Hobbies, História:** Amava andar de moto e sofreu acidente de trânsito no qual perdeu um braço e uma perna (ambos do lado esquerdo).|
 
+| Clara Castilho     |                                    |                                        |                     
+|--------------------|------------------------------------|----------------------------------------|
+|![Clara Castilho](https://user-images.githubusercontent.com/91228798/156458375-3f731c6d-6ba3-4af7-ae83-d73682390cd2.png) |**Idade:** 30 anos - **Ocupação:** Autônoma. Trabalha como manicure e faz faculdade na área de estética. |**Aplicativos:** WhatsApp, Instagram.|
+|**Motivações:**  Gosta muito de viajar para fugir da rotina e esquecer um pouco das obrigações do trabalho. |**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**Hobbies, História:** Trabalha como manicure desde os 13 anos. Possui o seu próprio estabelecimento e deseja crescer profissionalmente para ter condições de viajar pelo mundo.|
 ## Histórias de Usuários
 
 
