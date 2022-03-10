@@ -15,6 +15,22 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 |--------------------|------------------------------------|----------------------------------------|
 |![Clara Castilho](https://user-images.githubusercontent.com/91228798/156458375-3f731c6d-6ba3-4af7-ae83-d73682390cd2.png) |**Idade:** 30 anos - **Ocupação:** Autônoma. Trabalha como manicure e faz faculdade na área de estética. |**Aplicativos:** WhatsApp, Instagram.|
 |**Motivações:**  Gosta muito de viajar para fugir da rotina e esquecer um pouco das obrigações do trabalho. |**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**Hobbies, História:** Trabalha como manicure desde os 13 anos. Possui o seu próprio estabelecimento e deseja crescer profissionalmente para ter condições de viajar pelo mundo.|
+
+| Carlos José      |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![image](https://user-images.githubusercontent.com/90849504/155332734-933e956a-909b-4d7f-af7c-538b2a0f4357.png)|**Idade:** 35 anos - **Ocupação:** Corretor de Imóveis, especialista em Aluguel para Temporada |**Aplicativos:** Linkedin, Instagram.|
+|**Motivações:** Oferecer imóveis de aluguel para promover lazer e conforto.|**Frustrações:** Não conseguir alcançar clientes de outras cidades. |**Hobbies, História:** Pratica futebol uma vez por semana e gosta de reunir a família aos fins de semana |
+
+| Caio      |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![Caio](https://user-images.githubusercontent.com/91228798/156463881-5e25aced-eb5b-4e3c-bce1-f872e57f97cd.png) |**Idade:** 30 anos - **Ocupação:** Analista de Sistemas |**Aplicativos:** Linkedin, Instagram.|
+|**Motivações:**  Adora conhecer novos lugares. Sempre gostou de mudar seu local de trabalho, pois se sente mais criativo.|**Frustrações:**  Acha um tédio trabalhar de home office sempre no mesmo lugar.|**Hobbies, História:** Reside em Belo Horizonte. Funcionário de uma empresa de TI dos Estados Unidos. Exerce sua função em home office período integral.|
+
+| Marina Aguiar |         |         |                    
+|--------------------|------------------------------------|----------------------------------------|
+|![Marina](https://user-images.githubusercontent.com/91228798/156465093-eae46d42-ca19-40ed-afac-42115d8ad186.png) |**Idade:** 40 anos - **Ocupação:** Secretária Executiva em uma multinacional|**Aplicativos:** Linkedin, Instagram.|
+|**Motivações:**  Conhecer novos lugares e pessoas.|**Frustrações:** Não viajar nas férias.|**Hobbies, História:** Viajar com sua família e com seus animais domésticos. Praticar ciclismo.|
+
 ## Histórias de Usuários
 
 
