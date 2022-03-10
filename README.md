@@ -1,31 +1,35 @@
-# TÍTULO DO PROJETO
+# Gerenciador de Imóveis - Carpe Diem
 
-`CURSO`
+`TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO - DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA`
 
-`SEMESTRE`
+`SEMESTRE 01/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+
 
 ## Integrantes
 
 
-- Cristiane Fumagalli Navarro Martins
-- Eduardo Lordeiro Alves
-- Fabiana Bicalho Palhano Rocha Cossenzo
-- Guilherme da Silva Moreira
-- Márcia Maria de Paula Ferreira
-- Nayara Katlin Oliveira da Silva
+* Cristiane Fumagalli Navarro Martins
+* Eduardo Lordeiro Alves
+* Fabiana Bicalho Palhano Rocha Cossenzo
+* Guilherme da Silva Moreira
+* Márcia Maria de Paula Ferreira
+* Nayara Katlin Oliveira da Silva
+
 
 ## Orientador
 
 
 * Luciana de Nardin
 
+
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
 
 # Documentação
 
