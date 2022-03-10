@@ -3,25 +3,26 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Com a presença da internet se tornando essencial no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre o anfitrião (locador) e o hóspede (locatário), promovendo o acesso a uma plataforma de serviço online de locação de imóveis por temporada, nas regiões litorâneas do Brasil.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Nosso projeto tem como objetivo central a criação de um software que proporcione uma maior aproximação e interação entre o anfitrião (locador) e o hóspede (locatário), no acesso à imóveis mobiliados disponíveis para locação de curta e média permanência, no litoral brasileiro, de forma 100% digital, segura e automatizada. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos citar:
+
+- Disponibilizar o acesso a imóveis mobiliados para locação de curta e média permanência;
+- Proporcionar maior interação entre o anfitrião e o hóspede;
+- Oferecer a possibilidade do anfitrião (locador) cadastrar seu imóvel para locação de temporada;
+- Permitir ao hóspede (locatário) a busca de imóveis cadastrados na plataforma;
+- Dispor os imóveis, separados por categorias personalizadas, para uma melhor interação do usuário;
+- Fornecer campo específico para comentários, pelos hóspedes (locatários), referentes a relatos de suas experiências de interação e/ou locação;
+- Apresentar os perfis de acesso, separados por categorias (anfitrião e hóspede), para melhor trato com os diferentes usuários.
+
 
 ## Justificativa
 
