@@ -113,3 +113,47 @@ O diagrama de caso de uso, comumente oriundo da especificação dos requisitos f
 Graficamente é representado com elementos como os atores, os casos de uso e seus relacionamentos entre si. Seu objetivo principal é ilustrar de forma abstrata, a interação dos elementos externos com as funcionalidades do sistema, ou seja, “a finalidade de um diagrama de caso de uso é apresentar um tipo de diagrama de contexto que apresenta os elementos externos de um sistema e as maneiras segundo as quais eles as utilizam” (Wikipédia, 2020).
 
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
+
+|ATOR| DESCRIÇÃO                                            |
+|--|-------------------------------------------------------|
+|Cliente/Hóspede| Pessoa interessada em alugar um imóvel de temporada. |
+|Cliente/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada. |
+|BD| Banco de dados que deve armazenar e buscar as informações dos clientes e dos imóveis cadastrados.|
+|SAC| Serviço de atendimento ao cliente administrado pelo site.|
+
+|CASO DE USO| DESCRIÇÃO | RF |
+|--|-------------------------------------------------------|----------------------|
+|Falar com SAC | O cliente pode comunicar-se com o SAC disponibilizado pela aplicação. | RF-11 |
+|Criar conta | O cliente deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-01 |
+|Alterar dados cadastrais| O cliente pode fazer alterações referentes ao seu cadastro pessoal. | RF-02 |
+|Excluir conta | O cliente pode excluir sua conta quando assim o desejar. | RF-02 |
+|Fazer login | O cliente deve fazer login para acessar sua conta. | RF-15 |
+|Redefinir senha | O Cliente pode redefinir sua senha se necessário. | RF-13 |
+|Buscar imóveis | O cliente pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como as características e regras contratuais dos mesmos. | RF-06, RF-07, RF-08, RF-10, RF-14, RF-19 |
+|Reservar imóvel | O cliente pode reservar um imóvel conforme disponibilidade. | RF-05 |
+|Pagar reserva | O cliente pode pagar sua reserva através dos meios de pagamento oferecidos pela aplicação. | RF-12 |
+|Acessar reserva| O cliente pode consultar suas reservas realizadas. | RF-16 |
+|Editar reserva | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade. | RF-16 |
+|Cancelar reserva | O cliente pode cancelar a reserva conforme regras contratuais. | RF-16 |
+|Falar com anfitrião/hóspede | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
+|Avaliar estadia | O cliente pode avaliar sua estadia após o início da mesma. | RF-09 | 
+|Cadastrar imóvel | O anfitrião deve cadastrar os dados do seu imóvel na aplicação. | RF-03 |
+|Cadastrar dados de recebimento | O anfitrião deve cadastrar os dados para recebimento das reservas realizadas no seu imóvel. | RF-17 |
+|Alterar dados do imóvel | O anfitrião pode alterar dados referentes ao seu imóvel. | RF-04 |
+
+|RELACIONAMENTO| DESCRIÇÃO                                            |
+|--|-------------------------------------------------------|
+|INCLUSÃO|  |
+|| Para efetivar sua reserva, o cliente deve fazer o login e realizar o pagamento da mesma. |
+|| Para alterar dados cadastrais, o cliente deve realizar o login. | 
+|| Para excluir sua conta, o cliente deve realizar o login. |
+|| Para acessar sua reserva, o cliente deve fazer o login. |
+|| Para cadastrar um imóvel, o cliente deve criar uma conta. |
+|| Para alterar dados do imóvel, o cliente deve fazer o login. |
+|| Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo. | 
+|EXTENSÃO|  |
+|| Se o cliente esquecer sua senha, pode redefiní-la informando seu e-mail de cadastro. |
+|| O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
+|| O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login. |
+
+
