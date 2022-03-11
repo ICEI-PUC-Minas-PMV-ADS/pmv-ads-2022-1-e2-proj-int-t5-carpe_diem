@@ -117,6 +117,10 @@ Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema 
 ![Casos de Uso - Gerenciador de Imóveis](https://user-images.githubusercontent.com/89617881/157877009-a2dba6b5-fe90-4d6c-a0f1-0118ed329761.png)
 Figura 1 - Diagrama de Casos de Uso
 
+
+<br>
+<br>
+
 |ATOR| DESCRIÇÃO                                            |
 |--|-------------------------------------------------------|
 |Cliente/Hóspede| Pessoa interessada em alugar um imóvel de temporada. |
