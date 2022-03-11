@@ -67,44 +67,45 @@ Quadro 03 - Requisitos Funcionais
 |RF-018   | O sistema deve disponibilizar um meio de contato para que anfitrião e hóspede possam comunicar-se entre si. | Alta |
 |RF-019   | O sistema deve permitir ao usuário compartilhar o imóvel escolhido. | Baixa |
 
+Fonte: Elaborado pelos autores
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+Quadro 04 - Requisitos Não Funcionais
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID      | Descrição do Requisito  |Prioridade |
+|--------|-------------------------|-----------|
+|RNF-001 | O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com Windows, Linux e macOS. | Alta  | 
+|RNF-002 | O sistema deve ter bom nível de contraste entre os elementos da tela em conformidade. | Alta  | 
+|RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge). | Alta  | 
+|RNF-004 | O sistema deve ser responsivo em ambientes mobile. | Alta  | 
+|RNF-005 | O desenvolvimento deve ser utilizando a linguagem C#. | Alta  | 
+|RNF-006 | O sistema deve permitir a manutenção do cadastro do usuário (anfitrião e hóspede). | Alta  | 
+|RNF-007 | O sistema deve processar requisições do usuário em no máximo 10s. | Média |
+|RNF-008 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).| Alta |
+|RNF-009 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana. | Alta |
+
+Fonte: Elaborado pelos autores
+
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+Quadro 05 - Restrições
 
+|ID   | Restrição                                             |
+|-----|-------------------------------------------------------|
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022. |
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho. |
+|RE-03| O aplicativo deve se restringir às tecnologias propostas pelo curso. |
+|RE-04| Não é possível acesso ao sistema sem conexão de internet. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+Fonte: Elaborado pelos autores
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
