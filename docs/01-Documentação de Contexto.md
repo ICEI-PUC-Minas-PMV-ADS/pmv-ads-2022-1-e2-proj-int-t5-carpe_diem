@@ -26,12 +26,15 @@ Como objetivos específicos, podemos citar:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O que impulsionou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta online para locação de imóveis de curta e média permanência, que seja ágil, segura e de fácil acesso, vai de encontro com as necessidades atuais e pode trazer muitos benefícios tanto para o anfitrião (locador), quanto para o hóspede (locatário) (GO BlogCredpago, 2021).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Do lado do anfitrião (locador), esse pode maximizar a divulgação do seu imóvel, podendo encontrar locatários com agilidade, facilidade e menor burocracia, o que também resulta em economia de tempo e dinheiro (Superlógica Tecnologias, 2021). Do lado do hóspede (locatário), esse obtém de forma fácil e ágil uma gama de imóveis para sua escolha, podendo ter uma boa noção do imóvel que pretende locar, sem ter que deslocar-se até o local antes da estadia. Também pode reservar seu imóvel sem muita burocracia e com economia de tempo, já que tem a possibilidade de consultar os detalhes do imóvel, tirar dúvidas, fazer alterações na sua reserva e pagar, tudo através da tela do seu computador ou smartphone.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, desde 2020, com o surgimento da pandemia causada pela SARS Covid-19, iniciou-se um crescimento sem precedentes nas reservas em sites e plataformas de aluguéis de temporada, popularizando o chamado "turismo de isolamento". Algumas plataformas chegaram a divulgar aumento de até 150% na busca por imóveis isolados de temporada (Campos, 2022). 
+
+Também como consequência da mesma pandemia, segundo estudo realizado pela Brain Inteligência Estratégica (2020), o setor imobiliário foi um dos mais impactados e isso ocorreu 93% na forma presencial, diferentemente das modalidades digitais que foram bem menos afetadas (apud Castro; Leso; Cortimiglia, 2020). 
+
+Diante disso, uma aplicação online que faça a ligação entre anfitrião (locador) e hóspede (locatário) torna-se de grande utilidade numa era onde características como agilidade, facilidade e segurança são tão valorizadas.
 
 ## Público-Alvo
 
