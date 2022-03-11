@@ -1,6 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A cada dia as pessoas tem preferido programar suas viagens de férias antecipadamente e com a maior comodidade, conforto e segurança possíveis.
+
+Além das opções de hotéis e pousadas que oferecem total comodidade, sempre houve a possibilidade de se alugar uma casa para temporada, porém muitas vezes só se teria como ver o imóvel alugado quando chegasse no local. Há algum tempo a tecnologia e a internet nos permite realizar esta ação de uma forma muito mais clara e segura, admitindo a visualização de fotos e solução de dúvidas, antes mesmo de fechar a locação.
+
+Sendo assim, o serviço de locação por temporada tem sofrido um aumento no número de procuras, e não somente como opção de lazer, mas também para trabalho, pois, após o início da pandemia de SARS Covid-19, muitas empresas adotaram o home-office. Neste mesmo contexto da pandemia, muitas pessoas também preferem a locação de temporada, pois o fluxo dentro da hospedagem fica restrito. (VILLAR, 2021) 
+
+Para o anfitrião (locador), o serviço de locação por temporada sempre foi uma oportunidade de ter uma renda extra, e para quem procura esse tipo de hospedagem também podemos citar algumas vantagens como: redução de custos, maior liberdade e privacidade, pois não será necessário correr para não perder o horário do café da manhã, além de poder reunir com amigos e/ou familiares no mesmo local. (BIGViagem, 2016 e TemporadaLivre, 2019)
+
+Diante desse contexto, surge a necessidade de uma plataforma focada no serviço online de locação por temporada de imóveis nas regiões litorâneas, oferecendo não somente conforto, qualidade e segurança para aqueles que desejam disponibilizar ou locar um imóvel, mas também uma interação 100% digital, segura e automatizada.
 
 ## Problema
 
