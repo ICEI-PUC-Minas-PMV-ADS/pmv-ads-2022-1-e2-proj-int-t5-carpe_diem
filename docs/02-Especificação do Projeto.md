@@ -1,10 +1,14 @@
 
-# Especificações do Projeto
+# 2. Especificações do Projeto
 
 A definição exata do problema e os pontos mais relevantes a serem tratados no projeto foi estabelecido com a participação dos usuários por meio de entrevista online com tópicos previamente estipulados. A partir dessa interação consolidamos os dados coletados na forma de personas e histórias de usuários.
 
 
-## Personas
+## 2.1 Personas
+
+As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
+
+Quadro 1 - Personas
 
 | Theo Bernardo      |                                    |                                        |                     
 |--------------------|------------------------------------|----------------------------------------|
@@ -35,29 +39,38 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 |--------------------|------------------------------------|----------------------------------------|
 |![Ernesto de Aguiar](https://user-images.githubusercontent.com/91228798/156456724-505107af-ac46-47c4-8935-51fd67cf07c6.png)  |**Idade:** 55 anos - **Ocupação:** Empresário. Gerenciador e proprietário de duas casas no litoral do Rio de Janeiro.  | **Aplicativos:** Facebook, WhatsApp  |
 |**Motivações:** Dar uma vida melhor para os filhos. Adquirir uma renda extra para se aposentar.           |**Frustrações:** Grande concorrência. Dificuldade em divulgar o aluguel de suas propriedades. Falta de confiança em utilizar a internet.  |**Hobbies, História:** Realiza caminhadas ao pôr do sol. Pai de dois filhos. Empresário a mais de 10 anos.|
-## Histórias de Usuários
 
-A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
+Fonte: Elaborado pelos autores
+
+
+## 2.2 Histórias de Usuários
+
+Registramos as histórias de usuários no quadro abaixo, diante da informação coletada do dia a dia das personas identificadas para o projeto.
+
+Quadro 2 - História de Usuários
 
 |EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
 |----------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
-|Teo Bernardo (Aposentado por invalidez)       |Comparar informações acerca da estrutura dos imóveis.         |Encontrar o melhor imóvel no quesito acessibilidade.    |
+|Teo Bernardo (Aposentado por invalidez)       |Comparar informações sobre a estrutura dos imóveis.           |Encontrar o melhor imóvel no quesito acessibilidade.    |
 |Clara Castilho (Autônoma)                     |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
 |Carlos José (Corretor de Imóveis)             |Aumentar a visibilidade do seu negócio.                       |Atrair clientes de outras cidades e aumentar o lucro.   |
-|Caio Henrique (Analista de Sistemas)          |Encontrar informações completas sobre Endereço.               |Verificar a cobertura de internet na região.            |
+|Caio Henrique (Analista de Sistemas)          |Encontrar informações completas sobre endereço.               |Verificar a cobertura de internet na região.            |
 |Marina Luz (Secretária Executiva)             |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
 |Ernesto Aguiar (Empresário)                   |Facilidade para divulgar o seu negócio.                       |Se posicionar no mercado e diminuir a concorrência.     | 
 
-### Requisitos e Restrições do Projeto
+Fonte: Elaborado pelos autores
+
+
+## 2.3 Requisitos e Restrições do Projeto
 
 O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
 
 
-### Requisitos Funcionais
+### 2.3.1 Requisitos Funcionais
 
 Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
-Quadro 03 - Requisitos Funcionais
+Quadro 3 - Requisitos Funcionais
 
 |ID       | Descrição do Requisito  | Prioridade |
 |---------|-------------------------|------------|
@@ -84,44 +97,44 @@ Quadro 03 - Requisitos Funcionais
 Fonte: Elaborado pelos autores
 
 
-### Requisitos não Funcionais
+### 2.3.2 Requisitos Não Funcionais
 
 Apresentamos a seguir os requisitos não funcionais que o projeto deverá atender.
 
-Quadro 04 - Requisitos Não Funcionais
+Quadro 4 - Requisitos Não Funcionais
 
-|ID      | Descrição do Requisito  |Prioridade |
-|--------|-------------------------|-----------|
-|RNF-001 | O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com Windows, Linux e macOS. | Alta  | 
-|RNF-002 | O sistema deve ter bom nível de contraste entre os elementos da tela em conformidade. | Alta  | 
-|RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge). | Alta  | 
-|RNF-004 | O sistema deve ser responsivo em ambientes mobile. | Alta  | 
-|RNF-005 | O desenvolvimento deve ser utilizando a linguagem C#. | Alta  | 
-|RNF-006 | O sistema deve permitir a manutenção do cadastro do usuário (anfitrião e hóspede). | Alta  | 
-|RNF-007 | O sistema deve processar requisições do usuário em no máximo 10s. | Média |
-|RNF-008 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).| Alta |
-|RNF-009 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana. | Alta |
+|ID      | Descrição do Requisito                                                                                                   |Prioridade |
+|--------|--------------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001 | O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com Windows, Linux e macOS.                   | Alta      | 
+|RNF-002 | O sistema deve ter bom nível de contraste entre os elementos da tela em conformidade.                                    | Alta      | 
+|RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge). | Alta      | 
+|RNF-004 | O sistema deve ser responsivo em ambientes mobile.                                                                       | Alta      | 
+|RNF-005 | O desenvolvimento deve ser utilizando a linguagem C#.                                                                    | Alta      | 
+|RNF-006 | O sistema deve permitir a manutenção do cadastro do usuário (anfitrião e hóspede).                                       | Alta      | 
+|RNF-007 | O sistema deve processar requisições do usuário em no máximo 10s.                                                        | Média     |
+|RNF-008 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                | Alta      |
+|RNF-009 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                              | Alta      |
 
 Fonte: Elaborado pelos autores
 
 
-## Restrições
+### 2.3.3 Restrições
 
 Apresentamos na tabela abaixo, tópicos consideráveis que limitam a execução do projeto e que se configuram como encargos necessários para seu desenvolvimento.
 
-Quadro 05 - Restrições
+Quadro 5 - Restrições
 
-|ID   | Restrição                                             |
-|-----|-------------------------------------------------------|
+|ID   | Restrição                                                                                               |
+|-----|---------------------------------------------------------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022. |
-|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho. |
-|RE-03| O aplicativo deve se restringir às tecnologias propostas pelo curso. |
-|RE-04| Não é possível acesso ao sistema sem conexão de internet. |
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho.                                           |
+|RE-03| O aplicativo deve se restringir às tecnologias propostas pelo curso.                                    |
+|RE-04| Não é possível acesso ao sistema sem conexão de internet.                                               |
 
 Fonte: Elaborado pelos autores
 
 
-## Diagrama de Casos de Uso
+## 2.4 Diagrama de Casos de Uso
 
 O diagrama de caso de uso, comumente oriundo da especificação dos requisitos funcionais do sistema, descreve as principais funcionalidades do sistema que será projetado pelo grupo e sua interação com os possíveis usuários (DevMedia, 2022). Segundo Ivar Jacobson, podemos dizer que um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Wikipédia, 2020).
 
@@ -129,53 +142,62 @@ Graficamente é representado com elementos como os atores, os casos de uso e seu
 
 Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema que será projetado.
 
-![Casos de Uso - Gerenciador de Imóveis](https://user-images.githubusercontent.com/89617881/157877009-a2dba6b5-fe90-4d6c-a0f1-0118ed329761.png)
+
 Figura 1 - Diagrama de Casos de Uso
 
+![Casos de Uso - Gerenciador de Imóveis](https://user-images.githubusercontent.com/89617881/157877009-a2dba6b5-fe90-4d6c-a0f1-0118ed329761.png)
+
+Fonte: Elaborado pelos autores
 
 <br>
 <br>
 
-|ATOR| DESCRIÇÃO                                            |
-|--|-------------------------------------------------------|
-|Cliente/Hóspede| Pessoa interessada em alugar um imóvel de temporada. |
-|Cliente/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada. |
-|BD| Banco de dados que deve armazenar e buscar as informações dos clientes e dos imóveis cadastrados.|
-|SAC| Serviço de atendimento ao cliente administrado pelo site.|
+Quadro 6 - Casos de Uso
 
-|CASO DE USO| DESCRIÇÃO | RF |
-|--|-------------------------------------------------------|----------------------|
-|Falar com SAC | O cliente pode comunicar-se com o SAC disponibilizado pela aplicação. | RF-11 |
-|Criar conta | O cliente deve criar uma conta para utilizar os serviços oferecidos pela aplicação. | RF-01 |
-|Alterar dados cadastrais| O cliente pode fazer alterações referentes ao seu cadastro pessoal. | RF-02 |
-|Excluir conta | O cliente pode excluir sua conta quando assim o desejar. | RF-02 |
-|Fazer login | O cliente deve fazer login para acessar sua conta. | RF-15 |
-|Redefinir senha | O Cliente pode redefinir sua senha se necessário. | RF-13 |
-|Buscar imóveis | O cliente pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como as características e regras contratuais dos mesmos. | RF-06, RF-07, RF-08, RF-10, RF-14, RF-19 |
-|Reservar imóvel | O cliente pode reservar um imóvel conforme disponibilidade. | RF-05 |
-|Pagar reserva | O cliente pode pagar sua reserva através dos meios de pagamento oferecidos pela aplicação. | RF-12 |
-|Acessar reserva| O cliente pode consultar suas reservas realizadas. | RF-16 |
-|Editar reserva | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade. | RF-16 |
-|Cancelar reserva | O cliente pode cancelar a reserva conforme regras contratuais. | RF-16 |
-|Falar com anfitrião/hóspede | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
-|Avaliar estadia | O cliente pode avaliar sua estadia após o início da mesma. | RF-09 | 
-|Cadastrar imóvel | O anfitrião deve cadastrar os dados do seu imóvel na aplicação. | RF-03 |
-|Cadastrar dados de recebimento | O anfitrião deve cadastrar os dados para recebimento das reservas realizadas no seu imóvel. | RF-17 |
-|Alterar dados do imóvel | O anfitrião pode alterar dados referentes ao seu imóvel. | RF-04 |
+|ATOR             | DESCRIÇÃO                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------|
+|Cliente/Hóspede  | Pessoa interessada em alugar um imóvel de temporada.                                             |
+|Cliente/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
+|BD               | Banco de dados que deve armazenar e buscar as informações dos clientes e dos imóveis cadastrados.|
+|SAC              | Serviço de atendimento ao cliente administrado pelo site.                                        |
 
-|RELACIONAMENTO| DESCRIÇÃO                                            |
-|--|-------------------------------------------------------|
-|INCLUSÃO|  |
-|| Para efetivar sua reserva, o cliente deve fazer o login e realizar o pagamento da mesma. |
-|| Para alterar dados cadastrais, o cliente deve realizar o login. | 
-|| Para excluir sua conta, o cliente deve realizar o login. |
-|| Para acessar sua reserva, o cliente deve fazer o login. |
-|| Para cadastrar um imóvel, o cliente deve criar uma conta. |
-|| Para alterar dados do imóvel, o cliente deve fazer o login. |
-|| Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo. | 
-|EXTENSÃO|  |
-|| Se o cliente esquecer sua senha, pode redefiní-la informando seu e-mail de cadastro. |
-|| O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
-|| O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login. |
+<br>
+ 
+|CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
+|-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
+|Falar com SAC                  | O cliente pode comunicar-se com o SAC disponibilizado pela aplicação.                                    | RF-11 |
+|Criar conta                    | O cliente deve criar uma conta para utilizar os serviços oferecidos pela aplicação.                      | RF-01 |
+|Alterar dados cadastrais       | O cliente pode fazer alterações referentes ao seu cadastro pessoal.                                      | RF-02 |
+|Excluir conta                  | O cliente pode excluir sua conta quando assim o desejar.                                                 | RF-02 |
+|Fazer login                    | O cliente deve fazer login para acessar sua conta.                                                       | RF-15 |
+|Redefinir senha                | O cliente pode redefinir sua senha se necessário.                                                        | RF-13 |
+|Buscar imóveis                 | O cliente pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como as características e regras contratuais dos mesmos.                                                                                                                    | RF-06, RF-07, RF-08, RF-10, RF-14, RF-19 |
+|Reservar imóvel                | O cliente pode reservar um imóvel conforme disponibilidade.                                              | RF-05 |
+|Pagar reserva                  | O cliente pode pagar sua reserva através dos meios de pagamento oferecidos pela aplicação.               | RF-12 |
+|Acessar reserva                | O cliente pode consultar suas reservas realizadas.                                                       | RF-16 |
+|Editar reserva                 | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-16 |
+|Cancelar reserva               | O cliente pode cancelar a reserva conforme regras contratuais.                                           | RF-16 |
+|Falar com anfitrião/hóspede    | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
+|Avaliar estadia                | O cliente pode avaliar sua estadia após o início da mesma.                                               | RF-09 | 
+|Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
+|Cadastrar dados de recebimento | O anfitrião deve cadastrar os dados para recebimento das reservas realizadas no seu imóvel.              | RF-17 |
+|Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-04 |
+
+<br>
+
+|RELACIONAMENTO| DESCRIÇÃO                                                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|INCLUSÃO      |                                                                                                                                                    |
+|              | Para efetivar sua reserva, o cliente deve fazer o login e realizar o pagamento da mesma.                                                           |
+|              | Para alterar dados cadastrais, o cliente deve realizar o login.                                                                                    | 
+|              | Para excluir sua conta, o cliente deve realizar o login.                                                                                           |
+|              | Para acessar sua reserva, o cliente deve fazer o login.                                                                                            |
+|              | Para cadastrar um imóvel, o cliente deve criar uma conta.                                                                                          |
+|              | Para alterar dados do imóvel, o cliente deve fazer o login.                                                                                        |
+|              | Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo.                                  | 
+|EXTENSÃO      |                                                                                                                                                    |
+|              | Se o cliente esquecer sua senha, pode redefiní-la informando seu e-mail de cadastro.                                                               |
+|              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
+|              | O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login.                               |
 
 
