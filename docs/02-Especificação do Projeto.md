@@ -34,12 +34,12 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 ## Histórias de Usuários
 
 
-### 2.3 Requisitos e Restrições do Projeto
+### Requisitos e Restrições do Projeto
 
 O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
 
 
-### 2.3.1 Requisitos Funcionais
+### Requisitos Funcionais
 
 Apresentamos a seguir os requisitos funcionais que o projeto deverá atender.
 
