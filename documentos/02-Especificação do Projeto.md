@@ -31,6 +31,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 |![Marina](https://user-images.githubusercontent.com/91228798/156465093-eae46d42-ca19-40ed-afac-42115d8ad186.png) |**Idade:** 40 anos - **Ocupação:** Secretária Executiva em uma multinacional|**Aplicativos:** Linkedin, Instagram.|
 |**Motivações:**  Conhecer novos lugares e pessoas.|**Frustrações:** Não viajar nas férias.|**Hobbies, História:** Viajar com sua família e com seus animais domésticos. Praticar ciclismo.|
 
+| Ernesto de Aguiar  |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![Ernesto de Aguiar](https://user-images.githubusercontent.com/91228798/156456724-505107af-ac46-47c4-8935-51fd67cf07c6.png) |**Idade:** 55 anos - **Ocupação:** Empresário. Gerenciador e proprietário de duas casas no litoral do Rio de Janeiro.  | **Aplicativos:** Facebook, WhatsApp  |
+|**Motivações:** Dar uma vida melhor para os filhos. Adquirir uma renda extra para se aposentar.           |**Frustrações:** Grande concorrência. Dificuldade em divulgar o aluguel de suas propriedades. Falta de confiança em utilizar a internet.  |**Hobbies, História:** Realiza caminhadas ao pôr do sol. Pai de dois filhos. Empresário a mais de 10 anos.|
 ## Histórias de Usuários
 
 
