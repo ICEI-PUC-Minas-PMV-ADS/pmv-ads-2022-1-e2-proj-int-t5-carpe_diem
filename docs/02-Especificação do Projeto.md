@@ -16,33 +16,38 @@ A definição exata do problema e os pontos mais relevantes a serem tratados no 
 |![Clara Castilho](https://user-images.githubusercontent.com/91228798/156458375-3f731c6d-6ba3-4af7-ae83-d73682390cd2.png) |**Idade:** 30 anos - **Ocupação:** Autônoma. Trabalha como manicure e faz faculdade na área de estética. |**Aplicativos:** WhatsApp, Instagram.|
 |**Motivações:**  Gosta muito de viajar para fugir da rotina e esquecer um pouco das obrigações do trabalho. |**Frustrações:** Não gosta de frequentar hotéis, pois não pode levar seus animais de estimação.|**Hobbies, História:** Trabalha como manicure desde os 13 anos. Possui o seu próprio estabelecimento e deseja crescer profissionalmente para ter condições de viajar pelo mundo.|
 
-| Carlos José      |                                    |                |
+| Carlos José        |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|![image](https://user-images.githubusercontent.com/90849504/155332734-933e956a-909b-4d7f-af7c-538b2a0f4357.png)|**Idade:** 35 anos - **Ocupação:** Corretor de Imóveis, especialista em Aluguel para Temporada |**Aplicativos:** Linkedin, Instagram.|
+|![image](https://user-images.githubusercontent.com/90849504/155332734-933e956a-909b-4d7f-af7c-538b2a0f4357.png)           |**Idade:** 35 anos - **Ocupação:** Corretor de Imóveis, especialista em Aluguel para Temporada |**Aplicativos:** Linkedin, Instagram.|
 |**Motivações:** Oferecer imóveis de aluguel para promover lazer e conforto.|**Frustrações:** Não conseguir alcançar clientes de outras cidades. |**Hobbies, História:** Pratica futebol uma vez por semana e gosta de reunir a família aos fins de semana |
 
-| Caio      |                                    |                |
+| Caio Henrique      |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|![Caio](https://user-images.githubusercontent.com/91228798/156463881-5e25aced-eb5b-4e3c-bce1-f872e57f97cd.png) |**Idade:** 30 anos - **Ocupação:** Analista de Sistemas |**Aplicativos:** Linkedin, Instagram.|
-|**Motivações:**  Adora conhecer novos lugares. Sempre gostou de mudar seu local de trabalho, pois se sente mais criativo.|**Frustrações:**  Acha um tédio trabalhar de home office sempre no mesmo lugar.|**Hobbies, História:** Reside em Belo Horizonte. Funcionário de uma empresa de TI dos Estados Unidos. Exerce sua função em home office período integral.|
+|![Caio](https://user-images.githubusercontent.com/91228798/156463881-5e25aced-eb5b-4e3c-bce1-f872e57f97cd.png)             |**Idade:** 30 anos - **Ocupação:** Analista de Sistemas |**Aplicativos:** Linkedin, Instagram.|
+|**Motivações:**  Adora conhecer novos lugares. Sempre gostou de mudar seu local de trabalho, pois se sente mais criativo.|**Frustrações:**  Acha um tédio trabalhar de home office sempre no mesmo lugar. Dificuldade de se conectar a internet.|**Hobbies, História:** Reside em Belo Horizonte. Funcionário de uma empresa de TI dos Estados Unidos. Exerce sua função em home office período integral. Possui o hábito de pesquisar com antecedência a localizaçãos para verificar a disponibilidade de rede de internet na região.|
 
-| Marina Aguiar |         |         |                    
+| Marina Aguiar      |                                    |                                        |                    
 |--------------------|------------------------------------|----------------------------------------|
 |![Marina](https://user-images.githubusercontent.com/91228798/156465093-eae46d42-ca19-40ed-afac-42115d8ad186.png) |**Idade:** 40 anos - **Ocupação:** Secretária Executiva em uma multinacional|**Aplicativos:** Linkedin, Instagram.|
 |**Motivações:**  Conhecer novos lugares e pessoas.|**Frustrações:** Não viajar nas férias.|**Hobbies, História:** Viajar com sua família e com seus animais domésticos. Praticar ciclismo.|
 
-| Ernesto de Aguiar  |                                    |                |
+| Ernesto de Aguiar  |                                    |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|![Ernesto de Aguiar](https://user-images.githubusercontent.com/91228798/156456724-505107af-ac46-47c4-8935-51fd67cf07c6.png) |**Idade:** 55 anos - **Ocupação:** Empresário. Gerenciador e proprietário de duas casas no litoral do Rio de Janeiro.  | **Aplicativos:** Facebook, WhatsApp  |
+|![Ernesto de Aguiar](https://user-images.githubusercontent.com/91228798/156456724-505107af-ac46-47c4-8935-51fd67cf07c6.png)  |**Idade:** 55 anos - **Ocupação:** Empresário. Gerenciador e proprietário de duas casas no litoral do Rio de Janeiro.  | **Aplicativos:** Facebook, WhatsApp  |
 |**Motivações:** Dar uma vida melhor para os filhos. Adquirir uma renda extra para se aposentar.           |**Frustrações:** Grande concorrência. Dificuldade em divulgar o aluguel de suas propriedades. Falta de confiança em utilizar a internet.  |**Hobbies, História:** Realiza caminhadas ao pôr do sol. Pai de dois filhos. Empresário a mais de 10 anos.|
 ## Histórias de Usuários
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Teo Bernardo (Aposentado por invalidez)       |Comparar informações acerca da estrutura                |Encontrar a melhor casa no quesito acessibilidade  |
-|Clara Castilho (Autônoma)     |
+|EU COMO... `PERSONA`                          | QUERO/PRECISO ... `FUNCIONALIDADE`                           |PARA ... `MOTIVO/VALOR`                                 |
+|----------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------|
+|Teo Bernardo (Aposentado por invalidez)       |Comparar informações acerca da estrutura dos imóveis.         |Encontrar o melhor imóvel no quesito acessibilidade.    |
+|Clara Castilho (Autônoma)                     |Pesquisar informações sobre proibições e permissões no local. |Programar melhor as viagens com seus animais domésticos.|
+|Carlos José (Corretor de Imóveis)             |Aumentar a visibilidade do seu negócio.                       |Atrair clientes de outras cidades e aumentar o lucro.   |
+|Caio Henrique (Analista de Sistemas)          |Encontrar informações completas sobre Endereço.               |Verificar a cobertura de internet na região.            |
+|Marina Luz (Secretária Executiva)             |Consultar disponibilidade dos imóveis.                        |Conseguir planejar o período de férias.                 |
+|Ernesto Aguiar (Empresário)                   |Facilidade para divulgar o seu negócio.                       |Se posicionar no mercado e diminuir a concorrência.     | 
+
 ### Requisitos e Restrições do Projeto
 
 O propósito funcional do projeto é definido por meio dos requisitos funcionais que descrevem ações que o sistema deve estar apto a executar, assim como os requisitos não funcionais que descrevem os atributos que o sistema deve possuir de maneira geral. Estes requisitos são relacionados nas tabelas a seguir.
