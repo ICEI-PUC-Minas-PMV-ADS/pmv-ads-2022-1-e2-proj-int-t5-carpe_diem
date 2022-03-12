@@ -150,7 +150,6 @@ Figura 1 - Diagrama de Casos de Uso
 Fonte: Elaborado pelos autores
 
 <br>
-<br>
 
 Quadro 6 - Casos de Uso
 
@@ -200,4 +199,4 @@ Quadro 6 - Casos de Uso
 |              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
 |              | O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login.                               |
 
-
+Fonte: Elaborado pelos autores
