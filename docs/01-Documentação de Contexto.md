@@ -4,7 +4,7 @@ A cada dia as pessoas tem preferido programar suas viagens de férias antecipada
 
 Além das opções de hotéis e pousadas que oferecem total comodidade, sempre houve a possibilidade de se alugar uma casa para temporada, porém muitas vezes só se teria como ver o imóvel alugado quando chegasse no local. Há algum tempo a tecnologia e a internet nos permite realizar esta ação de uma forma muito mais clara e segura, admitindo a visualização de fotos e solução de dúvidas, antes mesmo de fechar a locação.
 
-Sendo assim, o serviço de locação por temporada tem sofrido um aumento no número de procuras, e não somente como opção de lazer, mas também para trabalho, pois, após o início da pandemia de SARS Covid-19, muitas empresas adotaram o home-office. Neste mesmo contexto da pandemia, muitas pessoas também preferem a locação de temporada, pois o fluxo dentro da hospedagem fica restrito. (VILLAR, 2021) 
+Sendo assim, o serviço de locação por temporada tem sofrido um aumento no número de procuras, e não somente como opção de lazer, mas também para trabalho, pois, após o início da pandemia de SARS Covid-19, muitas empresas adotaram o _home-office_. Neste mesmo contexto da pandemia, muitas pessoas também preferem a locação de temporada, pois o fluxo dentro da hospedagem fica restrito. (VILLAR, 2021) 
 
 Para o anfitrião (locador), o serviço de locação por temporada sempre foi uma oportunidade de ter uma renda extra, e para quem procura esse tipo de hospedagem também podemos citar algumas vantagens como: redução de custos, maior liberdade e privacidade, pois não será necessário correr para não perder o horário do café da manhã, além de poder reunir com amigos e/ou familiares no mesmo local. (BIGViagem, 2016 e TemporadaLivre, 2019)
 
@@ -20,7 +20,7 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade entre o 
 
 ## 1.2 Objetivos
 
-Nosso projeto tem como objetivo central a criação de um software que proporcione uma maior aproximação e interação entre o anfitrião (locador) e o hóspede (locatário), no acesso à imóveis mobiliados disponíveis para locação de curta e média permanência, no litoral brasileiro, de forma 100% digital, segura e automatizada. 
+Nosso projeto tem como objetivo central a criação de um _software_ que proporcione uma maior aproximação e interação entre o anfitrião (locador) e o hóspede (locatário), no acesso à imóveis mobiliados disponíveis para locação de curta e média permanência, no litoral brasileiro, de forma 100% digital, segura e automatizada. 
 
 Como objetivos específicos, podemos citar:
 
@@ -35,9 +35,9 @@ Como objetivos específicos, podemos citar:
 
 ## 1.3 Justificativa
 
-O que impulsionou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta online para locação de imóveis de curta e média permanência, que seja ágil, segura e de fácil acesso, vai de encontro com as necessidades atuais e pode trazer muitos benefícios tanto para o anfitrião (locador), quanto para o hóspede (locatário) (GO BlogCredpago, 2021).
+O que impulsionou a elaboração deste projeto foi entender que, em um mundo onde a tecnologia e a popularização da internet tem mudado constantemente a forma como as pessoas consomem, negociam e até tomam decisões, disponibilizar uma ferramenta _online_ para locação de imóveis de curta e média permanência, que seja ágil, segura e de fácil acesso, vai de encontro com as necessidades atuais e pode trazer muitos benefícios tanto para o anfitrião (locador), quanto para o hóspede (locatário) (GO BlogCredpago, 2021).
 
-Do lado do anfitrião (locador), esse pode maximizar a divulgação do seu imóvel, podendo encontrar locatários com agilidade, facilidade e menor burocracia, o que também resulta em economia de tempo e dinheiro (Superlógica Tecnologias, 2021). Do lado do hóspede (locatário), esse obtém de forma fácil e ágil uma gama de imóveis para sua escolha, podendo ter uma boa noção do imóvel que pretende locar, sem ter que deslocar-se até o local antes da estadia. Também pode reservar seu imóvel sem muita burocracia e com economia de tempo, já que tem a possibilidade de consultar os detalhes do imóvel, tirar dúvidas, fazer alterações na sua reserva e pagar, tudo através da tela do seu computador ou smartphone.
+Do lado do anfitrião (locador), esse pode maximizar a divulgação do seu imóvel, podendo encontrar locatários com agilidade, facilidade e menor burocracia, o que também resulta em economia de tempo e dinheiro (Superlógica Tecnologias, 2021). Do lado do hóspede (locatário), esse obtém de forma fácil e ágil uma gama de imóveis para sua escolha, podendo ter uma boa noção do imóvel que pretende locar, sem ter que deslocar-se até o local antes da estadia. Também pode reservar seu imóvel sem muita burocracia e com economia de tempo, já que tem a possibilidade de consultar os detalhes do imóvel, tirar dúvidas, fazer alterações na sua reserva e pagar, tudo através da tela do seu computador ou _smartphone_.
 
 Além disso, desde 2020, com o surgimento da pandemia causada pela SARS Covid-19, iniciou-se um crescimento sem precedentes nas reservas em sites e plataformas de aluguéis de temporada, popularizando o chamado "turismo de isolamento". Algumas plataformas chegaram a divulgar aumento de até 150% na busca por imóveis isolados de temporada (Campos, 2022). 
 
