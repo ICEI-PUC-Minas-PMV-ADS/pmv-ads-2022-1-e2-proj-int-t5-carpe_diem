@@ -8,7 +8,7 @@ A metodologia pormenoriza as ferramentas aplicadas pelo grupo na organização e
 
 Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes plataformas, cada qual com sua função específica. A combinação dos ambientes com suas respectivas finalidades é apresentada no quadro abaixo.
 
-Quadro x - Ambientes de Trabalho
+Quadro 7 - Ambientes de Trabalho
 
 | AMBIENTE                             | PLATAFORMA        | LINK DE ACESSO |
 |--------------------------------------|-------------------|----------------|
@@ -27,7 +27,7 @@ Pensando nesse contexto, o grupo optou por utilizar um processo fundamentado no 
 
 O _GitFlow_ é um _framework_ criado em 2010 e considerado um ótimo modelo de _branching_, além de ser usado para trabalhar em conjunto com o sistema de controle de versão Git (VIETRO, 2015). Assim sendo, as manutenções do código serão efetuadas definindo-se os papéis de cada _branch_ em separado, como eles devem interagir entre si, e com a identificação de _Branch Master, Branch Develop, Feature Branch, Release Branch, Maintenance Branch (Hotfix)_.
 
-Figura x - _GitFlow Workflow_ <br>
+Figura 2 - _GitFlow Workflow_ <br>
 Modelo de Fluxo de Controle do Código Fonte no Repositório Git
 
 ![image](https://user-images.githubusercontent.com/89549220/158081865-4b79a24d-9a25-4a51-baab-c757846680b3.png)
