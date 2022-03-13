@@ -1,7 +1,7 @@
 
 # 3. Metodologia
 
-A metodologia circunstancia as ferramentas aplicadas pelo grupo na organização e na estruturação da implantação das tarefas do projeto, assim como nas plataformas e artefatos utilizados para a manutenção e conservação dos códigos.
+A metodologia pormenoriza as ferramentas aplicadas pelo grupo na organização e na estruturação da implantação das tarefas do projeto, assim como nas plataformas e artefatos utilizados para a manutenção e conservação dos códigos.
 
 
 ## 3.1 Relação de Ambientes de Trabalho
