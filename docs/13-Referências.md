@@ -10,9 +10,15 @@ DevMedia. **O que é UML e Diagramas de Caso de Uso: Introdução Prática à UM
 
 Go BlogCredpago. **Entenda como a tecnologia facilita o aluguel de imóveis**. Abril de 2021. Disponível em: https://blog.credpago.com.br/como-a-tecnologia-facilita-o-aluguel-de-imoveis/. Acessado em 20/02/2022.
 
+LITTLEFIELD, Andrew. Guia da Metodologia Ágil e Scrum para Iniciantes. Outubro de 2016. Disponível em: https://blog.trello.com/br/scrum-metodologia-agil. Acessado em 12/03/2022.
+
+SCHWABER, Ken e SUTHERLAND, Jeff. O Guia do Scrum. O Guia Definitivo para o Scrum: As Regras do Jogo. Novembro de 2020. Disponível em: https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-2.0.pdf. Acessado em 12/03/2022.
+
 Superlógica Tecnologias. **Tecnologia Imobiliária: tempo é dinheiro na locação de imóveis**. Setembro de 2021. Disponível em: https://blog.superlogica.com/recorrencia/tecnologia-imobiliaria/. Acessado em 20/02/2022.
 
 TemporadaLivre. **5 vantagens para quem quer alugar um imóvel de temporada**. Maio de 2019. Disponível em: https://www.temporadalivre.com/blog/5-vantagens-para-quem-quer-alugar-um-imovel-de-temporada. Acessado em 20/02/2022.
+
+VIETRO, Ítalo Lelis. Fluxo de Desenvolvimento com GitFlow. Abril de 2015. Disponível em: https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow. Acessado em 12/03/2022.
 
 VILLAR, Marcela. **Preço do aluguel de casas por temporada no Litoral Norte aumenta até 70% neste verão**. Janeiro de 2021. Disponível em: https://www.correio24horas.com.br/noticia/nid/preco-do-aluguel-de-casas-por-temporada-no-litoral-norte-aumenta-ate-70-neste-verao/. Acessado em 19/02/2022.
 
