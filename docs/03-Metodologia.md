@@ -1,6 +1,30 @@
 
-# Metodologia
+# 3. Metodologia
 
+A metodologia circunstancia as ferramentas aplicadas pelo grupo na organização e na estruturação da implantação das tarefas do projeto, assim como nas plataformas e artefatos utilizados para a manutenção e conservação dos códigos.
+
+
+## 3.1 Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes plataformas, cada qual com sua função específica. A combinação dos ambientes com suas respectivas finalidades é apresentada no quadro abaixo.
+
+Quadro x - Ambientes de Trabalho
+
+| AMBIENTE | PLATAFORMA | LINK DE ACESSO |
+|----------|------------|----------------|
+| Repositório de Código Fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem ||||
+| Projeto de Interface e  _Wireframes_ | Figma | (processo não iniciado) |
+| Gerenciamento do Projeto | Projects - GitHub | colocar link |
+
+Fonte: Elaborado pelos autores
+
+
+## 3.2 Gestão de Código Fonte
+
+De acordo com Vietro (2015), é importante observar o uso de técnicas e metodologias para o desenvolvimento de sistemas, buscando melhorar as práticas atuais. Diante disso torna-se essencial o gerenciamento do _software_, e isso envolve administrar as várias etapas do processo, como, por exemplo: requisitos do sistema, arquitetura do _software_, padrões de codificação, gerência de configuração, _deploy_, entre outros.
+
+
+**PARA CONSULTA**
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
