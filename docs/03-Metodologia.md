@@ -14,7 +14,7 @@ Quadro 7 - Ambientes de Trabalho
 |--------------------------------------|-------------------|----------------|
 | Repositório de Código Fonte          | GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem |
 | Projeto de Interface e  _Wireframes_ | Figma             | (processo não iniciado) |
-| Gerenciamento do Projeto             | Projects - GitHub | colocar link |
+| Gerenciamento do Projeto             | _Git Projects_    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/projects/1 |
 
 Fonte: Elaborado pelos autores
 
@@ -38,6 +38,61 @@ Esse modelo de _workflow_ utiliza dois _branches_ principais para guardar o hist
 
 
 ## 3.3 Gerenciamento do Projeto
+
+O grupo decidiu por utilizar a metodologia Ágil, sendo escolhido o _Scrum_ como base para definição do processo de desenvolvimento do projeto.
+
+
+### 3.3.1 Divisão de Papéis
+
+Sua organização está apresentada conforme abaixo:
+
+* _Scrum Master_
+  -	Fabiana Bicalho Palhano Rocha Cossenzo
+
+*	_Product Owner_
+   -	Luciana De Nardin
+
+*	Equipe de Desenvolvimento
+  -	Cristiane Fumagalli Navarro Martins
+  -	Eduardo Lordeiro Alves
+  -	Fabiana Bicalho Palhano Rocha Cossenzo
+  -	Guilherme da Silva Moreira
+  -	Márcia Maria de Paula Ferreira
+  -	Nayara Katlin Oliveira da Silva
+
+*	Equipe de _Design_
+  -	Cristiane Fumagalli Navarro Martins
+  -	Eduardo Lordeiro Alves
+  -	Fabiana Bicalho Palhano Rocha Cossenzo
+  -	Guilherme da Silva Moreira
+  -	Márcia Maria de Paula Ferreira
+  -	Nayara Katlin Oliveira da Silva
+
+
+### 3.3.2 Processo
+
+Na organização e na distribuição das tarefas do projeto, o grupo utiliza o aplicativo de gerenciamento de projetos denominado _Git Projects_, onde o mesmo está estruturado com as seguintes listas: 
+
+*	Documentação: sequência das tarefas referentes à documentação de contexto que serão trabalhadas pela equipe, conforme cronograma do curso.
+*	_Product Backlog_: local onde é adicionado as tarefas a serem trabalhadas pela equipe, assim como as tarefas que forem identificadas no andamento do projeto. 
+*	_To Do_: representa o Sprint Backlog atual que está sendo trabalhado.
+*	_In Progress_: tarefas que foram iniciadas são adicionadas nessa lista.
+*	_Test_ (CQ - Checagem de Qualidade): lista das tarefas que foram concluídas. Nesse estágio cabe-se ainda uma revisão para verificar a qualidade.
+*	_Done_: nesta lista são adicionadas as tarefas que passaram pela Checagem de Qualidade e estão prontas para serem enviadas e/ou entregues.
+*	_Locked_: lista onde será relacionado e especificado o que está impedindo a conclusão da tarefa, juntamente com um comentário sobre o que está travando a tarefa.
+
+O quadro gerenciado pelo grupo no aplicativo _Git Projects_ está disponível através da URL especificada no Quadro 7 e é apresentado, em seu estado atual, congênere figura abaixo. A caracterização da estrutura montada se fundamentou no artigo escrito por Littlefield (2016), assim como nos conceitos de _Scrum_ de Schwaber e Sutherland (2020).
+
+Figura 3 - Tela do _Git Projects_ para Gerenciamento do Projeto 
+
+![image](https://user-images.githubusercontent.com/89549220/159369667-0236bdc8-8083-4801-b53c-fb83b4e89dba.png)
+<br>
+![image](https://user-images.githubusercontent.com/89549220/159369694-f07a44ec-d9d1-4cb8-a7c7-7492941611cb.png)
+
+Fonte: _Git Projects_ - Elaborado pelos autores
+
+
+## 3.4 Controle de Versão
 
 
 <br>
