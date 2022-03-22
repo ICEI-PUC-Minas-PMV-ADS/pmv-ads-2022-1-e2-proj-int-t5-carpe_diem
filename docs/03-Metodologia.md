@@ -10,11 +10,12 @@ Os artefatos do projeto são acompanhados e evoluídos com a ajuda de diferentes
 
 Quadro 7 - Ambientes de Trabalho
 
-| AMBIENTE                             | PLATAFORMA        | LINK DE ACESSO |
-|--------------------------------------|-------------------|----------------|
-| Repositório de Código Fonte          | GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem |
-| Projeto de Interface e  _Wireframes_ | Figma             | (processo não iniciado) |
-| Gerenciamento do Projeto             | _Git Projects_    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/projects/1 |
+| AMBIENTE                             | PLATAFORMA        | LINK DE ACESSO                                                                                    |
+|--------------------------------------|-------------------|---------------------------------------------------------------------------------------------------|
+| Repositório de Código Fonte          | GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem                |
+| Documento do Projeto                 | GitHub Docs       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/tree/main/docs |
+| Projeto de Interface e  _Wireframes_ | Figma             | (processo não iniciado)                                                                           |
+| Gerenciamento do Projeto             | _Git Projects_    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/projects/1     |
 
 Fonte: Elaborado pelos autores
 
