@@ -124,20 +124,20 @@ Fonte: Elaborado pelos Autores
 As ferramentas aplicadas no projeto são:
 
 a) Editor de código: 
-      - _Visual Studio Code e Visual Studio_.
-      - Possuem integração com o _Git_, sendo possível realizar commits do _GitHub_ para o _Visual Studio e/ou Visual Studio Code_.
+- _Visual Studio Code e Visual Studio_.
+- Possuem integração com o _Git_, sendo possível realizar commits do _GitHub_ para o _Visual Studio e/ou Visual Studio Code_.
 
 b) Ferramentas de Comunicação: 
-      - _WhatsApp, Discord, Microsoft Teams, Git Projects_.
-      - São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo _smartphone_.
+- _WhatsApp, Discord, Microsoft Teams, Git Projects_.
+- São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo _smartphone_.
 
 c) Ferramentas para Criação de Diagramas: 
-      - _Lucidchart_
-      - Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+- _Lucidchart_
+- Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 d) Ferramentas de Desenho de Tela (_Wireframing_): 
-      - Figma
-      - Possui acesso gratuito e de fácil interação, sendo possível criar wireframes conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+- Figma
+- Possui acesso gratuito e de fácil interação, sendo possível criar wireframes conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 <br>
 <br>
