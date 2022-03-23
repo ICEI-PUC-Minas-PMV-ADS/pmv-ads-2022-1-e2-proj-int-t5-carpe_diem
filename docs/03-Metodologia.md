@@ -47,13 +47,13 @@ O grupo decidiu por utilizar a metodologia Ágil, sendo escolhido o _Scrum_ como
 
 Sua organização está apresentada conforme abaixo:
 
-* _Scrum Master_
+a) _Scrum Master_
   -	Fabiana Bicalho Palhano Rocha Cossenzo
 
-*	_Product Owner_
+b) _Product Owner_
    -	Luciana De Nardin
 
-*	Equipe de Desenvolvimento
+c) Equipe de Desenvolvimento
   -	Cristiane Fumagalli Navarro Martins
   -	Eduardo Lordeiro Alves
   -	Fabiana Bicalho Palhano Rocha Cossenzo
@@ -61,7 +61,7 @@ Sua organização está apresentada conforme abaixo:
   -	Márcia Maria de Paula Ferreira
   -	Nayara Katlin Oliveira da Silva
 
-*	Equipe de _Design_
+d) Equipe de _Design_
   -	Cristiane Fumagalli Navarro Martins
   -	Eduardo Lordeiro Alves
   -	Fabiana Bicalho Palhano Rocha Cossenzo
@@ -95,6 +95,49 @@ Fonte: _Git Projects_ - Elaborado pelos autores
 
 ## 3.4 Controle de Versão
 
+A hospedagem do repositório, definida pela faculdade, será no _GitHub_, sendo assumido para o controle de versão do projeto, a utilização do _Git_. 
+
+O sistema de controle de versão moderno e mais utilizado é o _Git_ e, com ele, é possível acompanhar as alterações de código realizadas no decorrer da codificação, assim como ser possível reverter para versões anteriores e específicas (Taysser-Ghergal et al, 2022).
+
+No que tange ao gerenciamento das _Issues_, optamos por adotar no projeto as etiquetas: _documentation, delivery, planning, invalid, help wanted e code review_.
+
+A tarefas estão etiquetadas em função da natureza da atividade e seguem o esquema de cores/categorias conforme abaixo:
+
+- Documentation
+- Delivery
+- Planning
+- Invalid
+- Help Wanted
+- Code Review
+
+Figura 4 - _Labels_
+
+![image](https://user-images.githubusercontent.com/89549220/159600691-a02f23c8-63cb-475d-869a-9c67fbfca010.png)
+
+Fonte: Elaborado pelos Autores
+
+****
+
+
+## 3.5 Ferramentas
+
+As ferramentas aplicadas no projeto são:
+
+a) Editor de código: 
+      - _Visual Studio Code e Visual Studio_.
+      - Possuem integração com o _Git_, sendo possível realizar commits do _GitHub_ para o _Visual Studio e/ou Visual Studio Code_.
+
+b) Ferramentas de Comunicação: 
+      - _WhatsApp, Discord, Microsoft Teams, Git Projects_.
+      - São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo _smartphone_.
+
+c) Ferramentas para Criação de Diagramas: 
+      - _Lucidchart_
+      - Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
+
+d) Ferramentas de Desenho de Tela (_Wireframing_): 
+      - Figma
+      - Possui acesso gratuito e de fácil interação, sendo possível criar wireframes conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 <br>
 <br>
