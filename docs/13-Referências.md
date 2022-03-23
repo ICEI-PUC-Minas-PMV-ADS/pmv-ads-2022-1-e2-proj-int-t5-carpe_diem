@@ -16,6 +16,8 @@ SCHWABER, Ken e SUTHERLAND, Jeff. O Guia do Scrum. O Guia Definitivo para o Scru
 
 Superlógica Tecnologias. **Tecnologia Imobiliária: tempo é dinheiro na locação de imóveis**. Setembro de 2021. Disponível em: https://blog.superlogica.com/recorrencia/tecnologia-imobiliaria/. Acessado em 20/02/2022.
 
+Taysser-Ghergal et al. **How Visual Studio makes version control easy with Git**. Fevereiro de 2022. Disponível em: https://docs.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022. Acessado em 21/03/2022.
+
 TemporadaLivre. **5 vantagens para quem quer alugar um imóvel de temporada**. Maio de 2019. Disponível em: https://www.temporadalivre.com/blog/5-vantagens-para-quem-quer-alugar-um-imovel-de-temporada. Acessado em 20/02/2022.
 
 VIETRO, Ítalo Lelis. Fluxo de Desenvolvimento com GitFlow. Abril de 2015. Disponível em: https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow. Acessado em 12/03/2022.
