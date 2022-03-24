@@ -12,6 +12,8 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
+![CP_Modelo-ER_](https://user-images.githubusercontent.com/90981080/159815991-ff5b98ec-3a52-4f73-8b5d-de62256625df.jpg)
+
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
 > - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
@@ -19,7 +21,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
+
+ ![CP_Esquema_Relacional](https://user-images.githubusercontent.com/90981080/159816045-cdafe108-daf4-4b14-80f6-3358caee067e.jpeg)
+
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
