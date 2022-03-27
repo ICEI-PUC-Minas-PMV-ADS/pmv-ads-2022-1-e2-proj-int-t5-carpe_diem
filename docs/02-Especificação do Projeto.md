@@ -83,7 +83,7 @@ Quadro 3 - Requisitos Funcionais
 |RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado. | Alta |
 |RF-008   | O sistema deve dispor de um calendário para que o hóspede verifique se o imóvel estará disponível na data desejada. | Média |
 |RF-009   | O sistema deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
-|RF-010   | O sistema deve permitir que o hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
+|RF-010   | O sistema deve permitir ao hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
 |RF-011   | O sistema deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
 
 Fonte: Elaborado pelos autores
