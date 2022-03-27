@@ -74,25 +74,17 @@ Quadro 3 - Requisitos Funcionais
 
 |ID       | Descrição do Requisito  | Prioridade |
 |---------|-------------------------|------------|
-|RF-001   | O sistema deve permitir ao usuário realizar o cadastro como anfitrião (locador) e ou hóspede (locatário), realizando a validação através de um _e-mail_ de confirmação. | Alta |
-|RF-002   | O sistema deve permitir ao usuário editar e excluir seu cadastro. | Alta | 
-|RF-003   | O sistema deve permitir ao anfitrião (locador) cadastrar e disponibilizar seu imóvel para locação de temporada. | Alta | 
-|RF-004   | O sistema deve permitir ao anfitrião (locador) editar as informações e excluir o imóvel cadastrado. | Alta |
-|RF-005   | O sistema deve permitir que o hóspede (locatário) alugue o imóvel escolhido. | Alta|
-|RF-006   | O sistema deve permitir ao hóspede (locatário) realizar a busca de imóveis por tipo de imóvel e quantidade de cômodos. | Média |
-|RF-007   | O sistema deve mostrar os imóveis separados por categorias personalizadas, para uma melhor interação do usuário. | Média |
-|RF-008   | O sistema deve permitir que os imóveis sejam salvos em uma lista de favoritos. | Baixa |
-|RF-009   | O sistema deve fornecer um campo específico para comentários e avaliação, pelos hóspedes (locatários), referentes a relatos de suas experiências de interação e/ou locação. | Média |
-|RF-010   | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um imóvel específico e fácil acesso aos imóveis já viabilizados na plataforma. | Média |
-|RF-011   | O sistema deve permitir visualizar as informações para contato e dúvidas, dos desenvolvedores do site. | Alta |
-|RF-012   | O sistema deve disponibilizar formas de pagamento para o imóvel alugado. | Média |
-|RF-013   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |      
-|RF-014   | O sistema deve dispor de um calendário para que o hóspede (locatário) verifique se o imóvel estará disponível na data desejada. | Alta |
-|RF-015   | O sistema deve permitir que o cliente faça login em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
-|RF-016   | O sistema deve permitir que o cliente acesse suas reservas e possa alterar e cancelar a mesma, conforme regras contratuais e disponibilidade. | Alta |
-|RF-017   | O sistema deve permitir que o anfitrião cadastre dados para recebimento das reservas feitas no seu imóvel. | Alta |
-|RF-018   | O sistema deve disponibilizar um meio de contato para que anfitrião e hóspede possam comunicar-se entre si. | Alta |
-|RF-019   | O sistema deve permitir ao usuário compartilhar o imóvel escolhido. | Baixa |
+|RF-001   | O sistema deve permitir ao usuário realizar o cadastro como hóspede, realizando a validação através de um _e-mail_ de confirmação.  | Alta |
+|RF-002   | O sistema deve permitir ao usuário gerenciar seu cadastro. | Alta | 
+|RF-003   | O sistema deve permitir ao hóspede a opção de se tornar anfitrião, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
+|RF-004   | O sistema deve permitir que o hóspede alugue o imóvel escolhido. | Alta |
+|RF-005   | O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média|
+|RF-006   | O sistema deve permitir visualizar as informações para contato e dúvidas, dos desenvolvedores do site. (fale conosco?) | Média |
+|RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado. | Alta |
+|RF-008   | O sistema deve dispor de um calendário para que o hóspede verifique se o imóvel estará disponível na data desejada. | Média |
+|RF-009   | O sistema deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
+|RF-010   | O sistema deve permitir que o hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
+|RF-011   | O sistema deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
 
 Fonte: Elaborado pelos autores
 
@@ -110,10 +102,9 @@ Quadro 4 - Requisitos Não Funcionais
 |RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (_Google Chrome, Mozilla Firefox, Microsoft Edge_). | Alta      | 
 |RNF-004 | O sistema deve ser responsivo em ambientes _mobile_.                                                                       | Alta      | 
 |RNF-005 | O desenvolvimento deve ser utilizando a linguagem C#.                                                                      | Alta      | 
-|RNF-006 | O sistema deve permitir a manutenção do cadastro do usuário (anfitrião e hóspede).                                         | Alta      | 
-|RNF-007 | O sistema deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
-|RNF-008 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
-|RNF-009 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
+|RNF-006 | O sistema deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
+|RNF-007 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
+|RNF-008 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
 
 Fonte: Elaborado pelos autores
 
@@ -176,10 +167,7 @@ Quadro 6 - Casos de Uso
 |Acessar reserva                | O cliente pode consultar suas reservas realizadas.                                                       | RF-16 |
 |Editar reserva                 | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-16 |
 |Cancelar reserva               | O cliente pode cancelar a reserva conforme regras contratuais.                                           | RF-16 |
-|Falar com anfitrião/hóspede    | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
-|Avaliar estadia                | O cliente pode avaliar sua estadia após o início da mesma.                                               | RF-09 | 
 |Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
-|Cadastrar dados de recebimento | O anfitrião deve cadastrar os dados para recebimento das reservas realizadas no seu imóvel.              | RF-17 |
 |Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-04 |
 
 <br>
