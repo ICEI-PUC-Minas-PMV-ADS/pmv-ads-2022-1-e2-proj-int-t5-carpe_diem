@@ -6,7 +6,8 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-![Diagrama de Classes - CarpeDiem](https://user-images.githubusercontent.com/89617881/159815462-a0c0c8a0-69d4-4099-a266-6960bfcf16d3.png)
+![Diagrama de Classes - atualizado](https://user-images.githubusercontent.com/89617881/160939954-842d3402-04d1-4270-8a90-00ca51ba75ed.png)
+
 
 ## Modelo ER
 
