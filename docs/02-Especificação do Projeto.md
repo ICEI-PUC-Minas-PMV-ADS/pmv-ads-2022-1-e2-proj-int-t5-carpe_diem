@@ -77,8 +77,8 @@ Quadro 3 - Requisitos Funcionais
 |RF-001   | O sistema deve permitir ao usuário realizar o cadastro como hóspede, realizando a validação através de um _e-mail_ de confirmação.  | Alta |
 |RF-002   | O sistema deve permitir ao usuário gerenciar seu cadastro. | Alta | 
 |RF-003   | O sistema deve permitir ao hóspede a opção de se tornar anfitrião, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
-|RF-004   | O sistema deve permitir que o hóspede alugue o imóvel escolhido. | Alta |
-|RF-005   | O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média|
+|RF-004   | O sistema deve permitir que o hóspede reserve o imóvel escolhido. | Alta |
+|RF-005   | O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média |
 |RF-006   | O sistema deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | Baixa |
 |RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |
 |RF-008   | O sistema deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca. | Média |
@@ -101,7 +101,7 @@ Quadro 4 - Requisitos Não Funcionais
 |RNF-002 | O sistema deve ter bom nível de contraste entre os elementos da tela em conformidade.                                      | Alta      | 
 |RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (_Google Chrome, Mozilla Firefox, Microsoft Edge_). | Alta      | 
 |RNF-004 | O sistema deve ser responsivo em ambientes _mobile_.                                                                       | Alta      | 
-|RNF-005 | O desenvolvimento deve ser utilizando a linguagem C#.                                                                      | Alta      | 
+|RNF-005 | Para o desenvolvimento deve ser utilizando a linguagem C#.                                                                      | Alta      | 
 |RNF-006 | O sistema deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
 |RNF-007 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
 |RNF-008 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
@@ -146,10 +146,10 @@ Quadro 6 - Casos de Uso
 
 |ATOR             | DESCRIÇÃO                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------|
-|Usuário/Hóspede  | Pessoa interessada em alugar um imóvel de temporada.                                             |
-|Usuário/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
-|BD               | Banco de dados que deve armazenar e buscar as informações dos usuários e dos imóveis cadastrados.|
-|Fale Conosco     | Serviço disponibilizado pelo site para esclarecimento de dúvidas dos usuários.                   |
+| Hóspede         | Pessoa interessada em alugar um imóvel de temporada.                                             |
+| Anfitrião       | Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
+| BD              | Banco de dados que deve armazenar e buscar as informações dos usuários e dos imóveis cadastrados.|
+| Fale Conosco    | Serviço disponibilizado pelo site para esclarecimento de dúvidas dos usuários.                   |
 
 <br>
  
@@ -159,32 +159,32 @@ Quadro 6 - Casos de Uso
 |Criar conta                    | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação.                      | RF-01 |
 |Alterar dados cadastrais       | O usuário pode fazer alterações referentes ao seu cadastro pessoal.                                      | RF-02 |
 |Excluir conta                  | O usuário pode excluir sua conta quando assim o desejar.                                                 | RF-02 |
-|Fazer login                    | O usuário deve fazer login para acessar sua conta.                                                       | RF-09 |
+|Fazer _login_                  | O usuário deve fazer _login_ para acessar sua conta.                                                     | RF-09 |
 |Redefinir senha                | O usuário pode redefinir sua senha se necessário.                                                        | RF-07 |
-|Buscar imóveis                 | O usuário pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como consultar as características e regras contratuais dos mesmos.                                                                                                                    | RF-05, RF-08 |
+|Buscar imóveis                 | O usuário pode buscar e filtrar os imóveis disponíveis na aplicação, assim como consultar as características e regras contratuais dos mesmos.                                                                                                                                    | RF-05, RF-08 |
 |Reservar imóvel                | O usuário pode reservar um imóvel conforme disponibilidade.                                              | RF-04 |
 |Acessar reserva                | O usuário pode consultar suas reservas realizadas.                                                       | RF-10 |
 |Editar reserva                 | O usuário pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-10 |
 |Cancelar reserva               | O usuário pode cancelar a reserva conforme regras contratuais.                                           | RF-10 |
 |Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
 |Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-03 |
-|Receber notificação de reserva | O anfitrião irá receber um e-mail de notificação quando seu imóvel for reservado                         | RF-11 |
+|Receber notificação de reserva | O anfitrião irá receber um _e-mail_ de notificação quando seu imóvel for reservado                       | RF-11 |
 
 <br>
 
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                      |
-|              | Para efetivar sua reserva, o hóspede deve fazer o _login_ e realizar o pagamento da mesma.                                                           |
+|              | Para realizar sua reserva, o hóspede deve efetuar a busca preenchendo os campos obrigatórios, selecionar o imóvel, fazer o _login_ e confirmá-la.    |
 |              | Para alterar dados cadastrais, o usuário deve realizar o _login_.                                                                                    | 
 |              | Para excluir sua conta, o usuário deve realizar o _login_.                                                                                           |
 |              | Para acessar sua reserva, o hóspede deve fazer o _login_.                                                                                            |
-|              | Para cadastrar um imóvel, o anfitrião deve criar uma conta.                                                                                          |
+|              | Para cadastrar um imóvel, o anfitrião deve criar uma conta como hóspede e, posteriormente disponibilizá-lo para locação através do cadastro.         |
 |              | Para alterar dados do imóvel, o anfitrião deve fazer o _login_.                                                                                      | 
 |              | O anfitrião receberá um e-mail de notificação sempre que seu imóvel for reservado.                                                                   |
 |EXTENSÃO      |                                                                                                                                                      |
-|              | Se o cliente esquecer sua senha, pode redefiní-la informando seu _e-mail_ de cadastro.                                                               |
-|              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do _login_. |
-|              | O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do _login_.                               |
+|              | Se o usuário esquecer sua senha, poderá redefiní-la informando seu _e-mail_ de cadastro.                                                             |
+|              | O hóspede pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do _login_. |
+|              | O hóspede pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do _login_.                               |
 
 Fonte: Elaborado pelos autores
