@@ -79,9 +79,9 @@ Quadro 3 - Requisitos Funcionais
 |RF-003   | O sistema deve permitir ao hóspede a opção de se tornar anfitrião, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
 |RF-004   | O sistema deve permitir que o hóspede alugue o imóvel escolhido. | Alta |
 |RF-005   | O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média|
-|RF-006   | O sistema deve permitir visualizar as informações para contato e dúvidas, dos desenvolvedores do site. (fale conosco?) | Média |
-|RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado. | Alta |
-|RF-008   | O sistema deve dispor de um calendário para que o hóspede verifique se o imóvel estará disponível na data desejada. | Média |
+|RF-006   | O sistema deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | Baixa |
+|RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |
+|RF-008   | O sistema deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca. | Média |
 |RF-009   | O sistema deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
 |RF-010   | O sistema deve permitir ao hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
 |RF-011   | O sistema deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
