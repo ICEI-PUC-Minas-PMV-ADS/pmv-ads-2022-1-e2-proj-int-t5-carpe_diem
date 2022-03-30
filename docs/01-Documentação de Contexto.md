@@ -28,7 +28,7 @@ Como objetivos específicos, podemos citar:
 - Proporcionar maior interação entre o anfitrião e o hóspede;
 - Oferecer a possibilidade do anfitrião (locador) cadastrar seu imóvel para locação de temporada;
 - Permitir ao hóspede (locatário) a busca de imóveis cadastrados na plataforma;
-- Apresentar os perfis de acesso, separados por categorias (anfitrião e hóspede), para melhor trato com os diferentes usuários.
+- Apresentar os perfis de acesso, anfitrião e hóspede, para melhor trato com os diferentes usuários.
 
 
 ## 1.3 Justificativa
