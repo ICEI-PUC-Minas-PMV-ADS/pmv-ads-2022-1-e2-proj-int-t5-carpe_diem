@@ -146,42 +146,42 @@ Quadro 6 - Casos de Uso
 
 |ATOR             | DESCRIÇÃO                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------|
-|Cliente/Hóspede  | Pessoa interessada em alugar um imóvel de temporada.                                             |
-|Cliente/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
-|BD               | Banco de dados que deve armazenar e buscar as informações dos clientes e dos imóveis cadastrados.|
-|SAC              | Serviço de atendimento ao cliente administrado pelo site.                                        |
+|Usuário/Hóspede  | Pessoa interessada em alugar um imóvel de temporada.                                             |
+|Usuário/Anfitrião| Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
+|BD               | Banco de dados que deve armazenar e buscar as informações dos usuários e dos imóveis cadastrados.|
+|Fale Conosco     | Serviço disponibilizado pelo site para esclarecimento de dúvidas dos usuários.                   |
 
 <br>
  
 |CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
 |-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
-|Falar com SAC                  | O cliente pode comunicar-se com o SAC disponibilizado pela aplicação.                                    | RF-11 |
-|Criar conta                    | O cliente deve criar uma conta para utilizar os serviços oferecidos pela aplicação.                      | RF-01 |
-|Alterar dados cadastrais       | O cliente pode fazer alterações referentes ao seu cadastro pessoal.                                      | RF-02 |
-|Excluir conta                  | O cliente pode excluir sua conta quando assim o desejar.                                                 | RF-02 |
-|Fazer login                    | O cliente deve fazer login para acessar sua conta.                                                       | RF-15 |
-|Redefinir senha                | O cliente pode redefinir sua senha se necessário.                                                        | RF-13 |
-|Buscar imóveis                 | O cliente pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como as características e regras contratuais dos mesmos.                                                                                                                    | RF-06, RF-07, RF-08, RF-10, RF-14, RF-19 |
-|Reservar imóvel                | O cliente pode reservar um imóvel conforme disponibilidade.                                              | RF-05 |
-|Pagar reserva                  | O cliente pode pagar sua reserva através dos meios de pagamento oferecidos pela aplicação.               | RF-12 |
-|Acessar reserva                | O cliente pode consultar suas reservas realizadas.                                                       | RF-16 |
-|Editar reserva                 | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-16 |
-|Cancelar reserva               | O cliente pode cancelar a reserva conforme regras contratuais.                                           | RF-16 |
+|Esclarecer dúvidas             | O usuário pode enviar formulário no Fale Conosco disponibilizado pela aplicação.                         | RF-06 |
+|Criar conta                    | O usuário deve criar uma conta para utilizar os serviços oferecidos pela aplicação.                      | RF-01 |
+|Alterar dados cadastrais       | O usuário pode fazer alterações referentes ao seu cadastro pessoal.                                      | RF-02 |
+|Excluir conta                  | O usuário pode excluir sua conta quando assim o desejar.                                                 | RF-02 |
+|Fazer login                    | O usuário deve fazer login para acessar sua conta.                                                       | RF-09 |
+|Redefinir senha                | O usuário pode redefinir sua senha se necessário.                                                        | RF-07 |
+|Buscar imóveis                 | O usuário pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como consultar as características e regras contratuais dos mesmos.                                                                                                                    | RF-05, RF-08 |
+|Reservar imóvel                | O usuário pode reservar um imóvel conforme disponibilidade.                                              | RF-04 |
+|Acessar reserva                | O usuário pode consultar suas reservas realizadas.                                                       | RF-10 |
+|Editar reserva                 | O usuário pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-10 |
+|Cancelar reserva               | O usuário pode cancelar a reserva conforme regras contratuais.                                           | RF-10 |
 |Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
-|Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-04 |
+|Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-03 |
+|Receber notificação de reserva | O anfitrião irá receber um e-mail de notificação quando seu imóvel for reservado                         | RF-11 |
 
 <br>
 
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                      |
-|              | Para efetivar sua reserva, o cliente deve fazer o _login_ e realizar o pagamento da mesma.                                                           |
-|              | Para alterar dados cadastrais, o cliente deve realizar o _login_.                                                                                    | 
-|              | Para excluir sua conta, o cliente deve realizar o _login_.                                                                                           |
-|              | Para acessar sua reserva, o cliente deve fazer o _login_.                                                                                            |
-|              | Para cadastrar um imóvel, o cliente deve criar uma conta.                                                                                            |
-|              | Para alterar dados do imóvel, o cliente deve fazer o _login_.                                                                                        |
-|              | Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo.                                    | 
+|              | Para efetivar sua reserva, o hóspede deve fazer o _login_ e realizar o pagamento da mesma.                                                           |
+|              | Para alterar dados cadastrais, o usuário deve realizar o _login_.                                                                                    | 
+|              | Para excluir sua conta, o usuário deve realizar o _login_.                                                                                           |
+|              | Para acessar sua reserva, o hóspede deve fazer o _login_.                                                                                            |
+|              | Para cadastrar um imóvel, o anfitrião deve criar uma conta.                                                                                          |
+|              | Para alterar dados do imóvel, o anfitrião deve fazer o _login_.                                                                                      | 
+|              | O anfitrião receberá um e-mail de notificação sempre que seu imóvel for reservado.                                                                   |
 |EXTENSÃO      |                                                                                                                                                      |
 |              | Se o cliente esquecer sua senha, pode redefiní-la informando seu _e-mail_ de cadastro.                                                               |
 |              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do _login_. |
