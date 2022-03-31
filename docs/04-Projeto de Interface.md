@@ -1,17 +1,13 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Dentre as preocupações para a montagem da interface do sistema, definiu-se o foco em questões como: acessibilidade e simplicidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis, ou seja, um site completamente responsivo.
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+O diagrama apresenta na figura 1 mostra o fluxo de interação do usuário com o sistema interativo. Cada uma das tela desse fluxo é detalhada nas seção de wireframe interativo que será desenvolvida logo em seguida.
 
 
-![Diagrama de fluxo](https://user-images.githubusercontent.com/91228798/159814820-caa1cc56-f93a-4ad9-9ad6-8c220830947d.PNG)
+<img width="1622" alt="DIAGRAMA DE FLUXO NOVO" src="https://user-images.githubusercontent.com/91228798/160950162-ac49d3c3-5b58-41d8-8049-0ceb2d6806cd.png">
+<b>Figura 1 - Diagrama de Fluxo</b>
+</p>
