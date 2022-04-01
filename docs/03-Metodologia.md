@@ -3,6 +3,8 @@
 
 A metodologia pormenoriza as ferramentas aplicadas pelo grupo na organização e na estruturação da implantação das tarefas do projeto, assim como nas plataformas e artefatos utilizados para a manutenção e conservação dos códigos.
 
+Em todos os artefatos produzidos no projeto, para melhor entendimento e padronização, a nomenclatura hóspede e anfitrião serão utilizadas para casos específicos de cada ator. Em ações que corresponderem tanto para o hóspede quanto para o anfitrião, será adotado o termo usuário.
+
 
 ## 3.1 Relação de Ambientes de Trabalho
 
