@@ -136,7 +136,7 @@ Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema 
 
 Figura 1 - Diagrama de Casos de Uso
 
-![Casos de Uso - Gerenciador de Imóveis](https://user-images.githubusercontent.com/89549220/160933964-5c720edd-ad0c-4a51-84e0-3d1a5c3555ef.png)
+![Casos de Uso - Gerenciador de Imóveis (1)](https://user-images.githubusercontent.com/89549220/161358016-03180341-f886-4cfb-8990-7e17e8f91fdc.png)
 
 Fonte: Elaborado pelos autores
 
