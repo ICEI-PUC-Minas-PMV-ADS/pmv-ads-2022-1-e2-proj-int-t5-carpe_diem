@@ -175,6 +175,7 @@ Quadro 6 - Casos de Uso
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                            |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                      |
+|              | Para realizar o _login_, o usuário deve primeiramente cadastrar sua conta no sistema.                                                                |
 |              | Para realizar sua reserva, o hóspede deve efetuar a busca preenchendo os campos obrigatórios, selecionar o imóvel, fazer o _login_ e confirmá-la.    |
 |              | Para alterar dados cadastrais, o usuário deve realizar o _login_.                                                                                    | 
 |              | Para excluir sua conta, o usuário deve realizar o _login_.                                                                                           |
