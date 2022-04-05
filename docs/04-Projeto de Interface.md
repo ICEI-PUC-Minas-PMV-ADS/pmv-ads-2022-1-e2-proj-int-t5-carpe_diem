@@ -7,6 +7,6 @@ Dentre as preocupações para a montagem da interface do sistema, definiu-se o f
 
 O diagrama apresenta na figura 1 mostra o fluxo de interação do usuário com o sistema interativo. Cada uma das tela desse fluxo é detalhada nas seção de wireframe interativo que será desenvolvida logo em seguida.
 
-<img width="1622" alt="DIAGRAMA DE FLUXO NOVO" src="https://user-images.githubusercontent.com/91228798/160957808-38d4b61b-2c01-4a04-adef-f7a7433f0769.png">
+<img width="1643" alt="DIAGRAMA DE FLUXO" src="https://user-images.githubusercontent.com/91228798/161655253-377d0c72-3ed8-4a0d-a9f0-6b3adcc968cd.png">
 <b>Figura 1 - Diagrama de Fluxo</b>
 </p>
