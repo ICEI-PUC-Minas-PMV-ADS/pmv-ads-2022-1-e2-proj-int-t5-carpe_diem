@@ -136,7 +136,7 @@ Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema 
 
 Figura 1 - Diagrama de Casos de Uso
 
-![Casos de Uso - Gerenciador de Imóveis atualizado](https://user-images.githubusercontent.com/89617881/161440338-ef9a2b42-c2ba-403b-90bc-f4233b785f92.png)
+![Casos de Uso - CarpeDiem](https://user-images.githubusercontent.com/89617881/162123957-03f3cdc2-7977-46f8-8809-0b01bc157576.png)
 
 Fonte: Elaborado pelos autores
 
