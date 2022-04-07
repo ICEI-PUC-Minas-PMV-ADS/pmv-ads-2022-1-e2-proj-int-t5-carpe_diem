@@ -148,7 +148,6 @@ Quadro 6 - Casos de Uso
 |-----------------|--------------------------------------------------------------------------------------------------|
 | Hóspede         | Pessoa interessada em alugar um imóvel de temporada.                                             |
 | Anfitrião       | Pessoa interessada em disponibilizar seu imóvel para aluguéis de temporada.                      |
-| BD              | Banco de dados que deve armazenar e buscar as informações dos usuários e dos imóveis cadastrados.|
 | Fale Conosco    | Serviço disponibilizado pelo site para esclarecimento de dúvidas dos usuários.                   |
 
 <br>
@@ -163,12 +162,11 @@ Quadro 6 - Casos de Uso
 |Redefinir senha                | O usuário pode redefinir sua senha se necessário.                                                        | RF-07 |
 |Buscar imóveis                 | O usuário pode buscar e filtrar os imóveis disponíveis na aplicação, assim como consultar as características e regras contratuais dos mesmos.                                                                                                                                    | RF-05, RF-08 |
 |Reservar imóvel                | O usuário pode reservar um imóvel conforme disponibilidade.                                              | RF-04 |
-|Acessar reserva                | O usuário pode consultar suas reservas realizadas.                                                       | RF-10 |
-|Editar reserva                 | O usuário pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-10 |
-|Cancelar reserva               | O usuário pode cancelar a reserva conforme regras contratuais.                                           | RF-10 |
+|Acessar reserva                | O hóspede pode visualizar suas reservas realizadas.                                                      | RF-10 |
+|Gerenciar reserva              | O usuário pode gerenciar sua reserva conforme regras contratuais e disponibilidade.                      | RF-10 |
 |Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
 |Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-03 |
-|Receber notificação de reserva | O anfitrião irá receber um _e-mail_ de notificação quando seu imóvel for reservado                       | RF-11 |
+|Visualizar reservas            | O anfitrião pode visualizar as reservas feitas no seus imóveis.                                          | RF-11 |
 
 <br>
 
@@ -182,10 +180,9 @@ Quadro 6 - Casos de Uso
 |              | Para acessar sua reserva, o hóspede deve fazer o _login_.                                                                                            |
 |              | Para cadastrar um imóvel, o anfitrião deve criar uma conta como hóspede e, posteriormente disponibilizá-lo para locação através do cadastro.         |
 |              | Para alterar dados do imóvel, o anfitrião deve fazer o _login_.                                                                                      | 
-|              | O anfitrião receberá um e-mail de notificação sempre que seu imóvel for reservado.                                                                   |
+|              | O anfitrião pode visualizar as reservas feitas nos seus imóveis. Isso inclui a confirmação da reserva pelo hóspede.                                  |
 |EXTENSÃO      |                                                                                                                                                      |
 |              | Se o usuário esquecer sua senha, poderá redefiní-la informando seu _e-mail_ de cadastro.                                                             |
-|              | O hóspede pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do _login_. |
-|              | O hóspede pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do _login_.                               |
+|              | O hóspede pode gerenciar os dados de sua reserva conforme disponibilidade e regras contratuais, acessando sua reserva através do _login_.            |
 
 Fonte: Elaborado pelos autores
