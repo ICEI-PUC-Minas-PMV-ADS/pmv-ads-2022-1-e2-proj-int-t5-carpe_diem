@@ -16,7 +16,8 @@ Quadro 7 - Ambientes de Trabalho
 |--------------------------------------|-------------------|---------------------------------------------------------------------------------------------------|
 | Repositório de Código Fonte          | GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem                |
 | Documento do Projeto                 | GitHub Docs       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/tree/main/docs |
-| Projeto de Interface e  _Wireframes_ | Figma             | (processo não iniciado)                                                                           |
+| Documento e Imagens do Grupo         | Google Drive      | https://drive.google.com/drive/folders/14dV2S-k3Z4HS4F-DxMPQVeGBAlS0LCSW?usp=sharing              |
+| Projeto de Interface e  _Wireframes_ | Figma             | (inserir link)                                                                                    |
 | Gerenciamento do Projeto             | _Git Projects_    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/projects/1     |
 
 Fonte: Elaborado pelos autores
@@ -134,11 +135,11 @@ b) Ferramentas de Comunicação:
 - São ferramentas completas e úteis para a gestão da equipe, viabilizando as chamadas de vídeo, de áudio e/ou por chat, seja pelo computador ou pelo _smartphone_.
 
 c) Ferramentas para Criação de Diagramas: 
-- _Lucidchart_
+- _Lucidchart_ e _Visio_
 - Possui acesso gratuito e de fácil interação, sendo possível criar diagramas conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 d) Ferramentas de Desenho de Tela (_Wireframing_): 
-- Figma
+- _Figma_
 - Possui acesso gratuito e de fácil interação, sendo possível criar wireframes conforme a necessidade do projeto, assim como a edição colaborativa pela equipe.
 
 
