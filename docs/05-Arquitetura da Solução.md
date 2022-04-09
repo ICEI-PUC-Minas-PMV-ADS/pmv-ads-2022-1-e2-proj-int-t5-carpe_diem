@@ -17,7 +17,7 @@ Fonte: Elaborado pelos autores
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.<br/> Segue abaixo a representação do Modelo ER:
 
 ![Modelo-ER_CP_Final](https://user-images.githubusercontent.com/90981080/161646512-76647b49-b9a2-4292-9402-9edfeb7b05b9.png)
 Fonte: Elaborado pelos autores
@@ -28,10 +28,10 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.<br/> Segue abaixo a representação do Esquema Relacional:
 
-![Esquema Relacional_CP_V2](https://user-images.githubusercontent.com/90981080/161657915-378efd3b-bd7c-4b6f-afb1-b9f465b574f0.png)
-Fonte: Elaborado pelos autores
+![Esquema Relacional_CP_V3](https://user-images.githubusercontent.com/90981080/162585971-a5d2da75-cde9-4065-8896-de632dedae69.png)
+ Fonte: Elaborado pelos autores
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
