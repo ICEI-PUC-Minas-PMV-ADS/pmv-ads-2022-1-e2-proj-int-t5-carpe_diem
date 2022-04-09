@@ -1,12 +1,60 @@
 
-# Projeto de Interface
+# 4. Projeto de Interface
 
-Dentre as preocupações para a montagem da interface do sistema, definiu-se o foco em questões como: acessibilidade e simplicidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis, ou seja, um site completamente responsivo.
+Dentre os anseios para o desenvolvimento da interface do sistema, definiu-se o foco em questões como dinâmica interpessoal entre o usuário e a aplicação, acessibilidade, usabilidade e simplicidade. O projeto tem uma identidade visual estilizada nas telas, que são projetadas baseando-se na responsividade, para o correto funcionamento em desktops e dispositivos móveis.
 
-## Diagrama de Fluxo
 
-O diagrama apresentado na figura 1 mostra o fluxo de interação do usuário com o sistema interativo. Cada uma das tela desse fluxo é detalhada nas seção de wireframe interativo que será exemplificada logo em seguida.
+## 4.1 Diagrama de Fluxo
 
-<img width="1643" alt="DIAGRAMA DE FLUXO NOVO" src="https://user-images.githubusercontent.com/91228798/161890758-86c94dcf-7ca5-4696-b031-2f904108178a.png">
-<b>Figura 1 - Diagrama de Fluxo</b>
-</p>
+Descrevemos no diagrama apresentado na figura abaixo o fluxo de interação do usuário através das telas do sistema interativo. Na seção 4.2 encontra-se detalhado as telas desse fluxo. O _wireframe_ interativo pode ser acessado no ambiente _Figma_ do projeto, conforme _link_ disponibilizado na seção 3.1, Quadro 7.
+
+Figura 5 - Diagrama de Fluxo
+
+<img width="822" alt="DIAGRAMA DE FLUXO NOVO" src="https://user-images.githubusercontent.com/89549220/162591351-75327807-41ff-4bd3-a338-1e703aee2713.png">
+
+Fonte: Elaborado pelos Autores
+
+
+## 4.2 _Wireframes_
+
+Conforme exposto no item 4.1, podemos visualizar as telas do projeto de um modo geral apresentando a dinâmica do sistema. As telas do sistema podem ser vistas com mais detalhes conforme descrito nos itens que se seguem abaixo:
+
+
+### 4.2.1 _Wireframe_ Interativo
+
+
+### 4.2.2 _Wireframe_ Estático
+
+Figura x - Fluxo Estático
+
+![Fluxo Estático](https://user-images.githubusercontent.com/89549220/162591401-d3ad1e09-46bc-445b-b62d-87999097c207.png)
+
+Fonte: Elaborado pelos Autores
+
+#### 4.2.2.1 Tela Homepage
+
+#### 4.2.2.2 Tela Homepage
+
+#### 4.2.2.3 Tela Homepage
+
+#### 4.2.2.4 Tela Homepage
+
+#### 4.2.2.5 Tela Homepage
+
+#### 4.2.2.6 Tela Homepage
+
+#### 4.2.2.7 Tela Homepage
+
+#### 4.2.2.8 Tela Homepage
+
+#### 4.2.2.9 Tela Homepage
+
+#### 4.2.2.10 Tela Homepage
+
+#### 4.2.2.11 Tela Homepage
+
+#### 4.2.2.12 Tela Homepage
+
+#### 4.2.2.13 Tela Homepage
+
+
