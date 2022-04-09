@@ -10,7 +10,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software e 
 
 Figura x - Diagrama de Classes
 
-![Diagrama de Classes - CarpeDiem](https://user-images.githubusercontent.com/89549220/161358066-fe0a85a2-12e5-4a54-a4ad-a959366acfe8.png)
+![Diagrama de Classes - atualizado](https://user-images.githubusercontent.com/89617881/162593374-e77bbf5e-ce22-4485-8219-a2178ed56ff3.png)
 
 Fonte: Elaborado pelos autores
 
