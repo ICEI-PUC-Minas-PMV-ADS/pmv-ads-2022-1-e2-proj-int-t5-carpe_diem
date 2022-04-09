@@ -22,6 +22,7 @@ Conforme exposto no item 4.1, podemos visualizar as telas do projeto de um modo 
 
 ### 4.2.1 _Wireframe_ Interativo
 
+https://www.figma.com/proto/0KDPBQiyrEHrZ4shAHbQU7/Carpe-Diem-Correto?node-id=3%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A3
 
 ### 4.2.2 _Wireframe_ Estático
 
@@ -33,28 +34,28 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.1 Tela Homepage
 
-#### 4.2.2.2 Tela Homepage
+#### 4.2.2.2 Tela Resultado da Busca
 
-#### 4.2.2.3 Tela Homepage
+#### 4.2.2.3 Tela Detalhes do Imóvel
 
-#### 4.2.2.4 Tela Homepage
+#### 4.2.2.4 Tela Login/Cadastro
 
-#### 4.2.2.5 Tela Homepage
+#### 4.2.2.5 Tela Login
 
-#### 4.2.2.6 Tela Homepage
+#### 4.2.2.6 Tela Cadastro
 
-#### 4.2.2.7 Tela Homepage
+#### 4.2.2.7 Tela Perfil do Hóspede
 
-#### 4.2.2.8 Tela Homepage
+#### 4.2.2.8 Tela Perfil do Anfitrião
 
-#### 4.2.2.9 Tela Homepage
+#### 4.2.2.9 Tela Cadastrar Imóvel
 
-#### 4.2.2.10 Tela Homepage
+#### 4.2.2.10 Tela Editar Reserva
 
-#### 4.2.2.11 Tela Homepage
+#### 4.2.2.11 Tela Fale Conosco
 
-#### 4.2.2.12 Tela Homepage
+#### 4.2.2.12 Tela Esqueceu a Senha
 
-#### 4.2.2.13 Tela Homepage
+#### 4.2.2.13 Tela Busca Vazia
 
 
