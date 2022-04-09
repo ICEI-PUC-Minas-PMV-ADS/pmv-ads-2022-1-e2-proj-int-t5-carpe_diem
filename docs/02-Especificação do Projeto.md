@@ -74,17 +74,17 @@ Quadro 3 - Requisitos Funcionais
 
 |ID       | Descrição do Requisito  | Prioridade |
 |---------|-------------------------|------------|
-|RF-001   | O sistema deve permitir ao usuário realizar o cadastro como hóspede, realizando a validação através de um _e-mail_ de confirmação.  | Alta |
-|RF-002   | O sistema deve permitir ao usuário gerenciar seu cadastro. | Alta | 
-|RF-003   | O sistema deve permitir ao hóspede a opção de se tornar anfitrião, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
-|RF-004   | O sistema deve permitir que o hóspede reserve o imóvel escolhido. | Alta |
-|RF-005   | O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média |
-|RF-006   | O sistema deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | Baixa |
-|RF-007   | O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |
-|RF-008   | O sistema deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca. | Média |
-|RF-009   | O sistema deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
-|RF-010   | O sistema deve permitir ao hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
-|RF-011   | O sistema deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
+|RF-001   | A aplicação deve permitir ao usuário realizar o cadastro como hóspede, realizando a validação através de um _e-mail_ de confirmação.  | Alta |
+|RF-002   | A aplicação deve permitir ao usuário gerenciar seu cadastro. | Alta | 
+|RF-003   | A aplicação deve permitir ao hóspede a opção de se tornar anfitrião, e com isso, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
+|RF-004   | A aplicação deve permitir que o hóspede reserve o imóvel escolhido. | Alta |
+|RF-005   | A aplicação deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média |
+|RF-006   | A aplicação deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | Baixa |
+|RF-007   | A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |
+|RF-008   | A aplicação deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca. | Média |
+|RF-009   | A aplicação deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
+|RF-010   | A aplicação deve permitir ao usuário gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
+|RF-011   | A aplicação deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
 
 Fonte: Elaborado pelos autores
 
@@ -95,16 +95,16 @@ Apresentamos a seguir os requisitos não funcionais que o projeto deverá atende
 
 Quadro 4 - Requisitos Não Funcionais
 
-|ID      | Descrição do Requisito                                                                                                     |Prioridade |
-|--------|----------------------------------------------------------------------------------------------------------------------------|-----------|
-|RNF-001 | O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com _Windows, Linux e macOS_.                   | Alta      | 
-|RNF-002 | O sistema deve ter bom nível de contraste entre os elementos da tela em conformidade.                                      | Alta      | 
-|RNF-003 | O sistema deve ser compatível com os principais navegadores do mercado (_Google Chrome, Mozilla Firefox, Microsoft Edge_). | Alta      | 
-|RNF-004 | O sistema deve ser responsivo em ambientes _mobile_.                                                                       | Alta      | 
-|RNF-005 | Para o desenvolvimento deve ser utilizando a linguagem C#.                                                                      | Alta      | 
-|RNF-006 | O sistema deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
-|RNF-007 | O sistema deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
-|RNF-008 | O sistema deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
+|ID      | Descrição do Requisito                                                                                                       |Prioridade |
+|--------|------------------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001 | A aplicação deve ser multiplataforma, possibilitando seu uso em dispositivos com _Windows, Linux e macOS_.                   | Alta      | 
+|RNF-002 | A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade.                                      | Alta      | 
+|RNF-003 | A aplicação deve ser compatível com os principais navegadores do mercado (_Google Chrome, Mozilla Firefox, Microsoft Edge_). | Alta      | 
+|RNF-004 | A aplicação deve ser responsiva.                                                                                             | Alta      | 
+|RNF-005 | Para o desenvolvimento deve ser utilizando a linguagem C#.                                                                   | Alta      | 
+|RNF-006 | A aplicação deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
+|RNF-007 | A aplicação deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
+|RNF-008 | A aplicação deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
 
 Fonte: Elaborado pelos autores
 
@@ -136,7 +136,7 @@ Desta feita, o grupo representa abaixo o diagrama de caso de uso para o sistema 
 
 Figura 1 - Diagrama de Casos de Uso
 
-![Casos de Uso - CarpeDiem](https://user-images.githubusercontent.com/89617881/162123957-03f3cdc2-7977-46f8-8809-0b01bc157576.png)
+![Casos de Uso - Gerenciador de Imóveis (2)](https://user-images.githubusercontent.com/89549220/162590560-c91b50ba-8748-4770-8c15-9528a7d13b5c.png)
 
 Fonte: Elaborado pelos autores
 
