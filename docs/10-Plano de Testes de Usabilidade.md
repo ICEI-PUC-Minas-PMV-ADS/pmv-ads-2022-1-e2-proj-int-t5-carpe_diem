@@ -50,7 +50,7 @@ Para cada tarefa executada pelo voluntário será possível medir:
 |--------------|-----------------------|--------------------------|
 | Utilizar o _Fale Conosco_ | Encontrar e enviar mensagem ao _Fale Conosco_, considerando a mensagem “Mensagem enviada com sucesso.” | Concretização da tarefa. Quantidade e tipo de erros cometidos. |
 
-Após a execução do teste, será realizada uma entrevista para um melhor entendimento da experiência do voluntário.
+Após a execução do teste, será aplicado o método de avaliação System Usability Scale (SUS), para uma melhor identificação da experiência do usuário.
 
 
 
