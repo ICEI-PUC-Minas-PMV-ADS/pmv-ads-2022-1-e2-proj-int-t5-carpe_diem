@@ -26,7 +26,7 @@ https://www.figma.com/proto/0KDPBQiyrEHrZ4shAHbQU7/Carpe-Diem-Correto?node-id=3%
 
 ### 4.2.2 _Wireframe_ Estático
 
-Figura x - Fluxo Estático
+Figura 6 - Fluxo Estático
 
 ![Fluxo Estático](https://user-images.githubusercontent.com/89549220/162591401-d3ad1e09-46bc-445b-b62d-87999097c207.png)
 
@@ -34,28 +34,118 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.1 Tela Homepage
 
+Figura 7
+
+![Carpe Diem1_Homepage](https://user-images.githubusercontent.com/89549220/162593535-1156570d-0a14-43a3-8e36-e3608524dcce.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.2 Tela Resultado da Busca
+
+Figura 8
+
+![Carpe Diem2_Resultado Busca](https://user-images.githubusercontent.com/89549220/162593546-5a432501-d437-40ce-99dd-eeb2da3a2c4d.png)
+
+Fonte: Elaborado pelos Autores
+
 
 #### 4.2.2.3 Tela Detalhes do Imóvel
 
+Figura 9
+
+![Carpe Diem3_Detalhes Imovel](https://user-images.githubusercontent.com/89549220/162593549-c87ccb11-273b-4a3c-bb4e-2dcb2580ecfb.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.4 Tela Login/Cadastro
+
+Figura 10
+
+![Carpe Diem4_Login Cadastro](https://user-images.githubusercontent.com/89549220/162593743-01883a9c-42ed-4373-b541-e54905dc2c17.png)
+
+Fonte: Elaborado pelos Autores
+
 
 #### 4.2.2.5 Tela Login
 
+Figura 11
+
+![Carpe Diem5_Login](https://user-images.githubusercontent.com/89549220/162593560-3cd72600-11f0-4ae0-9d17-a5478decd872.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.6 Tela Cadastro
+
+Figura 12
+
+![Carpe Diem6_Cadastro](https://user-images.githubusercontent.com/89549220/162593561-c501edb1-e652-46d4-94a9-8669976832f0.png)
+
+Fonte: Elaborado pelos Autores
+
 
 #### 4.2.2.7 Tela Perfil do Hóspede
 
+Figura 13
+
+![Carpe Diem7_Perfil Hóspede](https://user-images.githubusercontent.com/89549220/162593564-bf00cb7e-925d-4164-876c-eeae06f19bb9.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.8 Tela Perfil do Anfitrião
+
+Figura 14
+
+![Carpe Diem8_Perfil Anfitrião](https://user-images.githubusercontent.com/89549220/162593570-2c11a47c-d7b2-40fe-b17d-92cdb7522fa1.png)
+
+Fonte: Elaborado pelos Autores
+
 
 #### 4.2.2.9 Tela Cadastrar Imóvel
 
+Figura 15
+
+![Carpe Diem10_Cadastrar Imóvel](https://user-images.githubusercontent.com/89549220/162593574-ff737f94-7102-4636-b8aa-8037a932f294.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.10 Tela Editar Reserva
+
+Figura 16
+
+![Carpe Diem11_Editar Reserva](https://user-images.githubusercontent.com/89549220/162593578-f8a3b0e9-758a-472c-b801-36f8830a89c2.png)
+
+Fonte: Elaborado pelos Autores
+
 
 #### 4.2.2.11 Tela Fale Conosco
 
+Figura 17
+
+![Carpe Diem12_Fale Conosco](https://user-images.githubusercontent.com/89549220/162593580-b22e2369-fee4-452e-9281-818425c2548f.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.12 Tela Esqueceu a Senha
 
+Figura 18
+
+![Carpe Diem9_Esqueceu Senha](https://user-images.githubusercontent.com/89549220/162593572-28cb4a0c-3c01-49ce-9696-926b7ad1c369.png)
+
+Fonte: Elaborado pelos Autores
+
+
 #### 4.2.2.13 Tela Busca Vazia
+
+Figura 19
+
+![Carpe Diem13_Busca Vazia](https://user-images.githubusercontent.com/89549220/162593584-e389dffa-50d3-4bc9-9f1d-aa5ea31679ce.png)
+
+Fonte: Elaborado pelos Autores
 
 
