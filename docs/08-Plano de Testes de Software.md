@@ -1,11 +1,12 @@
 # 8. Plano de Testes de Software
 
+Os testes funcionais a serem realizados no aplicativo são descritos abaixo.
+
 Requisitos para realização dos testes:<br/>
  •	_Site_ publicado na internet;<br/>
  •	Navegador de Internet (_Google Chrome, Firefox, Microsoft Edge_);<br/>
  •	Conexão com a internet para acesso à plataforma.<br/>
  
-Os testes funcionais a serem realizados no _site_ são descritos a seguir:
 
 Quadro 8 - Plano de Testes
 
