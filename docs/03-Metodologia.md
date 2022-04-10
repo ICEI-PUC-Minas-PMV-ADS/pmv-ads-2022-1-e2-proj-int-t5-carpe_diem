@@ -17,7 +17,7 @@ Quadro 7 - Ambientes de Trabalho
 | Repositório de Código Fonte          | GitHub            | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem                |
 | Documento do Projeto                 | GitHub Docs       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/tree/main/docs |
 | Documento e Imagens do Grupo         | Google Drive      | https://drive.google.com/drive/folders/14dV2S-k3Z4HS4F-DxMPQVeGBAlS0LCSW?usp=sharing              |
-| Projeto de Interface e  _Wireframes_ | Figma             | (inserir link)                                                                                    |
+| Projeto de Interface e  _Wireframes_ | Figma             | https://www.figma.com/proto/0KDPBQiyrEHrZ4shAHbQU7/Carpe-Diem-Correto?node-id=3%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A3                                                                                    |
 | Gerenciamento do Projeto             | _Git Projects_    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/projects/1     |
 
 Fonte: Elaborado pelos autores
