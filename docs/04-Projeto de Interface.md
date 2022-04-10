@@ -33,7 +33,28 @@ Com o objetivo de apresentar de forma estática as telas da aplicação criada p
 
 Figura 6 - Fluxo Estático
 
-![Fluxo Estático](https://user-images.githubusercontent.com/89549220/162591401-d3ad1e09-46bc-445b-b62d-87999097c207.png)
+Fluxo de Cadastro
+![Tela_Cadastro](https://user-images.githubusercontent.com/90981080/162636831-481d9fa2-ed3f-4030-a60e-a70b43b2c6a7.jpg)
+
+Fluxo Cadastro Anfitrião
+![Tela_Cadastro_Anfitriao](https://user-images.githubusercontent.com/90981080/162636860-ff55a7d1-31df-46c9-b50a-5c0e1f020db7.jpg)
+
+Fluxo Redefinir Senha
+![Tela_Redefinir_Senha](https://user-images.githubusercontent.com/90981080/162636887-099e918b-ad11-44fd-9c11-b097964ea47d.jpg)
+
+Fluxo Reservar Imóvel
+![Tela_Reservar_Imovel](https://user-images.githubusercontent.com/90981080/162636916-542d65dd-2909-4a9b-9b89-c4414df4f945.jpg)
+
+Fluxo Editar Reserva
+![Tela_Editar_Reserva_Corte](https://user-images.githubusercontent.com/90981080/162636951-c12add61-532e-424b-a851-666fc4474804.jpg)
+![Tela_Editar_Reserva](https://user-images.githubusercontent.com/90981080/162636955-433c9152-fac9-42b9-8022-85bc41326e8a.jpg)
+
+Fluxo Editar Imóvel
+![Tela_Editar_Imovel_Corte](https://user-images.githubusercontent.com/90981080/162636977-1637e7dd-370c-4fe2-8869-20245bc20c71.jpg)
+![Tela_Editar_Imovel](https://user-images.githubusercontent.com/90981080/162636982-dfd95417-819c-4676-8dd9-28636fd465ab.jpg)
+
+Fluxo Fale Conosco
+![Tela_Fale_Conosco](https://user-images.githubusercontent.com/90981080/162637021-f33cb905-fb43-4613-98da-c5f08b857074.jpg)
 
 Fonte: Elaborado pelos Autores
 
