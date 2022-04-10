@@ -19,7 +19,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 Figura 21 - Modelo ER
 
-![Modelo-ER_CP_Final](https://user-images.githubusercontent.com/90981080/161646512-76647b49-b9a2-4292-9402-9edfeb7b05b9.png)
+![Modelo-ER_edit_Final_CP_V4](https://user-images.githubusercontent.com/90981080/162637229-ba472e6d-8185-4084-8b5c-55d890b49267.png)
 
 Fonte: Elaborado pelos autores
 
@@ -30,7 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura 22 - Esquema Relacional
 
-![Esquema Relacional](https://user-images.githubusercontent.com/91378992/162597428-2c05253a-27ce-4d22-a6a9-4843b257a4d5.png)
+![Esquema Relacional_CP_V4](https://user-images.githubusercontent.com/90981080/162637243-50623f08-b61b-45e4-993a-ea6cbd42d808.png)
 
 Fonte: Elaborado pelos autores
 
