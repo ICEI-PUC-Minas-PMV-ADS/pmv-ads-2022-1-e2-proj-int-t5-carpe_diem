@@ -30,7 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura 22 - Esquema Relacional
 
-![Esquema Relacional_CP_V3](https://user-images.githubusercontent.com/90981080/162585971-a5d2da75-cde9-4065-8896-de632dedae69.png)
+![Esquema Relacional](https://user-images.githubusercontent.com/91378992/162597428-2c05253a-27ce-4d22-a6a9-4843b257a4d5.png)
 
 Fonte: Elaborado pelos autores
 
