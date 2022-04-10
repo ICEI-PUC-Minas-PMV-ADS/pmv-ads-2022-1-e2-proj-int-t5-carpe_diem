@@ -1,6 +1,6 @@
 # 5. Arquitetura da Solução
 
-A arquitetura de solução apresenta como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. Seguem abaixo os pricipais elementos relacionados a esse tópico.
+A arquitetura de solução apresenta como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação. Seguem abaixo os principais elementos relacionados a esse tópico.
 
 ## 5.1 Diagrama de Classes
 
