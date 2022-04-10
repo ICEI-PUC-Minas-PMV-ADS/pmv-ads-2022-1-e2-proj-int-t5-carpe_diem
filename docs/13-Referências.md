@@ -18,10 +18,16 @@ Superlógica Tecnologias. **Tecnologia Imobiliária: tempo é dinheiro na locaç
 
 Taysser-Ghergal et al. **How Visual Studio makes version control easy with Git**. Fevereiro de 2022. Disponível em: https://docs.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022. Acessado em 21/03/2022.
 
+TEIXEIRA, Fabricio. **O que é o SUS (System Usability Scale) e como usá-lo em seu site.** Agosto de 2015. Disponível em: https://brasil.uxdesign.cc/o-que-%C3%A9-o-sus-system-usability-scale-e-como-us%C3%A1-lo-em-seu-site-6d63224481c8. Acessado em 05/04/2022.
+
 TemporadaLivre. **5 vantagens para quem quer alugar um imóvel de temporada**. Maio de 2019. Disponível em: https://www.temporadalivre.com/blog/5-vantagens-para-quem-quer-alugar-um-imovel-de-temporada. Acessado em 20/02/2022.
+
+Usability.gov. **System Usability Scale (SUS)**. Abril de 2022. Disponível em: https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html. Acessado em 09/04/2022.
 
 VIETRO, Ítalo Lelis. **Fluxo de Desenvolvimento com GitFlow**. Abril de 2015. Disponível em: https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow. Acessado em 12/03/2022.
 
 VILLAR, Marcela. **Preço do aluguel de casas por temporada no Litoral Norte aumenta até 70% neste verão**. Janeiro de 2021. Disponível em: https://www.correio24horas.com.br/noticia/nid/preco-do-aluguel-de-casas-por-temporada-no-litoral-norte-aumenta-ate-70-neste-verao/. Acessado em 19/02/2022.
 
 Wikepédia. **Diagrama de caso de uso**. Junho de 2020. Disponível em: https://pt.wikipedia.org/wiki/Diagrama_de_caso_de_uso. Acessado em 09/03/2022.
+
+Wikipédia. **System Usability Scale.** Abril de 2022. Disponível em: https://en.wikipedia.org/wiki/System_usability_scale. Acessado em 09/04/2022.
