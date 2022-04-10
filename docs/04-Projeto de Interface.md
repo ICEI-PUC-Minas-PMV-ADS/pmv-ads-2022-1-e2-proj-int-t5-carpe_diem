@@ -22,15 +22,14 @@ Conforme exposto no item 4.1, podemos visualizar as telas do projeto de um modo 
 
 ### 4.2.1 _Wireframe_ Interativo
 
-Congênere link abaixo, apresentamos o Wireframe Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
-
+Congênere _link_ abaixo, apresentamos o _Wireframe_ Interativo confecionado no _Figma_, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
 
 https://www.figma.com/proto/0KDPBQiyrEHrZ4shAHbQU7/Carpe-Diem-Correto?node-id=3%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A3
 
+
 ### 4.2.2 _Wireframe_ Estático
 
-
-Com o objetivo de apresentar de forma estática as telas da aplicação criada pelo grupo, apresentamos o fluxo e o print das mesmas, de acordo com as seções abaixo.
+Com o objetivo de apresentar de forma estática as telas da aplicação criada pelo grupo, apresentamos o fluxo e o _print_ das mesmas, de acordo com as seções abaixo.
 
 Figura 6 - Fluxo Estático
 
@@ -38,11 +37,10 @@ Figura 6 - Fluxo Estático
 
 Fonte: Elaborado pelos Autores
 
-#### 4.2.2.1 Tela Homepage
 
+#### 4.2.2.1 Tela _Homepage_
 
-A tela homepage mostra os campos para busca pelo melhor imóvel, as imagens das principais regiões trabalhadas, novidades para locação, assim como opção de fale conosco e link para as principais redes sociais da aplicação.
-
+A tela _homepage_ mostra os campos para busca pelo melhor imóvel, as imagens das principais regiões trabalhadas, novidades para locação, assim como opção de fale conosco e _link_ para as principais redes sociais da aplicação.
 
 Figura 7
 
@@ -53,9 +51,7 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.2 Tela Resultado da Busca
 
-
 A tela de resultado da busca apresenta os principais resultados de acordo com os campos preenchidos anteriormente.
-
 
 Figura 8
 
@@ -66,7 +62,6 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.3 Tela Detalhes do Imóvel
 
-
 Na tela de detalhes do imóvel é disponibilizado as especificações do imóvel selecionado diante do resultado da busca, assim como imóveis relacionados, com características próximas à escolhida.
 
 Figura 9
@@ -76,10 +71,9 @@ Figura 9
 Fonte: Elaborado pelos Autores
 
 
-#### 4.2.2.4 Tela Login/Cadastro
+#### 4.2.2.4 Tela _Login_/Cadastro
 
-
-Nessa tela é disponibilizado os campos de email e senha onde o usuário preenche e aciona o campo de criar conta. Caso possua conta cadastrada, o mesmo poderá selecionar “faça login” para ser redirecionado à tela de login. 
+Nessa tela é disponibilizado os campos de _email_ e senha onde o usuário preenche e aciona o campo de criar conta. Caso possua conta cadastrada, o mesmo poderá selecionar “faça _login_” para ser redirecionado à tela de _login_. 
 
 Figura 10
 
@@ -88,9 +82,9 @@ Figura 10
 Fonte: Elaborado pelos Autores
 
 
-#### 4.2.2.5 Tela Login
+#### 4.2.2.5 Tela _Login_
 
-Na tela de login é disponibilizado os campos de email e senha onde o usuário preenche e aciona o campo entrar. Caso não possua conta cadastrada, o mesmo poderá selecionar “cadastre-se” para ser redirecionado à tela de cadastro. 
+Na tela de _login_ é disponibilizado os campos de _email_ e senha onde o usuário preenche e aciona o campo entrar. Caso não possua conta cadastrada, o mesmo poderá selecionar “cadastre-se” para ser redirecionado à tela de cadastro. 
 
 Figura 11
 
@@ -102,7 +96,8 @@ Fonte: Elaborado pelos Autores
 #### 4.2.2.6 Tela Cadastro
 
 Na tela de cadastro é disponibilizado o formulário onde o usuário preenche suas informações pessoais. Após o preenchimento o mesmo deve apertar no botão cadastrar. Feito isso o usuário será redirecionado para a homepage.
-Os dados que deverão ser preenchidos são: nome completo, CPF, data de nascimento, endereço, telefone, e-mail e nova senha.
+
+- Os dados que deverão ser preenchidos são: nome completo, CPF, data de nascimento, endereço, telefone, _email_ e nova senha.
 
 Figura 12
 
@@ -146,7 +141,7 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.10 Tela Editar Reserva
 
-Na tela de editar reserva é apresentado ao hóspede as opções de alterar data de check-in e check-out, número de hóspedes, e também cancelar a reserva.
+Na tela de editar reserva é apresentado ao hóspede as opções de alterar data de _check-in_ e _check-out_, número de hóspedes, e também cancelar a reserva.
 
 Figura 16
 
@@ -168,7 +163,7 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.12 Tela Esqueceu a Senha
 
-A tela para recuperar a senha é apresentada ao usuário que tenha perdido/esquecido a senha. Para isso é necessário que seja preenchido o nome completo e email cadastrado.
+A tela para recuperar a senha é apresentada ao usuário que tenha perdido/esquecido a senha. Para isso é necessário que seja preenchido o nome completo e _email_ cadastrado.
 
 Figura 18
 
@@ -179,7 +174,7 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.13 Tela Busca Vazia
 
-Embasado nas heurísticas de Nielsen, essa tela de busca vazia tem o intuito de promover uma saída para o usuário que venha a cometer algum erro durante sua navegação.
+Embasado nas Heurísticas de Nielsen, essa tela de busca vazia tem o intuito de promover uma saída para o usuário que venha a cometer algum erro durante sua navegação.
 
 Figura 19
 
