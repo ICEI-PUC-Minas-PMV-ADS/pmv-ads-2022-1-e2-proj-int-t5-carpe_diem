@@ -22,9 +22,15 @@ Conforme exposto no item 4.1, podemos visualizar as telas do projeto de um modo 
 
 ### 4.2.1 _Wireframe_ Interativo
 
+Congênere link abaixo, apresentamos o Wireframe Interativo confecionado no Figma, cujo objetivo é detalhar a interatividade com a aplicação e facilitar os testes com os usuários.
+
+
 https://www.figma.com/proto/0KDPBQiyrEHrZ4shAHbQU7/Carpe-Diem-Correto?node-id=3%3A3&scaling=contain&page-id=0%3A1&starting-point-node-id=3%3A3
 
 ### 4.2.2 _Wireframe_ Estático
+
+
+Com o objetivo de apresentar de forma estática as telas da aplicação criada pelo grupo, apresentamos o fluxo e o print das mesmas, de acordo com as seções abaixo.
 
 Figura 6 - Fluxo Estático
 
@@ -33,6 +39,10 @@ Figura 6 - Fluxo Estático
 Fonte: Elaborado pelos Autores
 
 #### 4.2.2.1 Tela Homepage
+
+
+A tela homepage mostra os campos para busca pelo melhor imóvel, as imagens das principais regiões trabalhadas, novidades para locação, assim como opção de fale conosco e link para as principais redes sociais da aplicação.
+
 
 Figura 7
 
@@ -43,6 +53,10 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.2 Tela Resultado da Busca
 
+
+A tela de resultado da busca apresenta os principais resultados de acordo com os campos preenchidos anteriormente.
+
+
 Figura 8
 
 ![Carpe Diem2_Resultado Busca](https://user-images.githubusercontent.com/89549220/162593546-5a432501-d437-40ce-99dd-eeb2da3a2c4d.png)
@@ -51,6 +65,9 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.3 Tela Detalhes do Imóvel
+
+
+Na tela de detalhes do imóvel é disponibilizado as especificações do imóvel selecionado diante do resultado da busca, assim como imóveis relacionados, com características próximas à escolhida.
 
 Figura 9
 
@@ -61,6 +78,9 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.4 Tela Login/Cadastro
 
+
+Nessa tela é disponibilizado os campos de email e senha onde o usuário preenche e aciona o campo de criar conta. Caso possua conta cadastrada, o mesmo poderá selecionar “faça login” para ser redirecionado à tela de login. 
+
 Figura 10
 
 ![Carpe Diem4_Login Cadastro](https://user-images.githubusercontent.com/89549220/162593743-01883a9c-42ed-4373-b541-e54905dc2c17.png)
@@ -69,6 +89,8 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.5 Tela Login
+
+Na tela de login é disponibilizado os campos de email e senha onde o usuário preenche e aciona o campo entrar. Caso não possua conta cadastrada, o mesmo poderá selecionar “cadastre-se” para ser redirecionado à tela de cadastro. 
 
 Figura 11
 
@@ -79,6 +101,9 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.6 Tela Cadastro
 
+Na tela de cadastro é disponibilizado o formulário onde o usuário preenche suas informações pessoais. Após o preenchimento o mesmo deve apertar no botão cadastrar. Feito isso o usuário será redirecionado para a homepage.
+Os dados que deverão ser preenchidos são: nome completo, CPF, data de nascimento, endereço, telefone, e-mail e nova senha.
+
 Figura 12
 
 ![Carpe Diem6_Cadastro](https://user-images.githubusercontent.com/89549220/162593561-c501edb1-e652-46d4-94a9-8669976832f0.png)
@@ -87,6 +112,8 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.7 Tela Perfil do Hóspede
+
+Na tela de perfil do hóspede, o mesmo poderá editar algumas informações pessoais, como senha, endereço e telefone, assim como consultar e gerenciar suas reservas.
 
 Figura 13
 
@@ -97,6 +124,8 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.8 Tela Perfil do Anfitrião
 
+Na tela de perfil do anfitrião, o mesmo poderá editar algumas informações pessoais, como senha, endereço e telefone, assim como consultar e gerenciar seus imóveis cadastrados e reservados.
+
 Figura 14
 
 ![Carpe Diem8_Perfil Anfitrião](https://user-images.githubusercontent.com/89549220/162593570-2c11a47c-d7b2-40fe-b17d-92cdb7522fa1.png)
@@ -105,6 +134,8 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.9 Tela Cadastrar Imóvel
+
+A tela de cadastrar imóvel é disponibilizada assim que o hóspede opta por se tornar anfitrião. Nela é possível inserir fotos, cadastrar as especificações do imóvel, o valor da diária, como também disponibilizar ou desativar o imóvel.
 
 Figura 15
 
@@ -115,6 +146,8 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.10 Tela Editar Reserva
 
+Na tela de editar reserva é apresentado ao hóspede as opções de alterar data de check-in e check-out, número de hóspedes, e também cancelar a reserva.
+
 Figura 16
 
 ![Carpe Diem11_Editar Reserva](https://user-images.githubusercontent.com/89549220/162593578-f8a3b0e9-758a-472c-b801-36f8830a89c2.png)
@@ -123,6 +156,8 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.11 Tela Fale Conosco
+
+A tela fale conosco será oferecida ao usuário cadastrado na aplicação, no intuito de auxiliá-lo com alguma dúvida e/ou na interação com o sistema.
 
 Figura 17
 
@@ -133,6 +168,8 @@ Fonte: Elaborado pelos Autores
 
 #### 4.2.2.12 Tela Esqueceu a Senha
 
+A tela para recuperar a senha é apresentada ao usuário que tenha perdido/esquecido a senha. Para isso é necessário que seja preenchido o nome completo e email cadastrado.
+
 Figura 18
 
 ![Carpe Diem9_Esqueceu Senha](https://user-images.githubusercontent.com/89549220/162593572-28cb4a0c-3c01-49ce-9696-926b7ad1c369.png)
@@ -141,6 +178,8 @@ Fonte: Elaborado pelos Autores
 
 
 #### 4.2.2.13 Tela Busca Vazia
+
+Embasado nas heurísticas de Nielsen, essa tela de busca vazia tem o intuito de promover uma saída para o usuário que venha a cometer algum erro durante sua navegação.
 
 Figura 19
 
