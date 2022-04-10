@@ -1,19 +1,22 @@
 
-# Plano de Testes de Usabilidade
+# 10. Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Usabilidade é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. 
+O teste de usabilidade permite avaliar a qualidade da _interface_ com o usuário da aplicação interativa. O Plano de Testes de Usabilidade é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta. 
+
 
 ### Objetivo
 
 Avaliar a experiência do usuário com o sistema, identificando problemas e inconsistências com possibilidade de melhorias.
 
+
 ### Perfil do voluntário participante do teste 
 
-Para a realização  do Teste de Usabilidade desse sistema, serão selecionadas 6 pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
+Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 06 (seis) pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
+
 
 ### Método Utilizado
 
- O Teste será realizado  _In Person_, na presença de um observador integrante da equipe desse projeto e serão executados os métodos de Observação, Medição, Avaliação e Consolidação dos Dados.
+O Teste será realizado  _In Person_, na presença de um observador integrante da equipe desse projeto e serão executados os métodos de Observação, Medição, Avaliação e Consolidação dos Dados.
 
 Para cada tarefa executada pelo voluntário será possível medir:
 
@@ -24,7 +27,10 @@ Para cada tarefa executada pelo voluntário será possível medir:
 -	Qual o nível de dificuldade relatado pelo voluntário;
 -	Qual o nível de satisfação relatado pelo voluntário.
 
-### __Roteiro__ 
+
+### Roteiro
+
+Quadro 9 - Roteiro das Tarefas
 
 | **Tarefa 1** | **Critério de Êxito** | **O que será avaliado** |
 |--------------|--------------------|-------------------------|
@@ -50,7 +56,12 @@ Para cada tarefa executada pelo voluntário será possível medir:
 |--------------|-----------------------|--------------------------|
 | Utilizar o _Fale Conosco_ | Encontrar e enviar mensagem ao _Fale Conosco_, considerando a mensagem “Mensagem enviada com sucesso.” | Concretização da tarefa. Quantidade e tipo de erros cometidos. |
 
-Após a execução do teste, será aplicado o método de avaliação System Usability Scale (SUS), para uma melhor identificação da experiência do usuário.
+Fonte: Elaborado pelos Autores
+
+
+Após a execução do teste, será aplicado o método de avaliação _System Usability Scale (SUS)_, para uma melhor identificação da experiência do usuário.
+
+A Escala de Usabilidade do Sistema (_System Usability Scale_) foi originalmente criada por John Brooke, em 1986. É uma escala Likert, composta por um questionário de 10 questões, e fornece uma ferramenta confiável para medir a usabilidade da aplicação, além de permitir avaliar uma variedade de produtos e serviços, incluindo _hardware_, _software_, dispositivos móveis, sites e aplicativos. (Usability.gov, 2022; Wikipédia, 2022; Teixeira, 2015)
 
 
 
