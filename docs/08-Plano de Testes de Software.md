@@ -1,4 +1,4 @@
-# Plano de Testes de Software
+# 8. Plano de Testes de Software
 
 Requisitos para realização dos testes:<br/>
  •	_Site_ publicado na internet;<br/>
@@ -6,6 +6,8 @@ Requisitos para realização dos testes:<br/>
  •	Conexão com a internet para acesso à plataforma.<br/>
  
 Os testes funcionais a serem realizados no _site_ são descritos a seguir:
+
+Quadro 8 - Plano de Testes
 
 |Caso de Teste | CT-01 - Realizar cadastro e _login_ |
 |:--|:--|
@@ -63,4 +65,4 @@ Os testes funcionais a serem realizados no _site_ são descritos a seguir:
 |**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar em “fale conosco”. <br/> 4) Preencher o formulário. <br/> 5) Clicar em "enviar". |
 |**Critérios de Êxito**|- Confirmação do envio do formulário.
 
-
+Fonte: Elaborado pelos Autores
