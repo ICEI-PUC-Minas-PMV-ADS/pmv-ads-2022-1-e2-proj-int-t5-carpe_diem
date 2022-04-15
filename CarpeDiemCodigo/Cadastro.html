@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastroHospede</title>
+    <link rel="stylesheet" href="CarpeDiemCSS/Cadastro.css">
+</head>
+
+<body>
+    <header>
+        <img width="300" height="150" src="Imagens/Logo_Final.png" alt="Logo com coqueiro e pôr-do-sol">
+    </header>
+    <main>
+
+        <img id="ImgCadastro" src="Imagens/Cadastro.png" alt="Cadastro">
+
+        <form class="FormCadastro" name="Cadastro" method="post">
+            <legend>
+                <h1>Cadastro</h1> 
+                <p> Campos de preenchimento obrigatório</p>
+            </legend>
+            <input type="text" name="Nome" value="" placeholder="Nome Completo" required><br>
+            <input type="name" name="CPF" value="" placeholder="CPF" required><br>
+            <input type="date" name="Data de nascimento" value="" placeholder="Data de Nascimento" required><br>
+            <input type="text" name="Endereco" value="" placeholder="Endereço" required><br>
+            <input type="tel" name="Telefone" value="" placeholder="Telefone" required><br>
+            <input type="email" name="Email" value="" placeholder="Email" required><br>
+            <input type="password" name="Senha" value="" placeholder="Senha" required><br>
+            <input id="checkcad" type="checkbox" name="Lembrar senha" value="">Lembrar-me nesse dispositivo<br>
+            <input id="botaocad" type="submit" name="Cadastrar" value="Cadastrar">
+        </form>
+
+    </main>
+    <footer>
+        <p>@2022 Carpe Diem - Todos os Direitos Reservados</p>
+    </footer>
+</body>
+
+</html>

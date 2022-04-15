@@ -1,0 +1,48 @@
+body{
+    background-color: #F1ECE9;
+}
+main{
+    display: inline;
+    padding-top:  10px;
+    height: 80%;
+}
+
+main image{
+    padding-bottom: 0px;
+}
+
+#ImgCadastro{
+    width: 50%;
+    
+
+}
+.FormCadastro{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.FormCadastro input{
+    margin: 5px;
+    width: 400px;
+    height: 30px;
+
+}
+
+form legend{
+    text-align: center;
+    font-weight: bold;
+}
+
+#checkcad{
+    width: 20px;
+}
+
+footer{
+    text-align: center;
+    height: 5%;
+ }
+
+ footer p{
+     padding-top: 100px;
+ }
