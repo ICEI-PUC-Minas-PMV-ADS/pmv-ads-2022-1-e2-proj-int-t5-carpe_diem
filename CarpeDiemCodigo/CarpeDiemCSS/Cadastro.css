@@ -45,7 +45,7 @@ form legend{
 
 
 #checkcad{
-    width: 20px;
+    width: 1px;
 }
 
 
@@ -59,7 +59,8 @@ form legend{
 
 footer{
     text-align: center;
-    height: 2%;
+    height: 5%;
+    font-size: 24px;
  }
 
  footer p{
