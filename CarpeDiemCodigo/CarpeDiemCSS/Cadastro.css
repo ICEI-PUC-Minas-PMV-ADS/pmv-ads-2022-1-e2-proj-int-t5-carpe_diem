@@ -1,48 +1,66 @@
 body{
     background-color: #F1ECE9;
 }
-main{
-    display: inline;
-    padding-top:  10px;
-    height: 80%;
+
+header img{
+    margin-left: 20px;
+    
 }
 
-main image{
-    padding-bottom: 0px;
+main{
+    display: inline;
+    padding-top: 0;
+    margin-top: 0;
 }
+
 
 #ImgCadastro{
     width: 50%;
-    
-
+    margin-top: 50px;
 }
+
 .FormCadastro{
     width: 50%;
     float: right;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
 }
 
 .FormCadastro input{
-    margin: 5px;
+    margin:  5px;
     width: 400px;
     height: 30px;
+
 
 }
 
 form legend{
     text-align: center;
     font-weight: bold;
+    line-height: 1.5px;
 }
+
 
 #checkcad{
     width: 20px;
 }
 
+
+#botaocad{
+    background-color: #6fdde3;
+    border-radius: 60px;
+    border-style: ridge;
+    font-weight: bold;
+    height: 40px;
+}   
+
 footer{
     text-align: center;
-    height: 5%;
+    height: 2%;
  }
 
  footer p{
-     padding-top: 100px;
+     padding-top: 120px;
  }
