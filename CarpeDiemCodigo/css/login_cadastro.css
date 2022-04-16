@@ -19,7 +19,7 @@ header {
 .title {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;  
     font-size: 300%;
     text-transform: uppercase;
@@ -28,10 +28,51 @@ header {
     padding: 100px;
     font-family: 'Quicksand', sans-serif;
 }
-.title h1 {text-align: center;}
 
+.title div {
+    text-align: center;
+}
+
+.crie {
+    text-transform: initial;
+    position: absolute;
+    top: 35%;
+    left: center;
+    transition: translate (-50%, -50%);
+    text-align: center;
+}
+
+.no {
+    text-transform: lowercase;
+    position: absolute;
+    top: 45%;
+    left: center;
+    transition: translate (-50%, -50%);
+    text-align: center;
+}
+
+.carpe {
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: center;
+    transition: translate (-50%, -50%);
+    text-align: center;
+}
+
+#container{
+    position: relative;
+}
+
+.elipse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    width: 50%;
+}
 
 .main {
+    background: #F1ECE9;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,7 +83,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 350px;
+    max-width: 500px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -66,6 +107,7 @@ header {
 
 .main form input {
     background: #FBCB2B;
+    opacity: 0.6;
     width: 100%;
     height: 50px;
     padding: 0 0.5rem;
@@ -75,6 +117,20 @@ header {
     font-size: 1rem;
     border: 1px solid #161923;
     border-radius: 8px;
+    border: none;
+}
+
+.main form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: #FBCB2B;
+    opacity: 0.6;
+    text-align: justify;
+    font-size: 16px;
+    display: block;
+    margin: 23px -30px;
+    margin-right:auto;   
+
 }
 
 .main form input[type="submit"] {
@@ -103,10 +159,24 @@ header {
     transform: translateY(-1px);
    }
 
+
 #checkcad {
     width: 20px;
     font-family: 'Quicksand', sans-serif;
 }
+
+
+p.possui_cadastro>a {
+    padding: 5px 0 5px 8px;
+    color: #F36E2B;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+p.possui_cadastro>a:hover {
+    margin-left: 5px;
+}
+
 
 .copyright {
     text-align: center;
@@ -114,4 +184,8 @@ header {
     padding-top: 100px;
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
+ }
+
+ footer {
+     background: #F1ECE9;
  }
