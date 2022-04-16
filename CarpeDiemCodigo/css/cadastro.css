@@ -1,32 +1,33 @@
-body{
+#main{
     background-color: #F1ECE9;
 }
 
-header img{
-    margin-left: 20px;
-    
+#header > img{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-main{
-    display: flexbox;
-    padding-top: 0;
-    margin-top: 0;
+#fotoCadastro{
+    padding-top: 70px;
+    padding-left: 50px;
 }
 
 
-#ImgCadastro{
-    width: 50%;
-    margin-top: 50px;
+.formCadastro > legend{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 }
 
-form{
-    width: 50%;
-    float: right;
+fieldset{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
     line-height: 30px;
+    padding-left: 130px;
     
 }
 
-.FormCadastro input{
+fieldset > input{
     width: 400px;
     height: 30px;
     background-color: #fbcb2b;
@@ -34,41 +35,9 @@ form{
     border: 1px;
     border-style: solid;
     border-radius: 8px;
-    margin-left: 125px;
-
 }
 
-form > span{
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    padding-left: 130px;
-    padding-bottom: 0;
-}
-
-form > legend{
-    text-align: center;
-    line-height: 2px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-legend > h1{
-    font-weight: bold;
-}
-
-
-#checkcad{
-    width: 20px;
-}
-
-#nomecheckcad{
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-
-
-#botaocad{
+#botaoCad{
     background-color: #6fdde3;
     opacity: 1;
     cursor: pointer;
@@ -82,34 +51,84 @@ legend > h1{
     height: 40px;
 }   
 
-#botaocad:hover {
+#botaoCad:hover {
     background-color: #F36E2B;
     box-shadow: 0px 8px 10px #000;
     color: black;
     transform: translateY(-7px);
 }
 
+#checkcad{
+    width: 20px;
+    margin-top: 10px;
+}
+
+#nomeCheckCad{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
 #esqueceu{
     padding-bottom: 0px;
-    line-height: 2px;
+    line-height: 1px;
     text-align: right;
     padding-right: 150px;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
 }
 
 #possuiCad{
-    font-family: 'Quicksand', sans-serif;
-    line-height: 2px;
+    font-size: 14px;
     text-align: center;
+    padding-right: 110px;
 }
 
-
-footer{
+#footer{
     text-align: center;
-    height: 5%;
     font-size: 16px;
- }
+}
 
- footer p{
-     padding-top: 250px;
- }
+@media screen and (max-width:576px) {
+
+    #header > img{
+        width: 160px;
+        height: 60px;
+    }
+
+    .formCadastro > legend{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+
+    fieldset{
+        padding: 0;
+        text-align: center;
+    }
+    fieldset > input{
+        width: 300px;
+    }
+
+    #nomeCheckCad{
+        font-size: 12px;
+    }
+    
+    #esqueceu{
+        padding-right: 40px;
+        line-height: 0.5px;
+        font-size: 12px;
+    }
+
+    #footer{
+        font-size: 12px;
+        text-align: center;
+        padding-right: 90px;
+    }
+
+    #possuiCad{
+        font-size: 12px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+    
