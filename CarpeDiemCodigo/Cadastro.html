@@ -5,33 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CadastroHospede</title>
-    <link rel="stylesheet" href="CarpeDiemCSS/Cadastro.css">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+    </style>
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
+    <title>CadastroHospede</title>
 </head>
 
 <body>
     <header>
-        <img width="382" height="175" src="Imagens/Logo_Final.png" alt="Logo com coqueiro e pôr-do-sol">
+        <img src="img/Logo_Final_382x148.png" alt="Logo com coqueiro e pôr-do-sol">
     </header>
     <main>
 
-        <img id="ImgCadastro" src="Imagens/Cadastro.png" alt="Cadastro">
+        <img id="ImgCadastro" src="img/cadastro.png" alt="Cadastro">
 
         <form class="FormCadastro" name="Cadastro" method="post">
             <legend>
-                <h1>Cadastro</h1> 
-                <p> Campos de preenchimento obrigatório</p>
+                <h1>Cadastro</h1>
+                <p> *Campos de preenchimento obrigatório*</p>
             </legend>
-            <input type="text" name="Nome" value="" placeholder="Nome Completo" required><br>
-            <input type="name" name="CPF" value="" placeholder="CPF" required><br>
-            <input type="text + date" name="Data de nascimento" value="" placeholder="Data de Nascimento" required><br>
-            <input type="text" name="Endereco" value="" placeholder="Endereço" required><br>
-            <input type="tel" name="Telefone" value="" placeholder="Telefone" required><br>
-            <input type="email" name="Email" value="" placeholder="Email" required><br>
-            <input type="password" name="Senha" value="" placeholder="Senha" required><br>
-            <input id="checkcad" type="checkbox" name="Lembrar senha" value="">Lembrar-me nesse dispositivo<br>
+            <span>Nome completo</span><br>
+            <input type="text" name="Nome" value="" required><br>
+            <span>CPF</span><br>
+            <input type="name" name="CPF" value="" required><br>
+            <span>Data de nascimento</span><br>
+            <input type="date" name="Data de nascimento" value="" required><br>
+            <span>Endereço</span><br>
+            <input type="text" name="Endereco" value="" required><br>
+            <span>Telefone</span><br>
+            <input type="tel" name="Telefone" value="" required><br>
+            <span>Email</span><br>
+            <input type="email" name="Email" value="" required><br>
+            <span>Senha</span><br>
+            <input type="password" name="Senha" value="" required><br>
+            <input id="checkcad" type="checkbox" name="LembrarSenha" value="">
+            <label id="nomecheckcad" for="checkcad">Lembrar-me nesse dispositivo</label><br>
             <p id="esqueceu">Esqueceu a senha?</p>
             <input id="botaocad" type="submit" name="Cadastrar" value="Cadastrar">
             <p id="possuiCad">Já possui cadastro? Faça login.</p>
