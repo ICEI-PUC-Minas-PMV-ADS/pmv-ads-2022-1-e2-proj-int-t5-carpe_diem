@@ -23,7 +23,8 @@ fieldset{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 30px;
-    padding-left: 130px;
+    position: relative;
+    margin-left: 130px;
     
 }
 
@@ -33,7 +34,7 @@ fieldset > input{
     background-color: #fbcb2b;
     opacity: 0.6;
     border: 1px;
-    border-style: solid;
+    border-style: none;
     border-radius: 8px;
 }
 
@@ -61,33 +62,36 @@ fieldset > input{
 #checkcad{
     width: 20px;
     margin-top: 10px;
+    background-color: #fbcb2b;
+    border: none;
 }
 
 #nomeCheckCad{
-    margin-bottom: 10px;
-    padding-left: 10px;
+    margin-bottom: 20px;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 #esqueceu{
     padding-bottom: 0px;
     line-height: 1px;
-    text-align: right;
-    padding-right: 150px;
+    padding-right: 100px;
+    padding-left: 240px;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 #possuiCad{
     font-size: 14px;
-    text-align: center;
     padding-right: 110px;
+    font-weight: lighter;
 }
 
 #footer{
     text-align: center;
     font-size: 16px;
-    font-family:'Quicksand', sans-serif; 
 }
+
 
 @media screen and (max-width:576px) {
 
@@ -103,7 +107,7 @@ fieldset > input{
     }
 
     fieldset{
-        padding: 0;
+        margin-left:  0;
         text-align: center;
     }
     fieldset > input{
@@ -116,6 +120,7 @@ fieldset > input{
     
     #esqueceu{
         padding-right: 40px;
+        padding-left: 40px;
         line-height: 0.5px;
         font-size: 12px;
     }
@@ -123,14 +128,13 @@ fieldset > input{
     #footer{
         font-size: 12px;
         text-align: center;
-        padding-right: 90px;
-        
+
     }
 
     #possuiCad{
         font-size: 12px;
-        text-align: center;
-        padding-left: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
     
