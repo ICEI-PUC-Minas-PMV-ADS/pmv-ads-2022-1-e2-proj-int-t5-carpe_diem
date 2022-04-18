@@ -86,6 +86,7 @@ fieldset > input{
 #footer{
     text-align: center;
     font-size: 16px;
+    font-family:'Quicksand', sans-serif; 
 }
 
 @media screen and (max-width:576px) {
@@ -123,6 +124,7 @@ fieldset > input{
         font-size: 12px;
         text-align: center;
         padding-right: 90px;
+        
     }
 
     #possuiCad{
