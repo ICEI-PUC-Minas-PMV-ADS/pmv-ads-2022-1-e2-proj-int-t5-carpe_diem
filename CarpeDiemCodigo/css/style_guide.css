@@ -1,0 +1,248 @@
+@import url('https://fonts.google.com/specimen/Quicksand#standard-styles');
+
+body{
+    background-color: #F1ECE9;
+}
+
+header {
+    background: #F1ECE9;
+    font-size: 20px;
+    position: relative;
+}
+
+.main body {
+    background-color: #F1ECE9;
+}
+
+.cores1 {
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    left: 140px;
+    top: 240px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */   
+}
+
+#color1 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 160px;
+    
+    background: #F36E2B;
+}
+
+#color2 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 230px;
+    
+    background: #FBCB2B;
+}
+
+.cores2 {
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    left: 140px;
+    top: 540px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */
+
+    color: black;
+}
+
+#color3 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 100px;
+    
+    background: #F47A2B;
+}
+
+#color4 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 170px;
+    
+    background: #FFC096;
+}
+
+#color5 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 240px;
+    
+    background: #E39E6F;
+}
+
+#color6 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 310px;
+    
+    background: #2C9196;
+}
+
+#color7 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 380px;
+    
+    background: #6FDDE3;
+}
+
+#color8 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 450px;
+    
+    background: #F1ECE9;
+}
+
+.cores3 {
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    left: 140px;
+    top: 1040px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */
+
+    color: black;
+}
+
+#color9 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 100px;
+    
+    background: #00DF5E;
+}
+
+#color10 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 170px;
+    
+    background: #00DF5E;
+}
+
+#color11 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 240px;
+    
+    background: #00DF5E;
+}
+
+#color12 {
+    position: absolute;
+    width: 1436px;
+    height: 16px;
+    left: 40px;
+    top: 310px;
+    
+    background: #00DF5E;
+}
+
+.tipografia {
+    position: absolute;
+    width: 83px;
+    height: 51px;
+    left: 140px;
+    top: 1420px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */
+
+    color: black;
+}
+
+.fonte {
+    position: absolute;
+    width: 83px;
+    height: 51px;
+    left: 140px;
+    top: 1640px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */
+
+    color: black;
+}
+
+.icografia {
+    position: absolute;
+    width: 83px;
+    height: 51px;
+    left: 140px;
+    top: 1840px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    /* identical to box height */
+
+    color: black;
+}
+
+
+.copyright {
+    text-align: center;
+    height: 5%;
+    padding-top: 100px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+    position: absolute;
+    width: 400px;
+    height: 51px;
+    left: 740px;
+    top: 2040px;
+ }
+
+ footer {
+     background: #F1ECE9;
+ }
