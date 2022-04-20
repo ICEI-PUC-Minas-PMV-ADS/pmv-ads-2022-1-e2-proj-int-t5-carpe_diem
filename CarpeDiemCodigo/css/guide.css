@@ -1,9 +1,5 @@
-body{
-    background-color: yellow;
-}
 
 header {
-    background: blue;
     font-size: 20px;
     position: relative;
 }
@@ -14,48 +10,67 @@ header {
     margin: 0 0;
 }
 
-.main {
-    background: #F1ECE9;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
 .main form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.main form label {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-top: 20px;
+hr {
+    border-top: 1px solid #434343;
+    padding-top: 5px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.main p {
+    color: black;
+    font-weight: bold;
     font-family: 'Quicksand', sans-serif;
 }
 
-.main form label span {
-    color: black;
-    font-size: 120%;
-    font-weight: bold;
-    margin: 0 0;
-    width: 500px;
-    height: 30px;
+.titulo {
+    font-size: 32px;
 }
+
+.title {
+    font-size: 24px;
+}
+
+.square{
+    width: 500px;
+    height: 50px;
+    border: black;
+    border-radius: 32px;
+}
+
+.bg-orange {background-color: #F36E2B;}
+.bg-yellow {background-color: #FBCB2B;}
+.bg-yellowop {background-color: #FBCB2B; opacity: 0.6;}
+
+.bg-laranja {background-color: #F47A2B;}
+.bg-bege {background-color: #FFC096;}
+.bg-brown {background-color: #E39E6F;}
+.bg-blue {background-color: #2C9196;}
+.bg-tifany {background-color: #6FDDE3;}
+
+.bg-gray {background-color: #F1ECE9;}
+.bg-black {background-color: #000000;}
+
 
 .copyright {
     text-align: center;
-    height: 5%;
-    padding-top: 100px;
+    padding: 50px 0px 20px 0px;
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
+    margin: 0px;
  }
 
- footer {
-     background: pink;
- }
+/*footer {
+    background: pink;
+    text-align: center;
+    height: 5%;
+    margin-top: 800px;
+    padding-top: 600px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+ }*/

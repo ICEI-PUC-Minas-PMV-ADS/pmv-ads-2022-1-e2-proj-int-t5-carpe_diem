@@ -1,12 +1,12 @@
 @import url('https://fonts.google.com/specimen/Quicksand#standard-styles');
 
-*{
+* {
     padding:0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F1ECE9;
 }
 
@@ -239,15 +239,23 @@ footer {
 
 
 
-.flex{display: flex;}
-.flex-col{flex-direction: column;}
+.flex {
+    display: flex;
+}
 
-.w-full{
+.flex-col {
+    flex-direction: column;
+}
+
+.w-full {
     width: 100%;
 }
 
-.p-y{ padding-top: 20px; padding-bottom: 20px;}
-.m-y{ margin-top: 20px ; margin-bottom: 20px;}
-.m-b{ margin-bottom: 20px;}
+.p-y { padding-top: 20px; padding-bottom: 20px;}
+.m-y { margin-top: 20px ; margin-bottom: 20px;}
+.m-b { margin-bottom: 20px;}
 
-.flex-1{flex:1}
+.flex-1 {
+    flex:1
+}
+
