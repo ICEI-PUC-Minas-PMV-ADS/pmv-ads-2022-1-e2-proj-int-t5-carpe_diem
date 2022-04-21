@@ -1,0 +1,82 @@
+body {
+    background-color: #F1ECE9;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.logomarca {
+    position: relative;
+    width: 940px;
+    margin: 0 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.form {
+    width: 100%;
+    max-width: 512;
+    font-size: 18px;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: black;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 12.8px;
+  margin-bottom: 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 208px;
+  resize: vertical;
+}
+
+.form button {
+    display: block;
+    padding: 16px;
+    background: #6fdde3;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.copyright {
+    text-align: center;
+    height: 5%;
+    padding-top: 100px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+ }
