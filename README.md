@@ -6,6 +6,9 @@
 
 `SEMESTRE 01/2022`
 
+![Logo_Final_382x175](https://user-images.githubusercontent.com/89549220/164358507-96df0285-1c61-43ce-b9c0-aea7a7585f5c.png)
+
+
 Com a presença da internet no dia a dia de todos, seja no auxílio aos estudos, no entretenimento em geral, bem como no oferecimento de serviços de estadia em hotéis, pousadas e/ou casas, nem todos os serviços disponíveis estão capacitados ou preocupados em aproximar/interagir com o público interessado em locação de imóveis no litoral brasileiro, de forma digital.
 
 Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproximar a interação entre o anfitrião (locador) e o hóspede (locatário), promovendo o acesso a uma plataforma de serviço online de locação de imóveis mobiliados, por temporada, de curta e média permanência, nas regiões litorâneas do Brasil, de forma 100% digital, segura e automatizada.
