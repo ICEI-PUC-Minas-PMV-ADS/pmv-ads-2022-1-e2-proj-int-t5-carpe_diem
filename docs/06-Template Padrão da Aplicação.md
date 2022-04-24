@@ -1,6 +1,6 @@
 # 6. Template Padrão da Aplicação
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
 
 
 ## 6.1 _Layout_ da Aplicação
@@ -41,13 +41,16 @@ Figura 32 - Cores Neutras
 Fonte: Elaborado pelos autores
 
 
-## 6.3 Tipografia
+## 6.3 Significado das Cores
+
+
+## 6.4 Tipografia
 
 <p>Fonte Quicksand - <a target="_blank" href="https://fonts.google.com/specimen/Quicksand#standard-styles">Link</a></p>
 <p>Style Regular / Bold</p>
 
 
-### 6.3.1 Font Size
+### 6.4.1 Font Size
 
 <p class="font-size-16">font-size: 16px</p>
 <p class="font-size-24">font-size: 24px</p>
@@ -55,7 +58,7 @@ Fonte: Elaborado pelos autores
 <p class="font-size-64">font-size: 64px</p>
 
 
-### 6.3.2 Font Size Responsive
+### 6.4.2 Font Size Responsive
 
 <p class="font-size-1">font-size: xx-small</p>
 <p class="font-size-2">font-size: x-small</p>
@@ -66,7 +69,7 @@ Fonte: Elaborado pelos autores
 <p class="font-size-7">font-size: xx-large</p>
                 
                 
-## 6.4 Iconografia
+## 6.5 Iconografia
 
 <p>- Padronizados através do pacote de ícones de interface, baseados em vetores no formato SVG;</p>
 <p>- Style Regular;</p>
@@ -74,10 +77,10 @@ Fonte: Elaborado pelos autores
 <p>- Fonte: https://fonts.google.com/icons</p>
                 
                 
-### 6.4.1 Iconografia Geral
+### 6.5.1 Iconografia Geral
 
 
 
-### 6.4.2 Iconografia Social
+### 6.5.2 Iconografia Social
 
 
