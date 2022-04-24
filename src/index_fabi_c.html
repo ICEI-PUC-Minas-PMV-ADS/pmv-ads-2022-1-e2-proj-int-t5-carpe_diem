@@ -22,13 +22,18 @@
         <img src="img/Logo_Final_382x148.png" ></li>
 
         <div class="flex md-flex-col">
-            <a href="#" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
-            <a href="#" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
-            <a href="#" class="p-1 m-1 t-black bold-7">Fale conosco</a>
+            <a href="/anuncie" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
+            <a href="/aluguel" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
+            <a href="/fale" class="p-1 m-1 t-black bold-7">Fale conosco</a>
         </div>
 
         <div class="p-1 flex flex-col j-center ai-center ">
-            <img src="img/usuario.png" class="rounded-full" width="50px">
+            <div class="relative w-1 h-1">
+                <img src="img/usuario.png" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="/editar"><img width="30px" src="img/edit_note.png"></a>
+                </div>
+            </div>
             <p>Ana Maria</p>
         </div>
 
@@ -53,27 +58,27 @@
             <div class="py-3 flex flex-wrap j-between ai-end gap-3">
                 
                 <div>
-                    <p class="bold-8">Cidade Destino</p>
+                    <p class="bold-8 m-0">Cidade Destino</p>
                     <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Cidade destino">   
                 </div>
                 <div>
-                    <p class="bold-8">Check-In</p>
+                    <p class="bold-8 m-0">Check-In</p>
                     <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Check-in">          
                 </div>
                 <div>
-                    <p class="bold-8">Check-Out</p>
+                    <p class="bold-8 m-0">Check-Out</p>
                     <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Check-out">         
                 </div>
                 <div>
-                    <p class="bold-8">Número de Hóspedes</p>
+                    <p class="bold-8 m-0">Número de Hóspedes</p>
                     <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Número de hóspedes">
                 </div>
                 <div>
-                    <p class="bold-8">Acessibilidade</p>
+                    <p class="bold-8 m-0">Acessibilidade</p>
                     <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Acessibilidade">    
                 </div>
                 
-                    <span class="material-symbols-outlined rounded-1 bg-orange-1 p-1 t-blue-1">search</span>
+                    <span class="material-symbols-outlined rounded-1 bg-orange-1 p-1 t-white">search</span>
                 
             </div>
 
@@ -118,9 +123,9 @@
         <section>
             <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
                 <div>
-                    <p class="bold-7 font-size-5 t-white">Política de privacidade</p>
-                    <p class="bold-7 font-size-5 t-white">Termos e condições de uso</p>
-                    <p class="bold-7 font-size-5 t-white">Fale conosco</p>
+                    <a href="/Politica"><p class="bold-7 font-size-5 t-white">Política de privacidade</p></a>
+                    <a href="/Termos"><p class="bold-7 font-size-5 t-white">Termos e condições de uso</p></a>
+                    <a href="/Fale"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
                 </div>
                 
                 <div class="flex gap-3">

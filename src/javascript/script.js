@@ -1,10 +1,10 @@
 cards_places.innerHTML = ''
 
-function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price){
+function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, link){
   card_html = `
   <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
       <div class="flex-1 shadow-1"> 
-          <img class="w-f h-2 object-cover" src="${img}"> 
+          <a href='${link}'><img class="w-f h-2 object-cover" src="${img}"> </a>
           <p class="p-1 bold-7 t-center font-size-5">${regiao}</p>     
           <div class="grid grid-col-2 p-1">
               <div>
@@ -26,10 +26,10 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price){
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 'Praia', "Porto Seguro - BA",  1, 5, 1, 180)
-card('img/hotel-2.jpg', 'Praia', "Vitória - ES",       1, 5, 1, 280)
-card('img/hotel-3.jpg', 'Praia', "São Luiz - MA",      1, 5, 1, 130)
-card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC", 1, 5, 1, 980)
+card('img/hotel-1.jpg', 'Praia', "Porto Seguro - BA"  ,  1, 5, 1, 180, 'http://www.youtube.com')
+card('img/hotel-2.jpg', 'Praia', "Vitória - ES"       ,       1, 5, 1, 280, 'http://www.google.com')
+card('img/hotel-3.jpg', 'Praia', "São Luiz - MA"      ,      1, 5, 1, 130, 'http://www.clickjogos.com')
+card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
 
 
 // slideshow
