@@ -10,6 +10,22 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+.direct > a {
+    padding: 5px 0 5px 8px;
+    color: black;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+.direct>a:hover {
+    margin-left: 5px;
+    color: #F36E2B;
+}
+
 .container{
     width: 1200px;
     max-width: 100%;
