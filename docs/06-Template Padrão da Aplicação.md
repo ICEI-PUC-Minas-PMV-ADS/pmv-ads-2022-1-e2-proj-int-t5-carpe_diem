@@ -5,7 +5,7 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 ## 6.1 _Layout_ da Aplicação
 
-Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será como demonstado a seguir.
+Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será apresentado conforme demonstrado a seguir.
 
 - _HEADER_ (Cabeçalho): logo + slogan, menu de navegação, _login_ do usuário.
 - _CONTENTS_ (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
