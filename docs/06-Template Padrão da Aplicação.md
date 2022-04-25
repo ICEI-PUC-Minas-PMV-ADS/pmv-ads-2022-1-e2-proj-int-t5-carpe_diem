@@ -2,6 +2,8 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
 
+Para melhor visualização, acesse: <https://fabipalhano.github.io/carpe-diem-guide-style/>
+
 
 ## 6.1 _Layout_ da Aplicação
 
