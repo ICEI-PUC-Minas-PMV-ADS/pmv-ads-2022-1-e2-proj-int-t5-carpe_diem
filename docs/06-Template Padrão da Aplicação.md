@@ -24,6 +24,7 @@ Figura 29 - _Layout_
 
 Figura 30 - Cores Logo
 
+![cores da logo](https://user-images.githubusercontent.com/89549220/165007789-5e6efc3a-188e-42c5-b9dd-62c46a30f1ec.png)
 Fonte: Elaborado pelos autores
 
 
@@ -31,13 +32,14 @@ Fonte: Elaborado pelos autores
 
 Figura 31 - Cores Principais
 
+![cores principais](https://user-images.githubusercontent.com/89549220/165007824-6edddecc-0bdc-4201-92ff-ee13da57a7ce.png)
 Fonte: Elaborado pelos autores
 
 
 ### 6.2.3 Cores Neutras
 
 Figura 32 - Cores Neutras
-
+![cores neutras](https://user-images.githubusercontent.com/89549220/165007839-5fcae4ed-8aa1-4411-9704-555d703ccde2.png)
 Fonte: Elaborado pelos autores
 
 
@@ -98,6 +100,8 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 <p class="font-size-48">font-size: 48px</p>
 <p class="font-size-64">font-size: 64px</p>
 
+![font size1](https://user-images.githubusercontent.com/89549220/165007889-b7d612ad-1be3-4e79-8597-44d41fa9c35a.png)
+
 
 ### 6.4.2 Font Size Responsive
 
@@ -108,7 +112,9 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 <p class="font-size-5">font-size: large</p>
 <p class="font-size-6">font-size: x-large</p>
 <p class="font-size-7">font-size: xx-large</p>
-                
+
+![font size2](https://user-images.githubusercontent.com/89549220/165007903-bba1c264-f3a6-4208-9450-d7e4b69e9b10.png)
+          
                 
 ## 6.5 Iconografia
 
@@ -120,8 +126,15 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
                 
 ### 6.5.1 Iconografia Geral
 
+![iconografia2](https://user-images.githubusercontent.com/89549220/165007926-04d845dc-fb70-4a45-9b12-79be6a9c21fe.png)
+
+![iconografia3](https://user-images.githubusercontent.com/89549220/165007932-00c993dd-d35b-487b-a262-907782485620.png)
 
 
 ### 6.5.2 Iconografia Social
+
+![iconografia4](https://user-images.githubusercontent.com/89549220/165007940-06e25aa7-f5de-4c58-96ba-13803cb0c754.png)
+
+![iconografia5](https://user-images.githubusercontent.com/89549220/165007957-f279bda4-8bee-4714-b5d4-6c0600efdd59.png)
 
 
