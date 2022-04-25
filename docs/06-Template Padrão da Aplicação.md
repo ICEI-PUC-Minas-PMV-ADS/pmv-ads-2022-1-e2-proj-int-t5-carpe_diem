@@ -43,11 +43,52 @@ Fonte: Elaborado pelos autores
 
 ## 6.3 Significado das Cores
 
+**AZUL**
+<br>
+Bastante utilizada em conteúdos corporativos por transmitir credibilidade, segundo Assis (2019), também pode ser considerada uma opção conservadora. Por ser uma cor classificada como fria, pode trazer sensações de frescor. Para Significados.com.br (2022), a cor azul está relacionada com a nobreza e costuma ser usada para transmitir harmonia, tranquilidade e serenidade.
+<br>
+
+**AMARELO**
+<br>
+A cor amarela transmite a sensação de luz e calor, estimula o raciocínio e a criatividade, além de poder ser usada para representar alegria, otimismo e jovialidade (Significados.com.br, 2022). Especialmente em seus tons mais vibrantes, o amarelo é uma cor alegre e estimulante, sendo, por isso, muito usada para atrair a atenção e até gerar impulsividade, como também poder ser associada à riqueza, por sua aproximação com o dourado (ASSIS, 2019).
+<br>
+
+**LARANJA**
+<br>
+Cor secundária originada das primárias vermelho e amarelo, a cor laranja, sendo uma cor quente, transmite alegria, vitalidade, entusiasmo, criatividade e jovialidade, podendo também significar sucesso e prosperidade. Dependendo do tom usado, pode remeter à sensualidade e ao bom-gosto (ASSIS, 2019) (Significados.com.br, 2022).
+<br>
+
+**VERDE**
+<br>
+O verde é a cor mais associada à natureza e ao sentimento de esperança, segundo Significados.com.br (2022). As principais sensações ativadas pelo verde são, refrescância, tranquilidade, renovação, saúde e naturalidade. Costuma transmitir equilíbrio em um momento de decisão (ASSIS, 2019). 
+<br>
+
+**MARROM**
+<br>
+Considerada a cor da terra, o marrom expressa segurança, maturidade, conforto e simplicidade. Além disso, está relacionada a produtos naturais e ao estilo de vida saudável (Significados.com.br, 2022).
+<br>
+
+**CINZA**
+<br>
+Usada para representar elementos sofisticados, por ser uma cor neutra, o cinza corresponde à estabilidade, solidez e ausência de emoções (Significados.com.br, 2022).
+<br>
+
+**BRANCO**
+<br>
+Representa a paz, a purificação, a inocência e a clareza. Também é reconhecida como uma cor que transmite calma e ajuda a atingir o equilíbrio (Significados.com.br, 2022). 
+<br>
+
+**PRETO**
+<br>
+A cor preta é o resultado da absorção de todas as radiações do espectro solar. Esta cor é considerada uma cor sofisticada e elegante (Significados.com.br, 2022).
+<br>
+
 
 ## 6.4 Tipografia
 
 <p>Fonte Quicksand - <a target="_blank" href="https://fonts.google.com/specimen/Quicksand#standard-styles">Link</a></p>
-<p>Style Regular / Bold</p>
+
+<p>Style Regular / **Style Bold**</p>
 
 
 ### 6.4.1 Font Size
