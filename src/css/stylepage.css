@@ -115,6 +115,8 @@ a:hover{
 .font-size-40{ font-size: 40px; }
 .font-size-48{ font-size: 48px; }
 .font-size-64{ font-size: 64px; }
+.font-size-128{ font-size: 128px; }
+.font-size-254{ font-size: 254px; }
 
 /* flex */
 .flex      { display: flex;                  }
