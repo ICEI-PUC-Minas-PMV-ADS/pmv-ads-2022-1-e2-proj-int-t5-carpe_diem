@@ -1,11 +1,13 @@
 # 6. Template Padrão da Aplicação
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade, tipografia e iconografia.
+
+Para melhor visualização, acesse: <https://fabipalhano.github.io/carpe-diem-guide-style/>
 
 
 ## 6.1 _Layout_ da Aplicação
 
-Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será como demonstado a seguir.
+Visando determinar e padronizar a disposição dos vários elementos e seções da aplicação, o _layout_ será apresentado conforme demonstrado a seguir.
 
 - _HEADER_ (Cabeçalho): logo + slogan, menu de navegação, _login_ do usuário.
 - _CONTENTS_ (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
@@ -24,6 +26,7 @@ Figura 29 - _Layout_
 
 Figura 30 - Cores Logo
 
+![cores da logo](https://user-images.githubusercontent.com/89549220/165007789-5e6efc3a-188e-42c5-b9dd-62c46a30f1ec.png)
 Fonte: Elaborado pelos autores
 
 
@@ -31,31 +34,78 @@ Fonte: Elaborado pelos autores
 
 Figura 31 - Cores Principais
 
+![cores principais](https://user-images.githubusercontent.com/89549220/165007824-6edddecc-0bdc-4201-92ff-ee13da57a7ce.png)
 Fonte: Elaborado pelos autores
 
 
 ### 6.2.3 Cores Neutras
 
 Figura 32 - Cores Neutras
-
+![cores neutras](https://user-images.githubusercontent.com/89549220/165007839-5fcae4ed-8aa1-4411-9704-555d703ccde2.png)
 Fonte: Elaborado pelos autores
 
 
-## 6.3 Tipografia
+## 6.3 Significado das Cores
+
+**AZUL**
+<br>
+Bastante utilizada em conteúdos corporativos por transmitir credibilidade, segundo Assis (2019), também pode ser considerada uma opção conservadora. Por ser uma cor classificada como fria, pode trazer sensações de frescor. Para Significados.com.br (2022), a cor azul está relacionada com a nobreza e costuma ser usada para transmitir harmonia, tranquilidade e serenidade.
+<br>
+
+**AMARELO**
+<br>
+A cor amarela transmite a sensação de luz e calor, estimula o raciocínio e a criatividade, além de poder ser usada para representar alegria, otimismo e jovialidade (Significados.com.br, 2022). Especialmente em seus tons mais vibrantes, o amarelo é uma cor alegre e estimulante, sendo, por isso, muito usada para atrair a atenção e até gerar impulsividade, como também poder ser associada à riqueza, por sua aproximação com o dourado (ASSIS, 2019).
+<br>
+
+**LARANJA**
+<br>
+Cor secundária originada das primárias vermelho e amarelo, a cor laranja, sendo uma cor quente, transmite alegria, vitalidade, entusiasmo, criatividade e jovialidade, podendo também significar sucesso e prosperidade. Dependendo do tom usado, pode remeter à sensualidade e ao bom-gosto (ASSIS, 2019) (Significados.com.br, 2022).
+<br>
+
+**VERDE**
+<br>
+O verde é a cor mais associada à natureza e ao sentimento de esperança, segundo Significados.com.br (2022). As principais sensações ativadas pelo verde são, refrescância, tranquilidade, renovação, saúde e naturalidade. Costuma transmitir equilíbrio em um momento de decisão (ASSIS, 2019). 
+<br>
+
+**MARROM**
+<br>
+Considerada a cor da terra, o marrom expressa segurança, maturidade, conforto e simplicidade. Além disso, está relacionada a produtos naturais e ao estilo de vida saudável (Significados.com.br, 2022).
+<br>
+
+**CINZA**
+<br>
+Usada para representar elementos sofisticados, por ser uma cor neutra, o cinza corresponde à estabilidade, solidez e ausência de emoções (Significados.com.br, 2022).
+<br>
+
+**BRANCO**
+<br>
+Representa a paz, a purificação, a inocência e a clareza. Também é reconhecida como uma cor que transmite calma e ajuda a atingir o equilíbrio (Significados.com.br, 2022). 
+<br>
+
+**PRETO**
+<br>
+A cor preta é o resultado da absorção de todas as radiações do espectro solar. Esta cor é considerada uma cor sofisticada e elegante (Significados.com.br, 2022).
+<br>
+
+
+## 6.4 Tipografia
 
 <p>Fonte Quicksand - <a target="_blank" href="https://fonts.google.com/specimen/Quicksand#standard-styles">Link</a></p>
-<p>Style Regular / Bold</p>
+
+<p>Style Regular / **Style Bold**</p>
 
 
-### 6.3.1 Font Size
+### 6.4.1 Font Size
 
 <p class="font-size-16">font-size: 16px</p>
 <p class="font-size-24">font-size: 24px</p>
 <p class="font-size-48">font-size: 48px</p>
 <p class="font-size-64">font-size: 64px</p>
 
+![font size1](https://user-images.githubusercontent.com/89549220/165007889-b7d612ad-1be3-4e79-8597-44d41fa9c35a.png)
 
-### 6.3.2 Font Size Responsive
+
+### 6.4.2 Font Size Responsive
 
 <p class="font-size-1">font-size: xx-small</p>
 <p class="font-size-2">font-size: x-small</p>
@@ -64,9 +114,11 @@ Fonte: Elaborado pelos autores
 <p class="font-size-5">font-size: large</p>
 <p class="font-size-6">font-size: x-large</p>
 <p class="font-size-7">font-size: xx-large</p>
+
+![font size2](https://user-images.githubusercontent.com/89549220/165007903-bba1c264-f3a6-4208-9450-d7e4b69e9b10.png)
+          
                 
-                
-## 6.4 Iconografia
+## 6.5 Iconografia
 
 <p>- Padronizados através do pacote de ícones de interface, baseados em vetores no formato SVG;</p>
 <p>- Style Regular;</p>
@@ -74,10 +126,17 @@ Fonte: Elaborado pelos autores
 <p>- Fonte: https://fonts.google.com/icons</p>
                 
                 
-### 6.4.1 Iconografia Geral
+### 6.5.1 Iconografia Geral
+
+![iconografia2](https://user-images.githubusercontent.com/89549220/165007926-04d845dc-fb70-4a45-9b12-79be6a9c21fe.png)
+
+![iconografia3](https://user-images.githubusercontent.com/89549220/165007932-00c993dd-d35b-487b-a262-907782485620.png)
 
 
+### 6.5.2 Iconografia Social
 
-### 6.4.2 Iconografia Social
+![iconografia4](https://user-images.githubusercontent.com/89549220/165007940-06e25aa7-f5de-4c58-96ba-13803cb0c754.png)
+
+![iconografia5](https://user-images.githubusercontent.com/89549220/165007957-f279bda4-8bee-4714-b5d4-6c0600efdd59.png)
 
 
