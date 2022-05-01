@@ -175,5 +175,3 @@ $('.slider').each(function() {
     advance();
 
   });
-script.js
-A mostrar script.js.

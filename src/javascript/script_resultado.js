@@ -16,7 +16,8 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, lin
                   <p class="flex"><span class="material-symbols-outlined pr-1">bathroom</span> ${qt_banheiro} Banheiro</p>
               </div>
           </div> 
-          <p class="bold-6 t-black t-center p-1">A partir de R$ ${price} / noite</p>     
+          <p class="bold-6 t-black t-center p-1">A partir de R$ ${price} / noite</p>   
+          <a href="${link}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DETALHES</p></a>     
       </div>
   </div>
   `
@@ -31,6 +32,15 @@ card('img/hotel-1.jpg', 'Praia', "Porto Seguro - BA"  , 1, 5, 1, 180, 'http://ww
 card('img/hotel-2.jpg', 'Praia', "Vitória - ES"       , 1, 5, 1, 280, 'http://www.google.com')
 card('img/hotel-3.jpg', 'Praia', "São Luiz - MA"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
 card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+card('img/hotel-1.jpg', 'Praia', "Porto Seguro - BA"  , 1, 5, 1, 180, 'http://www.youtube.com')
+card('img/hotel-2.jpg', 'Praia', "Vitória - ES"       , 1, 5, 1, 280, 'http://www.google.com')
+card('img/hotel-3.jpg', 'Praia', "São Luiz - MA"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
+card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+card('img/hotel-1.jpg', 'Praia', "Porto Seguro - BA"  , 1, 5, 1, 180, 'http://www.youtube.com')
+card('img/hotel-2.jpg', 'Praia', "Vitória - ES"       , 1, 5, 1, 280, 'http://www.google.com')
+card('img/hotel-3.jpg', 'Praia', "São Luiz - MA"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
+card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+
 
 // slideshow
 setInterval(()=>{ capa.scrollTo(0,0*400) },2*1000)
