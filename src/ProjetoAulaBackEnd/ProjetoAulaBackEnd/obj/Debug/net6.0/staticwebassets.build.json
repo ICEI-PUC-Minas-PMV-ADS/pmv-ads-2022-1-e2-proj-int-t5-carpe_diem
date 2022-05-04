@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ehb9Nl4AUC138xRIZIpvCRxxvZtmXB7EMrF2ea4gq+Y=",
+  "Hash": "WxPppRpQmumE4nnCZPC0YOMHmjDSZ1IiFWj2kD+VeV0=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -10,17 +10,51 @@
     {
       "Name": "ProjetoAulaBackEnd\\wwwroot",
       "Source": "ProjetoAulaBackEnd",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\cadastro.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "cadastro.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cadastro.png"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\cadastro.css",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "css/cadastro.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\site.css",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\favicon.ico",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\site.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -68,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -85,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -102,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -136,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -170,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -187,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -204,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -221,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -238,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -255,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -272,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -289,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -306,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -323,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -340,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -357,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -374,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -391,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -408,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -425,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -442,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -459,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -476,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -493,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -510,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -527,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -544,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -561,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -578,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -595,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -612,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

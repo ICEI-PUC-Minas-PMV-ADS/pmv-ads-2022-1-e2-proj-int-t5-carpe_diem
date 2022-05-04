@@ -9,22 +9,25 @@ namespace ProjetoAulaBackEnd.Models
     {
         [Key]
         public int IdHospede { get; set; }
-        [Required (ErrorMessage=("Obrigatório informar o nome completo!"))]
+        [Required (ErrorMessage=("Obrigatório informar o nome completo"))]
         public string Nome { get; set; }
 
-        [Required(ErrorMessage = ("Obrigatório informar a data de nascimento!"))]
+        [Required(ErrorMessage = ("Obrigatório informar o CPF"))]
+        public string CPF { get; set; }
+
+        [Required(ErrorMessage = ("Obrigatório informar a data de nascimento"))]
         public DateTime DataDeNascimento { get; set; }
 
-        [Required(ErrorMessage = ("Obrigatório informar o endereço!"))]
+        [Required(ErrorMessage = ("Obrigatório informar o endereço"))]
         public string Endereco { get; set; }
         
-        [Required(ErrorMessage = ("Obrigatório informar o telefone!"))]
+        [Required(ErrorMessage = ("Obrigatório informar o telefone"))]
         public string Telefone { get; set; }
         
-        [Required(ErrorMessage = ("Obrigatório informar o email!"))]
+        [Required(ErrorMessage = ("Obrigatório informar o email"))]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = ("Obrigatório informar senha!"))]
+        [Required(ErrorMessage = ("Obrigatório informar senha"))]
         public string  Senha { get; set; }
 
     }

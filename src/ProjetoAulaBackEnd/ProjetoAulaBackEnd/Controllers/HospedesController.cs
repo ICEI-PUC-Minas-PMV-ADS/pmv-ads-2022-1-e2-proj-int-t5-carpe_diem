@@ -53,7 +53,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdHospede,Nome,DataDeNascimento,Endereco,Telefone,Email,Senha")] Hospede hospede)
+        public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha")] Hospede hospede)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,DataDeNascimento,Endereco,Telefone,Email")] Hospede hospede)
+        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email")] Hospede hospede)
         {
             if (id != hospede.IdHospede)
             {

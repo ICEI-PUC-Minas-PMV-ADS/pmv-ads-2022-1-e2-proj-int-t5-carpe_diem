@@ -9854,11 +9854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
       "projectName": "ProjetoAulaBackEnd",
-      "projectPath": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+      "projectPath": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
       "packagesPath": "C:\\Users\\crisn\\.nuget\\packages\\",
-      "outputPath": "G:\\My Drive\\PUCMG\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
+      "outputPath": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crisn\\AppData\\Roaming\\NuGet\\NuGet.Config",
