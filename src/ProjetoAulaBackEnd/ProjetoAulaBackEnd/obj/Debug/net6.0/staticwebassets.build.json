@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WxPppRpQmumE4nnCZPC0YOMHmjDSZ1IiFWj2kD+VeV0=",
+  "Hash": "D2E3VnTOA3az25M5Vu+we4K1wDP4WSyccPRwKLipOsg=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -661,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\Logo_Final_382x148.png",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "Logo_Final_382x148.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Logo_Final_382x148.png"
     }
   ]
 }

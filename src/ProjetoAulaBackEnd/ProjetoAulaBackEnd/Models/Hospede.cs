@@ -30,5 +30,8 @@ namespace ProjetoAulaBackEnd.Models
         [Required(ErrorMessage = ("Obrigatório informar senha"))]
         public string  Senha { get; set; }
 
+        [Required(ErrorMessage = ("Obrigatório confirmar senha"))]
+        public string Senha2 { get; set; }
+
     }
 }
