@@ -15,7 +15,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="~/css/cadastro.css">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
 
@@ -41,9 +42,9 @@
                         <span>Nome completo</span><br>
                         <input type="text" name="Nome" value="" required><br>
                         <span>CPF</span><br>
-                        <input type="text" name="CPF" value="" required><br>
+                        <input type="text" id="campoCPF" name="CPF" value="" required><br>
                         <span>Data de nascimento</span><br>
-                        <input type="date" name="Data de nascimento" value="" required><br>
+                        <input type="text" id="campoData" name="DataDeNascimento" value="" required><br>
                         <span>Endereço</span><br>
                         <input type="text" name="Endereco" value="" required><br>
                         <span>Telefone</span><br>
@@ -63,11 +64,18 @@
                 </form>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12" id="footer">
                 <p>&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
             </div>
         </div>
+        <script>
+            jQuery(function($){
+            $("#campoCPF").mask("999.999.999-99");
+            $("#campoData").mask("99/99/9999");
+           });
+</script>
     </div>
 </body>
 

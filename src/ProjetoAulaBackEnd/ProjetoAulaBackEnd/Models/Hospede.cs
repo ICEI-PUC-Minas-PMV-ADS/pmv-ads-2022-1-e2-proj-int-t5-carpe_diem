@@ -16,7 +16,7 @@ namespace ProjetoAulaBackEnd.Models
         public string CPF { get; set; }
 
         [Required(ErrorMessage = ("Obrigatório informar a data de nascimento"))]
-        public DateTime DataDeNascimento { get; set; }
+        public string DataDeNascimento { get; set; }
 
         [Required(ErrorMessage = ("Obrigatório informar o endereço"))]
         public string Endereco { get; set; }
@@ -30,7 +30,7 @@ namespace ProjetoAulaBackEnd.Models
         [Required(ErrorMessage = ("Obrigatório informar senha"))]
         public string  Senha { get; set; }
 
-        [Required(ErrorMessage = ("Obrigatório confirmar senha"))]
+        [Required(ErrorMessage = ("Obrigatório repetir a  senha"))]
         public string Senha2 { get; set; }
 
     }
