@@ -55,6 +55,7 @@ namespace ProjetoAulaBackEnd.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
         {
+
             if (ModelState.IsValid)
             {
                 _context.Add(hospede);
