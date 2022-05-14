@@ -69,9 +69,13 @@ namespace ProjetoAulaBackEnd.Controllers
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
                     _context.Add(hospede);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-                return View(hospede);
+                    ViewBag.Message = "Cadastro realizado com sucesso!";
+                    //return RedirectToAction(nameof(Create));
+                    
+            }
+
+           
+            return View();
             
         }
 
@@ -130,7 +134,8 @@ namespace ProjetoAulaBackEnd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                ViewBag.Message = "Atualização realizada com sucesso!";
+                //return RedirectToAction(nameof(Index));
             }
             return View(hospede);
         }
