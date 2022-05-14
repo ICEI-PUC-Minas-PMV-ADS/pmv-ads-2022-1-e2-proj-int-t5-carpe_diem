@@ -101,10 +101,11 @@ Quadro 4 - Requisitos Não Funcionais
 |RNF-002 | A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade.                                      | Alta      | 
 |RNF-003 | A aplicação deve ser compatível com os principais navegadores do mercado (_Google Chrome, Mozilla Firefox, Microsoft Edge_). | Alta      | 
 |RNF-004 | A aplicação deve ser responsiva.                                                                                             | Alta      | 
-|RNF-005 | Para o desenvolvimento deve ser utilizando as linguagens HTML5, CSS3, JS, C#.                                                  | Alta      | 
+|RNF-005 | Para o desenvolvimento deve ser utilizando as linguagens HTML5, CSS3, JS, C#.                                                | Alta      | 
 |RNF-006 | A aplicação deve processar requisições do usuário em no máximo 10s.                                                          | Média     |
 |RNF-007 | A aplicação deve estar de acordo com LGPD (Lei Geral de Proteção de Dados).                                                  | Alta      |
 |RNF-008 | A aplicação deve estar disponível pelos menos 99% das 24 horas do dia, nos 07 dias da semana.                                | Alta      |
+|RNF-009 | Permitir acesso _full time_ à aplicação                                                                                      | Alta      |
 
 Fonte: Elaborado pelos autores
 
@@ -120,7 +121,6 @@ Quadro 5 - Restrições
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 26/06/2022. |
 |RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho.                                           |
 |RE-03| O aplicativo deve se restringir às tecnologias propostas pelo curso.                                    |
-|RE-04| Não é possível acesso ao sistema sem conexão de internet.                                               |
 
 Fonte: Elaborado pelos autores
 
