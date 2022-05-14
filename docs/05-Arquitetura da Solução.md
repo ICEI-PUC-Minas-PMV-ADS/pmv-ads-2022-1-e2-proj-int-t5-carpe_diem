@@ -65,7 +65,7 @@ A publicação da aplicação no Heroku ou no Azure será realizada através da 
 
 ## 5.6 Tecnologias Utilizadas
 
-- Linguagens e _frameworks_ utlizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_
+- Linguagens e _frameworks_ utlizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_, .NET
 - IDEs de desenvolvimento: Visual Studio Code e Visual Studio
 - Plataforma para hospedagem do site: Heroku ou Azure
 - Plataforma para hospedagem dos arquivos: GitHub e Google Drive
