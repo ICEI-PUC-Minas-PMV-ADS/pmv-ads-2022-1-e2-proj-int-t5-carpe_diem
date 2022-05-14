@@ -30,4 +30,8 @@ VILLAR, Marcela. **Preço do aluguel de casas por temporada no Litoral Norte aum
 
 Wikepédia. **Diagrama de caso de uso**. Junho de 2020. Disponível em: https://pt.wikipedia.org/wiki/Diagrama_de_caso_de_uso. Acessado em 09/03/2022.
 
+Wikipédia. **Bootstrap (framework front-end)**. Outubro de 2021. Disponível em: https://pt.wikipedia.org/wiki/Bootstrap_(framework_front-end). Acessado em 14/05/2022.
+
+Wikipédia. **Media Queries**. Novembro de 2021. Disponível em: https://en.wikipedia.org/wiki/Media_queries. Acessado em 14/05/2022.
+
 Wikipédia. **System Usability Scale.** Abril de 2022. Disponível em: https://en.wikipedia.org/wiki/System_usability_scale. Acessado em 09/04/2022.
