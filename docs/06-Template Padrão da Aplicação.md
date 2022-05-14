@@ -144,13 +144,19 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 O _template_ das telas do site criado até o momento contém os seguintes _layouts_: 
 - Tela _Home-Page_ (item 6.6.1)
-- Tela Cadastro (item 6.6.2)
-- Tela _Login_ (item 6.6.3)
+- Tela Resultado da Busca (item 6.6.2)
+- Tela Detalhes do Imóvel (item 6.6.3)
 - Tela _Login_-Cadastro (item 6.6.4)
-- Tela Resultado Busca (item 6.6.5)
-- Tela Erro Busca (item 6.6.6)
-- Tela Esqueceu Senha (item 6.6.7)
-- Tela Fale Conosco (item 6.6.8)
+- Tela _Login_ (item 6.6.5)
+- Tela Cadastro (item 6.6.6)
+- Tela Perfil do Hóspede (item 6.6.7)
+- Tela Perfil do Anfitrião (item 6.6.8)
+- Tela Cadastrar Imóvel (item 6.6.9)
+- Tela Editar Reserva (item 6.6.10)
+- Tela Fale Conosco (item 6.6.11)
+- Tela Esqueceu Senha (item 6.6.12)
+- Tela Erro Busca (item 6.6.13)
+
 
 Alusivo às funcionalidades do sistema, apresentamos o print das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo _link_ <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
 
@@ -170,55 +176,83 @@ Figura 33
 
 Fonte: Elaborado pelos Autores
 
+
+
 **Nayara, inserir apenas os prints das telas nesse tópico.... os requisitos atendidos e os artefatos estão em outro tópico (deletei daqui)**
 
 
 
-### 6.6.2 Tela Cadastro
+### 6.6.2 Tela Resultado da Busca
 
 Figura 34
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.3 Tela _Login_ 
+### 6.6.3 Tela Detalhes do Imóvel 
+
+- Página em Desenvolvimento
+
+
+### 6.6.4 Tela _Login_-Cadastro
 
 Figura 35
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.4 Tela _Login_-Cadastro
+### 6.6.5 Tela _Login_
 
 Figura 36
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.5 Tela Resultado Busca
+### 6.6.6 Tela Cadastro
 
 Figura 37
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.6 Tela Erro Busca
+### 6.6.7 Tela Perfil do Hóspede
+
+- Página em Desenvolvimento
+
+
+### 6.6.8 Tela Perfil do Anfitrião
+
+- Página em Desenvolvimento
+
+
+### 6.6.9 Tela Cadastrar Imóvel
+
+- Página em Desenvolvimento
+
+
+### 6.6.10 Tela Editar Reserva 
+
+- Página em Desenvolvimento
+
+
+### 6.6.11 Tela Fale Conosco 
 
 Figura 38
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.7 Tela Esqueceu Senha
+### 6.6.12 Tela Esqueceu Senha 
 
 Figura 39
 
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.8 Tela Fale Conosco
+### 6.6.13 Tela Erro Busca
 
 Figura 40
 
 Fonte: Elaborado pelos Autores
+
 
