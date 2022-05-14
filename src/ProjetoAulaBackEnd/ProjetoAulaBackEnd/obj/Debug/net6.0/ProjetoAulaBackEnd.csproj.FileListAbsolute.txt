@@ -1673,3 +1673,4 @@ D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_d
 =======
 C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\BCrypt.Net-Next.dll
 >>>>>>> 2ce54088cab16a6833388f5032fc2ceae7dfb58d
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\BCrypt.Net-Next.dll
