@@ -144,16 +144,77 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 O _template_ das telas do site criado até o momento contém os seguintes _layouts_: 
 - Tela _Home-Page_ (item 6.6.1)
+- Tela Cadastro (item 6.6.2)
+- Tela _Login_ (item 6.6.3)
+- Tela _Login_-Cadastro (item 6.6.4)
+- Tela Resultado Busca (item 6.6.5)
+- Tela Erro Busca (item 6.6.6)
+- Tela Esqueceu Senha (item 6.6.7)
+- Tela Fale Conosco (item 6.6.8)
 
 Alusivo às funcionalidades do sistema, apresentamos o print das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo _link_ <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
 
 No tocante às instruções de acesso, os passos são descritos a seguir:
-1.Abra o browser e informe o _link_ disponibilizado logo acima.
-2.Execute o _download_ do arquivo do projeto ou faça sua clonagem no _GitHub_.
-3.Descompacte o arquivo.
-4.Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
-5.Conseguirá visualizar a URL através dos arquivos de formato HTML pelo _Live Server_ localizado no próprio VSC.
+- Abra o browser e informe o _link_ disponibilizado logo acima.
+- Execute o _download_ do arquivo do projeto ou faça sua clonagem no _GitHub_.
+- Descompacte o arquivo.
+- Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
+- Conseguirá visualizar a URL através dos arquivos de formato HTML pelo _Live Server_ localizado no próprio VSC.
 
 No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou _Media Queries_. De acordo com Wikipédia (10/2021), “_Bootstrap_ é um _framework web_ com código-fonte aberto para desenvolvimento de componentes de interface e _front-end_ para sites e aplicações _web_ usando HTML, CSS e JavaScript, baseado em modelos de _design_ para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.” Se referindo ao _Media Queries_, se trata de um recurso do CSS 3 “que permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela (por exemplo, tamanho da tela do celular e do _desktop_). Ele se tornou um padrão recomendado pelo W3C em junho de 2012, e é uma tecnologia fundamental para o _design_ responsivo da _Web_ (RWD).” (WIKIPEDIA, 11/2021)
 
 ### 6.6.1 Tela Home-Page
+
+Figura 33
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.2 Tela Cadastro
+
+Figura 34
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.3 Tela _Login_ 
+
+Figura 35
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.4 Tela _Login_-Cadastro
+
+Figura 36
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.5 Tela Resultado Busca
+
+Figura 37
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.6 Tela Erro Busca
+
+Figura 38
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.7 Tela Esqueceu Senha
+
+Figura 39
+
+Fonte: Elaborado pelos Autores
+
+
+### 6.6.8 Tela Fale Conosco
+
+Figura 40
+
+Fonte: Elaborado pelos Autores
+
