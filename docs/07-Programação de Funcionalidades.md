@@ -22,6 +22,14 @@ Quadro 8 - Programação das Funcionalidades
 Fonte: Elaborado pelos autores
 
 
+No tocante às instruções de acesso, os passos são descritos a seguir:
+1. Abra o browser e informe o link disponibilizado logo acima.
+2. Execute o download do arquivo do projeto ou faça sua clonagem no GitHub.
+3. Descompacte o arquivo.
+4. Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
+5. Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
+
+
 > **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
