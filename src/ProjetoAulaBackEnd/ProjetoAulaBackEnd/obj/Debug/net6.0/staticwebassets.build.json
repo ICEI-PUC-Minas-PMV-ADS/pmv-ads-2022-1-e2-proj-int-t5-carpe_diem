@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D2E3VnTOA3az25M5Vu+we4K1wDP4WSyccPRwKLipOsg=",
+  "Hash": "WaaMDZ7ruF3KVUWcwAC/YluFQ4+WXQbNdwNB6jttG0E=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -16,23 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\cadastro.png",
-      "SourceId": "ProjetoAulaBackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
-      "BasePath": "_content/ProjetoAulaBackEnd",
-      "RelativePath": "cadastro.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\cadastro.png"
-    },
     {
       "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\cadastro.css",
       "SourceId": "ProjetoAulaBackEnd",
@@ -68,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\cadastro.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "img/cadastro.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +65,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\img\\cadastro.png"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon.ico",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "img/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final_382x148.png",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "img/Logo_Final_382x148.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo_Final_382x148.png"
     },
     {
       "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\site.js",
@@ -661,23 +678,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\Logo_Final_382x148.png",
-      "SourceId": "ProjetoAulaBackEnd",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
-      "BasePath": "_content/ProjetoAulaBackEnd",
-      "RelativePath": "Logo_Final_382x148.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Logo_Final_382x148.png"
     }
   ]
 }

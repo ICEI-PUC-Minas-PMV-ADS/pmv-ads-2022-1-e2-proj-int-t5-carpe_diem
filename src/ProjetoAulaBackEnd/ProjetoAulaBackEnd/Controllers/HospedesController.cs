@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProjetoAulaBackEnd.Models;
 
+
 namespace ProjetoAulaBackEnd.Controllers
 {
     public class HospedesController : Controller
@@ -55,14 +56,23 @@ namespace ProjetoAulaBackEnd.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
         {
-
-            if (ModelState.IsValid)
+           
+            if (hospede.Senha != hospede.Senha2)
             {
-                _context.Add(hospede);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+              ViewBag.Message= "Senhas não conferem. Digite novamente";
+                return View();
             }
-            return View(hospede);
+ 
+                if (ModelState.IsValid)
+                {
+                    hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
+                    hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
+                    _context.Add(hospede);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(hospede);
+            
         }
 
         // GET: Hospedes/Edit/5
@@ -78,6 +88,8 @@ namespace ProjetoAulaBackEnd.Controllers
             {
                 return NotFound();
             }
+
+           
             return View(hospede);
         }
 
@@ -92,11 +104,18 @@ namespace ProjetoAulaBackEnd.Controllers
             {
                 return NotFound();
             }
+            if (hospede.Senha != hospede.Senha2)
+            {
+                ViewBag.Message = "Senhas não conferem. Digite novamente";
+                return View();
+            }
 
             if (ModelState.IsValid)
             {
                 try
                 {
+                    hospede.Senha = BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
+                    hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
                     _context.Update(hospede);
                     await _context.SaveChangesAsync();
                 }

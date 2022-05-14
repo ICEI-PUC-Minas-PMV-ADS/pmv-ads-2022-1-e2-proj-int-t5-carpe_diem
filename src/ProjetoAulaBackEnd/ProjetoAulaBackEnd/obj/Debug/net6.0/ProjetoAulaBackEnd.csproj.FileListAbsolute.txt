@@ -1112,3 +1112,4 @@ C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\Pro
 C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.csproj.CopyComplete
 C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.genruntimeconfig.cache
 C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ref\ProjetoAulaBackEnd.dll
+C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\BCrypt.Net-Next.dll
