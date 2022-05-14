@@ -65,6 +65,12 @@ A publicação da aplicação no Heroku ou no Azure será realizada através da 
 
 ## 5.6 Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- Linguagens e _frameworks_ utlizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_
+- IDEs de desenvolvimento: Visual Studio Code e Visual Studio
+- Plataforma para hospedagem do site: Heroku ou Azure
+- Plataforma para hospedagem dos arquivos: GitHub e Google Drive
+- Ferramenta de versionamento: Git e GitHub Desktop
+- Ferramenta para a criação de logo e imagens: Figma, Ilustrator, CorelDraw
+- Ferramenta para criação do template / wireframing: Figma e Adobe XD
+- Ferramenta para criação de diagramas e fluxos: Lucidchart e Visio
+- Banco de Dados: SQL Server
