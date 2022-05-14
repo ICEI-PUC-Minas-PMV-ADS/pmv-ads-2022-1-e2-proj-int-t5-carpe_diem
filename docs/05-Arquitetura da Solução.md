@@ -35,4 +35,36 @@ Figura 28 - Esquema Relacional
 Fonte: Elaborado pelos autores
 
 
+## 5.4 Diagrama de Componentes
 
+Compreendemos nessa seção os componentes que fazem parte da arquitetura da solução, consoante figura adiante.
+
+Figura 29 - Arquitetura da Solução
+
+![arquitetura](https://user-images.githubusercontent.com/89549220/168407564-43605626-ffc1-4773-b63e-94eb1d8cdf3f.png)
+
+Fonte: Elaborado pelos autores / Imagens: Freepik - Flaticon
+
+A arquitetura da solução concretizada conta com os seguintes módulos:
+  - Navegador - Interface básica do sistema 
+      - Páginas Web - Conjunto de arquivos HTML5, CSS3, JavaScript, Bootstrap e imagens que efetivam as funcionalidades do sistema.
+  - Hospedagem - local na Internet onde as páginas serão mantidas e conectadas pelo navegador. 
+      - Plataforma Heroku ou Azure
+  - Local Storage - armazenamento mantido no Navegador, onde são empreendidos bancos de dados baseados no JSON (JavaScript Object Notation).  
+      - Dados do Hóspede
+      - Dados do Cadastro do Imóvel
+      - Dados da Reserva do Imóvel
+
+
+## 5.5 Hospedagem
+
+Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Heroku ou Azure, e o mesmo será mantido no ambiente da URL **xxxxxxxxx.**
+
+A publicação da aplicação no Heroku ou no Azure será realizada através da submissão do projeto (push) via Git para o repositório remoto que estará disponível no GitHub.
+
+
+## 5.6 Tecnologias Utilizadas
+
+Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+
+Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
