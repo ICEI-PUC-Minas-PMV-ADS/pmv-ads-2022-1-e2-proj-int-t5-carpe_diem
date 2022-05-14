@@ -20,7 +20,7 @@ Quadro 8 - Programação das Funcionalidades
 |RF-011   | A aplicação deve notificar o anfitrião sempre que seu imóvel for reservado. | em desenvolvimento |
 
 Fonte: Elaborado pelos autores
-
+<br>
 
 No tocante às instruções de acesso, os passos são descritos a seguir:
 1. Abra o browser e informe o link disponibilizado logo acima.
@@ -30,10 +30,3 @@ No tocante às instruções de acesso, os passos são descritos a seguir:
 5. Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
