@@ -170,17 +170,8 @@ Figura 33
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.1.1 Requisitos Atendidos
+**Nayara, inserir apenas os prints das telas nesse tópico.... os requisitos atendidos e os artefatos estão em outro tópico (deletei daqui)**
 
--
--
--
-
-#### 6.6.1.2 Artefatos da Funcionalidade
-
--
--
--
 
 
 ### 6.6.2 Tela Cadastro
@@ -189,36 +180,12 @@ Figura 34
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.2.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.2.2 Artefatos da Funcionalidade
-
--
--
--
-
 
 ### 6.6.3 Tela _Login_ 
 
 Figura 35
 
 Fonte: Elaborado pelos Autores
-
-#### 6.6.3.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.3.2 Artefatos da Funcionalidade
-
--
--
--
 
 
 ### 6.6.4 Tela _Login_-Cadastro
@@ -227,36 +194,12 @@ Figura 36
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.4.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.4.2 Artefatos da Funcionalidade
-
--
--
--
-
 
 ### 6.6.5 Tela Resultado Busca
 
 Figura 37
 
 Fonte: Elaborado pelos Autores
-
-#### 6.6.5.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.5.2 Artefatos da Funcionalidade
-
--
--
--
 
 
 ### 6.6.6 Tela Erro Busca
@@ -265,18 +208,6 @@ Figura 38
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.6.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.6.2 Artefatos da Funcionalidade
-
--
--
--
-
 
 ### 6.6.7 Tela Esqueceu Senha
 
@@ -284,34 +215,10 @@ Figura 39
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.7.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.7.2 Artefatos da Funcionalidade
-
--
--
--
-
 
 ### 6.6.8 Tela Fale Conosco
 
 Figura 40
 
 Fonte: Elaborado pelos Autores
-
-#### 6.6.8.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.8.2 Artefatos da Funcionalidade
-
--
--
--
 
