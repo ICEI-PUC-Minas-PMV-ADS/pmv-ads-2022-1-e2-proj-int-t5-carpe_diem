@@ -23,10 +23,10 @@ Fonte: Elaborado pelos autores
 <br>
 
 No tocante às instruções de acesso, os passos são descritos a seguir:
-1. Abra o browser e informe o link disponibilizado logo acima.
-2. Execute o download do arquivo do projeto ou faça sua clonagem no GitHub.
+1. Abra o _browser_ e informe o _link_ <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
+2. Execute o _download_ do arquivo do projeto ou faça sua clonagem no GitHub.
 3. Descompacte o arquivo.
 4. Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
-5. Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
+5. Conseguirá visualizar a URL através dos arquivos de formato HTML pelo _Live Server_ localizado no próprio VSC.
 
 
