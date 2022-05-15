@@ -30,6 +30,8 @@ Fonte: Elaborado pelos autores
 
 Figura 43
 
+![ImgEditar](https://user-images.githubusercontent.com/89617881/168496040-fdc8e1fe-a8df-4c86-ab62-397d6a6604bd.png)
+
 Fonte: Elaborado pelos autores
 
 
