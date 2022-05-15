@@ -13,7 +13,7 @@ Visando determinar e padronizar a disposição dos vários elementos e seções 
 - _CONTENTS_ (Parte do Conteúdo): desenvolvido de acordo com sua especificidade.
 - _FOOTER_ (Rodapé): _copyright_, nome da aplicação.
 
-Figura 29 - _Layout_ 
+Figura 30 - _Layout_ 
 
 ![layout](https://user-images.githubusercontent.com/89549220/164799526-c3b5b98e-cb36-469d-85fd-39b889157693.png)
 <br>Fonte: Cellbiol (2022)
@@ -24,7 +24,7 @@ Figura 29 - _Layout_
 
 ### 6.2.1 Cores da Logo
 
-Figura 30 - Cores Logo
+Figura 31 - Cores Logo
 
 ![cores da logo](https://user-images.githubusercontent.com/89549220/165007789-5e6efc3a-188e-42c5-b9dd-62c46a30f1ec.png)
 Fonte: Elaborado pelos autores
@@ -32,7 +32,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.2 Cores Principais
 
-Figura 31 - Cores Principais
+Figura 32 - Cores Principais
 
 ![cores principais](https://user-images.githubusercontent.com/89549220/165007824-6edddecc-0bdc-4201-92ff-ee13da57a7ce.png)
 Fonte: Elaborado pelos autores
@@ -40,7 +40,7 @@ Fonte: Elaborado pelos autores
 
 ### 6.2.3 Cores Neutras
 
-Figura 32 - Cores Neutras
+Figura 33 - Cores Neutras
 ![cores neutras](https://user-images.githubusercontent.com/89549220/165007839-5fcae4ed-8aa1-4411-9704-555d703ccde2.png)
 Fonte: Elaborado pelos autores
 
@@ -144,13 +144,19 @@ A cor preta é o resultado da absorção de todas as radiações do espectro sol
 
 O _template_ das telas do site criado até o momento contém os seguintes _layouts_: 
 - Tela _Home-Page_ (item 6.6.1)
-- Tela Cadastro (item 6.6.2)
-- Tela _Login_ (item 6.6.3)
+- Tela Resultado da Busca (item 6.6.2)
+- Tela Detalhes do Imóvel (item 6.6.3)
 - Tela _Login_-Cadastro (item 6.6.4)
-- Tela Resultado Busca (item 6.6.5)
-- Tela Erro Busca (item 6.6.6)
-- Tela Esqueceu Senha (item 6.6.7)
-- Tela Fale Conosco (item 6.6.8)
+- Tela _Login_ (item 6.6.5)
+- Tela Cadastro (item 6.6.6)
+- Tela Perfil do Hóspede (item 6.6.7)
+- Tela Perfil do Anfitrião (item 6.6.8)
+- Tela Cadastrar Imóvel (item 6.6.9)
+- Tela Editar Reserva (item 6.6.10)
+- Tela Fale Conosco (item 6.6.11)
+- Tela Esqueceu Senha (item 6.6.12)
+- Tela Erro Busca (item 6.6.13)
+
 
 Alusivo às funcionalidades do sistema, apresentamos o print das telas desenvolvidas pelo grupo, assim como os requisitos atendidos e os artefatos da funcionalidade. A estrutura de dados das telas pode ser encontrada na página do projeto no _GitHub_, pelo _link_ <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
 
@@ -166,152 +172,87 @@ No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou
 
 ### 6.6.1 Tela Home-Page
 
-Figura 33
-
-Fonte: Elaborado pelos Autores
-
-#### 6.6.1.1 Requisitos Atendidos
-
--
--
--
-
-#### 6.6.1.2 Artefatos da Funcionalidade
-
--
--
--
-
-
-### 6.6.2 Tela Cadastro
-
 Figura 34
 
+![Telas Projeto_home](https://user-images.githubusercontent.com/89549220/168452214-16950934-e2fa-407e-a19e-9c0d89a8ba56.png)
 Fonte: Elaborado pelos Autores
 
-#### 6.6.2.1 Requisitos Atendidos
 
--
--
--
-
-#### 6.6.2.2 Artefatos da Funcionalidade
-
--
--
--
-
-
-### 6.6.3 Tela _Login_ 
+### 6.6.2 Tela Resultado da Busca
 
 Figura 35
 
+![Telas Projeto_resultado busca](https://user-images.githubusercontent.com/89549220/168452226-ceda1d25-f4a4-4448-af58-2b89d4591849.png)
 Fonte: Elaborado pelos Autores
 
-#### 6.6.3.1 Requisitos Atendidos
 
--
--
--
+### 6.6.3 Tela Detalhes do Imóvel 
 
-#### 6.6.3.2 Artefatos da Funcionalidade
-
--
--
--
+- Página em Desenvolvimento
 
 
 ### 6.6.4 Tela _Login_-Cadastro
 
 Figura 36
 
+![Telas Projeto_login cadastro](https://user-images.githubusercontent.com/89549220/168452237-0abcbaf2-8090-4ed1-83d3-8baed5890ab0.png)
 Fonte: Elaborado pelos Autores
 
-#### 6.6.4.1 Requisitos Atendidos
 
--
--
--
-
-#### 6.6.4.2 Artefatos da Funcionalidade
-
--
--
--
-
-
-### 6.6.5 Tela Resultado Busca
+### 6.6.5 Tela _Login_
 
 Figura 37
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.5.1 Requisitos Atendidos
 
--
--
--
-
-#### 6.6.5.2 Artefatos da Funcionalidade
-
--
--
--
-
-
-### 6.6.6 Tela Erro Busca
+### 6.6.6 Tela Cadastro
 
 Figura 38
 
+![Telas Projeto_cadastro](https://user-images.githubusercontent.com/89549220/168452245-c7b59312-3fe6-4fa0-9a82-6fcbfda02cff.png)
 Fonte: Elaborado pelos Autores
 
-#### 6.6.6.1 Requisitos Atendidos
 
--
--
--
+### 6.6.7 Tela Perfil do Hóspede
 
-#### 6.6.6.2 Artefatos da Funcionalidade
-
--
--
--
+- Página em Desenvolvimento
 
 
-### 6.6.7 Tela Esqueceu Senha
+### 6.6.8 Tela Perfil do Anfitrião
+
+- Página em Desenvolvimento
+
+
+### 6.6.9 Tela Cadastrar Imóvel
+
+- Página em Desenvolvimento
+
+
+### 6.6.10 Tela Editar Reserva 
+
+- Página em Desenvolvimento
+
+
+### 6.6.11 Tela Fale Conosco 
 
 Figura 39
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.7.1 Requisitos Atendidos
 
--
--
--
-
-#### 6.6.7.2 Artefatos da Funcionalidade
-
--
--
--
-
-
-### 6.6.8 Tela Fale Conosco
+### 6.6.12 Tela Esqueceu Senha 
 
 Figura 40
 
 Fonte: Elaborado pelos Autores
 
-#### 6.6.8.1 Requisitos Atendidos
 
--
--
--
+### 6.6.13 Tela Erro Busca
 
-#### 6.6.8.2 Artefatos da Funcionalidade
+Figura 41
 
--
--
--
+![Telas Projeto_erro busca](https://user-images.githubusercontent.com/89549220/168452257-4abd45c5-80a8-4c09-b037-070d2f0edaac.png)
+Fonte: Elaborado pelos Autores
+
 

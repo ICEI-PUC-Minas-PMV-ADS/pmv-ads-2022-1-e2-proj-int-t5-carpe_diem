@@ -119,8 +119,6 @@ Figura 4 - _Labels_
 
 Fonte: Elaborado pelos Autores
 
-****
-
 
 ## 3.5 Ferramentas
 
