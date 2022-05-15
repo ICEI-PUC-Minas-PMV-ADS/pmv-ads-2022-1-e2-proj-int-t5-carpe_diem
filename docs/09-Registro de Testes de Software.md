@@ -32,6 +32,8 @@ Figura 43
 
 ![ImgEditar](https://user-images.githubusercontent.com/89617881/168496040-fdc8e1fe-a8df-4c86-ab62-397d6a6604bd.png)
 
+![ImgEditarSucesso](https://user-images.githubusercontent.com/89617881/168496105-d0538229-4343-43a8-a67c-9061a554d1ca.png)
+
 Fonte: Elaborado pelos autores
 
 
