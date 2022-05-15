@@ -11,7 +11,7 @@ Avaliar a experiência do usuário com o sistema, identificando problemas e inco
 
 ### 10.2 Perfil do voluntário participante do teste 
 
-Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 06 (seis) pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
+Para a realização do Teste de Usabilidade desse sistema, serão selecionadas 05 (cinco) pessoas voluntárias, com perfis semelhantes às _Personas_ apresentadas na "Especificação do Projeto".
 
 
 ### 10.3 Método Utilizado
