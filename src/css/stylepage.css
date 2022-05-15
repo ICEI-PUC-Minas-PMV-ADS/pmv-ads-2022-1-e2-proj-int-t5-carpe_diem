@@ -128,9 +128,9 @@ a:hover{
 
 .flex-col { flex-direction: column;}
 
-.flex-wrap   {flex-wrap: wrap;}
-.flex-nowrap {flex-wrap: nowrap;}
-.flex-reverse{flex-wrap: wrap-reverse;}
+.flex-wrap   { flex-wrap: wrap;}
+.flex-nowrap { flex-wrap: nowrap;}
+.flex-reverse{ flex-wrap: wrap-reverse;}
 
 .ai-center { align-items: center;       }
 .ai-end    { align-items: flex-end;     }
