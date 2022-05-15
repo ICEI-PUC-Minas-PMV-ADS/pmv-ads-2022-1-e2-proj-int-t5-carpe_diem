@@ -174,18 +174,15 @@ No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou
 
 Figura 33
 
+![Telas Projeto_home](https://user-images.githubusercontent.com/89549220/168452214-16950934-e2fa-407e-a19e-9c0d89a8ba56.png)
 Fonte: Elaborado pelos Autores
-
-
-
-**Nayara, inserir apenas os prints das telas nesse tópico.... os requisitos atendidos e os artefatos estão em outro tópico (deletei daqui)**
-
 
 
 ### 6.6.2 Tela Resultado da Busca
 
 Figura 34
 
+![Telas Projeto_resultado busca](https://user-images.githubusercontent.com/89549220/168452226-ceda1d25-f4a4-4448-af58-2b89d4591849.png)
 Fonte: Elaborado pelos Autores
 
 
@@ -198,6 +195,7 @@ Fonte: Elaborado pelos Autores
 
 Figura 35
 
+![Telas Projeto_login cadastro](https://user-images.githubusercontent.com/89549220/168452237-0abcbaf2-8090-4ed1-83d3-8baed5890ab0.png)
 Fonte: Elaborado pelos Autores
 
 
@@ -212,6 +210,7 @@ Fonte: Elaborado pelos Autores
 
 Figura 37
 
+![Telas Projeto_cadastro](https://user-images.githubusercontent.com/89549220/168452245-c7b59312-3fe6-4fa0-9a82-6fcbfda02cff.png)
 Fonte: Elaborado pelos Autores
 
 
@@ -253,6 +252,7 @@ Fonte: Elaborado pelos Autores
 
 Figura 40
 
+![Telas Projeto_erro busca](https://user-images.githubusercontent.com/89549220/168452257-4abd45c5-80a8-4c09-b037-070d2f0edaac.png)
 Fonte: Elaborado pelos Autores
 
 
