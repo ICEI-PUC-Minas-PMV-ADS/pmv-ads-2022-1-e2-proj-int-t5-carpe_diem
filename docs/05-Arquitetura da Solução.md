@@ -58,14 +58,14 @@ A arquitetura da solução concretizada conta com os seguintes módulos:
 
 ## 5.5 Hospedagem
 
-Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Heroku ou Azure, e o mesmo será mantido no ambiente da URL **xxxxxxxxx.**
+Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Heroku ou Azure, e o mesmo será mantido no ambiente da URL <https://carpediempucmg.azurewebsites.net/>.
 
 A publicação da aplicação no Heroku ou no Azure será realizada através da submissão do projeto (push) via Git para o repositório remoto que estará disponível no GitHub.
 
 
 ## 5.6 Tecnologias Utilizadas
 
-- Linguagens e _frameworks_ utlizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_, .NET
+- Linguagens e _frameworks_ utilizadas para desenvolver o projeto: HTML5, CSS3, JavaScript, C#, _Bootstrap_, _Media Queries_, .NET
 - IDEs de desenvolvimento: Visual Studio Code e Visual Studio
 - Plataforma para hospedagem do site: Heroku ou Azure
 - Plataforma para hospedagem dos arquivos: GitHub e Google Drive
