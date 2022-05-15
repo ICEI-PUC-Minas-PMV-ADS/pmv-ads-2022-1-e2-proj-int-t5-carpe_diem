@@ -95,7 +95,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.2 Tela Resultado da Busca
+#### 4.2.2.3 Tela Resultado da Busca
 
 A tela de resultado da busca apresenta os principais resultados de acordo com os campos preenchidos anteriormente.
 
@@ -108,7 +108,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.3 Tela Detalhes do Imóvel
+#### 4.2.2.4 Tela Detalhes do Imóvel
 
 Na tela de detalhes do imóvel é disponibilizado as especificações do imóvel selecionado diante do resultado da busca, assim como imóveis relacionados, com características próximas à escolhida.
 
@@ -121,7 +121,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.4 Tela _Login_/Cadastro
+#### 4.2.2.5 Tela _Login_/Cadastro
 
 Nessa tela é disponibilizado os campos de _email_ e senha onde o usuário preenche e aciona o campo de criar conta. Caso possua conta cadastrada, o mesmo poderá selecionar “faça _login_” para ser redirecionado à tela de _login_. 
 
@@ -134,7 +134,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.5 Tela _Login_
+#### 4.2.2.6 Tela _Login_
 
 Na tela de _login_ é disponibilizado os campos de _email_ e senha onde o usuário preenche e aciona o campo entrar. Caso não possua conta cadastrada, o mesmo poderá selecionar “cadastre-se” para ser redirecionado à tela de cadastro. 
 
@@ -147,7 +147,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.6 Tela Cadastro
+#### 4.2.2.7 Tela Cadastro
 
 Na tela de cadastro é disponibilizado o formulário onde o usuário preenche suas informações pessoais. Após o preenchimento o mesmo deve apertar no botão cadastrar. Feito isso o usuário será redirecionado para a homepage.
 
@@ -162,7 +162,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.7 Tela Perfil do Hóspede
+#### 4.2.2.8 Tela Perfil do Hóspede
 
 Na tela de perfil do hóspede, o mesmo poderá editar algumas informações pessoais, como senha, endereço e telefone, assim como consultar e gerenciar suas reservas.
 
@@ -175,7 +175,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.8 Tela Perfil do Anfitrião
+#### 4.2.2.9 Tela Perfil do Anfitrião
 
 Na tela de perfil do anfitrião, o mesmo poderá editar algumas informações pessoais, como senha, endereço e telefone, assim como consultar e gerenciar seus imóveis cadastrados e reservados.
 
@@ -188,7 +188,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.9 Tela Cadastrar Imóvel
+#### 4.2.2.10 Tela Cadastrar Imóvel
 
 A tela de cadastrar imóvel é disponibilizada assim que o hóspede opta por se tornar anfitrião. Nela é possível inserir fotos, cadastrar as especificações do imóvel, o valor da diária, como também disponibilizar ou desativar o imóvel.
 
@@ -201,7 +201,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.10 Tela Editar Reserva
+#### 4.2.2.11 Tela Editar Reserva
 
 Na tela de editar reserva é apresentado ao hóspede as opções de alterar data de _check-in_ e _check-out_, número de hóspedes, e também cancelar a reserva.
 
@@ -214,7 +214,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.11 Tela Fale Conosco
+#### 4.2.2.12 Tela Fale Conosco
 
 A tela fale conosco será oferecida ao usuário cadastrado na aplicação, no intuito de auxiliá-lo com alguma dúvida e/ou na interação com o sistema.
 
@@ -227,7 +227,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.12 Tela Esqueceu a Senha
+#### 4.2.2.13 Tela Esqueceu a Senha
 
 A tela para recuperar a senha é apresentada ao usuário que tenha perdido/esquecido a senha. Para isso é necessário que seja preenchido o nome completo e _email_ cadastrado.
 
@@ -240,7 +240,7 @@ Fonte: Elaborado pelos Autores
 <br>
 
 
-#### 4.2.2.13 Tela Busca Vazia
+#### 4.2.2.14 Tela Busca Vazia
 
 Embasado nas Heurísticas de Nielsen, essa tela de busca vazia tem o intuito de promover uma saída para o usuário que venha a cometer algum erro durante sua navegação.
 
