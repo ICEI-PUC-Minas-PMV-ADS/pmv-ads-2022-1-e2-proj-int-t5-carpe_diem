@@ -20,7 +20,6 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproxi
 * Cristiane Fumagalli Navarro Martins
 * Eduardo Lordeiro Alves
 * Fabiana Bicalho Palhano Rocha Cossenzo
-* Guilherme da Silva Moreira
 * Márcia Maria de Paula Ferreira
 * Nayara Katlin Oliveira da Silva
 
