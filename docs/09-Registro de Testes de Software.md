@@ -21,7 +21,10 @@ Quadro 10 - Registro dos Testes
 <br>
 
 Figura 42
+<br>
 ![ImgCad](https://user-images.githubusercontent.com/89617881/168495789-7ed335ca-89b5-4318-b6fb-cf1dc158fa50.png)
+<br>
+![ImgCadSucesso](https://user-images.githubusercontent.com/89617881/168495915-807bc5af-e365-4bd1-824d-5cc80c5788be.png)
 
 Fonte: Elaborado pelos autores
 
