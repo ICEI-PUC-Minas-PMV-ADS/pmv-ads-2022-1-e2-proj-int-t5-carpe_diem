@@ -8,19 +8,19 @@ Quadro 10 - Registro dos Testes
 
 |Caso de Teste |Ação                                 |Resultado Esperado                              |Resultado Obtido                    |
 |--------------|-------------------------------------|------------------------------------------------|------------------------------------|
-|CT-01         |Realizar cadastro                    |Permitir que o usuário se cadastre na plataforma|Objetivo alcançado. Print Figura 42 |
-|CT-02         |Realizar login                       |em desenvolvimento                              |em desenvolvimento                  |
-|CT-03         |Realizar gerenciamento do cadastro   |Permitir que o usuário altere suas informações cadastradas.<br> Permitir que o usuário exclua sua conta.|Objetivo alcançado. Print Figura 43 |
-|CT-04         |Realizar cadastro anfitrião e imóvel |em desenvolvimento                              |em desenvolvimento                  |
-|CT-05         |Redefinir senha                      |em desenvolvimento                              |em desenvolvimento                  |
-|CT-06         |Realizar busca por imóvel            |em desenvolvimento                              |em desenvolvimento                  |
-|CT-07         |Realizar reserva do imóvel           |em desenvolvimento                              |em desenvolvimento                  |
-|CT-08         |Realizar gerenciamento de reservas   |em desenvolvimento                              |em desenvolvimento                  |
-|CT-09         |Preencher formulário fale conosco    |em desenvolvimento                              |em desenvolvimento                  |
+|CT-01         |Realizar cadastro                    |Permitir que o usuário se cadastre na plataforma|Objetivo alcançado. <br> Print Figura 42 |
+|CT-02         |Realizar login                       |Permitir que o usuário faça login na plataforma |em desenvolvimento                  |
+|CT-03         |Realizar gerenciamento do cadastro   |Permitir que o usuário altere suas informações cadastradas.<br> Permitir que o usuário exclua sua conta.|Objetivo alcançado parcialmente.<br>Print Figura 43 |
+|CT-04         |Realizar cadastro anfitrião e imóvel |Permitir que o hóspede se cadastre como anfitrião.<br>Permitir o cadastro do imóvel  |em desenvolvimento|
+|CT-05         |Redefinir senha                      |Permitir que o usuário redefina sua senha       |em desenvolvimento                  |
+|CT-06         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com os filtros selecionados.<br>Apresentar nos resultados da busca somente os imóveis disponíveis na data selecionada.                               |em desenvolvimento                  |
+|CT-07         |Realizar reserva do imóvel           |Permitir que o hóspede reserve um imóvel.<br>Notificar anfitrião da reserva do imóvel.|em desenvolvimento|
+|CT-08         |Realizar gerenciamento de reservas   |Permitir que o hóspede altere as informações da sua reserva.<br>Permitir que o hóspede cancele sua reserva.|em desenvolvimento|
+|CT-09         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco     |em desenvolvimento                  |
 
 <br>
 
-Figura 42
+Figura 42 - Caso de Teste 01
 <br>
 ![ImgCad](https://user-images.githubusercontent.com/89617881/168495789-7ed335ca-89b5-4318-b6fb-cf1dc158fa50.png)
 <br>
@@ -28,7 +28,9 @@ Figura 42
 
 Fonte: Elaborado pelos autores
 
-Figura 43
+<br>
+
+Figura 43 - Caso de Teste 03
 
 ![ImgEditar](https://user-images.githubusercontent.com/89617881/168496040-fdc8e1fe-a8df-4c86-ab62-397d6a6604bd.png)
 
@@ -36,9 +38,3 @@ Figura 43
 
 Fonte: Elaborado pelos autores
 
-
-**OBSERVAÇÃO**
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
