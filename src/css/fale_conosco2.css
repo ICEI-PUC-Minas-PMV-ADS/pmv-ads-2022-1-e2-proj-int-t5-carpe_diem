@@ -1,0 +1,141 @@
+@import url('https://fonts.google.com/specimen/Quicksand#standard-styles');
+
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1ECE9;
+}
+
+header {
+    /* background: #F1ECE9; */
+    font-size: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 18px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 40px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    background: #F1ECE9;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* enviar*/
+form {
+    margin: 40px 0;
+    width: 500px;
+    max-width: 100%;
+    padding: 10px;
+    padding-left: 220px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/*caixinhas preencher*/
+form label input {
+    width: 400px;
+    height: 30px;
+    border: 1px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+form a {
+    padding-left: 120px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    height: 30px;
+    background: #FBCB2B;
+    opacity: 0.6;
+}
+
+.checkbox {
+    margin: 20px 20px;
+}
+
+.enviar {
+    width: 100%;
+    padding: 15px 0;
+    background: #6fdde3;
+    color: black;    
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 32px; 
+    transition: all .3s ease-in-out;  
+    cursor: pointer;    
+}
+
+.enviar:hover {
+    background: #F36E2B;
+    box-shadow: 0px 8px 10px #000;
+    transform: translateY(-7px);
+    /*transform: rotate(70deg);*/
+    /* para somar as propriedades, pode se escrever da seguinte forma:border:
+    transform: scale(1.2) rotate(70deg); */
+}
+
+.enviar:active {
+    transform: translateY(-1px);
+}
+
+
+
+.copyright {
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.p-y { padding-top: 20px; padding-bottom: 20px;}
+.m-y { margin-top: 20px ; margin-bottom: 20px;}
+.m-b { margin-bottom: 20px;}
+
+.flex-1 { flex:1;}
