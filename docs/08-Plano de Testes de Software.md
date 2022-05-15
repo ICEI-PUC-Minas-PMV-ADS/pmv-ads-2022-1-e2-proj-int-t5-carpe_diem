@@ -8,7 +8,7 @@ Requisitos para realização dos testes:<br/>
  •	Conexão com a internet para acesso à plataforma.<br/>
  
 
-Quadro 8 - Plano de Testes
+Quadro 9 - Plano de Testes
 
 |Caso de Teste | CT-01 - Realizar cadastro |
 |:--|:--|
