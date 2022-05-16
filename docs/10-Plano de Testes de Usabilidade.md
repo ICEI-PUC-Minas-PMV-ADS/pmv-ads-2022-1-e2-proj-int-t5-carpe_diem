@@ -59,7 +59,7 @@ Quadro 9 - Roteiro das Tarefas
 Fonte: Elaborado pelos Autores
 
 
-Após a execução do teste, será aplicado o método de avaliação _System Usability Scale (SUS)_, para uma melhor identificação da experiência do usuário.
+Após a conclusão de todas as funcionalidades e a execução dos testes, será aplicado o método de avaliação _System Usability Scale (SUS)_, para uma melhor identificação da experiência do usuário.
 
 A Escala de Usabilidade do Sistema (_System Usability Scale_) foi originalmente criada por John Brooke, em 1986. É uma escala Likert, composta por um questionário de 10 questões, e fornece uma ferramenta confiável para medir a usabilidade da aplicação, além de permitir avaliar uma variedade de produtos e serviços, incluindo _hardware_, _software_, dispositivos móveis, sites e aplicativos. (Usability.gov, 2022; Wikipédia, 2022; Teixeira, 2015)
 

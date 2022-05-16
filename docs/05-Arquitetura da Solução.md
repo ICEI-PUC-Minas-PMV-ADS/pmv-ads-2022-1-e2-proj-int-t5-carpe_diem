@@ -58,7 +58,7 @@ A arquitetura da solução concretizada conta com os seguintes módulos:
 
 ## 5.5 Hospedagem
 
-Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Heroku ou Azure, e o mesmo será mantido no ambiente da URL <https://carpediempucmg.azurewebsites.net/>.
+Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Azure, e o mesmo será mantido no ambiente da URL <https://carpediempucmg.azurewebsites.net/>.
 
 A publicação da aplicação no Heroku ou no Azure será realizada através da submissão do projeto (push) via Git para o repositório remoto que estará disponível no GitHub.
 
