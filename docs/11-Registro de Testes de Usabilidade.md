@@ -2,6 +2,8 @@
 
 O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa. Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas.
 
+Para realização do teste, os voluntários acessaram o link <https://carpediempucmg.azurewebsites.net/> e foram orientados a efetuar o cadastro.
+
 Quadro 10 - Testes de Usabilidade
 
 |Teste         |Ação                     |O que foi avaliado                                                                                |Resultado        |
