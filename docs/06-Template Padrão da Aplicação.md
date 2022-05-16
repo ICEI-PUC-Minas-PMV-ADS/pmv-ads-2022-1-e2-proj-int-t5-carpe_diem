@@ -201,14 +201,12 @@ Fonte: Elaborado pelos Autores
 
 ### 6.6.5 Tela _Login_
 
-Figura 37
-
-Fonte: Elaborado pelos Autores
+- Página em Desenvolvimento
 
 
 ### 6.6.6 Tela Cadastro
 
-Figura 38
+Figura 37
 
 ![Telas Projeto_cadastro](https://user-images.githubusercontent.com/89549220/168452245-c7b59312-3fe6-4fa0-9a82-6fcbfda02cff.png)
 Fonte: Elaborado pelos Autores
@@ -236,21 +234,17 @@ Fonte: Elaborado pelos Autores
 
 ### 6.6.11 Tela Fale Conosco 
 
-Figura 39
-
-Fonte: Elaborado pelos Autores
+- Página em Desenvolvimento
 
 
 ### 6.6.12 Tela Esqueceu Senha 
 
-Figura 40
-
-Fonte: Elaborado pelos Autores
+- Página em Desenvolvimento
 
 
 ### 6.6.13 Tela Erro Busca
 
-Figura 41
+Figura 38
 
 ![Telas Projeto_erro busca](https://user-images.githubusercontent.com/89549220/168452257-4abd45c5-80a8-4c09-b037-070d2f0edaac.png)
 Fonte: Elaborado pelos Autores
