@@ -24,49 +24,63 @@ Quadro 9 - Plano de Testes
 |**Passos**| 1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar no botão "_login_". <br/> 4) Preencher os campos com o _e-mail_ e senha cadastrados. <br/> 5) Clicar em entrar.|
 |**Critérios de Êxito**| - Confirmação do _login_ e redirecionamento para _homepage_ do site.|
 
-|Caso de Teste | CT-03 - Realizar gerenciamento do cadastro |
+|Caso de Teste | CT-03 - Realizar gerenciamento do cadastro (editar) |
 |:--|:--|
 |**Requisitos Associados**|RF-002 – O sistema deve permitir ao usuário gerenciar seu cadastro.  
-|**Objetivo do teste**|- Permitir que o usuário altere suas informações cadastradas. <br/> - Permitir que o usuário exclua sua conta.|
-|**Passos**| 1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar no botão de _login_. <br/> 4) Realizar _login_.<br/> 5) Clicar em “meu perfil” e depois em “meus dados”. <br/> 6) Clicar em "alterar dados".<br/> 7) Digitar os dados a serem alterados. <br/> 8) Clicar em salvar alterações.<br/> 9) Clicar em excluir conta e confirmar a exclusão.|
-|**Critérios de Êxito**| - Salvar alterações realizadas.<br/> - Confirmação da exclusão da conta.
+|**Objetivo do teste**|- Permitir que o usuário altere suas informações cadastradas.|
+|**Passos**| 1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar no botão de _login_. <br/> 4) Realizar _login_.<br/> 5) Clicar em “meu perfil” e depois em “meus dados”. <br/> 6) Clicar em "alterar dados".<br/> 7) Digitar os dados a serem alterados. <br/> 8) Clicar em salvar alterações.|
+|**Critérios de Êxito**| - Confirmação da exclusão da conta.
 
-|Caso de Teste | CT-04 - Realizar cadastro anfitrião e imóvel |
+|Caso de Teste | CT-04 - Realizar gerenciamento do cadastro (excluir) |
+|:--|:--|
+|**Requisitos Associados**|RF-002 – O sistema deve permitir ao usuário gerenciar seu cadastro.  
+|**Objetivo do teste**|- Permitir que o usuário exclua sua conta.|
+|**Passos**| 1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar no botão de _login_. <br/> 4) Realizar _login_.<br/> 5) Clicar em “meu perfil” e depois em “meus dados”. <br/> 6) Clicar em excluir conta e confirmar a exclusão.|
+|**Critérios de Êxito**| - Confirmação da exclusão da conta.
+
+|Caso de Teste | CT-05 - Realizar cadastro anfitrião e imóvel |
 |:--|:--|
 |**Requisitos Associados**|RF-003 – O sistema deve permitir ao hóspede a opção de se tornar anfitrião, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada.  
 |**Objetivo do teste**|- Permitir que o hóspede se cadastre como anfitrião.  <br/> - Permitir o cadastro do imóvel.|
 |**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Realizar _login_. <br/> 4) Clicar no botão "seja um anfitrião". <br/> 5) Cadastrar os dados do imóvel.<br/> 6) Confirmar o cadastro.|
 |**Critérios de Êxito**|- Confirmação do imóvel cadastrado. 
 
-|Caso de Teste | CT-05 - Redefinir senha |
+|Caso de Teste | CT-06 - Redefinir senha |
 |:--|:--|
 |**Requisitos Associados**|RF-007 – O sistema deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado.  
 |**Objetivo do teste**|- Permitir que o usuário redefina sua senha.|
 |**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Acessar a página de _login_. <br/> 4) Clicar no botão "esqueci minha senha". <br/> 5) Digitar _e-mail_ cadastrado e clicar em "redefinir".<br/> 6) Clicar no _link_ de redefinição recebido no _e-mail_ cadastrado.<br/> 7) Inserir a nova senha nos campos indicados e clicar no botão “salvar”. |
 |**Critérios de Êxito**|- Receber _e-mail_ com _link_ para redefinição de senha.<br/> - Realizar novo _login_ após redefinir senha. 
   
-|Caso de Teste | CT-06 - Realizar busca por imóvel |
+|Caso de Teste | CT-07 - Realizar busca por imóvel |
 |:--|:--|
 |**Requisitos Associados**|RF-005 – O sistema deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros.<br/> RF-008 – O sistema deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca.  
 |**Objetivo do teste**|- Permitir que o usuário realize a busca por imóveis de acordo com os filtros selecionados.<br/> - Apresentar nos resultados da busca somente os imóveis disponíveis na data selecionada.|
 |**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Clicar no botão "buscar imóveis". <br/> 4) Selecionar os filtros desejados para a busca.  <br/> 5) Clicar em buscar.|
 |**Critérios de Êxito**|- Apresentar somente os imóveis de acordo com os critérios de busca selecionados.
 
-|Caso de Teste | CT-07 - Realizar reserva do imóvel |
+|Caso de Teste | CT-08 - Realizar reserva do imóvel |
 |:--|:--|
 |**Requisitos Associados**|RF-004 – O sistema deve permitir que o hóspede reserve o imóvel escolhido.<br/> RF-011 – O sistema deve notificar o anfitrião sempre que seu imóvel for reservado.  
 |**Objetivo do teste**|- Permitir que o hóspede reserve um imóvel.<br/> - Notificar anfitrião da reserva do imóvel.|
 |**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Realizar _login_. <br/> 4) Realizar a busca por imóvel. <br/> 5) Selecionar imóvel escolhido.<br/> 6) Clicar no botão "reservar".|
 |**Critérios de Êxito**|- Hóspede realizar confirmação da reserva do imóvel. <br/> - Anfitrião receber e-mail de confirmação da reserva.
 
-|Caso de Teste | CT-08 - Realizar gerenciamento de reservas |
+|Caso de Teste | CT-09 - Realizar gerenciamento de reservas (editar) |
 |:--|:--|
 |**Requisitos Associados**|RF-010 – O sistema deve permitir ao hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade.  
-|**Objetivo do teste**|- Permitir que o hóspede altere as informações da sua reserva. <br/> - Permitir que o hóspede cancele sua reserva.|
-|**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Realizar _login_. <br/> 4) Clicar em “meu perfil” e depois em “minhas reservas”. <br/> 5) Selecionar a reserva e clicar em “alterar reserva”.<br/> 6) Digitar os dados a serem alterados.<br/> 7) Clicar em "salvar alterações".<br/> 8) Clicar em "cancelar reserva" e confirmar o cancelamento. |
-|**Critérios de Êxito**|- Salvar alterações realizadas.<br/> - Confirmar cancelamento da reserva.<br/> - Anfitrião receber _e-mail_ de cancelamento da reserva.
+|**Objetivo do teste**|- Permitir que o hóspede altere as informações da sua reserva.|
+|**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Realizar _login_. <br/> 4) Clicar em “meu perfil” e depois em “minhas reservas”. <br/> 5) Selecionar a reserva e clicar em “alterar reserva”.<br/> 6) Digitar os dados a serem alterados.<br/> 7) Clicar em "salvar alterações".|
+|**Critérios de Êxito**|- Salvar alterações realizadas.
 
-|Caso de Teste | CT-09 - Preencher formulário fale conosco |
+|Caso de Teste | CT-10 - Realizar gerenciamento de reservas (cancelar) |
+|:--|:--|
+|**Requisitos Associados**|RF-010 – O sistema deve permitir ao hóspede gerenciar suas reservas, conforme regras contratuais e disponibilidade.  
+|**Objetivo do teste**|- Permitir que o hóspede cancele sua reserva.|
+|**Passos**|1) Acessar o navegador.<br/> 2) Informar o endereço do _site_. <br/> 3) Realizar _login_. <br/> 4) Clicar em “meu perfil” e depois em “minhas reservas”. <br/> 5) Selecionar a reserva, clicar em "cancelar reserva" e confirmar o cancelamento. |
+|**Critérios de Êxito**|- Confirmar cancelamento da reserva.<br/> - Anfitrião receber _e-mail_ de cancelamento da reserva.
+
+|Caso de Teste | CT-11 - Preencher formulário fale conosco |
 |:--|:--|
 |**Requisitos Associados**|RF-006 – O sistema deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao _site_.  
 |**Objetivo do teste**|- Permitir o envio do formulário fale conosco. |
