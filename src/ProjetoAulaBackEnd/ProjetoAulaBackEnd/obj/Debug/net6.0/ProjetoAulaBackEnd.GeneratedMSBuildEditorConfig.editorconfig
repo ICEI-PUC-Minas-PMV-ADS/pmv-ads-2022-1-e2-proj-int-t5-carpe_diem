@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoAulaBackEnd
 build_property.RootNamespace = ProjetoAulaBackEnd
-build_property.ProjectDir = C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\
+build_property.ProjectDir = d:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\crisn\OneDrive\Desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd
+build_property.MSBuildProjectDirectory = d:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Home/Index.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Home/Privacy.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Create.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Delete.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Details.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Edit.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Index.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/Error.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/_Layout.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/_ViewImports.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/crisn/OneDrive/Desktop/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/_ViewStart.cshtml]
+[d:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
