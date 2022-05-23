@@ -1,65 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cadastro usuário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
+    
+    <link rel="stylesheet" href="components/css/button.css">
     <link rel="stylesheet" href="css/cadastro.css">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylepage.css">
 
-    <title>Cadastro Usuário | CarpeDiem</title>
 
 </head>
 
 <body>
+
     <div id="main" class="container-fluid">
+
         <div class="row">
             <div class="col-12" id="header">
-                <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>                
+                <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
             </div>
         </div>
-        <div class="row">
-            <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
-                <img width="600px" height="500px" src="img/cadastro.png" alt="Cadastrar usuário">
+
+        <div class="grid grid-col-2 md-grid-col-1">
+
+            <div id="" class="flex j-center ai-center">
+                <img class="w-f" src="img/cadastro.png" alt="Cadastrar usuário">
             </div>
-            <div id="cadastro" class="col-sm-6 col-xs-12">
+
+            <div id="cadastro" class="w-full">
+                
                 <form class="formCadastro" name="Cadastro" method="post">
 
                     <legend>
-                        <p> Cadastro</p>
+                        <h1><b>Cadastro</b></h1>
                         <p id="campoObriga">Campos de preenchimento obrigatório</p>
                     </legend>
+
                     <fieldset>
-                        <span>Nome completo</span><br>
-                        <input type="text" name="Nome" value="" required><br>
-                        <span>CPF</span><br>
-                        <input type="name" name="CPF" value="" required><br>
-                        <span>Data de nascimento</span><br>
-                        <input type="date" name="Data de nascimento" value="" required><br>
-                        <span>Endereço</span><br>
-                        <input type="text" name="Endereco" value="" required><br>
-                        <span>Telefone</span><br>
-                        <input type="tel" name="Telefone" value="" required><br>
-                        <span>Email</span><br>
-                        <input type="email" name="Email" value="" required><br>
-                        <span>Senha</span><br>
-                        <input type="password" name="Senha" value="" required><br>
-                        <input class="form-check-input" id="checkcad" type="checkbox" name="LembrarSenha" value="">
-                        <label class="form-check-label" id="nomeCheckCad" for="checkcad">Lembrar-me nesse dispositivo</label><br>
-                        <p id="esqueceu">Esqueceu a senha?</p>
-                        <input id="botaoCad" type="submit" name="Cadastrar" value="CADASTRAR">
                         
-                        <label class="w-full">
-                            <p class="possui_cadastro">Já possui cadastro? <a href="login.html">Faça Login</a></p>
-                        </label>
+                        <span class="font-size-16"><b>Nome Completo</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
+                        
+                        <span class="font-size-16"><b>CPF</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="name" name="CPF" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Data de Nascimento</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="date" name="Data de nascimento" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Endereço</b></span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" name="Endereco" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Telefone</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="tel" name="Telefone" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Email</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="email" name="Email" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Senha</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha" value="" required><br>
+                        
+                        <div class="flex flex-col gap-2 p-2">
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
+                     
+                            <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
+                            <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
+                            <p class="possui_cadastro s-center">Já possui cadastro?<a href="login.html">Faça Login</a></p>
+                        </div>
+
                     </fieldset>
                 </form>
             </div>
