@@ -87,10 +87,19 @@ fieldset > input{
     font-weight: lighter;
 }
 
-#possuiCad{
-    font-size: 14px;
-    padding-right: 110px;
-    font-weight: lighter;
+p.possui_cadastro {
+    text-align: center;
+}
+
+p.possui_cadastro>a {
+    padding: 5px 0 5px 8px;
+    color: #F36E2B;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+p.possui_cadastro>a:hover {
+    margin-left: 5px;
 }
 
 #footer{

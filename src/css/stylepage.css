@@ -47,6 +47,17 @@ a:hover{
 .w-7{width: 700px ;}
 .w-8{width: 800px ;}
 .w-9{width: 900px ;}
+
+
+.w-1p{width: 10% ;}
+.w-2p{width: 20% ;}
+.w-3p{width: 30% ;}
+.w-4p{width: 40% ;}
+.w-5p{width: 50% ;}
+.w-6p{width: 60% ;}
+.w-7p{width: 70% ;}
+.w-8p{width: 80% ;}
+.w-9p{width: 90% ;}
 .w-f{width: 100%  ;}
 
 /* height */
@@ -339,3 +350,60 @@ a:hover{
 .-left-1  {left  : -10px;}
 .-right-1 {right : -10px;}
 .-bottom-1{bottom: -10px;}
+
+/* ok */
+
+.capa{
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.capa-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.input{
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    background-color: #FBCB2B80;
+    border: none;
+    box-shadow: 3px 3px 3px #00000033;
+    outline:none;
+    width: auto;
+    font-weight: 600;   
+}
+
+.checkbox{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px #00000033;
+    border-radius: 100%;
+    margin: 5px;
+    background-color: #FBCB2B80;
+    background-color: transparent;
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+.checks{display: none;}
+
+input[type="checkbox"].checkbox{
+    opacity: 0.5;
+}
+
+input[type="checkbox"]:checked + .checkbox{
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    background-color: #FBCB2B80;
+}
