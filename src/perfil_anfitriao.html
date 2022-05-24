@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/stylepage.css">
+    <link rel="stylesheet" href="css/perfil_anfitriao.css">
+    <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
+
+    <title>Perfil do Anfitrião | CarpeDiem</title>
+</head>
+
+
+<body class="bg-gray">
+    
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
+
+        <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
+    
+        <div class="direct flex md-flex-col">
+            <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
+        </div>         
+        
+    </section>
+
+    <div class="container m-auto flex j-center p-3">
+
+        <!-- banner -->
+        <section>
+
+            <div class="p-1 flex j-between ai-center p-3">
+
+                <div class="flex ai-center gap-3 flex-wrap">
+                    <div class="relative w-2 h-2">
+                        <img src="img/usuario.jpg" class="rounded-full w-f">
+                        <div class="absolute bottom right bg-blue-1 rounded-full">
+                            <a href="perfil_hospede.html"><img width="50px" src="img/edit_note.png"></a>
+                        </div>    
+                    </div>  
+    
+                    <div>
+                        <p class="bold-7 t-black font-size-32">Ana Maria</p>
+                        <p class="font-size-24">Sou Anfitrião</p>
+                    </div>
+
+                </div>
+                
+                
+                <div class="relative w-1 h-1 flex-center">
+                    <a href="index.html"><img src="img/svg/salvar.svg" width="64px"></a>
+                </div>
+
+            </div>            
+
+            
+            <div class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+                Perfil do Anfitrião
+            </div>
+              
+            <!-- dados do hóspede -->
+            <br>
+            <br>
+
+            <main>
+                <form class="w-f p-2">
+                    <div class="j-center ai-center">
+                        <label class="w-full" for="nome"><b class="font-size-16">Nome Completo</b></label>
+                        <input class="w-f input mb-3 mt-1" type="text" id="nome" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+                            
+                        <label class="w-full" for="email"><b class="font-size-16">Email</b></label>
+                        <input class="w-f input mb-3 mt-1" type="email" id="Email" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+                            
+                        <label class="w-full" for="nome"><b class="font-size-16">Senha</b></label>
+                        <input class="w-f input mb-3 mt-1" type="password" id="senha" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+
+                        <label class="w-full" for="nome"><b class="font-size-16">Endereço</b></label>
+                        <input class="w-f input mb-3 mt-1" type="text" id="endereco" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+
+                        <label class="w-full" for="nome"><b class="font-size-16">Telefone</b></label>
+                        <input class="w-f input mb-3 mt-1" type="tel" id="telefone" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+                    </div>
+                </form>
+            </main>
+
+            <br>
+            <br>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Meus Imóveis Cadastrados
+            </div>
+
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
+                    <div class="flex-1 shadow-1"> 
+                        <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
+                         
+                        <p class="bold-6 t-center p-1 t-black bg-blue-2">EDITAR INFORMAÇÕES DO IMÓVEL</p>
+
+                        <p class="bold-6 t-center p-1 t-black bg-blue-2">DESATIVAR IMÓVEL</p>
+
+                        <p class="bold-6 t-center p-1 t-black bg-blue-2">CANCELAR RESERVA</p>
+                    </div>                    
+                </div>                
+            </section>   
+
+            <p id="esqueceu" class="possui_cadastro s-end"><a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a></p>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Imóveis Reservados
+            </div>
+            
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
+                    <div class="flex-1 shadow-1"> 
+                        <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
+                         
+                        <p class="bold-6 t-center p-1 t-black bg-blue-2">EDITAR RESERVA</p>
+                    </div>                    
+                </div>                
+            </section>
+           
+        <section class="w-f py-2 flex j-end">
+            <a class="" href="index.html">
+                <img src="img/svg/sair.svg" width="64px">
+            </a>
+        </section>
+            
+        <div class="copyright p-2 t-center"></div>
+        
+    <script src="javascript/script_anfitriao.js"></script>
+    <script src="javascript/copyright.js"></script>
+
+</body>
+</html>

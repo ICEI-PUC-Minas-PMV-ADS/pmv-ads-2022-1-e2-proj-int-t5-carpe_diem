@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
     
-    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/stylepage.css">
     <link rel="stylesheet" href="css/fale_conosco2.css">
+    <link rel="stylesheet" href="css/stylepage.css">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
 
-    <title>Fale Conosco</title>
+    <title>Fale Conosco | CarpeDiem</title>
 </head>
 
 
@@ -27,9 +29,9 @@
 
         <div class="p-1 flex flex-col j-center ai-center ">
             <div class="relative w-1 h-1">
-                <img src="img/usuario.png" class="rounded-full w-f">
+                <img src="img/usuario.jpg" class="rounded-full w-f">
                 <div class="absolute bottom right bg-blue-1 rounded-full ">
-                    <a href="/EM_DESENVOLVIMENTO"><img width="30px" src="img/edit_note.png"></a>
+                    <a href="perfil_hospede.html"><img width="30px" src="img/edit_note.png"></a>
                 </div>
             </div>
             <p>Ana Maria</p>
@@ -43,24 +45,21 @@
         </legend>
     </div>
 
-    <main>
-        <form class="main">
-            <div class="col-sm-12 col-xs-12">
+    <main class="">
+        <form>
+            <div class="max-w-f flex flex-col p-2 w-5 m-auto">
                 <label class="w-full" for="nome">Nome Completo</label>
-                    <input class="mb-2 bg-yellow-2" type="text" id="nome" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+                <input class="input mb-4" type="text" id="nome" class="input-padrao" required>
                     
                 <label class="w-full" for="email">Email</label>
-                    <input class="mb-2 bg-yellow-2" type="email" id="Email" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
+                <input class="input mb-4" type="email" id="Email" class="input-padrao" required>
                     
                 <label class="w-full" for="message">Deixe aqui sua mensagem</label>
-                    <textarea class="mb-2 bg-yellow-2" cols="70" rows="10" id="message" class="input-padrao" style="height: 250px; width: 500px; border-radius: 32px;" required></textarea>
+                <textarea class="input mb-4" cols="70" rows="10" required></textarea>
                 
+                <button class="btn btn-blue btn-effect">ENVIAR</button>
+
             </div>
-    
-            <div class="col-sm-12 col-xs-12">
-                <a href="cadastro.html"><input type="submit" value="ENVIAR" id="bt_cadastrar_link" class="enviar"></a>
-            </div>
-    
         </form>
     </main>
 
@@ -73,9 +72,9 @@
         </div>
     </section>
 
-    <footer>
-        <p class="copyright">&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
-    </footer>
+    <div class="copyright p-2 t-center"></div>
+
+    <script src="javascript/copyright.js"></script>
 
 </body>
 

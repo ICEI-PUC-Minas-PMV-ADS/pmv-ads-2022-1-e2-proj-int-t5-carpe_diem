@@ -69,6 +69,8 @@ legend > h1{
 
 }
 
+
+
 #botaolog{
     background-color: #6fdde3;
     opacity: 1;
@@ -90,22 +92,6 @@ legend > h1{
     transform: translateY(-7px);
 }
 
-#esqueceu {
-    padding-bottom: 0px;
-    line-height: 2px;
-    text-align: end;
-    padding-right: 10px;
-    font: black;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    transition: margin ease-in-out 200ms;
-}
-
-
-p.possui_cadastro {
-    text-align: center;
-}
-
 p.possui_cadastro>a {
     padding: 5px 0 5px 8px;
     color: #F36E2B;
@@ -115,6 +101,12 @@ p.possui_cadastro>a {
 
 p.possui_cadastro>a:hover {
     margin-left: 5px;
+}
+
+#possuilog{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2px;
+    text-align: center;
 }
 
 

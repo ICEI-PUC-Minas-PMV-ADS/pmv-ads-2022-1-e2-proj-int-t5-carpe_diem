@@ -1,3 +1,9 @@
+@import url('../components/css/checkbox.css');
+@import url('../components/css/button.css');
+@import url('../components/css/card.css');
+
+.quicksand{font-family: 'Quicksand', sans-serif;}
+
 *{
     font-family: 'Quicksand', sans-serif;
     padding: 0px;
@@ -48,6 +54,8 @@ a:hover{
 .w-8{width: 800px ;}
 .w-9{width: 900px ;}
 
+.max-h-f{max-height: 100%; }
+
 
 .w-1p{width: 10% ;}
 .w-2p{width: 20% ;}
@@ -58,7 +66,9 @@ a:hover{
 .w-7p{width: 70% ;}
 .w-8p{width: 80% ;}
 .w-9p{width: 90% ;}
-.w-f{width: 100%  ;}
+.w-f{width: 100% !important; }
+
+.max-w-f{max-width: 100%; }
 
 /* height */
 .h-1{height: 100px ;}
@@ -136,6 +146,12 @@ a:hover{
 .j-around  { justify-content: space-around;  }
 .j-start   { justify-content: flex-start;    }
 .j-end     { justify-content: flex-end;      }
+
+.flex-center{ display: flex; justify-content: center; align-items: center; }
+
+.s-center { align-self: center; }
+.s-start { align-self: flex-start; }
+.s-end   { align-self: flex-end;  }
 
 .flex-col { flex-direction: column;}
 
@@ -359,6 +375,7 @@ a:hover{
     display: flex;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    border-radius: 2em;
 }
 
 .capa-item{
@@ -371,7 +388,7 @@ a:hover{
 
 .input{
     padding: 1em;
-    margin: 0.5em;
+    /* margin: 0.5em; */
     border-radius: 1em;
     background-color: #FBCB2B80;
     border: none;
@@ -381,29 +398,13 @@ a:hover{
     font-weight: 600;   
 }
 
-.checkbox{
+.square{
     width: 30px;
     height: 30px;
-    display: inline-block;
-    vertical-align: middle;
-    box-shadow: 3px 3px 3px #00000033;
-    border-radius: 100%;
-    margin: 5px;
-    background-color: #FBCB2B80;
-    background-color: transparent;
-    opacity: 0.5;
-    transition: 0.1s;
-}
-
-.checks{display: none;}
-
-input[type="checkbox"].checkbox{
-    opacity: 0.5;
-}
-
-input[type="checkbox"]:checked + .checkbox{
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-    background-color: #FBCB2B80;
+    color: black;
+    padding:3px;
+    display: inline-flex;;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }

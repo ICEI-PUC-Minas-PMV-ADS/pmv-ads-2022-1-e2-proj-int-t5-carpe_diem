@@ -5,69 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="stylesheet" href="css/stylepage.css">
-    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="components/css/button.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    
+    <link rel="stylesheet" href="css/stylepage.css">
+
     <title>Login | CarpeDiem</title>
+
+
 </head>
 
-<body class="bg-gray">
+<body>
+
     <div id="main" class="container-fluid">
-        <section>
-            <div class="row">
-                <div class="col-12" id="header">
-                    <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
-                </div>
+
+        <div class="row">
+            <div class="col-12" id="header">
+                <a href="index_logar.html"><img src="img/Logo_Final_382x148.png"></a>
             </div>
-        </section>
-        <section>
-
-            <div class="row">
-                <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
-                    <img width="600px" height="500px" src="img/login.png" alt="Login">
-                </div>
-
-                <div id="cadastro" class="col-sm-6 col-xs-12">
-                    <form class="formCadastro" name="Login" method="post"
-                        style="margin-left: 100px; float: left; margin-top: 100px;">
-                        <legend>
-                            <p>Login</p>
-                        </legend>
-                        <fieldset>
-                            <span>Email</span><br>
-                            <input type="text" name="Email" value="" required><br>
-                            <span>Senha</span><br>
-                            <input type="text" name="Senha" value="" required><br>
-                            <input id="checklog" type="checkbox" name="LembrarSenha" value="">
-                            <label id="nomechecklog" for="checklog">Lembrar-me nesse dispositivo</label><br><br>
-                            <p id="esqueceu"><a href="#">Esqueceu a senha?</a></p>
-                            <br><input id="botaolog" type="submit" name="cadastrar" value="ENTRAR">
-                            <br><br>
-                            
-                            <label class="w-full">
-                                <p class="possui_cadastro">Ainda não tem Conta?<a href="cadastro.html">Cadastre-se</a></p>
-                            </label>
-                        </fieldset>
-                    </form>
-                </div>
-        </section>
-    </div>
-    <section>
-        <div class="col-12" id="footer">
-            <p>&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
         </div>
-    </section>
+
+        <div class="grid grid-col-2 md-grid-col-1">
+
+            <div id="" class="flex j-center ai-center">
+                <img class="max-w-f" src="img/imagem-2.svg" alt="Login usuário">
+            </div>
+
+            <div id="login" class="w-full">
+                
+                <form class="p-3" name="login" method="post">
+
+                    <legend>
+                        <h1 class="t-center py-4"><b>Login</b></h1>
+                    </legend>
+
+                    <fieldset>
+                        
+                        <span class="font-size-16"><b>Email</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
+                        
+                        <span class="font-size-16"><b>Senha</b></span>
+                        <input style="width: 100%" class="input w-f mb-4" type="name" name="CPF" value="" required><br>
+                        
+                        
+                        <div class="flex flex-col gap-2 p-2">
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
+                     
+                            <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
+                            <button class="btn btn-blue btn-effect w-f">ENTRAR</button>
+                            <p class="possui_cadastro s-center">Ainda não tem Conta?<a href="cadastro.html">Cadastre-se</a></p>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        
+        <div class="copyright p-2 t-center"></div>
     </div>
+
+    <script src="javascript/copyright.js"></script>
+    
 </body>
 
 </html>
