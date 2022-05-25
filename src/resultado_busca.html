@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
     
-    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/stylepage.css">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
 
-    <title>Resultado da Busca</title>
+    <title>Resultado da Busca | CarpeDiem</title>
 </head>
 
 
@@ -22,13 +24,13 @@
     <!-- topo -->
     <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
 
-        <img src="img/Logo_Final_382x148.png" ></li>
+        <a href="index_logado.html"><img src="img/Logo_Final_382x148.png"></a>
 
         <div class="p-1 flex flex-col j-center ai-center ">
             <div class="relative w-1 h-1">
-                <img src="img/usuario.png" class="rounded-full w-f">
+                <img src="img/usuario.jpg" class="rounded-full w-f">
                 <div class="absolute bottom right bg-blue-1 rounded-full ">
-                    <a href="/editar"><img width="30px" src="img/edit_note.png"></a>
+                    <a href="perfil_hospede.html"><img width="30px" src="img/edit_note.png"></a>
                 </div>
             </div>
             <p>Ana Maria</p>
@@ -53,7 +55,7 @@
                 <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
                     <div class="flex-1 shadow-1"> 
                         <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
-                        <p class="p-1 bold-7 t-black t-center font-size-5">Sul</p>     
+                        <p class="p-1 bold-7 t-black t-center font-size-5">Casa em Vila Velha - ES</p>     
                         <div class="grid grid-col-2 p-1">
                             <div>
                                 <p class="flex"><span class="material-symbols-outlined">local_see</span> Praia</p>
@@ -75,13 +77,10 @@
             
         </div>
 
-        <section>            
-            <div class="flex j-center p-2">
-                © Copyright <span class="px-1" id="ano">2</span> Carpe Diem - Todos os Direitos Reservados
-            </div>
-        </section>
+        <div class="copyright p-2 t-center"></div>
         
-    <script src="javascript/script_resultado.js"></script>
+    <script src="javascript/script_resultadobusca.js"></script>
+    <script src="javascript/copyright.js"></script>
 
 </body>
 </html>

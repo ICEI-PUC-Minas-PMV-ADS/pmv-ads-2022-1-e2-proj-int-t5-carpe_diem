@@ -13,9 +13,11 @@
     
     <link rel="stylesheet" href="css/login_cadastro.css">
 
-    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     
-    <title>Login_Cadastro</title>
+    <title>Login_Cadastro | CarpeDiem</title>
 
 </head>
 
@@ -23,7 +25,7 @@
 <body>    
     <header>  
         <div class="logomarca">
-            <img src="img/Logo_Final_382x148.png" alt="logomarca" widht="382" height="148">
+            <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
         </div>
     </header>
             
@@ -43,29 +45,30 @@
         <form>
             <div class="col-sm-12 col-xs-12">
                 <label class="w-full">
-                    <span>Email</span>
+                    <span class="bold-7 t-black">Email</span>
                     <input class="m-y" type="email" id="email" name="Email">
                 </label>
 
                 <label class="w-full">
-                    <span>Senha</span>
+                    <span class="bold-7 t-black">Senha</span>
                     <input class="m-y" type="password" id="password" name="Senha">
                 </label>
             </div>
 
+            <div class="form-check">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    <div class="checkbox-item"></div>
+                    <span>Aceito os Termos de Uso e Política de Privacidade</span>
+                </label>
+            </div>
             <div class="col-sm-12 col-xs-12">
-                
-                <div class="form-check">
-                    <label>
-                        <span><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
-                        <div>Aceito os Termos de Uso e Política de Privacidade</div>
-                    </label>
                 </div>
 
                 <a href="cadastro.html"><input type="submit" value="CRIAR CONTA" id="bt_cadastrar_link"></a>
-
+                
                 <label class="w-full">
-                    <p class="possui_cadastro">Já possui cadastro? <a href="#">Faça Login</a></p>
+                    <p class="possui_cadastro">Já possui cadastro? <a href="login.html">Faça Login</a></p>
                 </label>
             </div>
 
@@ -74,9 +77,9 @@
     </div>
 
 
-    <footer>
-        <p class="copyright">&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
-    </footer>
+    <div class="copyright p-2 t-center"></div>
+
+    <script src="javascript/copyright.js"></script>
 
 </body>
 

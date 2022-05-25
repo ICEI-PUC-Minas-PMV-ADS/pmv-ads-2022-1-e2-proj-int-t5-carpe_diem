@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
 #main{
     background-color: #F1ECE9;
 }
@@ -25,16 +27,15 @@
     font-size: 16px;
 }
 
-fieldset{
+/* fieldset{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 30px;
     position: relative;
     margin-left: 130px;
-    
-}
+} */
 
-fieldset > input{
+/* fieldset > input{
     width: 400px;
     height: 30px;
     background-color: #fbcb2b;
@@ -42,7 +43,7 @@ fieldset > input{
     border: 1px;
     border-style: none;
     border-radius: 8px;
-}
+} */
 
 #botaoCad{
     background-color: #6fdde3;
@@ -77,7 +78,7 @@ fieldset > input{
     font-size: 14px;
     font-weight: lighter;
 }
-
+/* 
 #esqueceu{
     padding-bottom: 0px;
     line-height: 1px;
@@ -85,12 +86,23 @@ fieldset > input{
     padding-left: 240px;
     font-size: 14px;
     font-weight: lighter;
-}
+} */
 
 #possuiCad{
     font-size: 14px;
     padding-right: 110px;
     font-weight: lighter;
+}
+
+p.possui_cadastro>a {
+    padding: 5px 0 5px 8px;
+    color: #F36E2B;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+p.possui_cadastro>a:hover {
+    margin-left: 5px;
 }
 
 #footer{
@@ -112,24 +124,25 @@ fieldset > input{
         
     }
 
-    fieldset{
+    /* fieldset{
         margin-left:  0;
         text-align: center;
-    }
-    fieldset > input{
+    } */
+    
+    /* fieldset > input{
         width: 300px;
-    }
+    } */
 
     #nomeCheckCad{
         font-size: 12px;
     }
     
-    #esqueceu{
+    /* #esqueceu{
         padding-right: 40px;
         padding-left: 40px;
         line-height: 0.5px;
         font-size: 12px;
-    }
+    } */
 
     #footer{
         font-size: 12px;

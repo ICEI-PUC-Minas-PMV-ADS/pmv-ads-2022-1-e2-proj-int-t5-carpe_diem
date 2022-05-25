@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
     
-    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/stylepage.css">
     <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
 
-    <title>Homepage Carpe Diem</title>
+    <title>Homepage | Carpe Diem</title>
 </head>
 
 
@@ -25,20 +27,11 @@
         <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
 
         <div class="direct flex md-flex-col">
-            <a href="/anuncie" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
-            <a href="/aluguel" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
+            <a href="cadastrar_imovel.html" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
+            <a href="login_cadastro.html" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
             <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
-        </div>
-        
-
-        <div class="p-1 flex flex-col j-center ai-center ">
-            <div class="relative w-1 h-1">
-                <img src="img/usuario.png" class="rounded-full w-f">
-                <div class="absolute bottom right bg-blue-1 rounded-full ">
-                    <a href="/EM_DESENVOLVIMENTO"><img width="30px" src="img/edit_note.png"></a>
-                </div>
-            </div>
-            <p>Ana Maria</p>
+            <a href="login.html" class="p-1 m-1 t-black bold-7">Login</a>
+            <a href="cadastro.html" class="p-1 m-1 t-black bold-7">Cadastre-se<img width="25px" src="img/svg/adicionar-usuario-1.svg"></a>                        
         </div>
 
     </section>
@@ -48,11 +41,11 @@
         <!-- banner -->
         <section>
             
-            <div id="capa" class="o-hidden h-4 smooth">
-                <img class="h-4 w-f object-cover" src="img/nordeste-2.jpg">
-                <img class="h-4 w-f object-cover" src="img/nordeste-3.jpg">
-                <img class="h-4 w-f object-cover" src="img/nordeste-4.jpg">
-                <img class="h-4 w-f object-cover" src="img/nordeste-5.jpg">
+            <div id="capa" class="capa">
+                <img class="capa-item" src="img/nordeste-2.jpg">
+                <img class="capa-item" src="img/nordeste-3.jpg">
+                <img class="capa-item" src="img/nordeste-4.jpg">
+                <img class="capa-item" src="img/nordeste-5.jpg">
             </div>
 
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
@@ -62,30 +55,31 @@
             <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
                 
                 <div>
-                    <p class="bold-8 m-0">Cidade Destino</p>
-                    <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Cidade destino">   
+                    <p class="bold-8 m-0 p-1">Cidade Destino</p>
+                    <input class="input" placeholder="Cidade">
                 </div>
                 <div>
-                    <p class="bold-8 m-0">Check-In</p>
-                    <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Check-in">          
+                    <p class="bold-8 m-0 p-1">Check-In</p>
+                    <input class="input" placeholder="dd/mm/aaaa">
                 </div>
                 <div>
-                    <p class="bold-8 m-0">Check-Out</p>
-                    <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Check-out">         
+                    <p class="bold-8 m-0 p-1">Check-Out</p>
+                    <input class="input" placeholder="dd/mm/aaaa">
                 </div>
                 <div>
-                    <p class="bold-8 m-0">Número de Hóspedes</p>
-                    <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Número de hóspedes">
+                    <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
+                    <input class="input" placeholder="Quantidade">
                 </div>
                 <div>
-                    <p class="bold-8 m-0">Acessibilidade</p>
-                    <input class="bg-yellow-2 bold-7 p-1 border-none outline-none" placeholder="Acessibilidade">    
+                    <p class="bold-8 m-0 p-1">Acessibilidade</p>
+                    <input class="input" placeholder="Acessibilidade">
                 </div>
                 
                     <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-1 t-white">search</span></a>
                                     
             </div>
-                   
+
+            
 
             <!-- bloquinhos -->
             <section>
@@ -103,27 +97,24 @@
 
             <section>
                 <h1 class="py-2 t-black bold-8">Novidades para Locação</h1>
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
-                    <div class="flex-1 shadow-1"> 
-                        <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
-                        <p class="p-1 bold-7 t-black t-center font-size-5">Sul</p>     
-                        <div class="grid grid-col-2 p-1">
-                            <div>
-                                <p class="flex"><span class="material-symbols-outlined">local_see</span> Praia</p>
-                                <p class="flex"><span class="material-symbols-outlined">bed</span> 1 Quarto</p>
-                            </div>
-                            <div>
-                                <p class="flex"><span class="material-symbols-outlined">person</span> 5 hóspedes</p>
-                                <p class="flex"><span class="material-symbols-outlined">bathroom</span> 1 Banheiro</p>
-                            </div>
-                        </div> 
-                        <p class="bold-6 t-center p-1 t-black">A partir de 180</p>
-                    </div>
-                </div>
-            </section>
 
-            
-            
+                <div id="cards_places" class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
+
+                    <div class="card" id="div_card">
+                        <img class="card-top" src="img/hotel-1.jpg">
+                        <div class="card-body">
+                            <div class="card-t card-center card-title">Porto Seguro</div>
+                            <div class="card-m">
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">local_see</span>Praia </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">person</span>5 hóspedes </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bed</span>1 Quarto </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bathroom</span>1 Banheiro </div>
+                            </div>
+                            <div class="card-b card-center"><b>A partir de R$ 180 / noite</b></div>
+                        </div>
+                    </div>
+                </div>                
+            </section>      
         </div>
 
         <section>
@@ -131,21 +122,21 @@
                 <div>
                     <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Política de privacidade</p></a>
                     <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Termos e condições de uso</p></a>
-                    <a href="/src/fale_conosco2.html"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
+                    <a href="fale_conosco2.html"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
                 </div>
                 
                 <div class="flex gap-3">
-                    <div><a href="/EM_DESENVOLVIMENTO"><i class="gsicon-instagram font-size-48 t-white" ></i></a></div>
-                    <div><a href="/EM_DESENVOLVIMENTO"><i class="gsicon-facebook font-size-48 t-white"  ></i></a></div>
-                    <div><a href="/EM_DESENVOLVIMENTO"><i class="gsicon-twitter font-size-48 t-white"   ></i></a></div>
+                    <div><a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white"></i></a></div>
+                    <div><a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"></i></a></div>
+                    <div><a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"></i></a></div>
                 </div>
             </div>
-            <div class="flex j-center p-2">
-                © Copyright <span class="px-1" id="ano">2</span> Carpe Diem - Todos os Direitos Reservados
-            </div>
+
+            <div class="copyright p-2 t-center"></div>
         </section>
         
     <script src="javascript/script.js"></script>
+    <script src="javascript/copyright.js"></script>
 
 </body>
 </html>

@@ -22,12 +22,12 @@ h1 {
     font-weight: bold;
     margin-bottom: 32px;
     text-align: center;
-    line-height: 18px;
+    /* line-height: 18px; */
     font-family: 'Quicksand', sans-serif;
     padding: 40px;
 }
 
-main {
+/* main {
     width: 940px;
     margin: 0 auto;
     display: flex;
@@ -38,16 +38,16 @@ main {
     max-width: 100%;
     margin: auto;
     overflow: hidden;
-}
+} */
 
 /* enviar*/
-form {
+/* form {
     margin: 40px 0;
     width: 500px;
     max-width: 100%;
     padding: 10px;
     padding-left: 220px;
-}
+} */
 
 form label {
     display: block;
@@ -58,14 +58,14 @@ form label {
     color: black;
 }
 
-/*caixinhas preencher*/
+/* caixinhas preencher
 form label input {
     width: 400px;
     height: 30px;
     border: 1px;
     border-style: none;
     border-radius: 8px;
-}
+} */
 
 form a {
     padding-left: 120px;
