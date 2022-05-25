@@ -20,7 +20,7 @@ Quadro 10 - Registro dos Testes
 
 <br>
 
-Figura 39 - Caso de Teste 01
+Figura 42 - Caso de Teste 01
 <br>
 ![ImgCad](https://user-images.githubusercontent.com/89617881/168495789-7ed335ca-89b5-4318-b6fb-cf1dc158fa50.png)
 <br>
@@ -30,7 +30,7 @@ Fonte: Elaborado pelos autores
 
 <br>
 
-Figura 40 - Caso de Teste 03
+Figura 43 - Caso de Teste 03
 
 ![ImgEditar](https://user-images.githubusercontent.com/89617881/168496040-fdc8e1fe-a8df-4c86-ab62-397d6a6604bd.png)
 
