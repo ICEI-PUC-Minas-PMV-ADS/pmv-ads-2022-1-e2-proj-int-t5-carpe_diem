@@ -1,0 +1,30 @@
+.checkbox > input{
+    display: none;
+}
+
+.checkbox > input:checked + .checkbox-item{
+    background-image: url(../icons/checked.svg);
+    box-shadow: 0px 0px 0px 3px #FBCB2B80;
+    background-color: #FBCB2B80;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-item{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FBCB2B80; */
+    box-shadow: 0px 0px 0px 3px #FBCB2B99;
+    border-radius: 0.3em;
+}
+
+.checkbox > span{
+    padding-left: 0.7em;
+}
