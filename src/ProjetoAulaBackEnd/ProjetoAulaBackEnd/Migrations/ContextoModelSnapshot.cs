@@ -16,7 +16,7 @@ namespace ProjetoAulaBackEnd.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.4")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -60,6 +60,9 @@ namespace ProjetoAulaBackEnd.Migrations
                     b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TipoUsuario")
+                        .HasColumnType("int");
 
                     b.HasKey("IdHospede");
 

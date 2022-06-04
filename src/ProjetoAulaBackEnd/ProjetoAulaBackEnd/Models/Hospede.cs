@@ -33,5 +33,16 @@ namespace ProjetoAulaBackEnd.Models
         [Required(ErrorMessage = ("Obrigatório repetir a  senha"))]
         public string Senha2 { get; set; }
 
+        [Display(Name = "Tipo de Usuário")]
+        public TipoUsuario TipoUsuario { get; set; }
+
+    }
+    public enum TipoUsuario
+    {
+        [Display(Name = "Hóspede")]
+        TipoHospede,
+        [Display(Name = "Anfitrião")]
+        TipoAnfitriao
+
     }
 }

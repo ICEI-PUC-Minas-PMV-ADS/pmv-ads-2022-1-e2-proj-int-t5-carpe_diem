@@ -4,9 +4,8 @@
     "\\src",
     "\\src\\ProjetoAulaBackEnd",
     "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views\\Home"
+    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Models"
   ],
-  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Models\\Contexto.cs",
   "PreviewInSolutionExplorer": false
 }
