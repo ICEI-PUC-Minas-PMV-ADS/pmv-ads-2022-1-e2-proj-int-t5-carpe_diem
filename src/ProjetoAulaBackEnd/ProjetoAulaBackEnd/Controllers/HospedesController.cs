@@ -54,9 +54,9 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
+        public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2,TipoUsuario")] Hospede hospede)
         {
-           
+            
             if (hospede.Senha != hospede.Senha2)
             {
               ViewBag.Message= "Senhas não conferem. Digite novamente";
@@ -67,6 +67,7 @@ namespace ProjetoAulaBackEnd.Controllers
                 {
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
+                    hospede.TipoUsuario = 0;
                     _context.Add(hospede);
                     await _context.SaveChangesAsync();
                     ViewBag.Message = "Cadastro realizado com sucesso!";
