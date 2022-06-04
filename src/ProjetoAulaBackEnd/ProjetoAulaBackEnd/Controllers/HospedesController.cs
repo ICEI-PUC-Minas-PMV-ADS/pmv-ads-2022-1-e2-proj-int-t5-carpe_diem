@@ -19,6 +19,8 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
+      
+
         // GET: Hospedes
         public async Task<IActionResult> Index()
         {
