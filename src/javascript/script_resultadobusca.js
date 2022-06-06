@@ -42,11 +42,5 @@ card('img/hotel-3.jpg', 'Praia', "São Luiz - MA"      , 1, 5, 1, 130, 'detalhes
 card('img/hotel-4.jpg', 'Praia', "Florianópolis - SC" , 1, 5, 1, 980, 'detalhes_imovel.html')
 
 
-// slideshow
-setInterval(()=>{ capa.scrollTo(0,0*400) },2*1000)
-setInterval(()=>{ capa.scrollTo(0,1*400) },4*1000)
-setInterval(()=>{ capa.scrollTo(0,2*400) },6*1000)
-setInterval(()=>{ capa.scrollTo(0,3*400) },8*1000)
-
 d = new Date()
 ano.innerHTML = d.getFullYear()
