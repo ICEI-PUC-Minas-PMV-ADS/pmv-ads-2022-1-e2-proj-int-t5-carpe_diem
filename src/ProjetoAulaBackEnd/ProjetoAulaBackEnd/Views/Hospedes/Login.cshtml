@@ -12,13 +12,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
     <link rel="stylesheet" href="~/css/login.css">
+
+    <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    -->
     <title>Login | CarpeDiem</title>
 
 </head>
@@ -45,6 +56,7 @@
 
                     <legend>
                         <h1 class="t-center py-4"><b>Login</b></h1>
+                        <h5 id="erro">@ViewBag.Message</h5>
                     </legend>
 
                     <fieldset>
@@ -62,11 +74,9 @@
                      
                             <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
                             <button class="btn btn-blue btn-effect w-f">ENTRAR</button>
+                            <p class="p-1 m-1 t-black bold-7">Ainda não tem Conta?<a asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se</a></p>
                         </div>
-                        <div>
-                            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Create">Ainda não tem Conta?Cadastre-se</a>
-                        </div>
-
+            
                     </fieldset>
                     <div>
                          @ViewBag.Message
@@ -78,7 +88,7 @@
         <div class="copyright p-2 t-center"></div>
     </div>
 
-    <script src="javascript/copyright.js"></script>
+    <script src="~/js/copyright.js"></script>
     
 </body>
 

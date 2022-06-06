@@ -1,7 +1,7 @@
 ﻿@model ProjetoAulaBackEnd.Models.Hospede
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Cadrastro usuário";
 }
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -86,7 +86,7 @@
                      
                             <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
                             <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
-                            <p class="possui_cadastro s-center">Já possui cadastro?<a href="login.html">Faça Login</a></p>
+                            <p class="possui_cadastro s-center">Já possui cadastro?<a asp-area="" asp-controller="Hospedes" asp-action="Login">Faça Login</a></p>
                         </div>
                     </fieldset>
                 </form>
