@@ -2,7 +2,7 @@
 
 function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, link){
 
-    let card_html = `<div class="card" id="div_card">
+    let card_html = `<div class="card shadow-1 hover:shadow-3 transition" id="div_card">
         <img class="card-top" src="${img}">
         <div class="card-body">
             <div class="card-t card-center card-title">${lugar}</div>
@@ -28,7 +28,6 @@ card('img/hotel-2.jpg', 'Praia', "Vitória"       , 1, 5, 1, 280, 'http://www.go
 card('img/hotel-3.jpg', 'Praia', "São Luiz"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
 card('img/hotel-4.jpg', 'Praia', "Florianópolis" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
 cards_places.children[0].remove()
-
 // slideshow
 n = 0
 quantity = capa.children.length

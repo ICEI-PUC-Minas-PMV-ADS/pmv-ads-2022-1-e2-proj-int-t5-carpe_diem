@@ -4,81 +4,107 @@
     ViewData["Title"] = "Create";
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro usuário</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
-    <link rel="stylesheet" href="~/css/cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/cadastro.css"> 
+
+    <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    -->
+    <title>Cadastro usuário | CarpeDiem</title>
 </head>
 
 <body>
     <div id="main" class="container-fluid">
+        
         <div class="row">
             <div class="col-12" id="header">
-                <img src="~/img/Logo_Final_382x148.png" alt="Logo com coqueiro e pôr-do-sol">
+                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
             </div>
         </div>
-        <div class="row">
-            <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
-                <img width="600px" height="500px" src="~/img/cadastro.png" alt="Cadastrar usuário">
+
+        <div class="grid grid-col-2 md-grid-col-1">
+            <div id="" class="flex j-center ai-center">
+                <img class="w-f pr-2" src="~/img/imagem-3.svg" alt="Cadastrar usuário">
             </div>
-            <div id="cadastro" class="col-sm-6 col-xs-12">
+            
+            <div id="cadastro" class="w-full">
                 <form class="formCadastro" name="Cadastro" method="post">
 
                     <legend>
-                        <p> Cadastro</p>
+                        <h1><b>Cadastro</b></h1>
                         <p id="campoObriga">Campos de preenchimento obrigatório</p>
                         <h5 id="erro">@ViewBag.Message</h5>
                     </legend>
+
                     <fieldset>
-                        <span>Nome completo</span><br>
-                        <input type="text" name="Nome" value="" required><br>
-                        <span>CPF</span><br>
-                        <input type="text" id="campoCPF" name="CPF" value="" required><br>
-                        <span>Data de nascimento</span><br>
-                        <input type="text" id="campoData" name="DataDeNascimento" value="" required><br>
-                        <span>Endereço</span><br>
-                        <input type="text"  name="Endereco" value="" required><br>
-                        <span>Telefone</span><br>
-                        <input type="tel" id="campoTelefone" name="Telefone" value="" required><br>
-                        <span>Email</span><br>
-                        <input type="email" name="Email" value="" required><br>
-                        <span>Senha</span><br>
-                        <input type="password" name="Senha" value="" required><br>
-                        <span>Confirme a senha</span><br>
-                        <input type="password" name="Senha2" value="" required><br>
-                        <input class="form-check-input" id="checkcad" type="checkbox" name="LembrarSenha" value="">
-                        <label class="form-check-label" id="nomeCheckCad" for="checkcad">Lembrar-me nesse dispositivo</label><br>
-                        <p id="esqueceu">Esqueceu a senha?</p>
-                        <input id="botaoCad" type="submit" name="Cadastrar" value="CADASTRAR">
-                        <p id="possuiCad">Já possui cadastro? Faça login.</p>
+                        <span class="font-size-16 bold-6">Nome completo</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">CPF</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Data de nascimento</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoData" name="DataDeNascimento" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Endereço</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text"  name="Endereco" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Telefone</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="tel" id="campoTelefone" name="Telefone" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Email</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="email" name="Email" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Senha</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha" value="" required><br>
+                        
+                        <span class="font-size-16 bold-6">Confirme a senha</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha2" value="" required><br>
+                        
+                        <div class="flex flex-col gap-2 p-2">
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
+                     
+                            <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
+                            <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
+                            <p class="possui_cadastro s-center">Já possui cadastro?<a href="login.html">Faça Login</a></p>
+                        </div>
                     </fieldset>
                 </form>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12" id="footer">
-                <p>&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
-            </div>
-        </div>
+        <div class="copyright p-2 t-center"></div>
+
         <script>
             jQuery(function($){
             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
             $("#campoTelefone").mask("(99)99999-9999",{placeholder:"(XX)XXXXX-XXXX"});
            });
-</script>
+        </script>
     </div>
+
+    <script src="~/js/copyright.js"></script>
 </body>
 
 </html>

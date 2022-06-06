@@ -28,18 +28,11 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, lin
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 'Casa em Vila Velha - ES', "Praia Morro"  , 1, 5, 1, 180, 'http://www.youtube.com')
-card('img/hotel-2.jpg', 'Casa em Vila Velha - ES', "Vitória"       , 1, 5, 1, 280, 'http://www.google.com')
-card('img/hotel-3.jpg', 'Casa em Vila Velha - ES', "São Luiz"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
-card('img/hotel-4.jpg', 'Casa em Vila Velha - ES', "Florianópolis" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
-
-
-
-// slideshow
-setInterval(()=>{ capa.scrollTo(0,0*400) },2*1000)
-setInterval(()=>{ capa.scrollTo(0,1*400) },4*1000)
-setInterval(()=>{ capa.scrollTo(0,2*400) },6*1000)
-setInterval(()=>{ capa.scrollTo(0,3*400) },8*1000)
+card('img/hotel-1.jpg', 'Casa em Vila Velha - ES', "Praia Morro"  , 1, 5, 1, 180,  'detalhes_imovel.html')
+card('img/hotel-2.jpg', 'Casa em Vila Velha - ES', "Vitória"       , 1, 5, 1, 280, 'detalhes_imovel.html')
+card('img/hotel-3.jpg', 'Casa em Vila Velha - ES', "São Luiz"      , 1, 5, 1, 130, 'detalhes_imovel.html')
+card('img/hotel-4.jpg', 'Casa em Vila Velha - ES', "Florianópolis" , 1, 5, 1, 980, 'detalhes_imovel.html')
 
 d = new Date()
 ano.innerHTML = d.getFullYear()
+

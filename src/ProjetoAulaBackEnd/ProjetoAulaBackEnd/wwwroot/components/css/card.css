@@ -9,6 +9,7 @@
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 2px rgb(0 0 0 / 24%);
     display: grid;
     grid-template-rows: 4fr 5fr;
+    
 }
 
 .card-top{
