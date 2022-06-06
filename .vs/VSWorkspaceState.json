@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\ProjetoAulaBackEnd"
   ],
-  "SelectedNode": "\\ProjetoAulaBackEnd.sln",
+  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.sln",
   "PreviewInSolutionExplorer": false
 }
