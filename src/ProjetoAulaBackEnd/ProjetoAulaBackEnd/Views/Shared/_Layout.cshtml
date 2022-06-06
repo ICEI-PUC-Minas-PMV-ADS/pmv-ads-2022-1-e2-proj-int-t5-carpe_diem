@@ -28,6 +28,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Index">Lista de Hóspedes</a>
                         </li>
                     </ul>
+                    <ul class="navbar-nav">
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Login">Login</a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -42,10 +57,11 @@
         <div class="container">
             &copy; 2022 - ProjetoAulaBackEnd - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>-->
-    </footer>
+    <footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    </footer>
 </body>
 </html>

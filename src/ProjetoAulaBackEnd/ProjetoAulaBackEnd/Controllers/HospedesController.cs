@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +19,70 @@ namespace ProjetoAulaBackEnd.Controllers
         public HospedesController(Contexto context)
         {
             _context = context;
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([Bind("Email, Senha")] Hospede hospede)
+        {
+           
+            var user = await _context.Hospedes
+                .FirstOrDefaultAsync(m => m.Email == hospede.Email);
+
+            if (user == null)
+            {
+                ViewBag.Message = "Email e/ou Senha inválidos!";
+                return View();
+            }
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(hospede.Senha, user.Senha);
+            
+            if (!isSenhaOk)
+            {
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim(ClaimTypes.Role, user.TipoUsuario.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email)
+                };
+
+                var userIdentity = new ClaimsIdentity(claims, "login");
+
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);    
+
+                return Redirect("/");
+
+            }
+
+            ViewBag.Message = "Email e/ou Senha inválidos";
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Hospedes");
+        }
+
+
+        public IActionResult AcessoNegado()
+        {
+            return View();
         }
 
         // GET: Hospedes
