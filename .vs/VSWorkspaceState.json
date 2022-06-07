@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\ProjetoAulaBackEnd",
+    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd",
+    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Controllers"
   ],
-  "SelectedNode": "\\ProjetoAulaBackEnd.sln",
+  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Controllers\\HospedesController.cs",
   "PreviewInSolutionExplorer": false
 }
