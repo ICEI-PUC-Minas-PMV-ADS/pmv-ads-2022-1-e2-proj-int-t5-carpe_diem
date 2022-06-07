@@ -34,7 +34,7 @@
             <a href="cadastrar_imovel.html" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
             <a href="login_cadastro.html" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
             <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
-            <a href="login.html" class="p-1 m-1 t-black bold-7">Login</a>
+            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Login">Login</a>
             <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se<img width="25px" src="img/svg/adicionar-usuario-1.svg"></a>
         </div>
 
@@ -77,8 +77,7 @@
                                 
                     <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>
                                     
-            </div>
-     
+            </div>     
             
 
             <!-- bloquinhos -->
@@ -121,7 +120,7 @@
         <section>
             <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
                 <div>
-                    <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Política de privacidade</p></a>
+                    <a class="bold-7 font-size-5 t-white" asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidade</a>
                     <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Termos e condições de uso</p></a>
                     <a href="fale_conosco2.html"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
                 </div>

@@ -1,7 +1,7 @@
 ﻿@model ProjetoAulaBackEnd.Models.Hospede
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Cadrastro usuário";
 }
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,15 +20,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="~/components/css/button.css">
-    <link rel="stylesheet" href="~/css/cadastro.css">
-    
+    <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/cadastro.css"> 
 
-    <!--
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    -->
+    
     <title>Cadastro usuário | CarpeDiem</title>
 </head>
 
@@ -37,7 +37,7 @@
         
         <div class="row">
             <div class="col-12" id="header">
-                <a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>
+                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
             </div>
         </div>
 
@@ -56,28 +56,28 @@
                     </legend>
 
                     <fieldset>
-                        <span class="font-size-16">Nome completo</span><br>
+                        <span class="font-size-16 bold-6">Nome completo</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
                         
-                        <span class="font-size-16">CPF</span><br>
+                        <span class="font-size-16 bold-6">CPF</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" value="" required><br>
                         
-                        <span class="font-size-16">Data de nascimento</span><br>
+                        <span class="font-size-16 bold-6">Data de nascimento</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" id="campoData" name="DataDeNascimento" value="" required><br>
                         
-                        <span class="font-size-16">Endereço</span><br>
+                        <span class="font-size-16 bold-6">Endereço</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text"  name="Endereco" value="" required><br>
                         
-                        <span class="font-size-16">Telefone</span><br>
+                        <span class="font-size-16 bold-6">Telefone</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="tel" id="campoTelefone" name="Telefone" value="" required><br>
                         
-                        <span class="font-size-16">Email</span><br>
+                        <span class="font-size-16 bold-6">Email</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="email" name="Email" value="" required><br>
                         
-                        <span class="font-size-16">Senha</span><br>
+                        <span class="font-size-16 bold-6">Senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha" value="" required><br>
                         
-                        <span class="font-size-16">Confirme a senha</span><br>
+                        <span class="font-size-16 bold-6">Confirme a senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha2" value="" required><br>
                         
                         <div class="flex flex-col gap-2 p-2">
@@ -86,7 +86,7 @@
                      
                             <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
                             <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
-                            <p class="possui_cadastro s-center">Já possui cadastro?<a href="login.html">Faça Login</a></p>
+                            <p class="possui_cadastro s-center">Já possui cadastro?<a asp-area="" asp-controller="Hospedes" asp-action="Login">Faça Login</a></p>
                         </div>
                     </fieldset>
                 </form>

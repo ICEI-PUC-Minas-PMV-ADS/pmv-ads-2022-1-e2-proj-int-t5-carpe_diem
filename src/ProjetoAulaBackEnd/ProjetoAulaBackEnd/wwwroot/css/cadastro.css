@@ -27,6 +27,11 @@
     font-size: 16px;
 }
 
+#erro{
+    text-align:center;
+    color:red;
+}
+
 /* fieldset{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
