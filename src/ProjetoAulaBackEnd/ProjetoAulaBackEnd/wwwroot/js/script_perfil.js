@@ -21,10 +21,10 @@ function card(img, link){
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 1, 5, 1, 180, 'http://www.youtube.com')
-card('img/hotel-2.jpg', 1, 5, 1, 280, 'http://www.google.com')
-card('img/hotel-3.jpg', 1, 5, 1, 130, 'http://www.clickjogos.com')
-card('img/hotel-4.jpg', 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+card('~/img/hotel-1.jpg', 1, 5, 1, 180, 'http://www.youtube.com')
+card('~/img/hotel-2.jpg', 1, 5, 1, 280, 'http://www.google.com')
+card('~/img/hotel-3.jpg', 1, 5, 1, 130, 'http://www.clickjogos.com')
+card('~/img/hotel-4.jpg', 1, 5, 1, 980, 'https://pt.wikipedia.org/')
 
 
 
