@@ -81,61 +81,91 @@
                         <input class="w-f input mb-3 mt-1" type="email" id="Email" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
                             
                         <label class="w-full" for="nome"><b class="font-size-16">Senha</b></label>
-                        <span class="material-symbols-outlined t-blue-1 pl-2">edit</span>
                         <input class="w-f input mb-3 mt-1" type="password" id="senha" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
 
                         <label class="w-full" for="nome"><b class="font-size-16">Endereço</b></label>
-                        <span class="material-symbols-outlined t-blue-1 pl-2">edit</span>
                         <input class="w-f input mb-3 mt-1" type="text" id="endereco" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
 
                         <label class="w-full" for="nome"><b class="font-size-16">Telefone</b></label>
-                        <span class="material-symbols-outlined t-blue-1 pl-2">edit</span>
                         <input class="w-f input mb-3 mt-1" type="tel" id="telefone" class="input-padrao" style="height: 50px; width: 500px; border-radius: 32px;" required>
                     </div>
                 </form>
             </main>
 
-            <br>
-            <br>
-
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
                 Meus Imóveis Cadastrados
             </div>
 
+            <!-- cards -->
             <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
-                        <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
-                         
-                        <p class="bold-6 t-center p-1 t-black bg-blue-2">EDITAR INFORMAÇÕES DO IMÓVEL</p>
-
-                        <p class="bold-6 t-center p-1 t-black bg-blue-2">DESATIVAR IMÓVEL</p>
-
-                        <p class="bold-6 t-center p-1 t-black bg-blue-2">CANCELAR RESERVA</p>
-                    </div>                    
-                </div>                
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-2.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-3.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-4.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
             </section>   
 
             <br>
             <br>
 
-            <div class="pr-8">
-                <p id="esqueceu" class="possui_cadastro"><a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a></p>
-            </div>
+            <p id="esqueceu" class="possui_cadastro s-end t-right">
+                <a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a>
+            </p>
 
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
                 Imóveis Reservados
             </div>
             
+            <!-- cards -->
             <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
-                        <img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> 
-                         
-                        <p class="bold-6 t-center p-1 t-black bg-blue-2">EDITAR RESERVA</p>
-                    </div>                    
-                </div>                
-            </section>
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-1.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-2.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-3.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="img/hotel-4.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+            </section> 
            
         <section class="w-f py-2 flex j-end">
             <a class="" href="index.html">

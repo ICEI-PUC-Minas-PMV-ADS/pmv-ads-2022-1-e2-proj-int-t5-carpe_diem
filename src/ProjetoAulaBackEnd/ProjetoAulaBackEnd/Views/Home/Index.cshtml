@@ -28,13 +28,13 @@
     <!-- topo -->
     <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
 
-        <a href="index.html"><img src="img/Logo_Final_382x148.png"></a>
+        <a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>
 
         <div class="direct flex md-flex-col">
             <a href="cadastrar_imovel.html" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
             <a href="login_cadastro.html" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
             <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
-            <a href="login.html" class="p-1 m-1 t-black bold-7">Login</a>
+            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Login">Login</a>
             <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se<img width="25px" src="img/svg/adicionar-usuario-1.svg"></a>
         </div>
 
@@ -75,10 +75,9 @@
                     <input class="input" placeholder="Número de hóspedes">
                 </div>
                                 
-                    <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-1 t-white">search</span></a>
+                    <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>
                                     
-            </div>
-     
+            </div>     
             
 
             <!-- bloquinhos -->
@@ -97,23 +96,23 @@
 
             <section>
                 <h1 class="py-2 t-black bold-8">Novidades para Locação</h1>
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
-                    <div class="flex-1 shadow-1"> 
-                        <img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> 
-                        <p class="p-1 bold-7 t-black t-center font-size-5">Sul</p>     
-                        <div class="grid grid-col-2 p-1">
-                            <div>
-                                <p class="flex"><span class="material-symbols-outlined">local_see</span> Praia</p>
-                                <p class="flex"><span class="material-symbols-outlined">bed</span> 1 Quarto</p>
+                
+                <div id="cards_places" class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
+
+                    <div class="card" id="div_card">
+                        <img class="card-top" src="~/img/hotel-1.jpg">
+                        <div class="card-body">
+                            <div class="card-t card-center card-title">Porto Seguro</div>
+                            <div class="card-m">
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">local_see</span>Praia </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">person</span>5 hóspedes </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bed</span>1 Quarto </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bathroom</span>1 Banheiro </div>
                             </div>
-                            <div>
-                                <p class="flex"><span class="material-symbols-outlined">person</span> 5 hóspedes</p>
-                                <p class="flex"><span class="material-symbols-outlined">bathroom</span> 1 Banheiro</p>
-                            </div>
-                        </div> 
-                        <p class="bold-6 t-center p-1 t-black">A partir de 180</p>
+                            <div class="card-b card-center"><b>A partir de R$ 180 / noite</b></div>
+                        </div>
                     </div>
-                </div>
+                </div> 
             </section>          
             
         </div>
@@ -121,7 +120,7 @@
         <section>
             <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
                 <div>
-                    <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Política de privacidade</p></a>
+                    <a class="bold-7 font-size-5 t-white" asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidade</a>
                     <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Termos e condições de uso</p></a>
                     <a href="fale_conosco2.html"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
                 </div>
