@@ -6,6 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20220605205046_edu00.cs" />
+    <Compile Remove="Migrations\20220605205046_edu00.Designer.cs" />
+    <Compile Remove="Migrations\20220606205847_Edu02.cs" />
+    <Compile Remove="Migrations\20220606205847_Edu02.Designer.cs" />
+    <Compile Remove="Migrations\20220606212721_Edu01.cs" />
+    <Compile Remove="Migrations\20220606212721_Edu01.Designer.cs" />
+    <Compile Remove="Migrations\20220607003318_Edu03.cs" />
+    <Compile Remove="Migrations\20220607003318_Edu03.Designer.cs" />
+    <Compile Remove="Migrations\20220607003542_Edu04.cs" />
+    <Compile Remove="Migrations\20220607003542_Edu04.Designer.cs" />
+    <Compile Remove="Migrations\20220607004419_Edu05.cs" />
+    <Compile Remove="Migrations\20220607004419_Edu05.Designer.cs" />
+    <Compile Remove="Migrations\20220607005311_Edu06.cs" />
+    <Compile Remove="Migrations\20220607005311_Edu06.Designer.cs" />
+    <Compile Remove="Migrations\20220607035632_Edu07.cs" />
+    <Compile Remove="Migrations\20220607035632_Edu07.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />

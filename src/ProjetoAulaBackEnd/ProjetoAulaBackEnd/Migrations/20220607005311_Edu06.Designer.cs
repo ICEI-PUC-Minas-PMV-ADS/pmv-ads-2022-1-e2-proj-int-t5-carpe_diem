@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoAulaBackEnd.Models;
 
@@ -11,9 +12,10 @@ using ProjetoAulaBackEnd.Models;
 namespace ProjetoAulaBackEnd.Migrations
 {
     [DbContext(typeof(Contexto))]
-    partial class ContextoModelSnapshot : ModelSnapshot
+    [Migration("20220607005311_Edu06")]
+    partial class Edu06
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -67,7 +69,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdHospede");
 
-                    b.ToTable("Hospede", (string)null);
+                    b.ToTable("Hospede");
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Image", b =>
@@ -130,7 +132,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdImovel");
 
-                    b.ToTable("Imoveis", (string)null);
+                    b.ToTable("Imoveis");
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
