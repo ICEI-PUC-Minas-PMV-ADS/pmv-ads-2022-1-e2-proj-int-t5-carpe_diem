@@ -130,14 +130,17 @@
                             <dd class = "w-f input mb-3 mt-1">
                                 @Html.DisplayFor(model => model.Email)
                             </dd>
-                    </dl>
-
-                        <div>                            
-                            <label class="checkbox bold-7 t-black font-size-4"><input type="checkbox"><div class="checkbox-item"></div><span>Quero me tornar Anfitrião</span></label>
-                        </div>
-
+                        </dl>
                     </div>
                 </form>
+
+                        <div> 
+                            <form method="post">
+                               <label class="checkbox bold-7 t-black font-size-4"><input type="checkbox" name="TipoUsuario"><div class="checkbox-item"></div><span>Quero me tornar Anfitrião</span></label>
+                            </form>
+                        </div>
+
+               
             </main>
 
             <br>

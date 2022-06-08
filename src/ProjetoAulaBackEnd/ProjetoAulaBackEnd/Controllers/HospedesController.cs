@@ -109,6 +109,13 @@ namespace ProjetoAulaBackEnd.Controllers
             return View(hospede);
         }
 
+
+        /*[HttpPost]
+        public ActionResult Details([Bind("TipoUsuario")] Hospede hospede)
+            {
+                int tipoAnfitriao=
+            }   */ 
+
         // GET: Hospedes/Create
         public IActionResult Create()
         {
@@ -186,7 +193,7 @@ namespace ProjetoAulaBackEnd.Controllers
                 try
                 {
                     hospede.Senha = BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
-                    //hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
+                    hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
                     _context.Update(hospede);
                     await _context.SaveChangesAsync();
                 }
