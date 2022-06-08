@@ -67,7 +67,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdHospede");
 
-                    b.ToTable("Hospede", (string)null);
+                    b.ToTable("Hospede");
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Image", b =>
@@ -130,7 +130,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdImovel");
 
-                    b.ToTable("Imoveis", (string)null);
+                    b.ToTable("Imoveis");
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
