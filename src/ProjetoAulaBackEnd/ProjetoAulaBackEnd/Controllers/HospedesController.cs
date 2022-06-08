@@ -41,7 +41,7 @@ namespace ProjetoAulaBackEnd.Controllers
 
             bool isSenhaOk = BCrypt.Net.BCrypt.Verify(hospede.Senha, user.Senha);
             
-            if (!isSenhaOk)
+            if (isSenhaOk)
             {
 
                 var claims = new List<Claim>
@@ -69,7 +69,7 @@ namespace ProjetoAulaBackEnd.Controllers
 
             }
 
-            ViewBag.Message = "Email e/ou Senha inválidos";
+            ViewBag.Message = "Email e/ou Senha inválidos!";
             return View();
         }
 
