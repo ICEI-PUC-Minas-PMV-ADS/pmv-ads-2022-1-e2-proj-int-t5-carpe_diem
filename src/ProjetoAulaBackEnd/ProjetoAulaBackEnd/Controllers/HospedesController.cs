@@ -41,7 +41,7 @@ namespace ProjetoAulaBackEnd.Controllers
 
             bool isSenhaOk = BCrypt.Net.BCrypt.Verify(hospede.Senha, user.Senha);
             
-            if (!isSenhaOk)
+            if (isSenhaOk)
             {
 
                 var claims = new List<Claim>
@@ -109,12 +109,41 @@ namespace ProjetoAulaBackEnd.Controllers
             return View(hospede);
         }
 
-
-        /*[HttpPost]
-        public ActionResult Details([Bind("TipoUsuario")] Hospede hospede)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Details(int id, [Bind("TipoUsuario")] Hospede hospede)
+        {
+            if (id != hospede.IdHospede)
             {
-                int tipoAnfitriao=
-            }   */ 
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+              
+                try
+                {
+                    _context.Update(hospede);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!HospedeExists(hospede.IdHospede))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+               
+                return RedirectToAction(nameof(Index));
+            }
+            return View(hospede);
+        
+     }
+
 
         // GET: Hospedes/Create
         public IActionResult Create()
