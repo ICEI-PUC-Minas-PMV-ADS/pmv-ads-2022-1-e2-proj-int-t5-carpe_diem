@@ -4,7 +4,7 @@
 
 namespace ProjetoAulaBackEnd.Migrations
 {
-    public partial class Edu04 : Migration
+    public partial class e00 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

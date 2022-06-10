@@ -556,6 +556,8 @@ E:\Github\Projetos PUC\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t5-carp
 E:\Github\Projetos PUC\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.pdb
 E:\Github\Projetos PUC\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.genruntimeconfig.cache
 E:\Github\Projetos PUC\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ref\ProjetoAulaBackEnd.dll
+<<<<<<< HEAD
+=======
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\appsettings.Development.json
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\appsettings.json
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\ProjetoAulaBackEnd.staticwebassets.runtime.json
@@ -1672,3 +1674,4 @@ C:\Users\crisn\OneDrive\Desktop\NovoProjetoCarpeDiem\src\ProjetoAulaBackEnd\Proj
 C:\Users\crisn\OneDrive\Desktop\NovoProjetoCarpeDiem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.pdb
 C:\Users\crisn\OneDrive\Desktop\NovoProjetoCarpeDiem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.genruntimeconfig.cache
 C:\Users\crisn\OneDrive\Desktop\NovoProjetoCarpeDiem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ref\ProjetoAulaBackEnd.dll
+>>>>>>> 654298837b2e2ad00d724ced71b6f3e9251a329b
