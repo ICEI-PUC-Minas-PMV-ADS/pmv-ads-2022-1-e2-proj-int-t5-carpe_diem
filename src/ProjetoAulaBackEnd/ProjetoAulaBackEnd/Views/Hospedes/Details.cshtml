@@ -132,13 +132,20 @@
                             </dd>
                         </dl>
                     </div>
-                </form>
+                     <div class=form-group method="post">
+                            <label asp-for="TipoUsuario" class="control-label bold-7 t-black font-size-4">Quer se tornar anfitrião? Selecione abaixo:</label>
+                            <select asp-for="TipoUsuario" class="form-control bold-7 t-black font-size-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                            <span asp-validation-for="TipoUsuario" class="text-danger"></span>
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                     </div>
+                 </form>
+                        
 
-                        <div> 
+                      <!--  <div> 
                             <form method="post">
                                <label class="checkbox bold-7 t-black font-size-4"><input type="checkbox" name="TipoUsuario"><div class="checkbox-item"></div><span>Quero me tornar Anfitrião</span></label>
                             </form>
-                        </div>
+                        </div>-->
 
                
             </main>
