@@ -11,8 +11,8 @@ using ProjetoAulaBackEnd.Models;
 namespace ProjetoAulaBackEnd.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220606212721_Edu01")]
-    partial class Edu01
+    [Migration("20220609033617_Eduardo1")]
+    partial class Eduardo1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -99,7 +99,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdImovel");
 
-                    b.ToTable("Imoveis");
+                    b.ToTable("Imovel");
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>

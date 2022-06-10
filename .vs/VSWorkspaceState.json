@@ -3,9 +3,8 @@
     "",
     "\\src",
     "\\src\\ProjetoAulaBackEnd",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Controllers"
+    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot"
   ],
-  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Controllers\\HospedesController.cs",
+  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.sln",
   "PreviewInSolutionExplorer": false
 }

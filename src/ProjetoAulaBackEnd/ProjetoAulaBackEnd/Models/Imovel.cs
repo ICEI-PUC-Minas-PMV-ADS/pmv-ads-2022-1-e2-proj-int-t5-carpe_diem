@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetoAulaBackEnd.Models
 {
-    [Table("Imoveis")]
+    [Table("Imovel")]
     public class Imovel
     {
         [Key]
