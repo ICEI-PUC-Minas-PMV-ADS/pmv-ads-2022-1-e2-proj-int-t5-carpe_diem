@@ -24,8 +24,25 @@ Para cada tarefa executada pelo voluntário será possível medir:
 -	O total de erros cometidos;
 -	Quantos erros de cada tipo ocorreram;
 -	Quanto tempo foi necessário para concluir a tarefa;
--	Qual o nível de dificuldade relatado pelo voluntário;
--	Qual o nível de satisfação relatado pelo voluntário.
+-	Qual o nível de dificuldade relatado pelo voluntário, sendo:
+
+| **Escala** | **Classificação**    |
+|------------|----------------------|
+| 1          | Extremamente Difícil |
+| 2          | Muito Difícil        |
+| 3          | Moderado             |
+| 4          | Fácil                |
+| 5          | Muito Fácil          |
+
+-	Qual o nível de satisfação relatado pelo voluntário, sendo:
+
+| **Escala** | **Classificação**  |
+|------------|--------------------|
+| 1          | Muito Satisfeito   |
+| 2          | Satisfeito         |
+| 3          | Neutro             |
+| 4          | Insatisfeito       |
+| 5          | Muito Insatisfeito |
 
 
 ### 10.4 Roteiro

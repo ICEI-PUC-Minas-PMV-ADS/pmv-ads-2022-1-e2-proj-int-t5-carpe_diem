@@ -18,6 +18,8 @@ Quadro 10 - Registro dos Testes
 |CT-08         |Realizar gerenciamento de reservas   |Permitir que o hóspede altere as informações da sua reserva.<br>Permitir que o hóspede cancele sua reserva.|em desenvolvimento|
 |CT-09         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco     |em desenvolvimento                  |
 
+Fonte: Elaborado pelos Autores
+
 <br>
 
 Figura 42 - Caso de Teste 01
