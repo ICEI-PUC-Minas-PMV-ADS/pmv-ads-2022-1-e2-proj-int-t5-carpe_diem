@@ -63,8 +63,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVpc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Imoveis/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVpc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Imoveis/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVpc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Imoveis/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Imoveis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1vdmVpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Users/Fabiana e André/Documents/GitHub/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Shared/Error.cshtml]
