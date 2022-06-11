@@ -15,9 +15,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
-    <link rel="stylesheet" href="~/css/cadastro.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/cadastro.css"> 
 
 </head>
 
@@ -46,47 +49,53 @@
                          <h5 id="erro">@ViewBag.Message</h5>
 
                          <div class="form-group">
-                            <label asp-for="Nome" class="control-label">Nome</label>
-                            <input asp-for="Nome" class="form-control" />
+                            <label asp-for="Nome" class="control-label font-size-16 bold-6">Nome</label>
+                            <input asp-for="Nome" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Nome" class="text-danger"></span>
                          </div>
                         <div class="form-group">
-                            <label asp-for="CPF" class="control-label">CPF</label>
-                            <input asp-for="CPF" id="campoCPF" class="form-control" />
+                            <label asp-for="CPF" class="control-label font-size-16 bold-6">CPF</label>
+                            <input asp-for="CPF" id="campoCPF" class="form-control input w-f mb-4" />
                             <span asp-validation-for="CPF" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="DataDeNascimento" class="control-label">Data de Nascimento</label>
-                            <input asp-for="DataDeNascimento" id="campoData" class="form-control" />
+                            <label asp-for="DataDeNascimento" class="control-label font-size-16 bold-6">Data de Nascimento</label>
+                            <input asp-for="DataDeNascimento" id="campoData" class="form-control input w-f mb-4" />
                             <span asp-validation-for="DataDeNascimento" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="Endereco" class="control-label">Endereço</label>
-                            <input asp-for="Endereco" class="form-control" />
+                            <label asp-for="Endereco" class="control-label font-size-16 bold-6">Endereço</label>
+                            <input asp-for="Endereco" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Endereco" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="Telefone" class="control-label">Telefone</label>
-                            <input asp-for="Telefone" class="form-control" />
+                            <label asp-for="Telefone" class="control-label font-size-16 bold-6">Telefone</label>
+                            <input asp-for="Telefone" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Telefone" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="Email" class="control-label">Email</label>
-                            <input asp-for="Email" class="form-control" />
+                            <label asp-for="Email" class="control-label font-size-16 bold-6">Email</label>
+                            <input asp-for="Email" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
                          <div class="form-group">
-                            <label asp-for="Senha" class="control-label">Senha</label>
-                            <input type="password" asp-for="Senha" class="form-control" />
+                            <label asp-for="Senha" class="control-label font-size-16 bold-6">Senha</label>
+                            <input type="password" asp-for="Senha" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Senha" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="Senha2" class="control-label">Confirme a senha</label>
-                            <input type="password" asp-for="Senha2" class="form-control" />
+                            <label asp-for="Senha2" class="control-label font-size-16 bold-6">Confirme a senha</label>
+                            <input type="password" asp-for="Senha2" class="form-control input w-f mb-4" />
                             <span asp-validation-for="Senha2" class="text-danger"></span>
                         </div>
+                        <div>
+                            <label asp-for="TipoUsuario" class="control-label bold-7 t-black font-size-4">Quer cadastrar seu imóvel e tornar-se anfitrião? Selecione a opção abaixo:</label>
+                            <select asp-for="TipoUsuario" class="form-control bold-7 t-black font-size-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                            <span asp-validation-for="TipoUsuario" class="text-danger"></span>
+                        </div>
+                        <br/>
                         <div class="form-group">
-                            <input type="submit" value="Save" class="btn btn-primary" />
+                           <button class="btn btn-blue btn-effect w-f">Atualizar Cadastro</button>
                         </div>
                     </fieldset>
                 </form>

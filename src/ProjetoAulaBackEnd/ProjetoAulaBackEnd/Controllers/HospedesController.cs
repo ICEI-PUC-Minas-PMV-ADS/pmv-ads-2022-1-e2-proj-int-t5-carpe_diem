@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -21,12 +22,14 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([Bind("Email, Senha")] Hospede hospede)
         {
            
@@ -73,25 +76,30 @@ namespace ProjetoAulaBackEnd.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
             return RedirectToAction("Login", "Hospedes");
         }
 
-
+        [AllowAnonymous]
         public IActionResult AcessoNegado()
         {
             return View();
         }
 
         // GET: Hospedes
+
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Hospedes.ToListAsync());
         }
 
         // GET: Hospedes/Details/5
+
+        [Authorize]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -99,8 +107,10 @@ namespace ProjetoAulaBackEnd.Controllers
                 return NotFound();
             }
 
-            var hospede = await _context.Hospedes
-                .FirstOrDefaultAsync(m => m.IdHospede == id);
+            var hospede = await _context.Hospedes.FindAsync(id);
+            
+                //var hospede = await _context.Hospedes
+                //.FirstOrDefaultAsync(m => m.IdHospede == id);
             if (hospede == null)
             {
                 return NotFound();
@@ -110,7 +120,7 @@ namespace ProjetoAulaBackEnd.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Details(int id, [Bind("TipoUsuario")] Hospede hospede)
         {
             if (id != hospede.IdHospede)
@@ -137,15 +147,17 @@ namespace ProjetoAulaBackEnd.Controllers
                         throw;
                     }
                 }
-               
+
                 return RedirectToAction(nameof(Index));
             }
-            return View(hospede);
+            return View();
         
      }
 
 
         // GET: Hospedes/Create
+
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -169,7 +181,7 @@ namespace ProjetoAulaBackEnd.Controllers
                 {
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
-                    hospede.TipoUsuario = 0;
+                   // hospede.TipoUsuario = 0;
                     _context.Add(hospede);
                     await _context.SaveChangesAsync();
                     ViewBag.Message = "Cadastro realizado com sucesso!";
@@ -183,6 +195,8 @@ namespace ProjetoAulaBackEnd.Controllers
         }
 
         // GET: Hospedes/Edit/5
+
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -205,7 +219,8 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
+        [Authorize]
+        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,,Senha,Senha2,TipoUsuario")] Hospede hospede)
         {
             if (id != hospede.IdHospede)
             {
@@ -244,6 +259,8 @@ namespace ProjetoAulaBackEnd.Controllers
         }
 
         // GET: Hospedes/Delete/5
+
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -264,6 +281,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // POST: Hospedes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var hospede = await _context.Hospedes.FindAsync(id);
