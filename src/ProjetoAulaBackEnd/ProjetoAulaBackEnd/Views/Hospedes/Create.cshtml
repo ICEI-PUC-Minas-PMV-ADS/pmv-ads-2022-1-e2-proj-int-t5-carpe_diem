@@ -24,11 +24,9 @@
     <link rel="stylesheet" href="~/components/css/checkbox.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
     <link rel="stylesheet" href="~/css/cadastro.css"> 
-
-    <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    -->
+
     <title>Cadastro usuário | CarpeDiem</title>
 </head>
 
@@ -80,12 +78,18 @@
                         
                         <span class="font-size-16 bold-6">Confirme a senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha2" value="" required><br>
+
+                         <div>
+                            <label asp-for="TipoUsuario" class="control-label bold-7 t-black font-size-4">Quer cadastrar seu imóvel e tornar-se anfitrião? Selecione a opção abaixo:</label>
+                            <select asp-for="TipoUsuario" class="form-control bold-7 t-black font-size-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                            <span asp-validation-for="TipoUsuario" class="text-danger"></span>
+                        </div>
                         
                         <div class="flex flex-col gap-2 p-2">
                             <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
                             <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
                      
-                            <p class="possui_cadastro s-end"><a asp-controller="Hospedes" asp-action="EsqueceuSenha">Esqueceu a senha?</a></p>
+                            <!--<p class="possui_cadastro s-end"><a asp-controller="Hospedes" asp-action="EsqueceuSenha">Esqueceu a senha?</a></p>-->
                             <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
                             <p class="possui_cadastro s-center">Já possui cadastro?<a asp-area="" asp-controller="Hospedes" asp-action="Login">Faça Login</a></p>
                         </div>
