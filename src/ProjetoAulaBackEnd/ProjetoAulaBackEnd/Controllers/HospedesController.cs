@@ -174,7 +174,7 @@ namespace ProjetoAulaBackEnd.Controllers
                 {
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
-                    hospede.TipoUsuario = 0;
+                    //hospede.TipoUsuario = 0;
                     _context.Add(hospede);
                     await _context.SaveChangesAsync();
                     ViewBag.Message = "Cadastro realizado com sucesso!";
@@ -210,7 +210,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
+        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2,TipoUsuario")] Hospede hospede)
         {
             if (id != hospede.IdHospede)
             {
@@ -242,10 +242,13 @@ namespace ProjetoAulaBackEnd.Controllers
                         throw;
                     }
                 }
-                ViewBag.Message = "Atualização realizada com sucesso!";
-                //return RedirectToAction(nameof(Index));
+                // ViewBag.Message = "Atualização realizada com sucesso!";
+    
+                return RedirectToAction("Create", "Imoveis");
+
+
             }
-            return View(hospede);
+                return View();
         }
 
         // GET: Hospedes/Delete/5
