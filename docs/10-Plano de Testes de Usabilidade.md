@@ -25,6 +25,7 @@ Para cada tarefa executada pelo voluntário será possível medir:
 -	Quantos erros de cada tipo ocorreram;
 -	Quanto tempo foi necessário para concluir a tarefa;
 -	Qual o nível de dificuldade relatado pelo voluntário, sendo:
+
 | **Escala** | **Classificação**    |
 |------------|----------------------|
 | 1          | Extremamente Difícil |
@@ -34,6 +35,7 @@ Para cada tarefa executada pelo voluntário será possível medir:
 | 5          | Muito Fácil          |
 
 -	Qual o nível de satisfação relatado pelo voluntário, sendo:
+
 | **Escala** | **Classificação**  |
 |------------|--------------------|
 | 1          | Muito Satisfeito   |
