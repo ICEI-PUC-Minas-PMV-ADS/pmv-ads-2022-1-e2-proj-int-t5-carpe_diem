@@ -28,7 +28,7 @@
     <!-- topo -->
     <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
 
-        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
+        <a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>
 
         <div class="direct flex md-flex-col">
             <a href="cadastrar_imovel.html" class="p-1 m-1 t-black bold-7">Anuncie seu imóvel</a>
@@ -60,15 +60,15 @@
                 
                 <div>
                     <p class="bold-8 m-0 p-1">Cidade Destino</p>
-                    <input class="input" type="text" placeholder="Cidade">   
+                    <input class="input" placeholder="Cidade">   
                 </div>
                 <div>
                     <p class="bold-8 m-0 p-1">Check-In</p>
-                    <input class="input" type="date" placeholder="dd/mm/aaaa">          
+                    <input class="input" placeholder="dd/mm/aaaa">          
                 </div>
                 <div>
                     <p class="bold-8 m-0 p-1">Check-Out</p>
-                    <input class="input" type="date" placeholder="dd/mm/aaaa">         
+                    <input class="input" placeholder="dd/mm/aaaa">         
                 </div>
                 <div>
                     <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
@@ -120,8 +120,8 @@
         <section>
             <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
                 <div>
-                    <a class="bold-7 font-size-5 t-white" asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidade</a>                    
-                    <a href="/EM_DESENVOLVIMENTO"><p class="bold-7 font-size-5 t-white">Termos e condições de uso</p></a>
+                    <p class="bold-7 font-size-5 t-white"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidade</a></p>
+                    <p class="bold-7 font-size-5 t-white"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e condições de uso</a></p>
                     <a href="fale_conosco2.html"><p class="bold-7 font-size-5 t-white">Fale conosco</p></a>
                 </div>
                 
