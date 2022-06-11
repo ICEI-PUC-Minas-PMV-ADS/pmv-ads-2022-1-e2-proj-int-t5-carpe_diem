@@ -68,6 +68,53 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.ToTable("Hospede");
                 });
+
+            modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
+                {
+                    b.Property<int>("IdImovel")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Foto1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<int>("QtdeHospedes")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TipoAc")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TipoEsp")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdImovel");
+
+                    b.ToTable("Imovel");
+                });
+
+            modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
+                {
+                    b.HasOne("ProjetoAulaBackEnd.Models.Hospede", "IdHospede")
+                        .WithMany("Imoveis")
+                        .HasForeignKey("IdImovel")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("IdHospede");
+                });
+
+            modelBuilder.Entity("ProjetoAulaBackEnd.Models.Hospede", b =>
+                {
+                    b.Navigation("Imoveis");
+                });
 #pragma warning restore 612, 618
         }
     }
