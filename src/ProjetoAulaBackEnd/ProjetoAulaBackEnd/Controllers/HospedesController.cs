@@ -79,6 +79,11 @@ namespace ProjetoAulaBackEnd.Controllers
             return RedirectToAction("Login", "Hospedes");
         }
 
+        public IActionResult EsqueceuSenha()
+        {
+            return View();
+        }
+
 
         public IActionResult AcessoNegado()
         {

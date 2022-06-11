@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="~/components/css/button.css"> 
     <link rel="stylesheet" href="~/components/css/checkbox.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
-    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" href="~/css/cadastro.css">
 
     <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -34,13 +34,13 @@
 
 </head>
 
-<body>
+<body class="bg-gray">   
 
     <div id="main" class="container-fluid">
 
         <div class="row">
             <div class="col-12" id="header">
-                <img src="~/img/Logo_Final_382x148.png">
+                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
             </div>
         </div>
 
@@ -74,7 +74,7 @@
                      
                             <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
                             <button class="btn btn-blue btn-effect w-f">ENTRAR</button>
-                            <p class="p-1 m-1 t-black bold-7">Ainda não tem Conta?<a asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se</a></p>
+                            <p class="possui_cadastro s-center">Ainda não tem Conta?<a asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se</a></p>
                         </div>
             
                     </fieldset>
@@ -83,6 +83,7 @@
                     
             </div>
         </div>
+        
         <div class="copyright p-2 t-center"></div>
     </div>
 
