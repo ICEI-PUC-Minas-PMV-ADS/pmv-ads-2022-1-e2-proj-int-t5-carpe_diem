@@ -1,3 +1,9 @@
+@import url('~/components/css/checkbox.css');
+@import url('~/components/css/button.css');
+@import url('~/components/css/card.css');
+
+.quicksand{font-family: 'Quicksand', sans-serif;}
+
 *{
     font-family: 'Quicksand', sans-serif;
     padding: 0px;
@@ -47,7 +53,22 @@ a:hover{
 .w-7{width: 700px ;}
 .w-8{width: 800px ;}
 .w-9{width: 900px ;}
-.w-f{width: 100%  ;}
+
+.max-h-f{max-height: 100%; }
+
+
+.w-1p{width: 10% ;}
+.w-2p{width: 20% ;}
+.w-3p{width: 30% ;}
+.w-4p{width: 40% ;}
+.w-5p{width: 50% ;}
+.w-6p{width: 60% ;}
+.w-7p{width: 70% ;}
+.w-8p{width: 80% ;}
+.w-9p{width: 90% ;}
+.w-f{width: 100% !important; }
+
+.max-w-f{max-width: 100%; }
 
 /* height */
 .h-1{height: 100px ;}
@@ -126,11 +147,17 @@ a:hover{
 .j-start   { justify-content: flex-start;    }
 .j-end     { justify-content: flex-end;      }
 
+.flex-center{ display: flex; justify-content: center; align-items: center; }
+
+.s-center { align-self: center; }
+.s-start { align-self: flex-start; }
+.s-end   { align-self: flex-end;  }
+
 .flex-col { flex-direction: column;}
 
-.flex-wrap   {flex-wrap: wrap;}
-.flex-nowrap {flex-wrap: nowrap;}
-.flex-reverse{flex-wrap: wrap-reverse;}
+.flex-wrap   { flex-wrap: wrap;}
+.flex-nowrap { flex-wrap: nowrap;}
+.flex-reverse{ flex-wrap: wrap-reverse;}
 
 .ai-center { align-items: center;       }
 .ai-end    { align-items: flex-end;     }
@@ -284,6 +311,49 @@ a:hover{
   
 .transition{transition: 0.5s;}
 
+/* ok */
+
+.capa {
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 2em;
+}
+
+.capa-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.input {
+    padding: 1em;
+    /* margin: 0.5em; */
+    border-radius: 1em;
+    background-color: #FBCB2B80;
+    border: none;
+    box-shadow: 3px 3px 3px #00000033;
+    outline: none;
+    width: auto;
+    font-weight: 600;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding: 3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
 /* tablet */
 @media (max-width: 1000px){
     .md-grid-col-1{grid-template-columns: repeat(1, 1fr);}
@@ -339,3 +409,4 @@ a:hover{
 .-left-1  {left  : -10px;}
 .-right-1 {right : -10px;}
 .-bottom-1{bottom: -10px;}
+
