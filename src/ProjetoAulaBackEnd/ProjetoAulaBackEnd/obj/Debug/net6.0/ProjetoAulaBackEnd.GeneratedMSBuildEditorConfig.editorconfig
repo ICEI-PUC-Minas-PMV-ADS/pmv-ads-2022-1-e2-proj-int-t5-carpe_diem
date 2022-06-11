@@ -11,7 +11,7 @@ build_property.RootNamespace = ProjetoAulaBackEnd
 build_property.ProjectDir = D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd
 build_property._RazorSourceGeneratorDebug = 
 

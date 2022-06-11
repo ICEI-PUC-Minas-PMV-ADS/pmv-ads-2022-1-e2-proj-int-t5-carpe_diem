@@ -2,7 +2,20 @@
 
 O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa. Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas.
 
-Quadro 10 - Testes de Usabilidade
+Quadro 10 - Perfil dos Voluntários
+
+|IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO |
+|--------------|----------|----------------------|-------------------------------|---------------------|
+|Voluntário 01 |          |                      |                               |                     |
+|Voluntário 02 |          |                      |                               |                     |
+|Voluntário 03 |          |                      |                               |                     |
+|Voluntário 04 |          |                      |                               |                     |
+|Voluntário 05 |          |                      |                               |                     |
+
+Fonte: Elaborado pelos autores
+
+
+Quadro 11 - Testes de Usabilidade
 
 |Teste         |Ação                     |O que foi avaliado                                                                                |Resultado        |
 |--------------|-------------------------|--------------------------------------------------------------------------------------------------|-----------------|
