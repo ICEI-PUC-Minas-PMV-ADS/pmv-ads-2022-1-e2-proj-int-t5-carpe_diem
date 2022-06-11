@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/crisn/OneDrive/Desktop/NovoProjetoCarpeDiem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Home/Termos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/crisn/OneDrive/Desktop/NovoProjetoCarpeDiem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/AcessoNegado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcQWNlc3NvTmVnYWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/crisn/OneDrive/Desktop/NovoProjetoCarpeDiem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crisn/OneDrive/Desktop/NovoProjetoCarpeDiem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/EsqueceuSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGVkZXNcRXNxdWVjZXVTZW5oYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/crisn/OneDrive/Desktop/NovoProjetoCarpeDiem/src/ProjetoAulaBackEnd/ProjetoAulaBackEnd/Views/Hospedes/Index.cshtml]

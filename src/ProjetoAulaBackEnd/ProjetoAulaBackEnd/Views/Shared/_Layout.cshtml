@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+﻿    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ProjetoAulaBackEnd</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css" />    
 </head>
 <body>
     <header>
@@ -22,23 +22,14 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastro Hóspedes</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastro de Hóspedes</a>
                         </li>
-                          @if (User.Identity.IsAuthenticated)
-                          {
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Hospedes" asp-action="Index">Lista de Hóspedes</a>
                         </li>
-                        }
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Imoveis" asp-action="Create">Cadastro de Imóveis</a>
                         </li>
-                         @if (User.IsInRole("TipoAnfitriao"))
-                          {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Imoveis" asp-action="Index">Lista de Imóveis</a>
-                        </li>
-                          }
                     </ul>
                     <ul class="navbar-nav">
 
@@ -76,4 +67,4 @@
     @await RenderSectionAsync("Scripts", required: false)
     </footer>
 </body>
-</html>
+</html>    
