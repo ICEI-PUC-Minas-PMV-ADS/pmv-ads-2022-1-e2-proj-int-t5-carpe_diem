@@ -69,7 +69,7 @@ namespace ProjetoAulaBackEnd.Controllers
 
             }
 
-            ViewBag.Message = "Email e/ou Senha inválidos";
+            ViewBag.Message = "Email e/ou Senha inválidos!";
             return View();
         }
 

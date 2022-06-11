@@ -1,37 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "E:\\Github\\Projetos PUC\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {}
+    "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {}
   },
   "projects": {
-    "E:\\Github\\Projetos PUC\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {
+    "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\Projetos PUC\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
         "projectName": "ProjetoAulaBackEnd",
-        "projectPath": "E:\\Github\\Projetos PUC\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
-        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\Projetos PUC\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
+        "projectPath": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+        "packagesPath": "C:\\Users\\nayar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
-        "projectName": "ProjetoAulaBackEnd",
-        "projectPath": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
-        "packagesPath": "C:\\Users\\crisn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\crisn\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 654298837b2e2ad00d724ced71b6f3e9251a329b
+          "C:\\Users\\nayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
