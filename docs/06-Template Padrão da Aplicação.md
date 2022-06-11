@@ -174,7 +174,8 @@ No que tange à responsividade, optamos por seguir o padrão do _Bootstrap_ e/ou
 
 Figura 34
 
-![Telas Projeto_home](https://user-images.githubusercontent.com/89549220/168452214-16950934-e2fa-407e-a19e-9c0d89a8ba56.png)
+![home](https://user-images.githubusercontent.com/89549220/173168404-ef648d32-4b04-4c7a-b6d8-0897bc4f9f98.png)
+![home_resp](https://user-images.githubusercontent.com/89549220/173168412-8d76356b-aebf-49ca-b4fe-65696f7ee75b.png)
 Fonte: Elaborado pelos Autores
 
 
@@ -182,75 +183,95 @@ Fonte: Elaborado pelos Autores
 
 Figura 35
 
-![Telas Projeto_resultado busca](https://user-images.githubusercontent.com/89549220/168452226-ceda1d25-f4a4-4448-af58-2b89d4591849.png)
+![resultado_busca](https://user-images.githubusercontent.com/89549220/173168419-f87185ad-ed6c-4562-b852-da82147cc3cc.png)
+![resultado_busca_resp](https://user-images.githubusercontent.com/89549220/173168425-6aced201-757e-41ef-9d75-6c9c514ebdfc.png)
 Fonte: Elaborado pelos Autores
 
 
 ### 6.6.3 Tela Detalhes do Imóvel 
 
-- Página em Desenvolvimento
-
-
-### 6.6.4 Tela _Login_-Cadastro
-
 Figura 36
 
-![Telas Projeto_login cadastro](https://user-images.githubusercontent.com/89549220/168452237-0abcbaf2-8090-4ed1-83d3-8baed5890ab0.png)
+![detalhes](https://user-images.githubusercontent.com/89549220/173168429-17d52c9f-e599-452b-b21e-0a3ff7db6a21.png)
+![detalhes_resp](https://user-images.githubusercontent.com/89549220/173168433-1c10b3e5-2b9e-4577-84f3-4c03c5e55a81.png)
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.5 Tela _Login_
+### 6.6.4 Tela _Login_
 
 Figura 37
 
+![login](https://user-images.githubusercontent.com/89549220/173168446-fa4ebb9a-a88c-4d98-85ee-d8544b06304d.png)
+![login_resp](https://user-images.githubusercontent.com/89549220/173168452-725bf12a-c7dd-44fa-8115-c2e9363cdb01.png)
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.6 Tela Cadastro
+### 6.6.5 Tela Cadastro
 
 Figura 38
 
-![Telas Projeto_cadastro](https://user-images.githubusercontent.com/89549220/168452245-c7b59312-3fe6-4fa0-9a82-6fcbfda02cff.png)
+![cadastro](https://user-images.githubusercontent.com/89549220/173168547-5a7ec86e-b014-4b0e-babc-88d69d35780b.png)
+![cadastro_resp](https://user-images.githubusercontent.com/89549220/173168553-9d1cd38a-1343-4358-a308-2e55fc85dc92.png)
 Fonte: Elaborado pelos Autores
 
 
-### 6.6.7 Tela Perfil do Hóspede
+### 6.6.6 Tela Perfil do Hóspede
 
-- Página em Desenvolvimento
+Figura 39
+
+![perfil_hospede](https://user-images.githubusercontent.com/89549220/173168601-12eb5407-305b-46c5-a3cb-1cd7fc2dfb32.png)
+![perfil_hospede_resp](https://user-images.githubusercontent.com/89549220/173168604-207667f5-ad2d-468e-93d9-094053f1464e.png)
+Fonte: Elaborado pelos Autores
 
 
 ### 6.6.8 Tela Perfil do Anfitrião
 
-- Página em Desenvolvimento
+Figura 40
+
+![perfil_anfitriao](https://user-images.githubusercontent.com/89549220/173168609-ce456e79-0c41-4071-8cdc-2d63be941776.png)
+![perfil_anfitriao_resp](https://user-images.githubusercontent.com/89549220/173168615-63dda5c3-2f35-4bbe-8a72-b7ddbb3de0a0.png)
+Fonte: Elaborado pelos Autores
 
 
 ### 6.6.9 Tela Cadastrar Imóvel
 
-- Página em Desenvolvimento
+Figura 41
+
+![cadastrar_imovel](https://user-images.githubusercontent.com/89549220/173168622-66616b39-c28c-4d0d-805e-2bbfdc6eb5c2.png)
+![cadastrar_imovel_resp](https://user-images.githubusercontent.com/89549220/173168627-8f28ae5a-829f-4992-b2d2-790a96d5553a.png)
+Fonte: Elaborado pelos Autores
 
 
 ### 6.6.10 Tela Editar Reserva 
 
-- Página em Desenvolvimento
+Figura 42
+
+![editar_reserva](https://user-images.githubusercontent.com/89549220/173168634-73f9c212-7738-4cd9-92b6-848e33836b61.png)
+![editar_reserva_resp](https://user-images.githubusercontent.com/89549220/173168638-763a3f5d-8343-4f75-95c6-45bb19b32693.png)
+Fonte: Elaborado pelos Autores
 
 
 ### 6.6.11 Tela Fale Conosco 
 
-Figura 39
+Figura 43
 
+![fale_conosco](https://user-images.githubusercontent.com/89549220/173168654-7af3e6eb-903c-4d22-a860-d5a4fb4fe643.png)
+![fale_conosco_resp](https://user-images.githubusercontent.com/89549220/173168656-89631213-c38b-4a7c-a925-6f6f34eb66c1.png)
 Fonte: Elaborado pelos Autores
 
 
 ### 6.6.12 Tela Esqueceu Senha 
 
-Figura 40
+Figura 44
 
+![esqueceu](https://user-images.githubusercontent.com/89549220/173168664-e8f1a02e-70f8-4a25-9c68-21f6caa6caa1.png)
+![esqueceu_resp](https://user-images.githubusercontent.com/89549220/173168669-4700136b-572b-4633-92c8-bf522d20171c.png)
 Fonte: Elaborado pelos Autores
 
 
 ### 6.6.13 Tela Erro Busca
 
-Figura 41
+Figura 45
 
 ![Telas Projeto_erro busca](https://user-images.githubusercontent.com/89549220/168452257-4abd45c5-80a8-4c09-b037-070d2f0edaac.png)
 Fonte: Elaborado pelos Autores
