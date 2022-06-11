@@ -47,7 +47,7 @@
         <div class="grid grid-col-2 md-grid-col-1">
 
             <div id="" class="flex j-center ai-center">
-                <img class="max-w-f" src="~/img/imagem-2.svg" alt="Login usuário">
+                <img class="max-w-f m-6" src="~/img/imagem-2.svg" alt="Login usuário">
             </div>
 
             <div id="login" class="w-full">
@@ -72,7 +72,7 @@
                             <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
                             <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
                      
-                            <p id="esqueceu" class="possui_cadastro s-end"><a href="esqueceu_senha.html">Esqueceu a senha?</a></p>
+                            <p id="esqueceu" class="possui_cadastro s-end"><a asp-controller="Hospedes" asp-action="EsqueceuSenha">Esqueceu a senha?</a></p>
                             <button class="btn btn-blue btn-effect w-f">ENTRAR</button>
                             <p class="possui_cadastro s-center">Ainda não tem Conta?<a asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se</a></p>
                         </div>

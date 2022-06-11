@@ -34,20 +34,22 @@
     <title>Esqueceu a Senha | CarpeDiem</title>
 </head>
 
-<body>
+<body class="bg-gray">
 
     <div id="main" class="container-fluid">
 
         <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
-
-            <img src="~/img/Logo_Final_382x148.png">
+            <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>    
             
+            <div class="direct flex md-flex-col">
+                <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale Conosco</a>
+            </div>
         </section>
 
         <div class="grid grid-col-2 md-grid-col-1">
 
             <div id="" class="flex j-center ai-center">
-                <img class="max-w-f pr-4" src="~/img/imagem-1.svg" alt="Cadastrar usuário">
+                <img class="max-w-f pr-6" src="~/img/imagem-1.svg" alt="Cadastrar usuário">
             </div>
 
             <div id="login" class="w-full">
@@ -81,7 +83,7 @@
         <div class="copyright p-2 t-center"></div>
     </div>
 
-    <script src="javascript/copyright.js"></script>
+    <script src="~/js/copyright.js"></script>
     
 </body>
 

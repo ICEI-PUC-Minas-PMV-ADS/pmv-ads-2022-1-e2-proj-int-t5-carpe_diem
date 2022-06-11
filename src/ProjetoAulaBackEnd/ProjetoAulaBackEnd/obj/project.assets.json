@@ -9898,19 +9898,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nayar\\.nuget\\packages\\": {}
+    "C:\\Users\\Fabiana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+      "projectUniqueName": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
       "projectName": "ProjetoAulaBackEnd",
-      "projectPath": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
-      "packagesPath": "C:\\Users\\nayar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
+      "projectPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd.csproj",
+      "packagesPath": "C:\\Users\\Fabiana\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nayar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fabiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9988,13 +9988,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\nayar\\OneDrive\\Documentos\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
