@@ -4,6 +4,254 @@
     ViewData["Title"] = "Edit";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/stylepage.css">
+    <link rel="stylesheet" href="css/perfil_anfitriao.css">
+    <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
+
+    <title>Perfil do Anfitrião | CarpeDiem</title>
+</head>
+
+<body class="bg-gray">
+
+    <!-- topo -->
+    
+    <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
+        <a href="index_logado.html"><img src="~/img/Logo_Final_382x148.png"></a>
+    
+        <div class="direct flex md-flex-col">
+            <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
+        </div> 
+    </section>
+
+    <div class="container m-auto flex j-center p-3">
+           <!-- banner -->
+        <section>
+
+            <div class="p-1 flex j-between ai-center p-3">
+                <div class="flex ai-center gap-3 flex-wrap">
+                    <div class="relative w-2 h-2">
+                        <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                        <div class="absolute bottom right bg-blue-1 rounded-full">
+                            <a asp-action="Edit" asp-route-id="@Model.IdImovel"><img width="50px" src="~/img/edit_note.png"></a>
+                        </div>    
+                    </div>  
+    
+                    <div>
+                        <p class="bold-7 t-black font-size-32">@Html.DisplayFor(model => model.Nome)</p>
+                        <p class="font-size-24">Sou Anfitrião</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+                Perfil do Anfitrião
+            </div>
+              
+            <!-- dados do anfitrião -->
+            <br>
+            <br>
+
+            <main>
+                <form asp-action="Edit" class="w-f p-2" name="Cadastro">
+                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="IdImovel" />                            
+              
+                    <div class="j-center ai-center">
+                       <dl class="w-full">
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1" >
+                                @Html.DisplayFor(model => model.Nome)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.CPF)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.CPF)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.DataDeNascimento)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.DataDeNascimento)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Email)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Email)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Endereco)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Endereco)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Telefone)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Telefone)
+                            </dd>                            
+                        </dl>
+                    </div>                     
+                 </form>
+            </main>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Meus Imóveis Cadastrados
+            </div>
+
+            <!-- cards -->
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+            </section>   
+
+            <br>
+            <br>
+
+            <p id="esqueceu" class="possui_cadastro s-end t-right">
+                <a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a>
+            </p>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Imóveis Reservados
+            </div>
+            
+            <!-- cards -->
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+            </section> 
+           
+            <section class="w-f py-2 flex j-end">
+                <a class="" href="index.html">
+                    <img src="~/img/svg/sair.svg" width="64px">
+                </a>
+            </section>
+            
+            <div class="copyright p-2 t-center"></div>
+        
+        <script src="~/js/script_anfitriao.js"></script>
+        <script src="~/js/copyright.js"></script>
+    </div>
+</body>
+</html>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdImovel" />
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cidade" class="control-label"></label>
+                <input asp-for="Cidade" class="form-control" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoEsp" class="control-label"></label>
+                <select asp-for="TipoEsp" class="form-control"></select>
+                <span asp-validation-for="TipoEsp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoAc" class="control-label"></label>
+                <select asp-for="TipoAc" class="form-control"></select>
+                <span asp-validation-for="TipoAc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QtdeHospedes" class="control-label"></label>
+                <input asp-for="QtdeHospedes" class="form-control" />
+                <span asp-validation-for="QtdeHospedes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Foto1" class="control-label"></label>
+                <input asp-for="Foto1" class="form-control" />
+                <span asp-validation-for="Foto1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+<!--
 <h1>Edit</h1>
 
 <h4>Imovel</h4>
@@ -53,4 +301,4 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
+-->

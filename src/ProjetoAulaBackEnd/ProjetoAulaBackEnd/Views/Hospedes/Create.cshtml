@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="~/components/css/checkbox.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
     <link rel="stylesheet" href="~/css/cadastro.css"> 
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -79,9 +80,9 @@
                         <span class="font-size-16 bold-6">Confirme a senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha2" value="" required><br>
 
-                         <div>
-                            <label asp-for="TipoUsuario" class="control-label bold-7 t-black font-size-4">Quer cadastrar seu imóvel e tornar-se anfitrião? Selecione a opção abaixo:</label>
-                            <select asp-for="TipoUsuario" class="form-control bold-7 t-black font-size-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                        <div>
+                            <label asp-for="TipoUsuario" class="control-label font-size-16 bold-6">Quer cadastrar seu imóvel e se tornar um Anfitrião? Selecione a opção abaixo:</label>
+                            <select asp-for="TipoUsuario" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
                             <span asp-validation-for="TipoUsuario" class="text-danger"></span>
                         </div>
                         
