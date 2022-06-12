@@ -5,9 +5,9 @@ function card(img, link1, link2, link3){
   <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
       <div class="flex-1 shadow-1"> 
           <a><img class="w-f h-2 object-cover" src="${img}"> </a>
-          <a href="${link1}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DETALHES</p></a> 
-          <a href="${link2}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-          <a href="${link3}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">CANCELAR RESERVA</p></a>
+          <a href="${link1}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Detalhes</p></a> 
+          <a href="${link2}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Reserva</p></a>
+          <a href="${link3}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Cancelar Reserva</p></a>
       </div>
   </div>
   `
@@ -18,10 +18,10 @@ function card(img, link1, link2, link3){
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('img/hotel-2.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('img/hotel-3.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('img/hotel-4.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('~/img/hotel-1.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('~/img/hotel-2.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('~/img/hotel-3.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('~/img/hotel-4.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
 
 
 

@@ -58,7 +58,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdImovel,Endereco,Cidade,TipoEsp,TipoAc,QtdeHospedes,Foto1")] Imovel imovel)
+        public async Task<IActionResult> Create([Bind("IdImovel,Endereco,Bairro, Cidade,TipoEsp,TipoAc, QtdeHospedes, QtdeCamas, QtdeQuartos, QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, DispImovel, DesativarImovel")] Imovel imovel)
         {
             if (ModelState.IsValid)
             {
@@ -92,7 +92,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdImovel,Endereco,Cidade,TipoEsp,TipoAc,QtdeHospedes,Foto1")] Imovel imovel)
+        public async Task<IActionResult> Edit(int id, [Bind("IdImovel,Endereco,Bairro, Cidade,TipoEsp,TipoAc, QtdeHospedes, QtdeCamas, QtdeQuartos, QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, DispImovel, DesativarImovel")] Imovel imovel)
         {
             if (id != imovel.IdImovel)
             {
