@@ -19,181 +19,174 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/stylepage.css">
-    <link rel="stylesheet" href="css/perfil_anfitriao.css">
-    <link rel="icon" type="icon/ico" href="img/favicon-32x32.png">
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
 
-    <title>Perfil do Anfitrião | CarpeDiem</title>
+    <link rel="stylesheet" href="~/components/css/button.css">
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/detalhes_imovel.css">    
+
+    <title>Editar Cadastro Imóvel | CarpeDiem</title>
 </head>
 
+
 <body class="bg-gray">
-
     <!-- topo -->
-    
-    <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
-        <a href="index_logado.html"><img src="~/img/Logo_Final_382x148.png"></a>
-    
-        <div class="direct flex md-flex-col">
-            <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
-        </div> 
-    </section>
-
-    <div class="container m-auto flex j-center p-3">
-           <!-- banner -->
-        <section>
-
-            <div class="p-1 flex j-between ai-center p-3">
-                <div class="flex ai-center gap-3 flex-wrap">
-                    <div class="relative w-2 h-2">
-                        <img src="~/img/usuario.jpg" class="rounded-full w-f">
-                        <div class="absolute bottom right bg-blue-1 rounded-full">
-                            <a asp-action="Edit" asp-route-id="@Model.IdImovel"><img width="50px" src="~/img/edit_note.png"></a>
-                        </div>    
-                    </div>  
-    <!--
-                    <div>
-                        <p class="bold-7 t-black font-size-32">@Html.DisplayFor(model => model.Nome)</p>
-                        <p class="font-size-24">Sou Anfitrião</p>
-                    </div>-->
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col"> 
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="#"><img width="30px" src="~/img/edit_note.png"></a>
                 </div>
             </div>
+            <!--<p>Ana Maria</p>-->
+        </div>
+    </section>
 
-            <div class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-black font-size-7">
-                Perfil do Anfitrião
-            </div>
-              
+    <div class="container m-auto j-center p-3">
+
+        <!-- banner -->
+        <section>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Editar Imóvel</div>
+
+            <!-- bloquinhos -->
+            <br>
+            <br>
+
+            <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                Inserir fotos
+            </div>            
+                          
             <!-- dados do anfitrião -->
             <br>
             <br>
 
             <main>
-                <form asp-action="Edit" class="w-f p-2" name="Cadastro">
+                <form asp-action="Edit" class="w-f p-2" name="EditarCadastro">
                          <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <input type="hidden" asp-for="IdImovel" />                            
-                <!--
                     <div class="j-center ai-center">
                        <dl class="w-full">
                             <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Nome)
-                            </dt>
-                            <dd class="w-f input mb-3 mt-1" >
-                                @Html.DisplayFor(model => model.Nome)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.CPF)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.CPF)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.DataDeNascimento)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.DataDeNascimento)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Email)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.Email)
-                            </dd>
-                            <dt class = "w-full">
                                 @Html.DisplayNameFor(model => model.Endereco)
                             </dt>
-                            <dd class = "w-f input mb-3 mt-1">
+                            <dd class="w-f input mb-3 mt-1" >
                                 @Html.DisplayFor(model => model.Endereco)
                             </dd>
                             <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Telefone)
+                                @Html.DisplayNameFor(model => model.Bairro)
                             </dt>
                             <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.Telefone)
-                            </dd>                            
-                        </dl>
-                    </div>       -->              
+                                @Html.DisplayFor(model => model.Bairro)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Cidade)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Cidade)
+                            </dd>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.TipoEsp)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.TipoEsp)
+                            </dd> 
+                       </dl>
+                       <div>
+                           <div class="form-group">
+                                <label asp-for="TipoAc" class="font-size-16 bold-6 t-black"></label>
+                                <select asp-for="TipoAc" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<TipoAcomodacao>()"></select>
+                                <span asp-validation-for="TipoAc" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                                <label asp-for="QtdeHospedes" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="QtdeHospedes" class="input w-f mb-4" />
+                                <span asp-validation-for="QtdeHospedes" class="text-danger"></span>
+                           </div>
+                           <div class="form-group">
+                                <label asp-for="QtdeCamas" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="QtdeCamas" style="width: 100%" class="input w-f mb-4"/>
+                                <span asp-validation-for="QtdeCamas" class="text-danger"></span>
+                            </div>
+ 
+                            <div class="form-group">
+                                <label asp-for="QtdeQuartos" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="QtdeQuartos" style="width: 100%" class="input w-f mb-4"/>
+                                <span asp-validation-for="QtdeQuartos" class="text-danger"></span>
+                            </div>
+       
+                            <div class="form-group">
+                                <label asp-for="QtdeBanheiros" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="QtdeBanheiros" style="width: 100%" class="input w-f mb-4"/>
+                                <span asp-validation-for="QtdeBanheiros" class="text-danger"></span>
+                            </div>
+
+                            <h2><b class="bold-7 t-black">O que o espaço tem a oferecer</b></h2>
+
+                            <div class="grid grid-col-5 md-grid-col-3 gap-2 py-2">
+                                <label class="checkbox" asp-for="Piscina"><input type="checkbox" asp-for="Piscina"><div class="checkbox-item"></div><span>Piscina</span></label>
+                                <label class="checkbox" asp-for="Patio"><input type="checkbox" asp-for="Patio"><div class="checkbox-item"></div><span>Pátio</span></label>
+                                <label class="checkbox" asp-for="Jogos"><input type="checkbox" asp-for="Jogos"><div class="checkbox-item"></div><span>Jogos</span></label>
+                                <label class="checkbox" asp-for="Lareira"><input type="checkbox" asp-for="Lareira"><div class="checkbox-item"></div><span>Lareira</span></label>
+                                <label class="checkbox" asp-for="Churrasqueira"><input type="checkbox" asp-for="Churrasqueira"><div class="checkbox-item"></div><span>Churrasqueira</span></label>
+                                <label class="checkbox" asp-for="Cozinha"><input type="checkbox" asp-for="Cozinha"><div class="checkbox-item"></div><span>Cozinha</span></label>
+                                <label class="checkbox" asp-for="WiFi"><input type="checkbox" asp-for="WiFi"><div class="checkbox-item"></div><span>Wi-fi</span></label>
+                                <label class="checkbox" asp-for="Estacionamento"><input type="checkbox" asp-for="Estacionamento"><div class="checkbox-item"></div><span>Estacionamento</span></label>
+                                <label class="checkbox" asp-for="ArCondicionado"><input type="checkbox" asp-for="ArCondicionado"><div class="checkbox-item"></div><span>Ar Condicionado</span></label>
+                                <label class="checkbox" asp-for="Academia"><input type="checkbox" asp-for="Academia"><div class="checkbox-item"></div><span>Academia</span></label>
+                                <label class="checkbox" asp-for="DuchaExterna"><input type="checkbox" asp-for="DuchaExterna"><div class="checkbox-item"></div><span>Ducha Externa</span></label>
+                                <label class="checkbox" asp-for="MaquinaLavar"><input type="checkbox" asp-for="MaquinaLavar"><div class="checkbox-item"></div><span>Máquina de Lavar</span></label>
+                                <label class="checkbox" asp-for="VistaMar"><input type="checkbox" asp-for="VistaMar"><div class="checkbox-item"></div><span>Vista para o Mar</span></label>
+                                <label class="checkbox" asp-for="Rampa"><input type="checkbox" asp-for="Rampa"><div class="checkbox-item"></div><span>Rampas de Acesso</span></label>
+                                <label class="checkbox" asp-for="Elevador"><input type="checkbox" asp-for="Elevador"><div class="checkbox-item"></div><span>Elevador</span></label>
+                                <label class="checkbox" asp-for="Suite"><input type="checkbox" asp-for="Suite"><div class="checkbox-item"></div><span>Suíte</span></label>
+                                <label class="checkbox" asp-for="Sauna"><input type="checkbox" asp-for="Sauna"><div class="checkbox-item"></div><span>Sauna</span></label>
+                                <label class="checkbox" asp-for="PET"><input type="checkbox" asp-for="PET"><div class="checkbox-item"></div><span>Aceita PET</span></label>
+                            </div>
+                            <br />
+
+                            <div class="form-group">
+                                <label asp-for="IdImovel" class="font-size-16 bold-6 t-black"></label>
+                                <select asp-for="IdImovel" style="width: 100%" class="input w-f mb-4" asp-items="ViewBag.IdImovel"></select>
+                            </div>
+
+                            <section>
+                                <h2><b class="bold-7 t-black">Informações adicionais</b></h2>
+                                <div class="grid grid-col-2 md-grid-col-1 gap-1 py-2">
+                                    <div class="flex j-center ai-center gap-1" asp-for="CheckIn"><span class="bold-7 t-black">Horário Check-In</span><input class="input flex-1" type="text"></div>
+                                    <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Distância Praia</span><input class="input flex-1" type="text"></div>
+                                    <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Horário Check-Out</span><input class="input flex-1" type="text"></div>
+                                    <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Valor da Diária</span><input class="input flex-1" type="text"></div>
+                                </div><br>
+                                <div class="input w-f h-2 m-1" contenteditable="">Digite seu texto aqui</div>
+                            </section>
+                            <br />
+
+                            <div class="grid grid-col-2 md-grid-col-1 gap-3 py-2">
+                                <div class="form-group">
+                                    <label asp-for="DispImovel" class="font-size-16 bold-6 t-black"></label>
+                                    <select asp-for="DispImovel" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<DisponImovel>()"></select>
+                                    <span asp-validation-for="DispImovel" class="text-danger"></span>
+                                </div>
+      
+                                <div class="form-group">
+                                    <label asp-for="DesativarImovel" class="font-size-16 bold-6 t-black"></label>
+                                    <select asp-for="DesativarImovel" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<DesativarImovel>()"></select>
+                                    <span asp-validation-for="DesativarImovel" class="text-danger"></span>
+                                </div>
+                            </div>
+                       </div>
+                    </div>                                       
                  </form>
-            </main>
-
-            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
-                Meus Imóveis Cadastrados
-            </div>
-
-            <!-- cards -->
-            <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
-                    </div>
-                </div>
-            </section>   
-
-            <br>
-            <br>
-
-            <p id="esqueceu" class="possui_cadastro s-end t-right">
-                <a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a>
-            </p>
-
-            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
-                Imóveis Reservados
-            </div>
-            
-            <!-- cards -->
-            <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-                    </div>
-                </div>
-                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
-                    <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-                    </div>
-                </div>
-            </section> 
+            </main> 
            
-            <section class="w-f py-2 flex j-end">
-                <a class="" href="index.html">
-                    <img src="~/img/svg/sair.svg" width="64px">
-                </a>
-            </section>
+            <br />                                 
+
+            <div class="flex t-center j-center py-2">
+                <input type="submit" value="SALVAR ALTERAÇÕES" class="btn btn-blue btn-effect w-6p"/>                        
+            </div>
             
             <div class="copyright p-2 t-center"></div>
         
@@ -202,49 +195,6 @@
     </div>
 </body>
 </html>
-
-
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="IdImovel" />
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cidade" class="control-label"></label>
-                <input asp-for="Cidade" class="form-control" />
-                <span asp-validation-for="Cidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoEsp" class="control-label"></label>
-                <select asp-for="TipoEsp" class="form-control"></select>
-                <span asp-validation-for="TipoEsp" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TipoAc" class="control-label"></label>
-                <select asp-for="TipoAc" class="form-control"></select>
-                <span asp-validation-for="TipoAc" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="QtdeHospedes" class="control-label"></label>
-                <input asp-for="QtdeHospedes" class="form-control" />
-                <span asp-validation-for="QtdeHospedes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Foto1" class="control-label"></label>
-                <input asp-for="Foto1" class="form-control" />
-                <span asp-validation-for="Foto1" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
 
 <div>
     <a asp-action="Index">Back to List</a>

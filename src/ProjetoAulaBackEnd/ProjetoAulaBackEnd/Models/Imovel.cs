@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetoAulaBackEnd.Models
@@ -114,6 +115,22 @@ namespace ProjetoAulaBackEnd.Models
 
         [Display(Name = "Wi-Fi")]
         public bool WiFi { get; set; }
+
+        [Display(Name = "Horário Check-In")]
+        [Required(ErrorMessage = "Obrigatório informar este campo!")]
+        public int CheckIn { get; set; }
+
+        [Display(Name = "Horário Check-Out")]
+        [Required(ErrorMessage = "Obrigatório informar este campo!")]
+        public int CheckOut { get; set; }
+
+        [Display(Name = "Distância para a Praia")]
+        [Required(ErrorMessage = "Obrigatório informar este campo!")]
+        public int DistanciaPraia { get; set; }
+
+        [Display(Name = "Valor da Diária")]
+        [Required(ErrorMessage = "Obrigatório informar este campo!")]
+        public int ValorDiaria { get; set; }
 
         [Display(Name = "Disponibilizar Imóvel")]
         [Required(ErrorMessage = "Obrigatório informar este campo!")]

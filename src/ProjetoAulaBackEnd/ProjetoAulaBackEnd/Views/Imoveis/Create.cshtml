@@ -37,10 +37,10 @@
             <div class="relative w-1 h-1">
                 <img src="~/img/usuario.jpg" class="rounded-full w-f">
                 <div class="absolute bottom right bg-blue-1 rounded-full ">
-                    <a href="perfil_anfitriao.html"><img width="30px" src="~/img/edit_note.png"></a>
+                    <a href="#"><img width="30px" src="~/img/edit_note.png"></a>
                 </div>
             </div>
-            <p>Ana Maria</p>
+            <!--<p>Ana Maria</p>-->
         </div>
     </section>
 
@@ -50,6 +50,8 @@
         <section>
         
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Cadastrar Imóvel</div>
+
+            <h5 id="erro">@ViewBag.Message</h5>
 
             <!-- bloquinhos -->
             <br>
@@ -184,10 +186,10 @@
                     <section>
                         <h2><b class="bold-7 t-black">Informações adicionais</b></h2>
                         <div class="grid grid-col-2 md-grid-col-1 gap-1 py-2">
-                            <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Horário Check-In</span><input class="input flex-1" type="text"></div>
-                            <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Distância Praia</span><input class="input flex-1" type="text"></div>
-                            <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Horário Check-Out</span><input class="input flex-1" type="text"></div>
-                            <div class="flex j-center ai-center gap-1"><span class="bold-7 t-black">Valor da Diária</span><input class="input flex-1" type="text"></div>
+                            <label class="flex j-center ai-center gap-1" asp-for="CheckIn"><span class="bold-7 t-black">Horário Check-In</span><input class="input flex-1" type="text" asp-for="CheckIn"></label>
+                            <label class="flex j-center ai-center gap-1" asp-for="DistanciaPraia"><span class="bold-7 t-black">Distância Praia</span><input class="input flex-1" type="text" asp-for="DistanciaPraia"></label>
+                            <label class="flex j-center ai-center gap-1" asp-for="CheckOut"><span class="bold-7 t-black">Horário Check-Out</span><input class="input flex-1" type="text" asp-for="CheckOut"></label>
+                            <label class="flex j-center ai-center gap-1" asp-for="ValorDiaria"><span class="bold-7 t-black">Valor da Diária</span><input class="input flex-1" type="text" asp-for="ValorDiaria"></label>
                         </div><br>
                         <div class="input w-f h-2 m-1" contenteditable="">Digite seu texto aqui</div>
                     </section>

@@ -58,13 +58,14 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdImovel,Endereco,Bairro, Cidade,TipoEsp,TipoAc, QtdeHospedes, QtdeCamas, QtdeQuartos, QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, DispImovel, DesativarImovel")] Imovel imovel)
+        public async Task<IActionResult> Create([Bind("IdImovel,Endereco,Bairro,Cidade,TipoEsp,TipoAc,QtdeHospedes,QtdeCamas,QtdeQuartos,QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, CheckIn, CheckOut, DistanciaPraia, ValorDiaria, DispImovel, DesativarImovel")] Imovel imovel)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(imovel);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                ViewBag.Message = "Imóvel Cadastrado com Sucesso!";
+                //return RedirectToAction(nameof(Index));
             }
             ViewData["IdImovel"] = new SelectList(_context.Hospedes, "IdHospede", "CPF", imovel.IdImovel);
             return View(imovel);
@@ -92,7 +93,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdImovel,Endereco,Bairro, Cidade,TipoEsp,TipoAc, QtdeHospedes, QtdeCamas, QtdeQuartos, QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, DispImovel, DesativarImovel")] Imovel imovel)
+        public async Task<IActionResult> Edit(int id, [Bind("IdImovel,Endereco,Bairro, Cidade,TipoEsp,TipoAc, QtdeHospedes, QtdeCamas, QtdeQuartos, QtdeBanheiros, Foto1, Foto2, Foto3, Foto4, Academia, PET, ArCondicionado, Churrasqueira, Cozinha, DuchaExterna, Elevador, Estacionamento, Jogos, Lareira, MaquinaLavar, Patio, Piscina, Rampa, Sauna, Suite, VistaMar, WiFi, CheckIn, CheckOut, DistanciaPraia, ValorDiaria, DispImovel, DesativarImovel")] Imovel imovel)
         {
             if (id != imovel.IdImovel)
             {

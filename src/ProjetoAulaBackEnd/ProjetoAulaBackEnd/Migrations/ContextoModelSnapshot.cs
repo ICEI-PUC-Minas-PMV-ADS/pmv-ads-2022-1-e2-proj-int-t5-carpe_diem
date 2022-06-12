@@ -66,7 +66,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdHospede");
 
-                    b.ToTable("Hospede");
+                    b.ToTable("Hospede", (string)null);
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
@@ -84,6 +84,12 @@ namespace ProjetoAulaBackEnd.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CheckIn")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CheckOut")
+                        .HasColumnType("int");
+
                     b.Property<bool>("Churrasqueira")
                         .HasColumnType("bit");
 
@@ -98,6 +104,9 @@ namespace ProjetoAulaBackEnd.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("DispImovel")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DistanciaPraia")
                         .HasColumnType("int");
 
                     b.Property<bool>("DuchaExterna")
@@ -174,6 +183,9 @@ namespace ProjetoAulaBackEnd.Migrations
                     b.Property<int>("TipoEsp")
                         .HasColumnType("int");
 
+                    b.Property<int>("ValorDiaria")
+                        .HasColumnType("int");
+
                     b.Property<bool>("VistaMar")
                         .HasColumnType("bit");
 
@@ -182,7 +194,7 @@ namespace ProjetoAulaBackEnd.Migrations
 
                     b.HasKey("IdImovel");
 
-                    b.ToTable("Imovel");
+                    b.ToTable("Imovel", (string)null);
                 });
 
             modelBuilder.Entity("ProjetoAulaBackEnd.Models.Imovel", b =>
