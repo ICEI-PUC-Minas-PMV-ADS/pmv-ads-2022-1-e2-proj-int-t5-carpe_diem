@@ -163,29 +163,50 @@ namespace ProjetoAulaBackEnd.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2,TipoUsuario")] Hospede hospede)
         {
-            
+            var cpf = await _context.Hospedes
+               .FirstOrDefaultAsync(m => m.CPF == hospede.CPF);
+
+            if (cpf != null)
+            {
+                ViewBag.Message = "CPF já cadastrado. Faça seu Login.";
+                return View();
+            }
+
+            var email = await _context.Hospedes
+              .FirstOrDefaultAsync(m => m.Email == hospede.Email);
+
+            if (email != null)
+            {
+                ViewBag.Message = "E-mail já cadastrado. Faça seu Login.";
+                return View();
+            }
+
             if (hospede.Senha != hospede.Senha2)
             {
               ViewBag.Message= "Senhas não conferem. Digite novamente";
                 return View();
             }
- 
-                if (ModelState.IsValid)
+           /* var cpf =await _context.Hospedes.FindAsync(hospede.CPF);
+                if (cpf != null)
+            {
+                ViewBag.Message = "CPF já cadastrado!";
+                return View();
+            }*/
+
+            if (ModelState.IsValid)
                 {
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
                     //hospede.TipoUsuario = 0;
                     _context.Add(hospede);
                     await _context.SaveChangesAsync();
-                    ViewBag.Message = "Cadastro realizado com sucesso!";
-                    //return RedirectToAction(nameof(Create));
-                    
-            }
+                    ViewBag.Message = "Cadastro realizado com sucesso! Faça seu login";
+                    //return RedirectToAction("Login", "Hospedes");
+                }
 
-           
             return View();
             
-        }
+            }
 
         // GET: Hospedes/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -242,9 +263,9 @@ namespace ProjetoAulaBackEnd.Controllers
                         throw;
                     }
                 }
-                // ViewBag.Message = "Atualização realizada com sucesso!";
+                 ViewBag.Message = "Atualização realizada com sucesso!";
     
-                return RedirectToAction("Create", "Imoveis");
+                //return RedirectToAction("Create", "Imoveis");
 
 
             }
