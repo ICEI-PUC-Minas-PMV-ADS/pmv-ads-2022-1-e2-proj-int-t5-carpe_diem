@@ -8,7 +8,7 @@ Quadro 8 - Programação das Funcionalidades
 |ID       | Descrição do Requisito  | Artefatos da Funcionalidade |
 |---------|-------------------------|-----------------------------|
 |RF-001   | A aplicação deve permitir ao usuário realizar o cadastro como hóspede.  | https://carpediemfinal.azurewebsites.net/Hospedes/Create |
-|RF-002   | A aplicação deve permitir ao usuário gerenciar seu cadastro. | carpediemfinal.azurewebsites.net/Hospedes/Edit | 
+|RF-002   | A aplicação deve permitir ao usuário gerenciar seu cadastro. | https://carpediemfinal.azurewebsites.net/Hospedes/Edit | 
 |RF-003   | A aplicação deve permitir ao hóspede a opção de se tornar anfitrião, e com isso, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | em desenvolvimento | 
 |RF-004   | A aplicação deve permitir que o hóspede reserve o imóvel escolhido. | em desenvolvimento |
 |RF-005   | A aplicação deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | em desenvolvimento |
