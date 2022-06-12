@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+st+HqAKfooJJTlMyqg+nf1AAz+9HwV9l7tgheCjjT0=",
+  "Hash": "ZVZzOHuBKJRrWiYg4JOuRscl1tV8utUMhE3wEREXUgk=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -2378,6 +2378,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Vector.png"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\alertas.js",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "js/alertas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\alertas.js"
     },
     {
       "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\NovoProjetoCarpeDiem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\copyright.js",
