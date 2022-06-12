@@ -8,7 +8,7 @@ O diagrama de classes ilustra esquematicamente como será a estrutura do softwar
 
 Figura 26 - Diagrama de Classes
 
-![Diagrama de Classes - atualizado](https://user-images.githubusercontent.com/89617881/162593374-e77bbf5e-ce22-4485-8219-a2178ed56ff3.png)
+![Diagrama de Classes - CarpeDiem (4)](https://user-images.githubusercontent.com/89617881/173254925-df457953-75b2-44ee-a76d-7241eb098a14.png)
 
 Fonte: Elaborado pelos autores
 
