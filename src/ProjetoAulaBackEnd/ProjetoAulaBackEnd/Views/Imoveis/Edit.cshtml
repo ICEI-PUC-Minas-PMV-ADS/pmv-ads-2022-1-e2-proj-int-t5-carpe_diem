@@ -50,11 +50,11 @@
                             <a asp-action="Edit" asp-route-id="@Model.IdImovel"><img width="50px" src="~/img/edit_note.png"></a>
                         </div>    
                     </div>  
-    
+    <!--
                     <div>
                         <p class="bold-7 t-black font-size-32">@Html.DisplayFor(model => model.Nome)</p>
                         <p class="font-size-24">Sou Anfitrião</p>
-                    </div>
+                    </div>-->
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
                 <form asp-action="Edit" class="w-f p-2" name="Cadastro">
                          <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                             <input type="hidden" asp-for="IdImovel" />                            
-              
+                <!--
                     <div class="j-center ai-center">
                        <dl class="w-full">
                             <dt class = "w-full">
@@ -110,7 +110,7 @@
                                 @Html.DisplayFor(model => model.Telefone)
                             </dd>                            
                         </dl>
-                    </div>                     
+                    </div>       -->              
                  </form>
             </main>
 

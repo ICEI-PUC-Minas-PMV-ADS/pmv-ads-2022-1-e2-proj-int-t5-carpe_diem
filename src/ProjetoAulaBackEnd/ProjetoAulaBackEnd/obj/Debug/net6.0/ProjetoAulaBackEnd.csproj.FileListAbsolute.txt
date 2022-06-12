@@ -1,0 +1,9 @@
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.csproj.AssemblyReference.cache
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.AssemblyInfoInputs.cache
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.AssemblyInfo.cs
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.csproj.CoreCompileInputs.cache
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.RazorAssemblyInfo.cache
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.RazorAssemblyInfo.cs
