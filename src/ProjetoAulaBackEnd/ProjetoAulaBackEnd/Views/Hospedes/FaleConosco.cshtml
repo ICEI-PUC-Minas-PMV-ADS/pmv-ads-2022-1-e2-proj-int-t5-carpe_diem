@@ -1,0 +1,83 @@
+﻿@model ProjetoAulaBackEnd.Models.FaleConosco
+
+@{
+    ViewData["Title"] = "Fale Conosco";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/css/fale_conosco2.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+
+    <title>Fale Conosco | CarpeDiem</title>
+</head>
+
+
+<body class="bg-gray">
+    
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
+
+        <!--<a href="index_logado.html"><img src="~/img/Logo_Final_382x148.png"></a>-->
+
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="perfil_hospede.html"><img width="30px" src="~/img/edit_note.png"></a>
+                </div>
+            </div>
+            <p>Ana Maria</p>
+        </div>
+
+    </section>
+
+    <div>
+        <legend class="w-full">
+            <h1>Como podemos te ajudar?</h1>
+            <h5 id="erro">@ViewBag.Message</h5>
+        </legend>
+    </div>
+
+    <main class="">
+        <form>
+            <div class="max-w-f flex flex-col p-2 w-5 m-auto">
+                <label class="w-full" for="nome">Nome Completo</label>
+                <input class="input mb-4 input-padrao" type="text" id="nome" required>
+                    
+                <label class="w-full" for="email">Email</label>
+                <input class="input mb-4 input-padrao" type="email" id="Email" required>
+                    
+                <label class="w-full" for="message">Deixe aqui sua mensagem</label>
+                <textarea class="input mb-4" cols="70" rows="10" required></textarea>
+                
+                <button class="btn btn-blue btn-effect" type="submit">ENVIAR</button>
+
+            </div>
+        </form>
+    </main>
+
+    <div class="copyright p-2 t-center"></div>
+
+    <script src="~/js/copyright.js"></script>
+
+</body>
+
+</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
