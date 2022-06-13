@@ -89,6 +89,33 @@ namespace ProjetoAulaBackEnd.Controllers
         {
             return View();
         }
+        
+         //GET: /FaleConosco/
+      
+        public IActionResult FaleConosco()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult FaleConosco(FaleConosco faleConosco)
+        {
+            try
+            {
+                return RedirectToAction("Obrigado");
+            }
+            catch
+            {
+                return View();
+            }
+           
+        }
+
+        //GET: /Hospedes/Obrigado
+        public ActionResult Obrigado()
+        {
+            return View();
+        }
 
         // GET: Hospedes
         public async Task<IActionResult> Index()
