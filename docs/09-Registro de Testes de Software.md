@@ -16,39 +16,25 @@ Quadro 10 - Registro dos Testes
 |CT-06         |Realizar busca por imóvel            |Permitir que o usuário realize a busca por imóveis de acordo com os filtros selecionados.<br>Apresentar nos resultados da busca somente os imóveis disponíveis na data selecionada.                               |em desenvolvimento                  |
 |CT-07         |Realizar reserva do imóvel           |Permitir que o hóspede reserve um imóvel.<br>Notificar anfitrião da reserva do imóvel.|em desenvolvimento|
 |CT-08         |Realizar gerenciamento de reservas   |Permitir que o hóspede altere as informações da sua reserva.<br>Permitir que o hóspede cancele sua reserva.|em desenvolvimento|
-|CT-09         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco     |Objetivo alcançado. <br> Vídeo 06   |
+|CT-09         |Preencher formulário fale conosco    |Permitir o envio do formulário fale conosco     |em desenvolvimento                  |
 
 Fonte: Elaborado pelos Autores
 
 <br>
 
-### 9.1.1 Vídeo 01 - Caso de Teste 01
+### 9.1.1 Vídeo 01 - Caso de Teste 01 e 02
+
+<https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EbJ0U52tJfxPhiUbYHDtwYgBImUFYOG1dovhbEA9nAOzKg?e=FS6BTG>
 
 
-Fonte: Elaborado pelos autores
+### 9.1.2 Vídeo 02 - Caso de Teste 03
+
+<https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EYkvrVSh8CFLhnzqEvcZgNsBck_bRJRPTrHAa480YcIsfQ?e=1Nopm3>
 
 
-### 9.1.2 Vídeo 02 - Caso de Teste 02
+### 9.1.3 Vídeo 03 - Caso de Teste 04
 
+https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EYJcMDS5K89HnY8t1TJsp0AB-2UBvT6By0yzN2akYlLY4A?e=MdwrBX
 
-Fonte: Elaborado pelos autores
-
-
-### 9.1.3 Vídeo 03 - Caso de Teste 03
-
-
-Fonte: Elaborado pelos autores
-
-
-### 9.1.4 Vídeo 04 - Caso de Teste 04
-
-
-Fonte: Elaborado pelos autores
-
-
-### 9.1.5 Vídeo 05 - Caso de Teste 09
-
-
-Fonte: Elaborado pelos autores
 
 
