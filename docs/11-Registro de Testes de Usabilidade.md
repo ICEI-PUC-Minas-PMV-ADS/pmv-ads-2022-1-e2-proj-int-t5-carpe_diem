@@ -34,7 +34,7 @@ Quadro 11 - Testes de Usabilidade
 |Voluntário 03 |Cadastro de novo usuário |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 2min 53seg.<br>Nível de Dificuldade:02 <br>Nível de Satisfação:02<br>Finalizou o cadastro com dificuldade para encontrar o menú de cadastro.|
 |Voluntário 04 |Cadastro de novo usuário |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 40seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Sem dificuldades, finalizou o cadastro. Relatou que o site ficou "legal".|
 |Voluntário 05 |Cadastro de novo usuário |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 32seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou que o site está "muito bonito". Não ficou claro o cadastro ter sido concluído por ter redirecionado para outra tela. Sem dificuldades, finalizou o cadastro.|
-|Voluntário 06 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
+|Voluntário 06 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 34seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
 
 
 
