@@ -12,10 +12,10 @@ Quadro 10 - Perfil dos Voluntários
 |Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastro de novo usuário|
 |Voluntário 05 |    30    |Superior Incompleto   |Estudante                      |Cadastro de novo usuário|
 |Voluntário 06 |    42    |Superior Completo     |Administrador                  |Logar no sistema|
-|Voluntário 02 |    21    |Superior Incompleto   |Estudante                      |Logar no sistema|
-|Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Logar no sistema|
-|Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Logar no sistema|
-|Voluntário 05 |    30    |Superior Incompleto   |Estudante                      |Logar no sistema|
+|Voluntário 07 |    27    |Superior Incompleto   |Bancario                       |Logar no sistema|
+|Voluntário 08 |    55    |Ensino Médio Incomp.  |Cozinheiro                     |Logar no sistema|
+|Voluntário 09 |    31    |Ensino Médio Completo |Autônomo                       |Logar no sistema|
+|Voluntário 10 |    38    |Superior Completo     |Bombeiro Militar               |Logar no sistema|
 |Voluntário 06 |    42    |Superior Completo     |Administrador                  |Cadastrar Imóvel|
 |Voluntário 02 |    21    |Superior Incompleto   |Estudante                      |Cadastrar Imóvel|
 |Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Cadastrar Imóvel|
@@ -35,7 +35,10 @@ Quadro 11 - Testes de Usabilidade
 |Voluntário 04 |Cadastro de novo usuário |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 40seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Sem dificuldades, finalizou o cadastro. Relatou que o site ficou "legal".|
 |Voluntário 05 |Cadastro de novo usuário |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 32seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou que o site está "muito bonito". Não ficou claro o cadastro ter sido concluído por ter redirecionado para outra tela. Sem dificuldades, finalizou o cadastro.|
 |Voluntário 06 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 34seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
-
+|Voluntário 07 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 20seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
+|Voluntário 08 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 3min 05seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
+|Voluntário 09 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 10seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
+|Voluntário 10 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir. |Tempo gasto: 1min 22seg.<br>Nível de Dificuldade:04 <br>Nível de Satisfação:01<br>Relatou não ter dificuldades para completar o login.|
 
 
 Fonte: Elaborado pelos autores
