@@ -57,16 +57,24 @@
 
             <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
                 Inserir fotos
-            </div>            
-                          
-            <!-- dados do anfitrião -->
-            <br>
-            <br>
-
-            <main>
+            </div>      
+                        
+            <main class="w-full">
                 <form asp-action="Edit" class="w-f p-2" name="EditarCadastro">
-                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                            <input type="hidden" asp-for="IdImovel" />                            
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="IdImovel" />
+                
+                    <section class="flex flex-wrap j-between gap-3 t-center">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-1.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-2.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-3.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-4.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-1.jpg">               
+                    </section>
+                    
+                    <br />
+                    <br />
+                                        
                     <div class="j-center ai-center">
                        <dl class="w-full">
                             <dt class = "w-full">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H2It9E9wG6VqyZ4x1lyGRiyN6E8WRysdcas3/54gGWg=",
+  "Hash": "hCXxkRubs4JBarwgwL8vPMcWMCKRdaPflzMu2DOaRhs=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -2378,6 +2378,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Vector.png"
+    },
+    {
+      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\alertas.js",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "js/alertas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\alertas.js"
     },
     {
       "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\copyright.js",
