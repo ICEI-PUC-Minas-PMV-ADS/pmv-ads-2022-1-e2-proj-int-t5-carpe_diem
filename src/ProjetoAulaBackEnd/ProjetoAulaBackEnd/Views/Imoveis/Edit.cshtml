@@ -56,7 +56,7 @@
             <br>
 
             <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
-                Inserir fotos
+                Alterar Fotos
             </div>      
                         
             <main class="w-full">
@@ -72,8 +72,28 @@
                         <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-1.jpg">               
                     </section>
                     
-                    <br />
-                    <br />
+                    <div class="grid grid-col-4 md-grid-col-1 gap-3 py-2">
+                        <div class="form-group">
+                            <label asp-for="Foto1" class="font-size-16 bold-6 t-black"></label>
+                            <input asp-for="Foto1" style="width: 100%" class="input w-f mb-4"/>
+                            <span asp-validation-for="Foto1" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Foto2" class="font-size-16 bold-6 t-black"></label>
+                            <input asp-for="Foto2" style="width: 100%" class="input w-f mb-4"/>
+                            <span asp-validation-for="Foto2" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Foto3" class="font-size-16 bold-6 t-black"></label>
+                            <input asp-for="Foto3" style="width: 100%" class="input w-f mb-4"/>
+                            <span asp-validation-for="Foto3" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Foto4" class="font-size-16 bold-6 t-black"></label>
+                            <input asp-for="Foto4" style="width: 100%" class="input w-f mb-4"/>
+                            <span asp-validation-for="Foto4" class="text-danger"></span>
+                        </div>
+                    </div>
                                         
                     <div class="j-center ai-center">
                        <dl class="w-full">

@@ -30,7 +30,7 @@
 <body class="bg-gray">
     
     <!-- topo -->
-    <section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">
 
         <!--<a href="index_logado.html"><img src="~/img/Logo_Final_382x148.png"></a>-->
 
@@ -41,32 +41,31 @@
                     <a href="perfil_hospede.html"><img width="30px" src="~/img/edit_note.png"></a>
                 </div>
             </div>
-            <p>Ana Maria</p>
+            <!--<p>Ana Maria</p>-->
         </div>
 
     </section>
 
-    <div>
-        <legend class="w-full">
-            <h1>Como podemos te ajudar?</h1>
-            <h5 id="erro">@ViewBag.Message</h5>
-        </legend>
-    </div>
+    <main>
+        <form class="w-f p-2" method="post">
+            <legend>
+                <h1><b>Como podemos te ajudar?</b></h1>                
+                <h5 id="erro">@ViewBag.Message</h5>
+            </legend>
 
-    <main class="">
-        <form>
-            <div class="max-w-f flex flex-col p-2 w-5 m-auto">
-                <label class="w-full" for="nome">Nome Completo</label>
-                <input class="input mb-4 input-padrao" type="text" id="nome" required>
+            <div class="j-center ai-center">
+                <label class="w-full font-size-24 bold-6 t-black" for="nome">Nome Completo</label>
+                <input style="width: 100%" class="w-f input w-f mb-4" type="text" id="nome" required>
                     
-                <label class="w-full" for="email">Email</label>
-                <input class="input mb-4 input-padrao" type="email" id="Email" required>
+                <label class="font-size-24 bold-6 t-black" for="email">Email</label>
+                <input style="width: 100%" class="input w-f mb-4" type="email" id="Email" required>
                     
-                <label class="w-full" for="message">Deixe aqui sua mensagem</label>
-                <textarea class="input mb-4" cols="70" rows="10" required></textarea>
-                
-                <button class="btn btn-blue btn-effect" type="submit">ENVIAR</button>
+                <label class="font-size-24 bold-6 t-black" for="message">Deixe aqui sua mensagem</label>
+                <textarea style="width: 100%" class="input w-f mb-4" cols="100" rows="10" required></textarea>  
 
+                <div class="flex t-center j-center py-2">
+                    <input type="submit" value="ENVIAR" class="btn btn-blue btn-effect w-6p"/>                        
+                </div>
             </div>
         </form>
     </main>

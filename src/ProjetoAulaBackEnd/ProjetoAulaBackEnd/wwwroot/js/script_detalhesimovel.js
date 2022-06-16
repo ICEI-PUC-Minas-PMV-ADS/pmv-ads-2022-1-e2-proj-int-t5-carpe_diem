@@ -4,7 +4,7 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, lin
   card_html = `
   <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
       <div class="flex-1 shadow-1"> 
-          <a href='${link}'><img class="w-f h-2 object-cover" src="${img}"> </a>
+          <img class="w-f h-2 object-cover" src="${img}">
           <p class="p-1 bold-7 t-black t-center font-size-5">${lugar}</p>     
           <div class="grid grid-col-2 p-1">
               <div>
@@ -28,10 +28,10 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, lin
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 'Casa em Vila Velha - ES', "Praia Morro"  , 1, 5, 1, 180,  'detalhes_imovel.html')
-card('img/hotel-2.jpg', 'Casa em Vila Velha - ES', "Vitória"       , 1, 5, 1, 280, 'detalhes_imovel.html')
-card('img/hotel-3.jpg', 'Casa em Vila Velha - ES', "São Luiz"      , 1, 5, 1, 130, 'detalhes_imovel.html')
-card('img/hotel-4.jpg', 'Casa em Vila Velha - ES', "Florianópolis" , 1, 5, 1, 980, 'detalhes_imovel.html')
+card('.../img/hotel-1.jpg', 'Casa em Vila Velha - ES', "Praia Morro", 1, 5, 1, 180, 'asp-area="" asp-controller="Imoveis" asp-action="Details"')
+card('.../img/hotel-2.jpg', 'Casa em Vila Velha - ES', "Vitória", 1, 5, 1, 280, 'asp-area="" asp-controller="Imoveis" asp-action="Details"')
+card('.../img/hotel-3.jpg', 'Casa em Vila Velha - ES', "São Luiz", 1, 5, 1, 130, 'asp-area="" asp-controller="Imoveis" asp-action="Details"')
+card('.../img/hotel-4.jpg', 'Casa em Vila Velha - ES', "Florianópolis", 1, 5, 1, 980, 'asp-area="" asp-controller="Imoveis" asp-action="Details"')
 
 d = new Date()
 ano.innerHTML = d.getFullYear()
