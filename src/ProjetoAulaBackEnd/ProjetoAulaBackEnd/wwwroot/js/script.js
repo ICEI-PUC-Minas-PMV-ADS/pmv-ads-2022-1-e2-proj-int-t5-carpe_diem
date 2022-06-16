@@ -23,10 +23,10 @@ function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, lin
   
 }
 
-card('img/hotel-1.jpg', 'Praia', "Porto Seguro"  , 1, 5, 1, 180, 'http://www.youtube.com')
-card('img/hotel-2.jpg', 'Praia', "Vitória"       , 1, 5, 1, 280, 'http://www.google.com')
-card('img/hotel-3.jpg', 'Praia', "São Luiz"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
-card('img/hotel-4.jpg', 'Praia', "Florianópolis" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+card('.../img/hotel-1.jpg', 'Praia', "Porto Seguro"  , 1, 5, 1, 180, 'http://www.youtube.com')
+card('.../img/hotel-2.jpg', 'Praia', "Vitória"       , 1, 5, 1, 280, 'http://www.google.com')
+card('.../img/hotel-3.jpg', 'Praia', "São Luiz"      , 1, 5, 1, 130, 'http://www.clickjogos.com')
+card('.../img/hotel-4.jpg', 'Praia', "Florianópolis" , 1, 5, 1, 980, 'https://pt.wikipedia.org/')
 cards_places.children[0].remove()
 // slideshow
 n = 0

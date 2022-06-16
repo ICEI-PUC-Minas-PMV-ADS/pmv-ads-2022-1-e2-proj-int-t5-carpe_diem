@@ -4,6 +4,272 @@
     ViewData["Title"] = "Details";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+
+    <link rel="stylesheet" href="~/components/css/card.css">
+    <link rel="stylesheet" href="~/components/css/button.css">
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/detalhes_imovel.css">    
+
+    <title>Detalhes do Imóvel | CarpeDiem</title>
+</head>
+
+
+<body class="bg-gray">
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col"> 
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="#"><img width="30px" src="~/img/edit_note.png"></a>
+                </div>
+            </div>
+            <!--<p>Ana Maria</p>-->
+        </div>
+    </section>
+
+    <div class="container m-auto j-center p-3">
+
+        <!-- banner -->
+        <section>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Detalhes do Imóvel</div>
+
+            <!-- bloquinhos -->
+            <br>
+            <br>
+
+            <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                Mais Fotos
+            </div>      
+                        
+            <main class="w-full">
+                <form asp-action="Edit" class="w-f p-2" name="EditarCadastro">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="IdImovel" />
+                
+                    <section class="flex flex-wrap j-between gap-3 t-center">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-1.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-2.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-3.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-4.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/hotel-1.jpg">               
+                    </section>
+                    <br />
+
+                    <div class="grid grid-col-4 md-grid-col-1 gap-3 py-2">
+                        <dl>
+                            <dt class = "font-size-16 bold-6 t-black">
+                                @Html.DisplayNameFor(model => model.Foto1)
+                            </dt>
+                            <dd class = "input w-f mb-4">
+                                @Html.DisplayFor(model => model.Foto1)
+                            </dd>
+                            <dt class = "font-size-16 bold-6 t-black">
+                                @Html.DisplayNameFor(model => model.Foto2)
+                            </dt>
+                            <dd class = "input w-f mb-4">
+                                @Html.DisplayFor(model => model.Foto2)
+                            </dd>
+                            <dt class = "font-size-16 bold-6 t-black">
+                                @Html.DisplayNameFor(model => model.Foto3)
+                            </dt>
+                            <dd class = "input w-f mb-4">
+                                @Html.DisplayFor(model => model.Foto3)
+                            </dd>
+                            <dt class = "font-size-16 bold-6 t-black">
+                                @Html.DisplayNameFor(model => model.Foto4)
+                            </dt>
+                            <dd class = "input w-f mb-4">
+                                @Html.DisplayFor(model => model.Foto4)
+                            </dd>
+                        </dl>
+                    </div>                   
+     
+                    <div class="j-center ai-center">
+                       <dl class="w-full">
+                           <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.IdHospede)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.IdHospede.CPF)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Endereco)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1" >
+                                @Html.DisplayFor(model => model.Endereco)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Bairro)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Bairro)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Cidade)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Cidade)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.TipoEsp)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.TipoEsp)
+                            </dd> 
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.TipoAc)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.TipoAc)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.QtdeHospedes)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.QtdeHospedes)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.QtdeCamas)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.QtdeCamas)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.QtdeQuartos)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.QtdeQuartos)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.QtdeBanheiros)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.QtdeBanheiros)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.CheckIn)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.CheckIn)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.CheckOut)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.CheckOut)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.DistanciaPraia)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.DistanciaPraia)
+                            </dd>
+                            <dt class = "w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.ValorDiaria)
+                            </dt>
+                            <dd class = "w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.ValorDiaria)
+                            </dd>
+                       </dl>
+                        
+                       <div>    
+                            <h2><b class="bold-7 t-black font-size-16">O que o espaço tem a oferecer</b></h2>
+                            <div class="grid grid-col-5 md-grid-col-3 gap-2 py-2">
+                                <label class="checkbox" asp-for="Piscina"><input type="checkbox" asp-for="Piscina"><div class="checkbox-item"></div><span>Piscina</span></label>
+                                <label class="checkbox" asp-for="Patio"><input type="checkbox" asp-for="Patio"><div class="checkbox-item"></div><span>Pátio</span></label>
+                                <label class="checkbox" asp-for="Jogos"><input type="checkbox" asp-for="Jogos"><div class="checkbox-item"></div><span>Jogos</span></label>
+                                <label class="checkbox" asp-for="Lareira"><input type="checkbox" asp-for="Lareira"><div class="checkbox-item"></div><span>Lareira</span></label>
+                                <label class="checkbox" asp-for="Churrasqueira"><input type="checkbox" asp-for="Churrasqueira"><div class="checkbox-item"></div><span>Churrasqueira</span></label>
+                                <label class="checkbox" asp-for="Cozinha"><input type="checkbox" asp-for="Cozinha"><div class="checkbox-item"></div><span>Cozinha</span></label>
+                                <label class="checkbox" asp-for="WiFi"><input type="checkbox" asp-for="WiFi"><div class="checkbox-item"></div><span>Wi-fi</span></label>
+                                <label class="checkbox" asp-for="Estacionamento"><input type="checkbox" asp-for="Estacionamento"><div class="checkbox-item"></div><span>Estacionamento</span></label>
+                                <label class="checkbox" asp-for="ArCondicionado"><input type="checkbox" asp-for="ArCondicionado"><div class="checkbox-item"></div><span>Ar Condicionado</span></label>
+                                <label class="checkbox" asp-for="Academia"><input type="checkbox" asp-for="Academia"><div class="checkbox-item"></div><span>Academia</span></label>
+                                <label class="checkbox" asp-for="DuchaExterna"><input type="checkbox" asp-for="DuchaExterna"><div class="checkbox-item"></div><span>Ducha Externa</span></label>
+                                <label class="checkbox" asp-for="MaquinaLavar"><input type="checkbox" asp-for="MaquinaLavar"><div class="checkbox-item"></div><span>Máquina de Lavar</span></label>
+                                <label class="checkbox" asp-for="VistaMar"><input type="checkbox" asp-for="VistaMar"><div class="checkbox-item"></div><span>Vista para o Mar</span></label>
+                                <label class="checkbox" asp-for="Rampa"><input type="checkbox" asp-for="Rampa"><div class="checkbox-item"></div><span>Rampas de Acesso</span></label>
+                                <label class="checkbox" asp-for="Elevador"><input type="checkbox" asp-for="Elevador"><div class="checkbox-item"></div><span>Elevador</span></label>
+                                <label class="checkbox" asp-for="Suite"><input type="checkbox" asp-for="Suite"><div class="checkbox-item"></div><span>Suíte</span></label>
+                                <label class="checkbox" asp-for="Sauna"><input type="checkbox" asp-for="Sauna"><div class="checkbox-item"></div><span>Sauna</span></label>
+                                <label class="checkbox" asp-for="PET"><input type="checkbox" asp-for="PET"><div class="checkbox-item"></div><span>Aceita PET</span></label>
+                            </div>
+                            <br />                                                      
+                       </div>                       
+                    </div>
+                </form>
+            </main>
+
+            <br />                                 
+
+            <div class="flex t-center j-center py-2">
+                <input type="submit" value="RESERVAR IMÓVEL" class="btn btn-blue btn-effect w-6p"/>                        
+            </div>
+            <br />
+
+            <section>
+                <h1 class="py-2 t-black bold-8 font-size-6">Imóveis Relacionados</h1>
+                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
+                    <div class="flex-1 shadow-1"> 
+                        <img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> 
+                        <p class="p-1 bold-7 t-black t-center font-size-5">Casa em Vila Velha - ES</p>     
+                        <div class="grid grid-col-2 p-1">
+                            <div>
+                                <p class="flex"><span class="material-symbols-outlined">local_see</span> Praia</p>
+                                <p class="flex"><span class="material-symbols-outlined">bed</span> 1 Quarto</p>
+                            </div>
+                            <div>
+                                <p class="flex"><span class="material-symbols-outlined">person</span> 5 hóspedes</p>
+                                <p class="flex"><span class="material-symbols-outlined">bathroom</span> 1 Banheiro</p>
+                            </div>
+                        </div> 
+                        <p class="bold-6 t-center p-1 t-black">A partir de 180</p>
+
+                        <a class="bold-6 t-center p-1 t-black bg-blue-2" asp-area="" asp-controller="Imoveis" asp-action="Details">DETALHES</a>
+                    </div>                    
+                </div>   
+            </section> 
+            <br />
+            
+            <div class="flex t-center j-center py-2">
+                <a class="btn btn-blue btn-effect w-3p" asp-action="Edit" asp-route-id="@Model.IdImovel">Edit</a>
+                <a class="btn btn-blue btn-effect w-3p" asp-action="Index">Back to List</a>
+            </div>
+            <br />
+
+            <div class="copyright p-2 t-center"></div>        
+        
+        <script src="~/js/script_detalhesimovel.js"></script>
+        <script src="~/js/copyright.js"></script>
+    </div>
+
+</body>
+</html>
+   
+
+
+
+<!--
 <h1>Details</h1>
 
 <div>
@@ -58,3 +324,4 @@
     <a asp-action="Edit" asp-route-id="@Model.IdImovel">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+-->

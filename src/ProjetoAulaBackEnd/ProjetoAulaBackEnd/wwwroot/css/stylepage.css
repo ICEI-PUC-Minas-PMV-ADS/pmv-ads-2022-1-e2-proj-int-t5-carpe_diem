@@ -38,6 +38,15 @@ a:hover{
     margin: auto;
 }
 
+p {
+    color: white;
+    text-decoration: none;
+}
+
+p:hover {
+    text-decoration: none;
+}
+
 /* object fit */
 .object-contain {object-fit: contain;}
 .object-cover   {object-fit: cover;}
@@ -351,6 +360,10 @@ a:hover{
     justify-content: center;
     align-items: center;
     font-weight: 600;
+}
+
+a:visited {
+    color: #FFFFFF;
 }
 
 
