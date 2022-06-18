@@ -57,12 +57,26 @@
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
                 Encontre sua próxima estadia
             </div>
+
+
+               <!-- <form asp-controller="Imoveis" asp-action="Busca" method="get">
+                    <div class="form-actions no-color">
+                        <p>
+                            Find by name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                            <input type="submit" value="Search" class="btn btn-default" /> 
+                            <a asp-action="Index">Back to Full List</a>
+                        </p>
+                    </div>
+                </form>-->
             
-            <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
+            
+
+                <form asp-controller="Imoveis" asp-action="Busca" method="get">
+                 <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
                 
                 <div>
                     <p class="bold-8 m-0 p-1">Cidade Destino</p>
-                    <input class="input" placeholder="Cidade">   
+                    <input class="input" placeholder="Cidade" name="SearchString" value="@ViewData["CurrentFilter"]" />   
                 </div>
                 <div>
                     <p class="bold-8 m-0 p-1">Check-In</p>
@@ -76,9 +90,10 @@
                     <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
                     <input class="input" placeholder="Número de hóspedes">
                 </div>
-                                
-                    <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>
-                                    
+                
+                    <input type="submit" value="Search" class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white" />            
+                    <!--<a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>-->
+                </form>                    
             </div>     
             
 

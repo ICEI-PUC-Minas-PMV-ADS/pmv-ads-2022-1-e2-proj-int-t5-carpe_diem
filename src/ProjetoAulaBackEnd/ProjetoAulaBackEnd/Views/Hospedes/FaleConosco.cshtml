@@ -13,12 +13,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="~/components/css/button.css"> 
+    <link rel="stylesheet" href="~/components/css/button.css">
     <link rel="stylesheet" href="~/css/fale_conosco2.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
     <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
@@ -28,7 +28,7 @@
 
 
 <body class="bg-gray">
-    
+
     <!-- topo -->
     <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">
 
@@ -47,12 +47,26 @@
     </section>
 
     <main>
-        <form class="w-f p-2" method="post">
+        <!--<form class="w-f p-2" method="post">-->
             <legend>
                 <h1><b>Como podemos te ajudar?</b></h1>                
                 <h5 id="erro">@ViewBag.Message</h5>
             </legend>
 
+
+    <main class="">
+        <form class="formFaleConosco" name="FaleConosco" method="post">
+            <div class="max-w-f flex flex-col p-2 w-5 m-auto">
+                <label class="w-full" for="nome">Nome Completo</label>
+                <input class="input mb-4 input-padrao" type="text" id="nome" required>
+
+                <label class="w-full" for="email">Email</label>
+                <input class="input mb-4 input-padrao" type="email" id="Email" required>
+
+                <label class="w-full" for="message">Deixe aqui sua mensagem</label>
+                <textarea class="input mb-4" cols="70" rows="10" required></textarea>
+
+                <button class="btn btn-blue btn-effect" type="submit">ENVIAR</button>
             <div class="j-center ai-center">
                 <label class="w-full font-size-24 bold-6 t-black" for="nome">Nome Completo</label>
                 <input style="width: 100%" class="w-f input w-f mb-4" type="text" id="nome" required>
@@ -67,6 +81,7 @@
                     <input type="submit" value="ENVIAR" class="btn btn-blue btn-effect w-6p"/>                        
                 </div>
             </div>
+            </div>
         </form>
     </main>
 
@@ -78,5 +93,7 @@
 
 </html>
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
