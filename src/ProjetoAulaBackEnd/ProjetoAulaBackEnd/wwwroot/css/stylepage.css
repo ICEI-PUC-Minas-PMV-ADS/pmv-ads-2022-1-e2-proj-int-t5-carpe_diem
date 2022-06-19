@@ -38,15 +38,6 @@ a:hover{
     margin: auto;
 }
 
-p {
-    color: white;
-    text-decoration: none;
-}
-
-p:hover {
-    text-decoration: none;
-}
-
 /* object fit */
 .object-contain {object-fit: contain;}
 .object-cover   {object-fit: cover;}
@@ -128,7 +119,7 @@ p:hover {
 .t-blue-2   { color: #6FDDE3;   }
 .t-gray     { color: #F1ECE9;   }
 .t-black    { color: #000000;   }
-.t-white    { color: #FFFFFF;   }
+.t-white    { color: #FFFFFF !important;   }
 
 /* font size */
 .font-size-1{ font-size: xx-small;  }

@@ -143,11 +143,13 @@ namespace ProjetoAulaBackEnd.Models
 
     public enum TipoEspaco
     {
+        [Display(Name = "Escolha o Tipo de Espaço")] EscolhaEspaco, 
         Quarto, Flat, Apartamento, Casa, Loft
     }
 
     public enum TipoAcomodacao
     {
+        [Display(Name = "Escolha o Tipo de Acomodação")] EscolhaAcomodacao,
         [Display(Name = "Espaço Completo")] EspacoCompleto,
         [Display(Name = "Quarto Inteiro")] QuartoInteiro,
         [Display(Name = "Quarto Compartilhado")] QuartoCompartilhado

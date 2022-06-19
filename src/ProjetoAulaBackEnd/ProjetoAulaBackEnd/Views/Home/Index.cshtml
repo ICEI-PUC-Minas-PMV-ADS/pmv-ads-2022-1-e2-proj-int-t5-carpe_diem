@@ -72,39 +72,40 @@
             
 
                 <form asp-controller="Imoveis" asp-action="Busca" method="get">
-                 <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
+                <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
                 
-                <div>
-                    <p class="bold-8 m-0 p-1">Cidade Destino</p>
-                    <input class="input" placeholder="Cidade" name="SearchString" value="@ViewData["CurrentFilter"]" />   
-                </div>
-                <div>
-                    <p class="bold-8 m-0 p-1">Check-In</p>
-                    <input class="input" type="date" placeholder="dd/mm/aaaa">          
-                </div>
-                <div>
-                    <p class="bold-8 m-0 p-1">Check-Out</p>
-                    <input class="input" type="date" placeholder="dd/mm/aaaa">         
-                </div>
-                <div>
-                    <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
-                    <input class="input" placeholder="Número de hóspedes">
-                </div>
+                    <div>
+                        <p class="t-black bold-8 m-0 p-1">Cidade Destino</p>
+                        <input class="input" placeholder="Cidade" name="SearchString" value="@ViewData["CurrentFilter"]" />   
+                    </div>
+                    <div>
+                        <p class="t-black bold-8 m-0 p-1">Check-In</p>
+                        <input class="input" type="date" placeholder="dd/mm/aaaa">          
+                    </div>
+                    <div>
+                        <p class="t-black bold-8 m-0 p-1">Check-Out</p>
+                        <input class="input" type="date" placeholder="dd/mm/aaaa">         
+                    </div>
+                    <div>
+                        <p class="t-black bold-8 m-0 p-1">Número de Hóspedes</p>
+                        <input class="input" placeholder="Número de hóspedes">
+                    </div>
                 
                     <input type="submit" value="Search" class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white" />            
                     <!--<a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>-->
+                </div>
                 </form>                    
-            </div>     
+                     
             
 
             <!-- bloquinhos -->
             <section>
                 <h1 class="py-2 t-black bold-8">Regiões onde trabalhamos</h1>
                 <div class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
-                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-sul.jpg"><p class="p-1 bold-7">Sul</p></div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-norte.jpg"><p class="p-1 bold-7">Norte</p></div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-nordeste.jpg"><p class="p-1 bold-7">Nordeste</p></div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-sudeste.jpg"><p class="p-1 bold-7">Sudeste</p></div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-sul.jpg"><p class="p-1 t-black bold-8">Sul</p></div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-norte.jpg"><p class="p-1 t-black bold-8">Norte</p></div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-nordeste.jpg"><p class="p-1 t-black bold-8">Nordeste</p></div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"><img class="w-f h-2 object-cover" src="~/img/b-sudeste.jpg"><p class="p-1 t-black bold-8">Sudeste</p></div>
                 </div>
             </section>
 
@@ -130,9 +131,8 @@
                         </div>
                     </div>
                 </div> 
-            </section>          
-            
-        </div>
+            </section>  
+    </div>
 
         <section>
             <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center t-white">

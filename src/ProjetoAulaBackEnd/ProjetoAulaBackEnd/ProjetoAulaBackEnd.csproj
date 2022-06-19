@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Imoveis\BuscaVazia.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Hospedes\AccesseDenied.cshtml" />
   </ItemGroup>
 

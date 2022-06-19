@@ -532,12 +532,7 @@ D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_d
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.csproj.AssemblyReference.cache
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.GeneratedMSBuildEditorConfig.editorconfig
 D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\obj\Debug\net6.0\ProjetoAulaBackEnd.AssemblyInfoInputs.cache
@@ -1672,3 +1667,8 @@ C:\Users\crisn\OneDrive\Desktop\ProjetoCarpeDiemFinal\src\ProjetoAulaBackEnd\Pro
 C:\Users\crisn\OneDrive\Desktop\ProjetoCarpeDiemFinal\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\crisn\OneDrive\Desktop\ProjetoCarpeDiemFinal\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\crisn\OneDrive\Desktop\ProjetoCarpeDiemFinal\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Users\Fabiana e André\Documents\GitHub\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\ProjetoAulaBackEnd\ProjetoAulaBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
