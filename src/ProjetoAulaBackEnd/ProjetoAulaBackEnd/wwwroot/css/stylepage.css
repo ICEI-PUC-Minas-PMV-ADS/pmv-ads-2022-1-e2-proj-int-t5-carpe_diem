@@ -1,8 +1,25 @@
 @import url('~/components/css/checkbox.css');
 @import url('~/components/css/button.css');
 @import url('~/components/css/card.css');
+@import url('~/components/css/tablet.css');
+
 
 .quicksand{font-family: 'Quicksand', sans-serif;}
+
+:root {
+    --white: #FFFFFF;
+    --orange-1: #F36E2B;
+    --orange-2: #F47A2B;
+    --yellow-1: #FBCB2B;
+    --yellow-2: #FBCB2B80;
+    --bege: #FFC096;
+    --brown: #E39E6F;
+    --blue-1: #2C9196;
+    --blue-2: #6FDDE3;
+    --gray: #F1ECE9;
+    --black: #000000;
+    --white: #FFFFFF;
+}
 
 *{
     font-family: 'Quicksand', sans-serif;
@@ -353,9 +370,7 @@ a:hover{
     font-weight: 600;
 }
 
-a:visited {
-    color: #FFFFFF;
-}
+
 
 
 /* tablet */
@@ -373,6 +388,8 @@ a:visited {
     .md-flex-wrap{flex-wrap: wrap;}
 
     .md-flex-col{flex-direction: column;}
+    
+    
 }
 
 /* mobile */
@@ -390,6 +407,8 @@ a:visited {
     .sm-flex-wrap{flex-wrap: wrap;}
 
     .sm-flex-col{flex-direction: column;}
+
+    
 }
 
 .smooth{ scroll-behavior: smooth; }
@@ -414,3 +433,27 @@ a:visited {
 .-right-1 {right : -10px;}
 .-bottom-1{bottom: -10px;}
 
+footer{
+    background-color: var(--blue-1);
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white)
+}
+
+.lado-lado dt {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.lado-lado dd {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

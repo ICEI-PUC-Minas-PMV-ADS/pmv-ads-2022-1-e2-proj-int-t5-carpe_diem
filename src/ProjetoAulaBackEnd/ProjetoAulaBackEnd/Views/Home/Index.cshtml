@@ -18,6 +18,7 @@
     
     <link rel="stylesheet" href="~/components/css/card.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/tablet.css">
     <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
 
     <title>Homepage | Carpe Diem</title>
@@ -134,21 +135,19 @@
             </section>  
     </div>
 
-        <section>
-            <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center t-white">
-                <div>
-                    <p class="bold-7 font-size-5 t-white visited" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a></p>
-                    <p class="bold-7 font-size-5 t-white visited" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e Condições de Uso</a></p>
-                    <p class="bold-7 font-size-5 t-white visited" style="text-decoration:none"><a asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a></p>
-                </div>
+        <footer>
+            <div>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a></p>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e Condições de Uso</a></p>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a></p>
+            </div>
                 
-                <div class="flex gap-3">
-                    <div><a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white"></i></a></div>
-                    <div><a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"></i></a></div>
-                    <div><a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"></i></a></div>
-                </div>
-            </div>            
-        </section>
+            <div class="flex gap-3">
+                <a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"></i></a>
+                <a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"></i></a>
+            </div>
+        </footer>
 
         <div class="copyright p-2 t-center"></div>
         
