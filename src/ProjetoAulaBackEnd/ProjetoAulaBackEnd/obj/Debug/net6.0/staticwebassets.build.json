@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VrbRPaRcg+Z1ix8NL8doAwideoMeTVEBSs/o3N8IBqc=",
+  "Hash": "OqzeoSXuLtWwDg/DwoL7vzTp1l0BWD+BE/6siLaqmaI=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -1868,6 +1868,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\twitter.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.jpg",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "img/usuario.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\usuario.jpg"
     },
     {
       "Identity": "C:\\Users\\crisn\\OneDrive\\Desktop\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.png",

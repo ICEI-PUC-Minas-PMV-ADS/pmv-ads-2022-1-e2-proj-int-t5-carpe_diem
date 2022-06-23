@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\ProjetoAulaBackEnd",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views",
-    "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views\\Home"
+    ""
   ],
-  "SelectedNode": "\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\ProjetoAulaBackEnd.sln",
   "PreviewInSolutionExplorer": false
 }

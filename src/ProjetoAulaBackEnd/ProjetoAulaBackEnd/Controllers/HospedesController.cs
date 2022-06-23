@@ -19,6 +19,9 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
+    
+
+
         // GET: Hospedes
         public async Task<IActionResult> Index()
         {
@@ -56,7 +59,7 @@ namespace ProjetoAulaBackEnd.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
         {
-           
+            
             if (hospede.Senha != hospede.Senha2)
             {
               ViewBag.Message= "Senhas não conferem. Digite novamente";
@@ -65,9 +68,11 @@ namespace ProjetoAulaBackEnd.Controllers
  
                 if (ModelState.IsValid)
                 {
+                    
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
-                    _context.Add(hospede);
+                    
+                _context.Add(hospede);
                     await _context.SaveChangesAsync();
                     ViewBag.Message = "Cadastro realizado com sucesso!";
                     //return RedirectToAction(nameof(Create));
