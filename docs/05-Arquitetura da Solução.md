@@ -30,7 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura 28 - Esquema Relacional
 
-![Esquema Relacional_V2](https://user-images.githubusercontent.com/89549220/173256206-ca32a1b1-572c-456a-a5b0-2070d7baddb1.png)
+![Esquema Relacional_V3](https://user-images.githubusercontent.com/89549220/173975754-077b5201-f1ee-4541-929d-e910a0b0feef.png)
 
 Fonte: Elaborado pelos autores
 
