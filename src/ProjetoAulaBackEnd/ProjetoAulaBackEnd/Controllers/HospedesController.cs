@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -21,101 +19,8 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
+    
 
-        [HttpPost]
-        public async Task<IActionResult> Login([Bind("Email, Senha")] Hospede hospede)
-        {
-           
-            var user = await _context.Hospedes
-                .FirstOrDefaultAsync(m => m.Email == hospede.Email);
-
-            if (user == null)
-            {
-                ViewBag.Message = "Email e/ou Senha inválidos!";
-                return View();
-            }
-
-            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(hospede.Senha, user.Senha);
-            
-            if (isSenhaOk)
-            {
-
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
-                    new Claim(ClaimTypes.Role, user.TipoUsuario.ToString()),
-                    new Claim(ClaimTypes.Email, user.Email)
-                };
-
-                var userIdentity = new ClaimsIdentity(claims, "login");
-
-                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
-
-                var props = new AuthenticationProperties
-                {
-                    AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
-                    IsPersistent = true
-                };
-
-                await HttpContext.SignInAsync(principal, props);    
-
-                return Redirect("/");
-
-            }
-
-            ViewBag.Message = "Email e/ou Senha inválidos!";
-            return View();
-        }
-
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Hospedes");
-        }
-
-        public IActionResult EsqueceuSenha()
-        {
-            return View();
-        }
-
-
-        public IActionResult AcessoNegado()
-        {
-            return View();
-        }
-        
-         //GET: /FaleConosco/
-      
-        public IActionResult FaleConosco()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult FaleConosco(FaleConosco faleConosco)
-        {
-            try
-            {
-                return RedirectToAction("Obrigado");
-            }
-            catch
-            {
-                return View();
-            }
-           
-        }
-
-        //GET: /Hospedes/Obrigado
-        public ActionResult Obrigado()
-        {
-            return View();
-        }
 
         // GET: Hospedes
         public async Task<IActionResult> Index()
@@ -141,42 +46,6 @@ namespace ProjetoAulaBackEnd.Controllers
             return View(hospede);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Details(int id, [Bind("TipoUsuario")] Hospede hospede)
-        {
-            if (id != hospede.IdHospede)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-              
-                try
-                {
-                    _context.Update(hospede);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!HospedeExists(hospede.IdHospede))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-               
-                return RedirectToAction(nameof(Index));
-            }
-            return View(hospede);
-        
-     }
-
-
         // GET: Hospedes/Create
         public IActionResult Create()
         {
@@ -188,52 +57,32 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2,TipoUsuario")] Hospede hospede)
+        public async Task<IActionResult> Create([Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
         {
-            var cpf = await _context.Hospedes
-               .FirstOrDefaultAsync(m => m.CPF == hospede.CPF);
-
-            if (cpf != null)
-            {
-                ViewBag.Message = "CPF já cadastrado. Faça seu Login.";
-                return View();
-            }
-
-            var email = await _context.Hospedes
-              .FirstOrDefaultAsync(m => m.Email == hospede.Email);
-
-            if (email != null)
-            {
-                ViewBag.Message = "E-mail já cadastrado. Faça seu Login.";
-                return View();
-            }
-
+            
             if (hospede.Senha != hospede.Senha2)
             {
               ViewBag.Message= "Senhas não conferem. Digite novamente";
                 return View();
             }
-           /* var cpf =await _context.Hospedes.FindAsync(hospede.CPF);
-                if (cpf != null)
-            {
-                ViewBag.Message = "CPF já cadastrado!";
-                return View();
-            }*/
-
-            if (ModelState.IsValid)
+ 
+                if (ModelState.IsValid)
                 {
+                    
                     hospede.Senha=BCrypt.Net.BCrypt.HashPassword(hospede.Senha);
                     hospede.Senha2 = BCrypt.Net.BCrypt.HashPassword(hospede.Senha2);
-                    //hospede.TipoUsuario = 0;
-                    _context.Add(hospede);
+                    
+                _context.Add(hospede);
                     await _context.SaveChangesAsync();
-                    ViewBag.Message = "Cadastro realizado com sucesso! Faça seu login";
-                    //return RedirectToAction("Login", "Hospedes");
-                }
+                    ViewBag.Message = "Cadastro realizado com sucesso!";
+                    //return RedirectToAction(nameof(Create));
+                    
+            }
 
+           
             return View();
             
-            }
+        }
 
         // GET: Hospedes/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -258,7 +107,7 @@ namespace ProjetoAulaBackEnd.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2,TipoUsuario")] Hospede hospede)
+        public async Task<IActionResult> Edit(int id, [Bind("IdHospede,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Hospede hospede)
         {
             if (id != hospede.IdHospede)
             {
@@ -290,13 +139,10 @@ namespace ProjetoAulaBackEnd.Controllers
                         throw;
                     }
                 }
-                 ViewBag.Message = "Atualização realizada com sucesso!";
-    
-                //return RedirectToAction("Create", "Imoveis");
-
-
+                ViewBag.Message = "Atualização realizada com sucesso!";
+                //return RedirectToAction(nameof(Index));
             }
-                return View();
+            return View(hospede);
         }
 
         // GET: Hospedes/Delete/5

@@ -3,237 +3,1062 @@ i:{00000000-0000-0000-0000-000000000000}:ProjetoAulaBackEnd.sln
 ++ProjetoAulaBackEnd
 i:{00000000-0000-0000-0000-000000000000}:ProjetoAulaBackEnd
 ++Connected Services 
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2005
-++SQL Server Database
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2897
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4677
 ++Dependencies
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2004
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4676
 ++Analyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:analyzers
-++Frameworks
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:frameworks
-++Microsoft.AspNetCore.App
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\microsoft.netcore.app
-++Packages
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:packages
-++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.9)
-++Microsoft.EntityFrameworkCore (5.0.9)
-++Microsoft.EntityFrameworkCore.Relational (5.0.9)
-++Microsoft.EntityFrameworkCore.SqlServer (5.0.9)
-++Microsoft.EntityFrameworkCore.Tools (5.0.9)
-++Properties
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\properties\
-++launchSettings.json
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\properties\launchsettings.json
-++wwwroot
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\
-++css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\css\
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\
-++js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\js\
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\
-++favicon.ico
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\favicon.ico
-++Controllers
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\
-++HomeController.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\homecontroller.cs
-++Migrations
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\
-++20220501045246_DBCarpeDiem.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.cs
-++ContextoModelSnapshot.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\contextomodelsnapshot.cs
-++Models
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\
-++Contexto.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\contexto.cs
-++ErrorViewModel.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\errorviewmodel.cs
-++Hospede.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\hospede.cs
-++Views
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\
-++Home
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\
-++Index.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\index.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\index.cshtml
-++Privacy.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\privacy.cshtml
-++Shared
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\
-++_ViewImports.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\_viewimports.cshtml
-++_ViewStart.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\_viewstart.cshtml
-++appsettings.json
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\appsettings.json
-++Program.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\program.cs
-++Startup.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\startup.cs
-++SQL Server Database dependency is detected
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2898
+++MessagePackAnalyzer
 ++Microsoft.AspNetCore.Analyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
 ++Microsoft.CodeAnalysis.Analyzers
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++site.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\css\site.css
-++site.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\js\site.js
-++bootstrap
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\
-++jquery
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\
-++jquery-validation
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\
-++20220501045246_DBCarpeDiem.Designer.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.designer.cs
-++_Layout.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\_layout.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\_validationscriptspartial.cshtml
-++Error.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\error.cshtml
-++appsettings.Development.json
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\appsettings.development.json
-++dist
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\
-++LICENSE
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\license
-++LICENSE.txt
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\license.txt
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++jquery.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.js
-++additional-methods.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.js
-++jquery.validate.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-++jquery.validate.unobtrusive.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++bootstrap.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap-grid.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-++bootstrap-reboot.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-++bootstrap.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-++jquery.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.js
-++additional-methods.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-++jquery.validate.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-++bootstrap.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap.min.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-++bootstrap-grid.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-++bootstrap-grid.min.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-++bootstrap-reboot.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-++bootstrap-reboot.min.css
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-++bootstrap.bundle.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-++bootstrap.js.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-++bootstrap.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-++jquery.min.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.map
-++bootstrap.min.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-++bootstrap-grid.min.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-++bootstrap-reboot.min.css.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-++bootstrap.bundle.js.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-++bootstrap.bundle.min.js
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-++bootstrap.min.js.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-++bootstrap.bundle.min.js.map
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
-++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
-++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
-++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
-++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
-++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
 i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.4)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2970
-++Microsoft.EntityFrameworkCore (6.0.4)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2973
-++Microsoft.EntityFrameworkCore.Relational (6.0.4)
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2964
-++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2965
-++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (646.0.4)
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.3)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4156
-++Swashbuckle.AspNetCore (6.3.0)
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2976
-++MessagePackAnalyzer
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Frameworks
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:frameworks
+++Microsoft.AspNetCore.App
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\microsoft.netcore.app
+++Packages
+++BCrypt.Net-Next (4.0.3)
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.5)
+++Microsoft.EntityFrameworkCore (6.0.5)
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+++Microsoft.EntityFrameworkCore.Tools (6.0.5)
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.5)
+++Swashbuckle.AspNetCore (6.3.1)
+++Properties
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\
+++wwwroot
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\
+++css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\css\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\
+++cadastro.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\css\cadastro.css
+++site.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\css\site.css
+++stylepage.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\css\stylepage.css
+++img
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\
+++js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\
+++bootstrap
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\
+++dist
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\license
+++jquery
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\
+++jquery-validation
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\
+++Controllers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\controllers\
+++HomeController.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\controllers\homecontroller.cs
 ++HospedesController.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\hospedescontroller.cs
-++Hospedes
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\
-++Create.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\create.cshtml
-++Delete.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\delete.cshtml
-++Details.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\details.cshtml
-++Edit.cshtml
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\edit.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\controllers\hospedescontroller.cs
+++Migrations
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\
+++20220501045246_DBCarpeDiem.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.cs
 ++20220502221329_DBCarpeDiem2.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.cs
+++20220504194258_DBCarpeDiem3.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220504194258_dbcarpediem3.cs
+++20220510132850_M01.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510132850_m01.cs
+++20220510142942_M02.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510142942_m02.cs
+++20220510160455_M03.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510160455_m03.cs
+++20220514131419_M04.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220514131419_m04.cs
+++20220604024135_cris01.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604024135_cris01.cs
+++20220604031837_cris02.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604031837_cris02.cs
+++20220604032151_cris04.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604032151_cris04.cs
+++ContextoModelSnapshot.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\contextomodelsnapshot.cs
+++Models
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\models\
+++Contexto.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\models\contexto.cs
+++ErrorViewModel.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\models\errorviewmodel.cs
+++Hospede.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\models\hospede.cs
+++Views
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\
+++appsettings.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\appsettings.json
+++Program.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\program.cs
+++Startup.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\startup.cs
+++Azure API Management
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4711
+++SQL Server Database
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4721
+++PublishProfiles
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\publishprofiles\
+++ServiceDependencies
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies\
+++launchSettings.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\launchsettings.json
+++serviceDependencies.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies.json
+++svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\
+++add_a_photo.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\add_a_photo.png
+++android-chrome-192x192.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\android-chrome-192x192.png
+++android-chrome-512x512.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\android-chrome-512x512.png
+++angle-left-free-icon-font.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\angle-left-free-icon-font.png
+++angle-right-free-icon-font.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\angle-right-free-icon-font.png
+++apple-touch-icon.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\apple-touch-icon.png
+++banheira (1).png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\banheira (1).png
+++banheira 1.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\banheira 1.png
+++banheira.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\banheira.png
+++bathtub.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\bathtub.png
+++b-centro-oeste.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\b-centro-oeste.jpg
+++b-nordeste.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\b-nordeste.jpg
+++b-norte.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\b-norte.jpg
+++b-sudeste.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\b-sudeste.jpg
+++b-sul.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\b-sul.jpg
+++cadastro.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\cadastro.png
+++cama 1.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\cama 1.png
+++centro oeste.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\centro oeste.jpg
+++comercial 1.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\comercial 1.png
+++edit_note.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\edit_note.png
+++Ellipse 1.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\ellipse 1.png
+++Ellipse.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\ellipse.png
+++facebook.pdf
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\facebook.pdf
+++favicon.ico
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\favicon.ico
+++favicon-16x16.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\favicon-16x16.png
+++favicon-32x32.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\favicon-32x32.png
+++file_download.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\file_download.png
+++file_upload.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\file_upload.png
+++Florianopolis.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\florianopolis.jpg
+++Florianópolis.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\florianópolis.jpg
+++help.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\help.png
+++hotel.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\hotel.png
+++hotel-1.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\hotel-1.jpg
+++hotel-2.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\hotel-2.jpg
+++hotel-3.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\hotel-3.jpg
+++hotel-4.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\hotel-4.jpg
+++imagem-1.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\imagem-1.svg
+++imagem-2.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\imagem-2.svg
+++imagem-3.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\imagem-3.svg
+++instagram.pdf
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\instagram.pdf
+++layout.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\layout.png
+++licenca-66075060-1691431.pdf
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\licenca-66075060-1691431.pdf
+++login.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\login.png
+++logo.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logo.jpg
+++Logo_Final.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logo_final.png
+++Logo_Final_382x148.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logo_final_382x148.png
+++Logo_Final_382x175.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logo_final_382x175.png
+++LogoFinal.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logofinal.png
+++LogoFinal2.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logofinal2.png
+++logout.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\logout.png
+++manage_accounts.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\manage_accounts.png
+++marcador-de-mapa 1.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\marcador-de-mapa 1.png
+++nordeste.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste.jpg
+++nordeste-2.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste-2.jpg
+++nordeste-3.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste-3.jpg
+++nordeste-4.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste-4.jpg
+++nordeste-5.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste-5.jpg
+++nordeste-6.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\nordeste-6.jpg
+++norte.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\norte.jpg
+++person.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\person.png
+++photo_camera.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\photo_camera.png
+++pin_drop.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\pin_drop.png
+++porto-seguro-bahia-1170x650.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\porto-seguro-bahia-1170x650.png
+++praia cururu - norte.jfif
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praia cururu - norte.jfif
+++praia ipanema - sudeste.jfif
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praia ipanema - sudeste.jfif
+++praia jatiuca - nordeste.jfif
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praia jatiuca - nordeste.jfif
+++praia laranjeiras - sul.jfif
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praia laranjeiras - sul.jfif
+++Praia_de_Novo_Prado,_no_centro_de_Prado_-_BA.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praia_de_novo_prado,_no_centro_de_prado_-_ba.jpg
+++praias de vitoria.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\praias de vitoria.jpg
+++redessociais.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\redessociais.png
+++sao luiz.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\sao luiz.jpg
+++save.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\save.png
+++search-free-icon-font.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\search-free-icon-font.png
+++significado_cores.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\significado_cores.png
+++sudeste.webp
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\sudeste.webp
+++sudeste1.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\sudeste1.jpg
+++sul.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\sul.jpg
+++twitter.pdf
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\twitter.pdf
+++usuario.jpg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\usuario.jpg
+++usuario.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\usuario.png
+++Vector.png
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\vector.png
+++homepage.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\homepage.js
+++icones.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\icones.js
+++script.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\script.js
+++script_resultado.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\script_resultado.js
+++site.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\js\site.js
+++LICENSE.txt
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\license.txt
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++20220501045246_DBCarpeDiem.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.designer.cs
 ++20220502221329_DBCarpeDiem2.Designer.cs
-i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.designer.cs
+++20220504194258_DBCarpeDiem3.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220504194258_dbcarpediem3.designer.cs
+++20220510132850_M01.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510132850_m01.designer.cs
+++20220510142942_M02.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510142942_m02.designer.cs
+++20220510160455_M03.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220510160455_m03.designer.cs
+++20220514131419_M04.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220514131419_m04.designer.cs
+++20220604024135_cris01.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604024135_cris01.designer.cs
+++20220604031837_cris02.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604031837_cris02.designer.cs
+++20220604032151_cris04.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\migrations\20220604032151_cris04.designer.cs
+++Home
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\home\
+++Hospedes
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\
+++Shared
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\shared\
+++_ViewImports.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\_viewstart.cshtml
+++appsettings.Development.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\appsettings.development.json
+++SQL Server Database dependency is detected
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4722
+++carpediempucmg - Web Deploy.pubxml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\publishprofiles\carpediempucmg - web deploy.pubxml
+++carpediempucmg - Web Deploy
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies\carpediempucmg - web deploy\
+++serviceDependencies.carpediempucmg - Web Deploy.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies.carpediempucmg - web deploy.json
+++adicionar-usuario-1.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\adicionar-usuario-1.svg
+++adicionar-usuario-2.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\adicionar-usuario-2.svg
+++angulo-direita.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\angulo-direita.svg
+++angulo-esquerda.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\angulo-esquerda.svg
+++buscar.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\buscar.svg
+++camera.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\camera.svg
+++download.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\download.svg
+++editar-lapis.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\editar-lapis.svg
+++editar-papel.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\editar-papel.svg
+++facebook.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\facebook.svg
+++facebook-verde.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\facebook-verde.svg
+++fale-conosco.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\fale-conosco.svg
+++instagram.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\instagram.svg
+++instagram-verde.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\instagram-verde.svg
+++lixeira.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\lixeira.svg
+++lixeira-verde.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\lixeira-verde.svg
+++localização.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\localização.svg
+++mapa.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\mapa.svg
+++quarto.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\quarto.svg
+++sair.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\sair.svg
+++sair-alt.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\sair-alt.svg
+++salvar.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\salvar.svg
+++sign-out-alt-free-icon-font.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\sign-out-alt-free-icon-font.svg
+++twitter.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\twitter.svg
+++twitter-verde.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\twitter-verde.svg
+++upload.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\upload.svg
+++usuario-1.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\usuario-1.svg
+++usuarios.svg
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\img\svg\usuarios.svg
+++bootstrap.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++Index.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\home\index.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\index.cshtml
+++Privacy.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\home\privacy.cshtml
+++Create.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\create.cshtml
+++Delete.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\delete.cshtml
+++Details.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\details.cshtml
+++Edit.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\hospedes\edit.cshtml
+++_Layout.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\views\shared\error.cshtml
+++apis1.arm.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies\carpediempucmg - web deploy\apis1.arm.json
+++profile.arm.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\properties\servicedependencies\carpediempucmg - web deploy\profile.arm.json
+++bootstrap.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++jquery.min.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.bundle.min.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\onedrive\desktop\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\src\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bin
+++Debug
+++Release
+++net5.0
+++net6.0
+++cs
+++de
+++es
+++fr
+++it
+++ja
+++ko
+++pl
+++pt-BR
+++refs
+++ru
+++runtimes
+++tr
+++zh-Hans
+++zh-Hant
+++Humanizer.dll
+++Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+++Microsoft.AspNetCore.Razor.Language.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+++Microsoft.CodeAnalysis.dll
+++Microsoft.CodeAnalysis.Razor.dll
+++Microsoft.Data.SqlClient.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+++Microsoft.EntityFrameworkCore.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+++Microsoft.EntityFrameworkCore.SqlServer.dll
+++Microsoft.Extensions.DependencyInjection.dll
+++Microsoft.Extensions.DependencyModel.dll
+++Microsoft.Identity.Client.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+++Microsoft.IdentityModel.Logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+++Newtonsoft.Json.dll
+++ProjetoAulaBackEnd.deps.json
+++ProjetoAulaBackEnd.dll
+++ProjetoAulaBackEnd.exe
+++ProjetoAulaBackEnd.pdb
+++ProjetoAulaBackEnd.runtimeconfig.dev.json
+++ProjetoAulaBackEnd.runtimeconfig.json
+++ProjetoAulaBackEnd.Views.dll
+++ProjetoAulaBackEnd.Views.pdb
+++System.Configuration.ConfigurationManager.dll
+++System.Diagnostics.DiagnosticSource.dll
+++System.IdentityModel.Tokens.Jwt.dll
+++System.Runtime.Caching.dll
+++System.Security.Cryptography.ProtectedData.dll
+++BCrypt.Net-Next.dll
+++dotnet-aspnet-codegenerator-design.dll
+++MessagePack.Annotations.dll
+++MessagePack.dll
+++Microsoft.Bcl.AsyncInterfaces.dll
+++Microsoft.Build.Locator.dll
+++Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+++Microsoft.CodeAnalysis.CSharp.Features.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+++Microsoft.CodeAnalysis.Features.dll
+++Microsoft.CodeAnalysis.Scripting.dll
+++Microsoft.CodeAnalysis.VisualBasic.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+++Microsoft.DiaSymReader.dll
+++Microsoft.DotNet.Scaffolding.Shared.dll
+++Microsoft.Extensions.Caching.Memory.dll
+++Microsoft.OpenApi.dll
+++Microsoft.VisualStudio.Debugger.Contracts.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+++Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+++Microsoft.Win32.SystemEvents.dll
+++NuGet.Common.dll
+++NuGet.Configuration.dll
+++NuGet.DependencyResolver.Core.dll
+++NuGet.Frameworks.dll
+++NuGet.LibraryModel.dll
+++NuGet.Packaging.dll
+++NuGet.ProjectModel.dll
+++NuGet.Protocol.dll
+++NuGet.Versioning.dll
+++ProjetoAulaBackEnd.staticwebassets.runtime.json
+++Swashbuckle.AspNetCore.Swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+++System.Composition.AttributedModel.dll
+++System.Composition.Convention.dll
+++System.Composition.Hosting.dll
+++System.Composition.Runtime.dll
+++System.Composition.TypedParts.dll
+++System.Drawing.Common.dll
+++System.Security.Permissions.dll
+++System.Windows.Extensions.dll
+++Microsoft.CodeAnalysis.CSharp.resources.dll
+++Microsoft.CodeAnalysis.resources.dll
+++Microsoft.AspNetCore.Antiforgery.dll
+++Microsoft.AspNetCore.Authentication.Abstractions.dll
+++Microsoft.AspNetCore.Authentication.Cookies.dll
+++Microsoft.AspNetCore.Authentication.Core.dll
+++Microsoft.AspNetCore.Authentication.dll
+++Microsoft.AspNetCore.Authentication.OAuth.dll
+++Microsoft.AspNetCore.Authorization.dll
+++Microsoft.AspNetCore.Authorization.Policy.dll
+++Microsoft.AspNetCore.Components.Authorization.dll
+++Microsoft.AspNetCore.Components.dll
+++Microsoft.AspNetCore.Components.Forms.dll
+++Microsoft.AspNetCore.Components.Server.dll
+++Microsoft.AspNetCore.Components.Web.dll
+++Microsoft.AspNetCore.Connections.Abstractions.dll
+++Microsoft.AspNetCore.CookiePolicy.dll
+++Microsoft.AspNetCore.Cors.dll
+++Microsoft.AspNetCore.Cryptography.Internal.dll
+++Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+++Microsoft.AspNetCore.DataProtection.Abstractions.dll
+++Microsoft.AspNetCore.DataProtection.dll
+++Microsoft.AspNetCore.DataProtection.Extensions.dll
+++Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+++Microsoft.AspNetCore.Diagnostics.dll
+++Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+++Microsoft.AspNetCore.dll
+++Microsoft.AspNetCore.HostFiltering.dll
+++Microsoft.AspNetCore.Hosting.Abstractions.dll
+++Microsoft.AspNetCore.Hosting.dll
+++Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+++Microsoft.AspNetCore.Html.Abstractions.dll
+++Microsoft.AspNetCore.Http.Abstractions.dll
+++Microsoft.AspNetCore.Http.Connections.Common.dll
+++Microsoft.AspNetCore.Http.Connections.dll
+++Microsoft.AspNetCore.Http.dll
+++Microsoft.AspNetCore.Http.Extensions.dll
+++Microsoft.AspNetCore.Http.Features.dll
+++Microsoft.AspNetCore.HttpOverrides.dll
+++Microsoft.AspNetCore.HttpsPolicy.dll
+++Microsoft.AspNetCore.Identity.dll
+++Microsoft.AspNetCore.Localization.dll
+++Microsoft.AspNetCore.Localization.Routing.dll
+++Microsoft.AspNetCore.Metadata.dll
+++Microsoft.AspNetCore.Mvc.Abstractions.dll
+++Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+++Microsoft.AspNetCore.Mvc.Core.dll
+++Microsoft.AspNetCore.Mvc.Cors.dll
+++Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+++Microsoft.AspNetCore.Mvc.dll
+++Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+++Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+++Microsoft.AspNetCore.Mvc.Localization.dll
+++Microsoft.AspNetCore.Mvc.Razor.dll
+++Microsoft.AspNetCore.Mvc.RazorPages.dll
+++Microsoft.AspNetCore.Mvc.TagHelpers.dll
+++Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+++Microsoft.AspNetCore.Razor.dll
+++Microsoft.AspNetCore.Razor.Runtime.dll
+++Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+++Microsoft.AspNetCore.ResponseCaching.dll
+++Microsoft.AspNetCore.ResponseCompression.dll
+++Microsoft.AspNetCore.Rewrite.dll
+++Microsoft.AspNetCore.Routing.Abstractions.dll
+++Microsoft.AspNetCore.Routing.dll
+++Microsoft.AspNetCore.Server.HttpSys.dll
+++Microsoft.AspNetCore.Server.IIS.dll
+++Microsoft.AspNetCore.Server.IISIntegration.dll
+++Microsoft.AspNetCore.Server.Kestrel.Core.dll
+++Microsoft.AspNetCore.Server.Kestrel.dll
+++Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+++Microsoft.AspNetCore.Session.dll
+++Microsoft.AspNetCore.SignalR.Common.dll
+++Microsoft.AspNetCore.SignalR.Core.dll
+++Microsoft.AspNetCore.SignalR.dll
+++Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+++Microsoft.AspNetCore.StaticFiles.dll
+++Microsoft.AspNetCore.WebSockets.dll
+++Microsoft.AspNetCore.WebUtilities.dll
+++Microsoft.CSharp.dll
+++Microsoft.Extensions.Caching.Abstractions.dll
+++Microsoft.Extensions.Configuration.Abstractions.dll
+++Microsoft.Extensions.Configuration.Binder.dll
+++Microsoft.Extensions.Configuration.CommandLine.dll
+++Microsoft.Extensions.Configuration.dll
+++Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+++Microsoft.Extensions.Configuration.FileExtensions.dll
+++Microsoft.Extensions.Configuration.Ini.dll
+++Microsoft.Extensions.Configuration.Json.dll
+++Microsoft.Extensions.Configuration.KeyPerFile.dll
+++Microsoft.Extensions.Configuration.UserSecrets.dll
+++Microsoft.Extensions.Configuration.Xml.dll
+++Microsoft.Extensions.DependencyInjection.Abstractions.dll
+++Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+++Microsoft.Extensions.Diagnostics.HealthChecks.dll
+++Microsoft.Extensions.FileProviders.Abstractions.dll
+++Microsoft.Extensions.FileProviders.Composite.dll
+++Microsoft.Extensions.FileProviders.Embedded.dll
+++Microsoft.Extensions.FileProviders.Physical.dll
+++Microsoft.Extensions.FileSystemGlobbing.dll
+++Microsoft.Extensions.Hosting.Abstractions.dll
+++Microsoft.Extensions.Hosting.dll
+++Microsoft.Extensions.Http.dll
+++Microsoft.Extensions.Identity.Core.dll
+++Microsoft.Extensions.Identity.Stores.dll
+++Microsoft.Extensions.Localization.Abstractions.dll
+++Microsoft.Extensions.Localization.dll
+++Microsoft.Extensions.Logging.Abstractions.dll
+++Microsoft.Extensions.Logging.Configuration.dll
+++Microsoft.Extensions.Logging.Console.dll
+++Microsoft.Extensions.Logging.Debug.dll
+++Microsoft.Extensions.Logging.dll
+++Microsoft.Extensions.Logging.EventLog.dll
+++Microsoft.Extensions.Logging.EventSource.dll
+++Microsoft.Extensions.Logging.TraceSource.dll
+++Microsoft.Extensions.ObjectPool.dll
+++Microsoft.Extensions.Options.ConfigurationExtensions.dll
+++Microsoft.Extensions.Options.DataAnnotations.dll
+++Microsoft.Extensions.Options.dll
+++Microsoft.Extensions.Primitives.dll
+++Microsoft.Extensions.WebEncoders.dll
+++Microsoft.JSInterop.dll
+++Microsoft.Net.Http.Headers.dll
+++Microsoft.VisualBasic.Core.dll
+++Microsoft.VisualBasic.dll
+++Microsoft.Win32.Primitives.dll
+++Microsoft.Win32.Registry.dll
+++mscorlib.dll
+++netstandard.dll
+++System.AppContext.dll
+++System.Buffers.dll
+++System.Collections.Concurrent.dll
+++System.Collections.dll
+++System.Collections.Immutable.dll
+++System.Collections.NonGeneric.dll
+++System.Collections.Specialized.dll
+++System.ComponentModel.Annotations.dll
+++System.ComponentModel.DataAnnotations.dll
+++System.ComponentModel.dll
+++System.ComponentModel.EventBasedAsync.dll
+++System.ComponentModel.Primitives.dll
+++System.ComponentModel.TypeConverter.dll
+++System.Configuration.dll
+++System.Console.dll
+++System.Core.dll
+++System.Data.Common.dll
+++System.Data.DataSetExtensions.dll
+++System.Data.dll
+++System.Diagnostics.Contracts.dll
+++System.Diagnostics.Debug.dll
+++System.Diagnostics.EventLog.dll
+++System.Diagnostics.FileVersionInfo.dll
+++System.Diagnostics.Process.dll
+++System.Diagnostics.StackTrace.dll
+++System.Diagnostics.TextWriterTraceListener.dll
+++System.Diagnostics.Tools.dll
+++System.Diagnostics.TraceSource.dll
+++System.Diagnostics.Tracing.dll
+++System.dll
+++System.Drawing.dll
+++System.Drawing.Primitives.dll
+++System.Dynamic.Runtime.dll
+++System.Formats.Asn1.dll
+++System.Globalization.Calendars.dll
+++System.Globalization.dll
+++System.Globalization.Extensions.dll
+++System.IO.Compression.Brotli.dll
+++System.IO.Compression.dll
+++System.IO.Compression.FileSystem.dll
+++System.IO.Compression.ZipFile.dll
+++System.IO.dll
+++System.IO.FileSystem.dll
+++System.IO.FileSystem.DriveInfo.dll
+++System.IO.FileSystem.Primitives.dll
+++System.IO.FileSystem.Watcher.dll
+++System.IO.IsolatedStorage.dll
+++System.IO.MemoryMappedFiles.dll
+++System.IO.Pipelines.dll
+++System.IO.Pipes.dll
+++System.IO.UnmanagedMemoryStream.dll
+++System.Linq.dll
+++System.Linq.Expressions.dll
+++System.Linq.Parallel.dll
+++System.Linq.Queryable.dll
+++System.Memory.dll
+++System.Net.dll
+++System.Net.Http.dll
+++System.Net.Http.Json.dll
+++System.Net.HttpListener.dll
+++System.Net.Mail.dll
+++System.Net.NameResolution.dll
+++System.Net.NetworkInformation.dll
+++System.Net.Ping.dll
+++System.Net.Primitives.dll
+++System.Net.Requests.dll
+++System.Net.Security.dll
+++System.Net.ServicePoint.dll
+++System.Net.Sockets.dll
+++System.Net.WebClient.dll
+++System.Net.WebHeaderCollection.dll
+++System.Net.WebProxy.dll
+++System.Net.WebSockets.Client.dll
+++System.Net.WebSockets.dll
+++System.Numerics.dll
+++System.Numerics.Vectors.dll
+++System.ObjectModel.dll
+++System.Reflection.DispatchProxy.dll
+++System.Reflection.dll
+++System.Reflection.Emit.dll
+++System.Reflection.Emit.ILGeneration.dll
+++System.Reflection.Emit.Lightweight.dll
+++System.Reflection.Extensions.dll
+++System.Reflection.Metadata.dll
+++System.Reflection.Primitives.dll
+++System.Reflection.TypeExtensions.dll
+++System.Resources.Reader.dll
+++System.Resources.ResourceManager.dll
+++System.Resources.Writer.dll
+++System.Runtime.CompilerServices.Unsafe.dll
+++System.Runtime.CompilerServices.VisualC.dll
+++System.Runtime.dll
+++System.Runtime.Extensions.dll
+++System.Runtime.Handles.dll
+++System.Runtime.InteropServices.dll
+++System.Runtime.InteropServices.RuntimeInformation.dll
+++System.Runtime.Intrinsics.dll
+++System.Runtime.Loader.dll
+++System.Runtime.Numerics.dll
+++System.Runtime.Serialization.dll
+++System.Runtime.Serialization.Formatters.dll
+++System.Runtime.Serialization.Json.dll
+++System.Runtime.Serialization.Primitives.dll
+++System.Runtime.Serialization.Xml.dll
+++System.Security.AccessControl.dll
+++System.Security.Claims.dll
+++System.Security.Cryptography.Algorithms.dll
+++System.Security.Cryptography.Cng.dll
+++System.Security.Cryptography.Csp.dll
+++System.Security.Cryptography.Encoding.dll
+++System.Security.Cryptography.Primitives.dll
+++System.Security.Cryptography.X509Certificates.dll
+++System.Security.Cryptography.Xml.dll
+++System.Security.dll
+++System.Security.Principal.dll
+++System.Security.Principal.Windows.dll
+++System.Security.SecureString.dll
+++System.ServiceModel.Web.dll
+++System.ServiceProcess.dll
+++System.Text.Encoding.CodePages.dll
+++System.Text.Encoding.dll
+++System.Text.Encoding.Extensions.dll
+++System.Text.Encodings.Web.dll
+++System.Text.Json.dll
+++System.Text.RegularExpressions.dll
+++System.Threading.Channels.dll
+++System.Threading.dll
+++System.Threading.Overlapped.dll
+++System.Threading.Tasks.Dataflow.dll
+++System.Threading.Tasks.dll
+++System.Threading.Tasks.Extensions.dll
+++System.Threading.Tasks.Parallel.dll
+++System.Threading.Thread.dll
+++System.Threading.ThreadPool.dll
+++System.Threading.Timer.dll
+++System.Transactions.dll
+++System.Transactions.Local.dll
+++System.ValueTuple.dll
+++System.Web.dll
+++System.Web.HttpUtility.dll
+++System.Windows.dll
+++System.Xml.dll
+++System.Xml.Linq.dll
+++System.Xml.ReaderWriter.dll
+++System.Xml.Serialization.dll
+++System.Xml.XDocument.dll
+++System.Xml.XmlDocument.dll
+++System.Xml.XmlSerializer.dll
+++System.Xml.XPath.dll
+++System.Xml.XPath.XDocument.dll
+++WindowsBase.dll
+++unix
+++win
+++win-arm
+++win-arm64
+++win-x64
+++win-x86
+++Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+++Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+++Microsoft.CodeAnalysis.Features.resources.dll
+++Microsoft.CodeAnalysis.Scripting.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.resources.dll
+++Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+++Microsoft.CodeAnalysis.Workspaces.resources.dll
+++Microsoft.AspNetCore.Http.Results.dll
+++Microsoft.AspNetCore.HttpLogging.dll
+++Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+++Microsoft.Extensions.Features.dll
+++System.IO.FileSystem.AccessControl.dll
+++System.IO.Pipes.AccessControl.dll
+++System.Security.Cryptography.OpenSsl.dll
+++native
+++netcoreapp3.1
+++netstandard2.0
+++Microsoft.Data.SqlClient.SNI.dll
+++Microsoft.Data.SqlClient.SNI.pdb
+++netcoreapp3.0
+++dotnet-aspnet-codegenerator-design.exe
+++NewFolder
+++NewFolder1
+++serviceDependencies.carpediempucmg - Web Deploy.json.user
+++carpediempucmg - Web Deploy.pubxml.user
+++obj
+++ref
+++refint
+++staticwebassets
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+++ProjetoAulaBackEnd.AssemblyInfo.cs
+++ProjetoAulaBackEnd.AssemblyInfoInputs.cache
+++ProjetoAulaBackEnd.csproj.AssemblyReference.cache
+++ProjetoAulaBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+++ProjetoAulaBackEnd.RazorAssemblyInfo.cache
+++ProjetoAulaBackEnd.RazorAssemblyInfo.cs
+++Imports
+++Sdk.props
+++Sdk.targets
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Sdk.Razor.CurrentVersion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+++Microsoft.NET.Sdk.Publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Sdk.Razor.CurrentVersion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+++Microsoft.TypeScript.Default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+++Microsoft.TypeScript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+++Microsoft.Web.Designtime.targets
+++Default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.200\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+++ProjetoAulaBackEnd.csproj.user
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.Docker.ImportAfter.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets
+++Microsoft.Docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+++Microsoft.Web.IISSupport.targets

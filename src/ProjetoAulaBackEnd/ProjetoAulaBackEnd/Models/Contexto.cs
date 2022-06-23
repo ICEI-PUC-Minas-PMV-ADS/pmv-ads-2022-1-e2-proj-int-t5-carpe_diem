@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
+
 namespace ProjetoAulaBackEnd.Models
 {
     public class Contexto : DbContext
