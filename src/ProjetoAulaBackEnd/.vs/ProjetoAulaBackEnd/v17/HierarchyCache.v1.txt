@@ -1,0 +1,239 @@
+﻿++Solution 'ProjetoAulaBackEnd' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ProjetoAulaBackEnd.sln
+++ProjetoAulaBackEnd
+i:{00000000-0000-0000-0000-000000000000}:ProjetoAulaBackEnd
+++Connected Services 
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2005
+++SQL Server Database
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2897
+++Dependencies
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2004
+++Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:analyzers
+++Frameworks
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:frameworks
+++Microsoft.AspNetCore.App
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\microsoft.netcore.app
+++Packages
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:packages
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.9)
+++Microsoft.EntityFrameworkCore (5.0.9)
+++Microsoft.EntityFrameworkCore.Relational (5.0.9)
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.9)
+++Microsoft.EntityFrameworkCore.Tools (5.0.9)
+++Properties
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\properties\
+++launchSettings.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\properties\launchsettings.json
+++wwwroot
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\
+++css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\css\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\js\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\
+++favicon.ico
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\favicon.ico
+++Controllers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\
+++HomeController.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\homecontroller.cs
+++Migrations
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\
+++20220501045246_DBCarpeDiem.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.cs
+++ContextoModelSnapshot.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\contextomodelsnapshot.cs
+++Models
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\
+++Contexto.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\contexto.cs
+++ErrorViewModel.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\errorviewmodel.cs
+++Hospede.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\models\hospede.cs
+++Views
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\
+++Home
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\
+++Index.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\index.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\index.cshtml
+++Privacy.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\home\privacy.cshtml
+++Shared
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\
+++_ViewImports.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\_viewstart.cshtml
+++appsettings.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\appsettings.json
+++Program.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\program.cs
+++Startup.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\startup.cs
+++SQL Server Database dependency is detected
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2898
+++Microsoft.AspNetCore.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++site.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\css\site.css
+++site.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\js\site.js
+++bootstrap
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\
+++jquery
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\
+++jquery-validation
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\
+++20220501045246_DBCarpeDiem.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220501045246_dbcarpediem.designer.cs
+++_Layout.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\shared\error.cshtml
+++appsettings.Development.json
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\appsettings.development.json
+++dist
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\license.txt
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.Extensions.Logging.Generators
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.4)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2970
+++Microsoft.EntityFrameworkCore (6.0.4)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2973
+++Microsoft.EntityFrameworkCore.Relational (6.0.4)
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2964
+++Microsoft.EntityFrameworkCore.Tools (6.0.4)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2965
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (646.0.4)
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.3)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>4156
+++Swashbuckle.AspNetCore (6.3.0)
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:>2976
+++MessagePackAnalyzer
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:c:\users\crisn\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++HospedesController.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\controllers\hospedescontroller.cs
+++Hospedes
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\
+++Create.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\create.cshtml
+++Delete.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\delete.cshtml
+++Details.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\details.cshtml
+++Edit.cshtml
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\views\hospedes\edit.cshtml
+++20220502221329_DBCarpeDiem2.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.cs
+++20220502221329_DBCarpeDiem2.Designer.cs
+i:{f4495fa1-f8b5-4e08-88fc-e5e4d8a6375c}:g:\my drive\pucmg\projetoaulabackend\projetoaulabackend\migrations\20220502221329_dbcarpediem2.designer.cs

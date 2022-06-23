@@ -1,0 +1,11 @@
+
+p.possui_cadastro>a {
+    padding: 5px 0 5px 8px;
+    color: #F36E2B;
+    font-weight: bold;
+    transition: margin ease-in-out 200ms;
+}
+
+p.possui_cadastro>a:hover {
+    margin-left: 5px;
+}

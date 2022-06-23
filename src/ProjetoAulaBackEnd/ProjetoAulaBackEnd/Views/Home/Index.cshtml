@@ -1,0 +1,142 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+
+    <title>Homepage | Carpe Diem</title>
+</head>
+
+
+<body class="bg-gray">
+    
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">
+
+        <!--<a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>-->
+
+        <div class="direct flex md-flex-col">
+          <!-- <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Imoveis" asp-action="Create">Anuncie seu imóvel</a> -->
+            <a href="login_cadastro.html" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
+            <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
+            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Login">Login</a>
+            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se<img width="25px" src="img/svg/adicionar-usuario-1.svg"></a>
+        </div>
+
+    </section>
+
+    <div class="container m-auto flex j-center p-3">
+
+        <!-- banner -->
+        <section>
+            
+            <div id="capa" class="capa">
+                <img class="capa-item" src="~/img/nordeste-2.jpg">
+                <img class="capa-item" src="~/img/nordeste-3.jpg">
+                <img class="capa-item" src="~/img/nordeste-4.jpg">
+                <img class="capa-item" src="~/img/nordeste-5.jpg">
+            </div>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+                Encontre sua próxima estadia
+            </div>
+            
+            <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
+                
+                <div>
+                    <p class="bold-8 m-0 p-1">Cidade Destino</p>
+                    <input class="input" placeholder="Cidade">   
+                </div>
+                <div>
+                    <p class="bold-8 m-0 p-1">Check-In</p>
+                    <input class="input" type="date" placeholder="dd/mm/aaaa">          
+                </div>
+                <div>
+                    <p class="bold-8 m-0 p-1">Check-Out</p>
+                    <input class="input" type="date" placeholder="dd/mm/aaaa">         
+                </div>
+                <div>
+                    <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
+                    <input class="input" placeholder="Número de hóspedes">
+                </div>
+                                
+                    <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>
+                                    
+            </div>     
+            
+
+            <!-- bloquinhos -->
+            <section>
+                <h1 class="py-2 t-black bold-8">Regiões onde trabalhamos</h1>
+                <div class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sul.jpg">      <p class="p-1 bold-7">Sul</p>      </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-norte.jpg">    <p class="p-1 bold-7">Norte</p>    </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-nordeste.jpg"> <p class="p-1 bold-7">Nordeste</p> </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sudeste.jpg">  <p class="p-1 bold-7">Sudeste</p>  </div>
+                </div>
+            </section>
+
+            <br>
+            <br>
+
+            <section>
+                <h1 class="py-2 t-black bold-8">Novidades para Locação</h1>
+                
+                <div id="cards_places" class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
+
+                    <div class="card" id="div_card">
+                        <img class="card-top" src="~/img/hotel-1.jpg">
+                        <div class="card-body">
+                            <div class="card-t card-center card-title">Porto Seguro</div>
+                            <div class="card-m">
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">local_see</span>Praia </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">person</span>5 hóspedes </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bed</span>1 Quarto </div>
+                                <div class="card-center-y"> <span class="material-symbols-outlined pr-1">bathroom</span>1 Banheiro </div>
+                            </div>
+                            <div class="card-b card-center"><b>A partir de R$ 180 / noite</b></div>
+                        </div>
+                    </div>
+                </div> 
+            </section>          
+            
+        </div>
+
+        <section>
+            <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
+                <div>
+                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a></a>
+                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e Condições de Uso</a></a>
+                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a></a>
+                </div>
+                
+                <div class="flex gap-3">
+                    <div><a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white" ></i></a></div>
+                    <div><a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"  ></i></a></div>
+                    <div><a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"   ></i></a></div>
+                </div>
+            </div>
+
+            <div class="copyright p-2 t-center"></div>
+        </section>
+        
+    <script src="~/js/script.js"></script>
+    <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
