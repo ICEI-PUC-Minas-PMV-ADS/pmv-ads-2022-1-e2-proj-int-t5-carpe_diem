@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Termos e condições de uso";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/stylepage.css">
+
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    -->
+    <title>Termos e Condições de Uso | CarpeDiem</title>
+</head>
+
+
+<body class="bg-gray">
+
+    <!--<section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
+        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>        
+    </section>-->
+
+    <div class="container m-auto flex j-center p-3">
+        <section>
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+            Termos e Condições de Uso                       
+            </div>
+            <br>
+        
+            <div>
+                <h2>1. Nossa Missão.</h2>
+                <p>Nossa missão é criar um mundo onde você se sinta em casa em qualquer lugar. De cabanas a castelos, navegue entre milhões de Anúncios e 
+                    encontre aqueles que melhor se encaixem nas suas preferências de viagem. Confira a descrição e as fotos, o perfil do Anfitrião e as avaliações dos 
+                    Hóspedes para obter mais informações sobre um Anúncio. Se você tiver dúvidas, basta enviar uma mensagem ao Anfitrião.
+                </p>
+            
+                <h2>2. Buscas e Reservas no Carpe Diem.</h2>
+                <h4>2.1 Buscas.</h4> 
+                <p>Você pode buscar Serviços de Anfitrião usando critérios como o tipo de Serviço de Anfitrião, destino de viagem, datas de viagem e número de hóspedes. 
+                    Você também pode usar filtros para refinar seus resultados de busca. Os resultados de busca são baseados na relevância desses filtros para sua busca e 
+                    em outros critérios. A relevância leva em consideração fatores como preço, disponibilidade, Avaliações, histórico de atendimento ao cliente e cancelamentos, 
+                    popularidade, viagens anteriores e Anúncios salvos, requisitos do Anfitrião (por exemplo, estadia mínima ou máxima) e muitos outros. 
+                    Saiba mais sobre os resultados de busca em nossa Central de Ajuda.
+                </p>
+            
+                <h2>3. Cancelamentos, Problemas de Viagem, Reembolsos e Modificações de Reserva.</h2>
+                <h4>3.1 Cancelamentos, Problemas de Viagem e Reembolsos.</h4>
+                <p>De modo geral, se você cancelar uma Reserva como Hóspede, o valor do seu reembolso é determinado pela política de cancelamento aplicável a essa Reserva. 
+                    Contudo, em algumas situações, outras políticas têm prioridade e determinam o valor que será reembolsado a você. 
+                    Se algo fora de seu controle fizer com que você tenha de cancelar uma Reserva, você pode ser elegível a um reembolso parcial ou integral de acordo com 
+                    nossa Política de Causas de Força Maior. Se o Anfitrião cancelar ou você tiver um Problema de Viagem 
+                    (conforme definido em nossa Política de Reembolso do Hóspede), você pode ser elegível para receber assistência para realizar uma nova reserva ou 
+                    para obter um reembolso parcial ou integral, de acordo com a Política de Reembolso do Hóspede. Diferentes políticas se aplicam a determinadas categorias 
+                    de Anúncios — por exemplo, as Reservas de Experiências são regidas pela Política de Reembolso do Hóspede de Experiências. 
+                    Confira cada Termo Adicional Legal ou Política para obter informações sobre o que está coberto e qual reembolso se aplica a cada situação.
+                </p>
+                
+                <h4>3.2 Modificações de Reserva.</h4> 
+                <p>Hóspedes e Anfitriões são responsáveis por quaisquer Modificações de Reserva que eles concordarem em fazer através da Plataforma Carpe Diem ou 
+                    através do serviço de atendimento ao cliente ("Modificações de Reserva") e concordam em pagar quaisquer valores, taxas ou impostos adicionais 
+                    relacionados a qualquer Modificação de Reserva.
+                </p>
+            </div>
+        </section>
+    </div>
+
+        <div class="copyright p-2 t-center"></div>
+
+    <script src="~/js/copyright.js"></script>
+</body>
+
+</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

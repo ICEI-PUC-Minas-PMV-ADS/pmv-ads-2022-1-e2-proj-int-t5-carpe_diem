@@ -2,7 +2,7 @@
 
 function card(img, lugar, regiao, qt_quarto, qt_hospede, qt_banheiro, price, link){
 
-    let card_html = `<div class="card" id="div_card">
+    let card_html = `<div class="card shadow-1 hover:shadow-3 transition" id="div_card">
         <img class="card-top" src="${img}">
         <div class="card-body">
             <div class="card-t card-center card-title">${lugar}</div>

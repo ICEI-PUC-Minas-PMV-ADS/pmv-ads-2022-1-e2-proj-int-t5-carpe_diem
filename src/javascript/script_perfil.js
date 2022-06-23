@@ -1,16 +1,13 @@
 cards_places.innerHTML = ''
 
-function card(img, link){
+function card(img, link1, link2, link3){
   card_html = `
   <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
       <div class="flex-1 shadow-1"> 
-          <a href='${link}'><img class="w-f h-2 object-cover" src="${img}"> </a>
-                                
-          <a href="${link}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DETALHES</p></a> 
-          
-          <a href="${link}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
-
-          <a href="${link}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">CANCELAR RESERVA</p></a>
+          <a><img class="w-f h-2 object-cover" src="${img}"> </a>
+          <a href="${link1}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DETALHES</p></a> 
+          <a href="${link2}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+          <a href="${link3}"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">CANCELAR RESERVA</p></a>
       </div>
   </div>
   `
@@ -21,10 +18,10 @@ function card(img, link){
   cards_places.appendChild(div.children[0])
 }
 
-card('img/hotel-1.jpg', 1, 5, 1, 180, 'http://www.youtube.com')
-card('img/hotel-2.jpg', 1, 5, 1, 280, 'http://www.google.com')
-card('img/hotel-3.jpg', 1, 5, 1, 130, 'http://www.clickjogos.com')
-card('img/hotel-4.jpg', 1, 5, 1, 980, 'https://pt.wikipedia.org/')
+card('img/hotel-1.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('img/hotel-2.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('img/hotel-3.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('img/hotel-4.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
 
 
 

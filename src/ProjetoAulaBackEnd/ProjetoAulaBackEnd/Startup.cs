@@ -1,15 +1,12 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ProjetoAulaBackEnd.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ProjetoAulaBackEnd
 {
@@ -28,6 +25,20 @@ namespace ProjetoAulaBackEnd
             services.AddDbContext<Contexto>(options=>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                    options.AccessDeniedPath = "/Hospedes/AccessDenied/";
+                    options.LoginPath = "/Hospedes/Login/";
+                });
+
             services.AddControllersWithViews();
         }
 
@@ -48,6 +59,10 @@ namespace ProjetoAulaBackEnd
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCookiePolicy();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

@@ -311,6 +311,48 @@ a:hover{
   
 .transition{transition: 0.5s;}
 
+/* ok */
+
+.capa{
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 2em;
+}
+
+.capa-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: none;
+    scroll-snap-align: start;
+}
+
+.input{
+    padding: 1em;
+    /* margin: 0.5em; */
+    border-radius: 1em;
+    background-color: #FBCB2B80;
+    border: none;
+    box-shadow: 3px 3px 3px #00000033;
+    outline:none;
+    width: auto;
+    font-weight: 600;   
+}
+
+.square{
+    width: 30px;
+    height: 30px;
+    color: black;
+    padding:3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
 /* tablet */
 @media (max-width: 1000px){
     .md-grid-col-1{grid-template-columns: repeat(1, 1fr);}
@@ -367,44 +409,3 @@ a:hover{
 .-right-1 {right : -10px;}
 .-bottom-1{bottom: -10px;}
 
-/* ok */
-
-.capa{
-    height: 400px;
-    overflow: hidden;
-    display: flex;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    border-radius: 2em;
-}
-
-.capa-item{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    flex: none;
-    scroll-snap-align: start;
-}
-
-.input{
-    padding: 1em;
-    /* margin: 0.5em; */
-    border-radius: 1em;
-    background-color: #FBCB2B80;
-    border: none;
-    box-shadow: 3px 3px 3px #00000033;
-    outline:none;
-    width: auto;
-    font-weight: 600;   
-}
-
-.square{
-    width: 30px;
-    height: 30px;
-    color: black;
-    padding:3px;
-    display: inline-flex;;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-}

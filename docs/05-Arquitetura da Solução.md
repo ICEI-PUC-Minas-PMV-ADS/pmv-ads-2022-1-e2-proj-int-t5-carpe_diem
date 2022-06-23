@@ -8,7 +8,7 @@ O diagrama de classes ilustra esquematicamente como será a estrutura do softwar
 
 Figura 26 - Diagrama de Classes
 
-![Diagrama de Classes - atualizado](https://user-images.githubusercontent.com/89617881/162593374-e77bbf5e-ce22-4485-8219-a2178ed56ff3.png)
+![Diagrama de Classes - CarpeDiem (6)](https://user-images.githubusercontent.com/89617881/173256239-ccb89835-551e-4268-97b6-705c99f4350f.png)
 
 Fonte: Elaborado pelos autores
 
@@ -30,7 +30,7 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Figura 28 - Esquema Relacional
 
-![Esquema Relacional_CP_V4](https://user-images.githubusercontent.com/90981080/162637243-50623f08-b61b-45e4-993a-ea6cbd42d808.png)
+![Esquema Relacional_V3](https://user-images.githubusercontent.com/89549220/173975754-077b5201-f1ee-4541-929d-e910a0b0feef.png)
 
 Fonte: Elaborado pelos autores
 
@@ -58,7 +58,7 @@ A arquitetura da solução concretizada conta com os seguintes módulos:
 
 ## 5.5 Hospedagem
 
-Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Azure, e o mesmo será mantido no ambiente da URL <https://carpediempucmg.azurewebsites.net/>.
+Como ambiente de hospedagem da aplicação do projeto Carpe Diem, optamos por utilizar a plataforma Azure, e o mesmo será mantido no ambiente da URL <https://carpediemfinal.azurewebsites.net/>.
 
 A publicação da aplicação no Heroku ou no Azure será realizada através da submissão do projeto (push) via Git para o repositório remoto que estará disponível no GitHub.
 
