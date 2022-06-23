@@ -9,11 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,19 +47,19 @@
                 <form class="formCadastro" name="Cadastro" method="post">
 
                     <legend>
-                        <h1><b>Cadastro</b></h1>
+                        <h1><b class="t-black">Cadastro</b></h1>
                         <p id="campoObriga">Campos de preenchimento obrigatório</p>
                         <h5 id="erro">@ViewBag.Message</h5>
                     </legend>
 
                     <fieldset>
-                        <span class="font-size-16 bold-6">Nome completo</span><br>
+                        <span class="font-size-16 bold-6">Nome Completo</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
                         
                         <span class="font-size-16 bold-6">CPF</span><br>
-                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" value="" required><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" maxlength="11" onblur="return verificarCPF(this.value)" value="" required><br>
                         
-                        <span class="font-size-16 bold-6">Data de nascimento</span><br>
+                        <span class="font-size-16 bold-6">Data de Nascimento</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" id="campoData" name="DataDeNascimento" value="" required><br>
                         
                         <span class="font-size-16 bold-6">Endereço</span><br>
@@ -77,7 +74,7 @@
                         <span class="font-size-16 bold-6">Senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha" value="" required><br>
                         
-                        <span class="font-size-16 bold-6">Confirme a senha</span><br>
+                        <span class="font-size-16 bold-6">Confirme a Senha</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="password" name="Senha2" value="" required><br>
 
                         <div>
@@ -87,12 +84,12 @@
                         </div>
                         
                         <div class="flex flex-col gap-2 p-2">
-                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar senha</span></label>
-                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse dispositivo</span></label>
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar Senha</span></label>
+                            <label class="checkbox"><input type="checkbox"><div class="checkbox-item"></div><span>Lembrar-me nesse Dispositivo</span></label>
                      
                             <!--<p class="possui_cadastro s-end"><a asp-controller="Hospedes" asp-action="EsqueceuSenha">Esqueceu a senha?</a></p>-->
                             <button class="btn btn-blue btn-effect w-f">CADASTRAR</button>
-                            <p class="possui_cadastro s-center">Já possui cadastro?<a asp-area="" asp-controller="Hospedes" asp-action="Login">Faça Login</a></p>
+                            <p class="possui_cadastro s-center">Já possui Cadastro?<a asp-area="" asp-controller="Hospedes" asp-action="Login">Faça Login</a></p>
                         </div>
                     </fieldset>
                 </form>
@@ -108,6 +105,8 @@
             $("#campoTelefone").mask("(99)99999-9999",{placeholder:"(XX)XXXXX-XXXX"});
            });
         </script>
+
+        <script type="text/javascript" src="~/js/validacao_cpf.js"></script>
     </div>
 
     <script src="~/js/copyright.js"></script>

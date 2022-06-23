@@ -1,0 +1,8 @@
+/* tablet */
+
+@media (max-width: 1000px) {
+    footer{
+        display: grid;
+        gap: 1em
+    }
+}

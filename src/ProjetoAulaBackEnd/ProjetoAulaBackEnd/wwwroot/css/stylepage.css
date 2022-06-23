@@ -1,8 +1,25 @@
 @import url('~/components/css/checkbox.css');
 @import url('~/components/css/button.css');
 @import url('~/components/css/card.css');
+@import url('~/components/css/tablet.css');
+
 
 .quicksand{font-family: 'Quicksand', sans-serif;}
+
+:root {
+    --white: #FFFFFF;
+    --orange-1: #F36E2B;
+    --orange-2: #F47A2B;
+    --yellow-1: #FBCB2B;
+    --yellow-2: #FBCB2B80;
+    --bege: #FFC096;
+    --brown: #E39E6F;
+    --blue-1: #2C9196;
+    --blue-2: #6FDDE3;
+    --gray: #F1ECE9;
+    --black: #000000;
+    --white: #FFFFFF;
+}
 
 *{
     font-family: 'Quicksand', sans-serif;
@@ -119,7 +136,7 @@ a:hover{
 .t-blue-2   { color: #6FDDE3;   }
 .t-gray     { color: #F1ECE9;   }
 .t-black    { color: #000000;   }
-.t-white    { color: #FFFFFF;   }
+.t-white    { color: #FFFFFF !important;   }
 
 /* font size */
 .font-size-1{ font-size: xx-small;  }
@@ -342,6 +359,18 @@ a:hover{
     font-weight: 600;
 }
 
+.input-busca {
+    padding: 1em;
+    /* margin: 0.5em; */
+    border-radius: 1em;
+    background-color: #F36E2B;
+    border: none;
+    box-shadow: 3px 3px 3px #00000033;
+    outline: none;
+    width: auto;
+    font-weight: 600;
+}
+
 .square {
     width: 30px;
     height: 30px;
@@ -352,6 +381,8 @@ a:hover{
     align-items: center;
     font-weight: 600;
 }
+
+
 
 
 /* tablet */
@@ -369,6 +400,8 @@ a:hover{
     .md-flex-wrap{flex-wrap: wrap;}
 
     .md-flex-col{flex-direction: column;}
+    
+    
 }
 
 /* mobile */
@@ -386,6 +419,8 @@ a:hover{
     .sm-flex-wrap{flex-wrap: wrap;}
 
     .sm-flex-col{flex-direction: column;}
+
+    
 }
 
 .smooth{ scroll-behavior: smooth; }
@@ -410,3 +445,27 @@ a:hover{
 .-right-1 {right : -10px;}
 .-bottom-1{bottom: -10px;}
 
+footer{
+    background-color: var(--blue-1);
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white)
+}
+
+.lado-lado dt {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.lado-lado dd {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

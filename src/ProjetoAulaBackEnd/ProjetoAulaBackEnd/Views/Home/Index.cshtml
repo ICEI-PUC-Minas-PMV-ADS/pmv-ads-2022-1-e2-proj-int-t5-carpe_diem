@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="~/components/css/card.css">
     <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/tablet.css">
     <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
 
     <title>Homepage | Carpe Diem</title>
@@ -26,19 +28,20 @@
 <body class="bg-gray">
     
     <!-- topo -->
+    <!--
     <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">
 
-        <!--<a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>-->
+        <a href="index.html"><img src="~/img/Logo_Final_382x148.png"></a>
 
         <div class="direct flex md-flex-col">
-          <!-- <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Imoveis" asp-action="Create">Anuncie seu imóvel</a> -->
+            <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Imoveis" asp-action="Create">Anuncie seu imóvel</a>
             <a href="login_cadastro.html" class="p-1 m-1 t-black bold-7">Alugue um imóvel</a>
             <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
             <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Login">Login</a>
             <a class="p-1 m-1 t-black bold-7" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastre-se<img width="25px" src="img/svg/adicionar-usuario-1.svg"></a>
         </div>
-
     </section>
+    -->
 
     <div class="container m-auto flex j-center p-3">
 
@@ -56,38 +59,41 @@
                 Encontre sua próxima estadia
             </div>
             
+            <form asp-controller="Imoveis" asp-action="Busca" method="get">
             <div class="py-3 flex flex-wrap j-between ai-end gap-3 t-black">
                 
                 <div>
-                    <p class="bold-8 m-0 p-1">Cidade Destino</p>
-                    <input class="input" placeholder="Cidade">   
+                    <p class="t-black bold-8 m-0 p-1">Cidade Destino</p>
+                    <input class="input" placeholder="Cidade" name="SearchString" value="@ViewData["CurrentFilter"]">   
                 </div>
                 <div>
-                    <p class="bold-8 m-0 p-1">Check-In</p>
+                    <p class="t-black bold-8 m-0 p-1">Check-In</p>
                     <input class="input" type="date" placeholder="dd/mm/aaaa">          
                 </div>
                 <div>
-                    <p class="bold-8 m-0 p-1">Check-Out</p>
+                    <p class="t-black bold-8 m-0 p-1">Check-Out</p>
                     <input class="input" type="date" placeholder="dd/mm/aaaa">         
                 </div>
                 <div>
-                    <p class="bold-8 m-0 p-1">Número de Hóspedes</p>
+                    <p class="t-black bold-8 m-0 p-1">Número de Hóspedes</p>
                     <input class="input" placeholder="Número de hóspedes">
                 </div>
-                                
-                    <a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>
-                                    
-            </div>     
+
+                <input type="submit" value="Search" class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white input-busca">                                
+                @*<a href="resultado_busca.html"><span class="material-symbols-outlined rounded-1 bg-orange-1 p-3 t-white">search</span></a>*@                                    
+            </div>    
+            </form>
+            <br />
             
 
             <!-- bloquinhos -->
             <section>
                 <h1 class="py-2 t-black bold-8">Regiões onde trabalhamos</h1>
                 <div class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
-                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sul.jpg">      <p class="p-1 bold-7">Sul</p>      </div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-norte.jpg">    <p class="p-1 bold-7">Norte</p>    </div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-nordeste.jpg"> <p class="p-1 bold-7">Nordeste</p> </div>
-                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sudeste.jpg">  <p class="p-1 bold-7">Sudeste</p>  </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sul.jpg">      <p class="p-1 t-black bold-8">Sul</p>      </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-norte.jpg">    <p class="p-1 t-black bold-8">Norte</p>    </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-nordeste.jpg"> <p class="p-1 t-black bold-8">Nordeste</p> </div>
+                    <div class="w-f shadow-1 hover:shadow-3 transition"> <img class="w-f h-2 object-cover" src="~/img/b-sudeste.jpg">  <p class="p-1 t-black bold-8">Sudeste</p>  </div>
                 </div>
             </section>
 
@@ -117,23 +123,21 @@
             
         </div>
 
-        <section>
-            <div class="bg-blue-1 p-3 flex md-flex-wrap j-between ai-center">
-                <div>
-                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a></a>
-                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e Condições de Uso</a></a>
-                    <a class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a></a>
-                </div>
-                
-                <div class="flex gap-3">
-                    <div><a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white" ></i></a></div>
-                    <div><a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"  ></i></a></div>
-                    <div><a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"   ></i></a></div>
-                </div>
+        <footer>
+            <div>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a></p>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Home" asp-action="Termos">Termos e Condições de Uso</a></p>
+                <p class="bold-7 font-size-5 t-white" style="text-decoration:none"><a asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a></p>
             </div>
+                
+            <div class="flex gap-3">
+                <a href="https://instagram.com/carpediem.pucmg?igshid=YmMyMTA2M2Y="><i class="gsicon-instagram font-size-48 t-white"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100081320832182"><i class="gsicon-facebook font-size-48 t-white"></i></a>
+                <a href="https://mobile.twitter.com/carpedi04092443"><i class="gsicon-twitter font-size-48 t-white"></i></a>
+            </div>
+        </footer>
 
-            <div class="copyright p-2 t-center"></div>
-        </section>
+        <div class="copyright p-2 t-center"></div>
         
     <script src="~/js/script.js"></script>
     <script src="~/js/copyright.js"></script>

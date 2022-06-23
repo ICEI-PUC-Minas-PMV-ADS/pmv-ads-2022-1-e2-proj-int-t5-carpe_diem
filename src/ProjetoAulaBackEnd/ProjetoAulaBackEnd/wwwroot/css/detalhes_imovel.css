@@ -42,3 +42,8 @@ header {
     background: #FBCB2B;
     opacity: 0.6;
 }
+
+#erro {
+    color: red;
+    font-weight: bold;
+}

@@ -18,10 +18,10 @@ function card(img, link1, link2, link3){
   cards_places.appendChild(div.children[0])
 }
 
-card('~/img/hotel-1.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('~/img/hotel-2.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('~/img/hotel-3.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
-card('~/img/hotel-4.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('.../img/hotel-1.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('.../img/hotel-2.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('.../img/hotel-3.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
+card('.../img/hotel-4.jpg', 'detalhes_imovel.html', 'editar_reserva.html', 'editar_reserva.html' )
 
 
 
