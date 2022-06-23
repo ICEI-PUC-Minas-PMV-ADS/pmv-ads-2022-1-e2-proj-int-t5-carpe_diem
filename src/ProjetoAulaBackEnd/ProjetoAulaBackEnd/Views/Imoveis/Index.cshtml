@@ -4,6 +4,129 @@
     ViewData["Title"] = "Index";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+    <link rel="stylesheet" href="~/components/css/button.css">    
+    <link rel="stylesheet" href="~/css/stylepage.css">        
+
+    <title>Lista de Imóveis | CarpeDiem</title>
+</head>
+
+<body>
+    <h1 class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Lista de Imóveis</h1>
+
+    <div>
+        <a asp-action="Create" class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">Adicionar Imóvel</a>
+    </div>
+
+    <table class="table m-auto j-center p-3">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hospede)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Bairro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cidade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TipoEsp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TipoAc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QtdeHospedes)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QtdeCamas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QtdeQuartos)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QtdeBanheiros)
+                </th>            
+                <th>
+                    @Html.DisplayNameFor(model => model.ValorDiaria)
+                </th>                
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hospede.CPF)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bairro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cidade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoEsp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoAc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeHospedes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeCamas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeQuartos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdeBanheiros)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValorDiaria)
+                </td>                
+                <td class="flex t-center j-center py-2">
+                    <a class="btn btn-blue btn-effect" asp-action="Edit" asp-route-id="@item.IdImovel">Editar</a> 
+                    <a class="btn btn-blue btn-effect" asp-action="Details" asp-route-id="@item.IdImovel">Detalhes</a>
+                    <a class="btn btn-blue btn-effect" asp-action="Delete" asp-route-id="@item.IdImovel">Deletar</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+
+    <div class="copyright p-2 t-center"></div>  
+        
+    <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
+
+
+<!--
 <h1>Index</h1>
 
 <p>
@@ -255,3 +378,4 @@
 }
     </tbody>
 </table>
+-->
