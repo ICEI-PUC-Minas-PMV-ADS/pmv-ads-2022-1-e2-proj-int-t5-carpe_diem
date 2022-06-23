@@ -11,8 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    @*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">*@
 
     <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
 
@@ -50,7 +50,7 @@
                 <form class="formCadastro" name="Cadastro" method="post">
 
                     <legend>
-                        <h1><b>Cadastro</b></h1>
+                        <h1><b class="t-black">Cadastro</b></h1>
                         <p id="campoObriga">Campos de preenchimento obrigatório</p>
                         <h5 id="erro">@ViewBag.Message</h5>
                     </legend>
@@ -60,7 +60,7 @@
                         <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
                         
                         <span class="font-size-16 bold-6">CPF</span><br>
-                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" value="" required><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" maxlength="11" onblur="return verificarCPF(this.value)" value="" required><br>
                         
                         <span class="font-size-16 bold-6">Data de nascimento</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" id="campoData" name="DataDeNascimento" value="" required><br>
@@ -108,6 +108,8 @@
             $("#campoTelefone").mask("(99)99999-9999",{placeholder:"(XX)XXXXX-XXXX"});
            });
         </script>
+
+        <script type="text/javascript" src="~/js/validacao_cpf.js"></script>
     </div>
 
     <script src="~/js/copyright.js"></script>

@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
-        
+    <link rel="stylesheet" href="~/components/css/button.css">    
     <link rel="stylesheet" href="~/css/stylepage.css">        
 
     <title>Lista de Imóveis | CarpeDiem</title>
@@ -92,20 +92,20 @@
                     @Html.DisplayFor(modelItem => item.QtdeHospedes)
                 </td>
                 <td>
-                    @Html.DisplayNameFor(modelItem => item.QtdeCamas)
+                    @Html.DisplayFor(modelItem => item.QtdeCamas)
                 </td>
                 <td>
-                    @Html.DisplayNameFor(modelItem => item.QtdeQuartos)
+                    @Html.DisplayFor(modelItem => item.QtdeQuartos)
                 </td>
                 <td>
-                    @Html.DisplayNameFor(modelItem => item.QtdeBanheiros)
+                    @Html.DisplayFor(modelItem => item.QtdeBanheiros)
                 </td>                
                 
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdImovel">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdImovel">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdImovel">Delete</a>
-                </td>
+                <td class="flex t-center j-center py-2">
+                    <a class="btn btn-blue btn-effect" asp-action="Edit" asp-route-id="@item.IdImovel">Editar</a> 
+                    <a class="btn btn-blue btn-effect" asp-action="Details" asp-route-id="@item.IdImovel">Detalhes</a>
+                    <a class="btn btn-blue btn-effect" asp-action="Delete" asp-route-id="@item.IdImovel">Deletar</a>
+                </td>                
             </tr>
     }
         </tbody>

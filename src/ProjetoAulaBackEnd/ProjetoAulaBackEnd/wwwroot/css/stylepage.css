@@ -359,6 +359,18 @@ a:hover{
     font-weight: 600;
 }
 
+.input-busca {
+    padding: 1em;
+    /* margin: 0.5em; */
+    border-radius: 1em;
+    background-color: #F36E2B;
+    border: none;
+    box-shadow: 3px 3px 3px #00000033;
+    outline: none;
+    width: auto;
+    font-weight: 600;
+}
+
 .square {
     width: 30px;
     height: 30px;

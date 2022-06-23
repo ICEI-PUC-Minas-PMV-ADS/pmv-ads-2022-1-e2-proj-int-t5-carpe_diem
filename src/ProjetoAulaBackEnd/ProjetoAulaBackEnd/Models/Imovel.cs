@@ -62,7 +62,6 @@ namespace ProjetoAulaBackEnd.Models
 
         [Display(Name = "O que seu espaço tem a oferecer?")]
         [Required(ErrorMessage = "Obrigatório informar este campo!")]
-
         public bool Academia { get; set; }
         
         [Display(Name = "Aceita PET")] 

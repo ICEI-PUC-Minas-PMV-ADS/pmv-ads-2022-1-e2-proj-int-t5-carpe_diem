@@ -109,77 +109,13 @@
                         </dd>
                     </div>                    
 
-                    <div class="flex t-center j-center py-2">
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Edit" asp-route-id="@item.IdImovel">Edit</a>
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Details" asp-route-id="@item.IdImovel">Details</a>
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Delete" asp-route-id="@item.IdImovel">Delete</a>
+                    <div class="flex t-center j-center py-2">                        
+                        <a class="btn btn-blue btn-effect w-5p m-5" asp-action="Details" asp-route-id="@item.IdImovel">DETALHES DO IMÓVEL</a>                        
                     </div> 
 
                     </dl>}
 
-            </section>  
-
-
-            <section class="flex flex-wrap j-between gap-3 t-center">
-                <img class="w-2 h-2 object-cover m-auto" src="~/img/pousada-1.jpg">
-                <img class="w-2 h-2 object-cover m-auto" src="~/img/pousada-3.jpg">
-                <img class="w-2 h-2 object-cover m-auto" src="~/img/pousada-4.jpg">
-                <img class="w-2 h-2 object-cover m-auto" src="~/img/pousada-7.jpg">
-                <img class="w-2 h-2 object-cover m-auto" src="~/img/pousada-8.jpg">               
-            </section>
-            <br />
-
-            <section class="j-center ai-center lado-lado">
-                @foreach (var item in Model) {
-                <dl class="w-full"> 
-                    <div class="grid grid-col-4 md-grid-col-1 gap-3 py-2">
-                        <dt class = "w-full">
-                            @Html.DisplayNameFor(model => model.Cidade)
-                        </dt>
-                        <dd class = "w-f input mb-4 mt-1">
-                            @Html.DisplayFor(modelItem => item.Cidade)
-                        </dd>
-
-                        <dt class = "w-full">
-                            @Html.DisplayNameFor(model => model.Bairro)
-                        </dt>    
-                        <dd class = "w-f input mb-4 mt-1">
-                            @Html.DisplayFor(modelItem => item.Bairro)
-                        </dd>
-
-                        <dt class = "w-full">
-                            @Html.DisplayNameFor(model => model.TipoEsp)
-                        </dt> 
-                        <dd class = "w-f input mb-4 mt-1">
-                            @Html.DisplayFor(modelItem => item.TipoEsp)
-                        </dd>
-
-                        <dt class = "w-full">
-                            @Html.DisplayNameFor(model => model.TipoAc)
-                        </dt>
-                        <dd class = "w-f input mb-4 mt-1">
-                            @Html.DisplayFor(modelItem => item.TipoAc)
-                        </dd>
-
-                        <dt class = "w-full">
-                            @Html.DisplayNameFor(model => model.ValorDiaria)
-                        </dt>
-                        <dd class = "w-f input mb-4 mt-1">
-                            @Html.DisplayFor(modelItem => item.ValorDiaria)
-                        </dd>
-                    </div>                    
-
-                    <div class="flex t-center j-center py-2">
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Edit" asp-route-id="@item.IdImovel">Edit</a>
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Details" asp-route-id="@item.IdImovel">Details</a>
-                        <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Delete" asp-route-id="@item.IdImovel">Delete</a>
-                    </div> 
-
-                    </dl>}
-
-            </section>
-                
-            
+            </section>    
         </main>   
 
         <div class="copyright p-2 t-center"></div>        

@@ -4,63 +4,92 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CPF)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataDeNascimento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CPF)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataDeNascimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Endereco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdHospede">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdHospede">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdHospede">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+    <link rel="stylesheet" href="~/components/css/button.css">    
+    <link rel="stylesheet" href="~/css/stylepage.css">        
+
+    <title>Lista de Hóspedes | CarpeDiem</title>
+</head>
+
+<body>
+    <h1 class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Lista de Hóspedes</h1>
+
+    <div>
+        <a asp-action="Create" class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">Cadastrar Novo Hóspede</a>
+    </div>
+    <table class="table m-auto j-center p-3">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CPF)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataDeNascimento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Endereco)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CPF)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataDeNascimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td class="flex t-center j-center py-2">
+                    <a class="btn btn-blue btn-effect" asp-action="Edit" asp-route-id="@item.IdHospede">Editar</a>
+                    <a class="btn btn-blue btn-effect" asp-action="Details" asp-route-id="@item.IdHospede">Detalhes</a>
+                    <a class="btn btn-blue btn-effect" asp-action="Delete" asp-route-id="@item.IdHospede">Deletar</a>
+                </td>            
+            </tr>
+    }
+        </tbody>
+    </table>
+
+    <div class="copyright p-2 t-center"></div>  
+        
+    <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
