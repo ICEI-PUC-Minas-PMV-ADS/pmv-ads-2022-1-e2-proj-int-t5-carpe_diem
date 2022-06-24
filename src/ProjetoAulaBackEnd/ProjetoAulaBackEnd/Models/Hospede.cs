@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -35,9 +36,12 @@ namespace ProjetoAulaBackEnd.Models
 
         [Display(Name = "Tipo de Usuário")]
         public TipoUsuario TipoUsuario { get; set; }
-    }    
 
-    
+        public ICollection<Imovel> Imoveis { get; set; }
+
+    }
+
+
     public enum TipoUsuario
     {
         [Display(Name ="Hóspede")]

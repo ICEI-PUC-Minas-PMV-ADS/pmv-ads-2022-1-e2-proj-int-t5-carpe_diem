@@ -163,5 +163,48 @@ namespace ProjetoAulaBackEnd.Controllers
         {
           return _context.Imoveis.Any(e => e.IdImovel == id);
         }
+        //Busca Imóveis
+        public async Task<IActionResult> Busca(string sortOrder, string searchString)
+        {
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+            ViewData["CurrentFilter"] = searchString;
+
+            var imoveisResult = from s in _context.Imoveis
+                                select s;
+
+
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                imoveisResult = imoveisResult.Where(s => s.Cidade.Contains(searchString)
+                                       || s.Bairro.Contains(searchString));
+            }
+
+            if (String.IsNullOrEmpty(searchString))
+            {
+                return RedirectToAction(nameof(BuscaVazia));
+            }
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    imoveisResult = imoveisResult.OrderByDescending(s => s.Cidade);
+                    break;
+                case "Date":
+                    imoveisResult = imoveisResult.OrderBy(s => s.ValorDiaria);
+                    break;
+                case "date_desc":
+                    imoveisResult = imoveisResult.OrderByDescending(s => s.Bairro);
+                    break;
+                default:
+                    imoveisResult = imoveisResult.OrderBy(s => s.Cidade);
+                    break;
+            }
+            return View(await imoveisResult.AsNoTracking().ToListAsync());
+        }
+        public IActionResult BuscaVazia()
+        {
+            return View();
+        }
     }
 }

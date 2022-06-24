@@ -28,9 +28,11 @@
 }
 
 #erro{
-    color:red;
+    color:black;
     font-weight:bold;
 }
+
+
 
 /* fieldset{
     font-family: 'Quicksand', sans-serif;
