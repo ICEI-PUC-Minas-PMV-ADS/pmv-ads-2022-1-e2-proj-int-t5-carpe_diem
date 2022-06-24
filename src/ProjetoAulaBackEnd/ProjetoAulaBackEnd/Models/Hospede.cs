@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -30,11 +31,13 @@ namespace ProjetoAulaBackEnd.Models
         [Required(ErrorMessage = ("Obrigatório informar senha"))]
         public string Senha { get; set; }
 
-        [Required(ErrorMessage = ("Obrigatório repetir a  senha"))]
+        [Required(ErrorMessage = ("Obrigatório repetir a senha"))]
         public string Senha2 { get; set; }
 
         [Display(Name = "Tipo de Usuário")]
         public TipoUsuario TipoUsuario { get; set; }
+
+        public ICollection<Imovel> Imoveis { get; set; }
     }    
 
     
