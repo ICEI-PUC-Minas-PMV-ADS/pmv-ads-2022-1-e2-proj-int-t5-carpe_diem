@@ -1,0 +1,257 @@
+﻿@model IEnumerable<ProjetoAulaBackEnd.Models.Imovel>
+
+@{
+    ViewData["Title"] = "Busca";
+}
+
+<h1>Busca</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Hospede)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoEsp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoAc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdeHospedes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdeCamas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdeQuartos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QtdeBanheiros)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Foto4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Academia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PET)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArCondicionado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Churrasqueira)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cozinha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DuchaExterna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Elevador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estacionamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jogos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lareira)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaquinaLavar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Patio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Piscina)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rampa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sauna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Suite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VistaMar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WiFi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DistanciaPraia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorDiaria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DispImovel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DesativarImovel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hospede.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoEsp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoAc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdeHospedes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdeCamas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdeQuartos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QtdeBanheiros)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Foto4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Academia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PET)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArCondicionado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Churrasqueira)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cozinha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DuchaExterna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Elevador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estacionamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jogos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lareira)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaquinaLavar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Patio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Piscina)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rampa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sauna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Suite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VistaMar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WiFi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistanciaPraia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorDiaria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DispImovel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DesativarImovel)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdImovel">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdImovel">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdImovel">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
