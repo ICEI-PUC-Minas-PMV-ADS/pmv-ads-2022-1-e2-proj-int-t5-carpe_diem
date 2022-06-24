@@ -27,9 +27,11 @@
     font-size: 16px;
 }
 
-#erro{
-    color:red;
-    font-weight:bold;
+#erro {
+    color: #2C9196;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
 }
 
 /* fieldset{
