@@ -78,10 +78,10 @@ Quadro 3 - Requisitos Funcionais
 |RF-002   | A aplicação deve permitir ao usuário gerenciar seu cadastro. | Alta | 
 |RF-003   | A aplicação deve permitir ao hóspede a opção de se tornar anfitrião, e com isso, gerenciar as informações do imóvel cadastrado e o disponibilizar para locação de temporada. | Alta | 
 |RF-004   | A aplicação deve permitir que o hóspede reserve o imóvel escolhido. | Alta |
-|RF-005   | A aplicação deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como: tipo de imóvel, quantidade de cômodos, acessibilidade, número máximo de hóspedes, disponibilidade por data, entre outros. | Média |
+|RF-005   | A aplicação deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como localidade ("cidade destino"). | Média |
 |RF-006   | A aplicação deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | Baixa |
 |RF-007   | A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | Alta |
-|RF-008   | A aplicação deve apresentar ao usuário apenas os imóveis disponíveis na data selecionada durante a busca. | Média |
+|RF-008   | A aplicação deve apresentar ao usuário apenas os imóveis disponíveis na localidade (cidade ou bairro) selecionada durante a busca. | Média |
 |RF-009   | A aplicação deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | Alta |
 |RF-010   | A aplicação deve permitir ao usuário gerenciar suas reservas, conforme regras contratuais e disponibilidade. | Alta |
 |RF-011   | A aplicação deve notificar o anfitrião sempre que seu imóvel for reservado. | Média |
