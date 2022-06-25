@@ -185,17 +185,16 @@ namespace ProjetoAulaBackEnd.Controllers
                                 select s;
 
 
-
+            if (String.IsNullOrEmpty(searchString))
+            {
+                return RedirectToAction(nameof(BuscaVazia));
+            }
             if (!String.IsNullOrEmpty(searchString))
             {
                 imoveisResult = imoveisResult.Where(s => s.Cidade.Contains(searchString)
                                        || s.Bairro.Contains(searchString));
             }
 
-            if (String.IsNullOrEmpty(searchString))
-            {
-                return RedirectToAction(nameof(BuscaVazia));
-            }
             switch (sortOrder)
             {
                 case "name_desc":
