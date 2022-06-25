@@ -4,6 +4,124 @@
     ViewData["Title"] = "Details";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+
+    <link rel="stylesheet" href="~/components/css/card.css">
+    <link rel="stylesheet" href="~/components/css/button.css">
+    <link rel="stylesheet" href="~/components/css/checkbox.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+ 
+    <title>Detalhes da Reserva | CarpeDiem</title>
+</head>
+
+<body class="bg-gray">
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col"> 
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="#"><img width="30px" src="~/img/edit_note.png"></a>
+                </div>
+            </div>
+            <!--<p>Ana Maria</p>-->
+        </div>
+    </section>
+
+    <div class="container m-auto j-center p-3">
+        <!-- banner -->
+        <section>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Detalhes da Reserva</div>
+
+            <!-- bloquinhos -->
+            <br>
+            <br>
+
+            <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                Fotos
+            </div> 
+
+            <main class="w-full">
+                <form asp-action="Edit" class="w-f p-2" name="EditarCadastro">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="IdImovel" />
+                
+                    <section class="flex flex-wrap j-between gap-3 t-center">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-1.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-4.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-5.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-7.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-8.jpg">               
+                    </section>
+                    <br />
+
+                    <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                        Informações do Imóvel
+                    </div> 
+     
+                    <div class="j-center ai-center">
+                        <dl class="w-full">
+                            <dt class="w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Imovel)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Imovel.Bairro)
+                            </dd>
+                            <dt class="w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Checkin)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Checkin)
+                            </dd>
+                            <dt class="w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.Checkout)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.Checkout)
+                            </dd>
+                            <dt class="w-full bold-7 t-black font-size-16">
+                                @Html.DisplayNameFor(model => model.ValorTotal)
+                            </dt>
+                            <dd class="w-f input mb-3 mt-1">
+                                @Html.DisplayFor(model => model.ValorTotal)
+                            </dd>
+                        </dl>
+                    </div>
+                </form>
+            </main>
+    </div>
+
+            <div class="flex t-center j-center py-2">
+                <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Edit" asp-route-id="@Model.IdReserva">Editar Reserva</a>
+                <a class="btn btn-blue btn-effect w-3p m-5" asp-action="Index">Voltar para Lista</a>
+            </div> 
+
+        <div class="copyright p-2 t-center"></div>        
+        
+        <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
+
+
+
+<!--
 <h1>Details</h1>
 
 <div>
@@ -40,3 +158,4 @@
     <a asp-action="Edit" asp-route-id="@Model.IdReserva">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+-->

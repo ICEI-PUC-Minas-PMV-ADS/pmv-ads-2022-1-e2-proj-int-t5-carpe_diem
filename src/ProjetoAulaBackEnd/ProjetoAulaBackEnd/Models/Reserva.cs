@@ -16,18 +16,21 @@ namespace ProjetoAulaBackEnd.Models
 
         //public Hospede Hospede { get; set; }
 
+        [Display(Name = "Imóvel")]
         public int IdImovel { get; set; }
 
         [ForeignKey("IdImovel")]
         public Imovel Imovel { get; set; }
 
+        [Display(Name = "Check-In")]
         [Required(ErrorMessage = ("Obrigatório informar Checkin"))]
         public DateTime Checkin { get; set; }
 
+        [Display(Name = "Check-Out")]
         [Required(ErrorMessage = ("Obrigatório informar Checkout"))]
-
         public DateTime Checkout { get; set; }
 
+        [Display(Name = "Valor Total")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
     }

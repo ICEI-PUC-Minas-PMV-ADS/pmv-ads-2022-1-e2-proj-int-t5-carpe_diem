@@ -35,7 +35,7 @@ namespace ProjetoAulaBackEnd.Models
         [Required(ErrorMessage = "Obrigatório informar este campo!")]
         public TipoAcomodacao TipoAc { get; set; }
 
-        [Display(Name = "Quantidade de Hospedes")]
+        [Display(Name = "Quantidade de Hóspedes")]
         [Required(ErrorMessage = "Obrigatório informar este campo!")]
         public int QtdeHospedes { get; set; }
 

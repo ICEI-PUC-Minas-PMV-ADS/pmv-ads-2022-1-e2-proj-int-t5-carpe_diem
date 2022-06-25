@@ -4,6 +4,82 @@
     ViewData["Title"] = "Delete";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+    <link rel="stylesheet" href="~/components/css/button.css">    
+    <link rel="stylesheet" href="~/css/stylepage.css">        
+
+    <title>Deletar Reserva | CarpeDiem</title>
+</head>
+
+<body>
+    <h1 class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">Deletar Reserva</h1>
+
+    <div>
+        <p class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">Tem certeza que deseja excluir essa reserva?</p>
+    </div>
+
+    <p class="bold-7 t-black font-size-5">Reserva</p>
+    <hr />
+
+    <div>    
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Imovel)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Imovel.Bairro)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Checkin)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Checkin)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Checkout)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Checkout)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.ValorTotal)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.ValorTotal)
+            </dd>
+        </dl>
+    
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdReserva" />
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            <a asp-action="Index" class="btn btn-blue btn-effect">Voltar para Lista</a>
+        </form>
+    </div>
+
+    <div class="copyright p-2 t-center"></div>  
+        
+    <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
+
+
+<!--
 <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
@@ -43,3 +119,4 @@
         <a asp-action="Index">Back to List</a>
     </form>
 </div>
+-->

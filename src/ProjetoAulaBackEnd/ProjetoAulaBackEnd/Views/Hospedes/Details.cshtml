@@ -40,13 +40,10 @@
     <!-- topo -->
     
     <!--<section class="bg-gray flex ai-center j-between px-3 md-flex-wrap md-flex-col">
-
-        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
-    
+        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>    
         <div class="direct flex md-flex-col">
             <a href="fale_conosco2.html" class="p-1 m-1 t-black bold-7">Fale conosco</a>
-        </div>         
-        
+        </div> 
     </section>-->
 
     <div class="container m-auto flex j-center p-3">
@@ -54,7 +51,7 @@
         <!-- banner -->
       <section>
 
-            <div class="p-1 flex j-between ai-center p-3">
+            <div class="p-1 flex j-start ai-center p-3">
 
                 <div class="flex ai-center gap-3 flex-wrap">
                     <div class="relative w-2 h-2">
@@ -114,18 +111,21 @@
                         <div>
                             <div class="form-group">
                                 <label asp-for="Endereco" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="Endereco" class="w-f input mb-3 mt-1" />
                                 <span asp-validation-for="Endereco" class="text-danger"></span>
                             </div>
 
                             <div class="form-group">
                                 <label asp-for="Telefone" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="Telefone" class="w-f input mb-3 mt-1" />
                                 <span asp-validation-for="Telefone" class="text-danger"></span>
                             </div>
 
                             <div class="form-group">
                                 <label asp-for="Email" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="Email" class="w-f input mb-3 mt-1" />
                                 <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
@@ -149,103 +149,140 @@
                             </form>
                         </div>-->               
             </main>
-            <br><br>
-
+            
+            <!--
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 p-1 bold-7 t-black font-size-6">
                 Minhas Reservas
             </div>
 
-            <section>   
-                <div id="cards_places" class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
-                    <div class="card" id="div_card">
-                        <img class="card-top" src="~/img/hotel-1.jpg">
+            <section class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1">   
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1">
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"></a>
                         <div class="card-reserva">
-                            <div class="card-t card-center card-title">Porto Seguro</div>
-                            <div class="card-m">
-                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Detalhes</a>
-                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Editar Reserva</a>
-                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Cancelar Reserva</a>
-                            </div>
+                            <div class="card-t card-center card-title">Arraial DAjuda</div>                            
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Details">Detalhes</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Edit">Editar Reserva</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Delete">Cancelar Reserva</a>                            
                         </div>
                     </div>
-                </div>                
+                </div>    
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1">
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"></a>
+                        <div class="card-reserva">
+                            <div class="card-t card-center card-title">Maragogi</div>                            
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Details">Detalhes</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Edit">Editar Reserva</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Delete">Cancelar Reserva</a>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1">
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"></a>
+                        <div class="card-reserva">
+                            <div class="card-t card-center card-title">Praia de São Marcos</div>                            
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Details">Detalhes</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Edit">Editar Reserva</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Delete">Cancelar Reserva</a>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1">
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"></a>
+                        <div class="card-reserva">
+                            <div class="card-t card-center card-title">Praia das Canasvieiras</div>                            
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Details">Detalhes</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Edit">Editar Reserva</a>
+                                <a class="bold-6 bold-6 t-black t-center p-1 bg-blue-2 m-3" asp-area="" asp-controller="Reservas" asp-action="Delete">Cancelar Reserva</a>                            
+                        </div>
+                    </div>
+                </div>
             </section> 
             <br><br>
             
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
                 Meus Imóveis Cadastrados
             </div>
+            -->
 
             <!-- cards -->
-            <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+            <!--
+            <section class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1">                
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
-                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"></a>
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Details"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Informações do Imóvel</p></a> 
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Desativar Imóvel</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Details"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Informações do Imóvel</p></a> 
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Desativar Imóvel</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Details"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Informações do Imóvel</p></a> 
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Desativar Imóvel</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
-                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Details"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Informações do Imóvel</p></a> 
+                        <a asp-area="" asp-controller="Imoveis" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Desativar Imóvel</p></a>
                     </div>
                 </div>
             </section>   
 
             <br>
             <br>
+            -->
 
             <p id="esqueceu" class="possui_cadastro s-end t-right font-size-6">
-                <a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a>
+                <a asp-area="" asp-controller="Imoveis" asp-action="Create">Deseja cadastrar novo imóvel?</a>
             </p>
 
+            <!--
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
                 Imóveis Reservados
             </div>
-            
+            -->
             <!-- cards -->
-            <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places"></div>
+            <!--
+            <section class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1">                
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                        <a asp-area="" asp-controller="Reservas" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Reserva</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                        <a asp-area="" asp-controller="Reservas" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Reserva</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                        <a asp-area="" asp-controller="Reservas" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Reserva</p></a>
                     </div>
                 </div>
                 <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
                     <div class="flex-1 shadow-1"> 
                         <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
-                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                        <a asp-area="" asp-controller="Reservas" asp-action="Edit"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">Editar Reserva</p></a>
                     </div>
                 </div>
             </section>
+            -->
          
         <!--
         <section class="w-f py-2 flex j-end">

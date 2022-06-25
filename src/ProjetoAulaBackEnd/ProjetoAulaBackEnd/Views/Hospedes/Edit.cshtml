@@ -38,7 +38,7 @@
 
         <div class="grid grid-col-2 md-grid-col-1">
             <div id="" class="flex j-center ai-center">
-                <img class="w-f pr-6" src="~/img/imagem-3.svg" alt="Cadastrar usuário">
+                <img class="w-f pr-6" src="~/img/svg/undraw_editable_re_4l94.svg" alt="Cadastrar usuário">
             </div>
 
             <div id="cadastro" class="w-full">                         
@@ -51,36 +51,46 @@
                     </legend>  
                     
                     <fieldset>
-                         <h5 id="erro">@ViewBag.Message</h5>
+                        <h5 id="erro">@ViewBag.Message</h5>
 
-                        <div class="form-group">
-                            <label asp-for="Nome" class="control-label font-size-16 bold-6">Nome Completo</label>
-                            <input asp-for="Nome" style="width: 100%" class="input w-f mb-4" />
-                            <span asp-validation-for="Nome" class="text-danger"></span>
-                        </div>                        
+                        <dl>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </dt>
+                            <dd class = "w-f input mb-4 mt-1" >
+                                @Html.DisplayFor(model => model.Nome)
+                            </dd>
 
-                        <div class="form-group">
-                            <label asp-for="CPF" class="control-label font-size-16 bold-6">CPF</label>
-                            <input asp-for="CPF" id="campoCPF" style="width: 100%" class="input w-f mb-4" />
-                            <span asp-validation-for="CPF" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="DataDeNascimento" class="control-label font-size-16 bold-6">Data de Nascimento</label>
-                            <input asp-for="DataDeNascimento" id="campoData" style="width: 100%" class="input w-f mb-4" />
-                            <span asp-validation-for="DataDeNascimento" class="text-danger"></span>
-                        </div>
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.CPF)
+                            </dt>
+                            <dd class = "w-f input mb-4 mt-1" >
+                                @Html.DisplayFor(model => model.CPF)
+                            </dd>
+
+                            <dt class = "w-full">
+                                @Html.DisplayNameFor(model => model.DataDeNascimento)
+                            </dt>
+                            <dd class = "w-f input mb-4 mt-1" >
+                                @Html.DisplayFor(model => model.DataDeNascimento)
+                            </dd>
+                        </dl>
+                         
                         <div class="form-group">
                             <label asp-for="Endereco" class="control-label font-size-16 bold-6">Endereço</label>
+                            <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                             <input asp-for="Endereco" style="width: 100%" class="input w-f mb-4" />
                             <span asp-validation-for="Endereco" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Telefone" class="control-label font-size-16 bold-6">Telefone</label>
+                            <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                             <input asp-for="Telefone" style="width: 100%" class="input w-f mb-4" />
                             <span asp-validation-for="Telefone" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label asp-for="Email" class="control-label font-size-16 bold-6">Email</label>
+                            <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                             <input asp-for="Email" style="width: 100%" class="input w-f mb-4" />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>

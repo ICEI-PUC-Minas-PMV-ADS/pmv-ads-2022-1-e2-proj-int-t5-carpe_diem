@@ -10,15 +10,19 @@ namespace ProjetoAulaBackEnd.Models
     {
         [Key]
         public int IdHospede { get; set; }
+
+        [Display(Name = "Nome Completo")]
         [Required(ErrorMessage = ("Obrigatório informar o nome completo"))]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = ("Obrigatório informar o CPF"))]
         public string CPF { get; set; }
 
+        [Display(Name = "Data de Nascimento")]
         [Required(ErrorMessage = ("Obrigatório informar a data de nascimento"))]
         public string DataDeNascimento { get; set; }
 
+        [Display(Name = "Endereço")]
         [Required(ErrorMessage = ("Obrigatório informar o endereço"))]
         public string Endereco { get; set; }
 

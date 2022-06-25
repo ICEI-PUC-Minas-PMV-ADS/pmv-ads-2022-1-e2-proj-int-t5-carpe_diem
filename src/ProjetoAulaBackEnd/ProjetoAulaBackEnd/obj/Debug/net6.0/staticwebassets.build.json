@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rVM6esXiQuvLLTu2GUYMcnpfOL5kxF9ALyOf6x8ThV0=",
+  "Hash": "F1JMouiEL+sKqO1Z05A1CTKwwnDkzOCcEWqBibpbvX8=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -2480,6 +2480,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\svg\\twitter-verde.svg"
+    },
+    {
+      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\undraw_editable_re_4l94.svg",
+      "SourceId": "ProjetoAulaBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "BasePath": "_content/ProjetoAulaBackEnd",
+      "RelativePath": "img/svg/undraw_editable_re_4l94.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\svg\\undraw_editable_re_4l94.svg"
     },
     {
       "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\undraw_join_re_w1lh.svg",

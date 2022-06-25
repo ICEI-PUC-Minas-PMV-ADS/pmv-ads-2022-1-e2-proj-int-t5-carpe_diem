@@ -55,7 +55,7 @@
             <br>
 
             <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
-                Alterar Fotos
+                Fotos
             </div> 
 
             <main class="w-full">
@@ -97,6 +97,10 @@
                     -->
                     <br />
 
+                    <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                        Informações do Imóvel
+                    </div> 
+
                     <div class="j-center ai-center">
                        <dl class="w-full">
                            <div class="form-group">
@@ -132,34 +136,39 @@
                        <div>
                            <div class="form-group">
                                 <label asp-for="TipoAc" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <select asp-for="TipoAc" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<TipoAcomodacao>()"></select>
                                 <span asp-validation-for="TipoAc" class="text-danger"></span>
                            </div>
                            <div class="form-group">
                                 <label asp-for="QtdeHospedes" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="QtdeHospedes" class="input w-f mb-4" />
                                 <span asp-validation-for="QtdeHospedes" class="text-danger"></span>
                            </div>
                            <div class="form-group">
                                 <label asp-for="QtdeCamas" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="QtdeCamas" style="width: 100%" class="input w-f mb-4"/>
                                 <span asp-validation-for="QtdeCamas" class="text-danger"></span>
                             </div>
 
                             <div class="form-group">
                                 <label asp-for="QtdeQuartos" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="QtdeQuartos" style="width: 100%" class="input w-f mb-4"/>
                                 <span asp-validation-for="QtdeQuartos" class="text-danger"></span>
                             </div>
        
                             <div class="form-group">
                                 <label asp-for="QtdeBanheiros" class="font-size-16 bold-6 t-black"></label>
+                                <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                 <input asp-for="QtdeBanheiros" style="width: 100%" class="input w-f mb-4"/>
                                 <span asp-validation-for="QtdeBanheiros" class="text-danger"></span>
                             </div>
 
-                            <h2><b class="bold-7 t-black">O que o espaço tem a oferecer</b></h2>
-
+                            <h2><b class="bold-7 t-black">O que o espaço tem a oferecer</b><span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span></h2>
+                            
                             <div class="grid grid-col-5 md-grid-col-3 gap-2 py-2">
                                 <label class="checkbox" asp-for="Academia"><input type="checkbox" asp-for="Academia"><div class="checkbox-item"></div><span>Academia</span></label>
                                 <label class="checkbox" asp-for="PET"><input type="checkbox" asp-for="PET"><div class="checkbox-item"></div><span>Aceita PET</span></label>
@@ -187,21 +196,25 @@
                                 <div class="grid grid-col-2 md-grid-col-1 gap-1 py-2">
                                     <label asp-for="CheckIn" class="flex j-center ai-center gap-1">
                                         <span asp-validation-for="CheckIn" class="bold-7 t-black">Horário Check-In</span>
+                                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                         <input asp-for="CheckIn" class="input flex-1" type="text">
                                     </label>
 
                                     <label asp-for="DistanciaPraia" class="flex j-center ai-center gap-1">
                                         <span asp-validation-for="DistanciaPraia" class="bold-7 t-black">Distância Praia</span>
+                                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                         <input asp-for="DistanciaPraia" class="input flex-1" type="text">
                                     </label>
                                     
                                     <label asp-for="CheckOut" class="flex j-center ai-center gap-1">
                                         <span asp-validation-for="CheckOut" class="bold-7 t-black">Horário Check-Out</span>
+                                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                         <input asp-for="CheckOut" class="input flex-1" type="text">
                                     </label>
                                     
                                     <label asp-for="ValorDiaria" class="flex j-center ai-center gap-1">
                                         <span asp-validation-for="ValorDiaria" class="bold-7 t-black">Valor da Diária</span>
+                                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                         <input asp-for="ValorDiaria" class="input flex-1" type="text">
                                     </label>
                                 </div><br>
@@ -212,12 +225,14 @@
                             <div class="grid grid-col-2 md-grid-col-1 gap-3 py-2">
                                 <div class="form-group">
                                     <label asp-for="DispImovel" class="font-size-16 bold-6 t-black"></label>
+                                    <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                     <select asp-for="DispImovel" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<DisponImovel>()"></select>
                                     <span asp-validation-for="DispImovel" class="text-danger"></span>
                                 </div>
       
                                 <div class="form-group">
                                     <label asp-for="DesativarImovel" class="font-size-16 bold-6 t-black"></label>
+                                    <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
                                     <select asp-for="DesativarImovel" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<DesativarImovel>()"></select>
                                     <span asp-validation-for="DesativarImovel" class="text-danger"></span>
                                 </div>

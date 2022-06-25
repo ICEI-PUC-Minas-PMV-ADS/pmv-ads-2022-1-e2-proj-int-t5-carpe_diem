@@ -4,6 +4,121 @@
     ViewData["Title"] = "Create";
 }
 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://demo.haeckdesign.com/get-social-icon-set/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/components/css/button.css">
+    <link rel="stylesheet" href="~/css/stylepage.css">
+    <link rel="stylesheet" href="~/css/detalhes_imovel.css">
+    <link rel="stylesheet" href="~/components/button.html">
+    <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
+
+    <title>Criar Reserva | CarpeDiem</title>
+</head>
+
+<body class="bg-gray">
+    
+    <!-- topo -->
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">   
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a href="perfil_hospede.html"><img width="30px" src="~/img/edit_note.png"></a>
+                </div>
+            </div>
+            <!--<p>Ana Maria</p>-->
+        </div>
+    </section>
+
+    <div class="container m-auto flex j-center p-3">
+
+        <!-- banner -->
+        <section>
+            
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+                Faça sua Reserva
+            </div>
+            <hr />              
+            <br>
+            
+            <main class="w-full">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                        Local / Praia
+                    </div>
+             
+                    <div class="form-group">
+                        @*<label asp-for="IdImovel" class="control-label"></label>*@
+                        <select asp-for="IdImovel" class ="input w-f mb-4" asp-items="ViewBag.IdImovel"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Checkin" class="font-size-6 bold-6 t-black"></label>
+                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
+                        <input asp-for="Checkin" style="width: 100%" class="input w-f mb-4"/>
+                        <span asp-validation-for="Checkin" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Checkout" class="font-size-6 bold-6 t-black"></label>
+                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
+                        <input asp-for="Checkout" style="width: 100%" class="input w-f mb-4"/>
+                        <span asp-validation-for="Checkout" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ValorTotal" class="font-size-6 bold-6 t-black"></label>
+                        <span class="material-symbols-outlined t-blue-1 j-start ai-center">edit</span>
+                        <input asp-for="ValorTotal" style="width: 100%" class="input w-f mb-4"/>
+                        <span asp-validation-for="ValorTotal" class="text-danger"></span>
+                    </div> 
+                        
+                    <div class="py-2 flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-6">
+                        Fotos do Imóvel
+                    </div> 
+
+                    <section class="flex flex-wrap j-between gap-3 t-center">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-1.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-4.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-5.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-7.jpg">
+                        <img class="w-2 h-2 object-cover m-auto" src="~/img/detalhe-8.jpg">               
+                    </section>
+                    <br />
+
+                    <div class="flex t-center j-center py-2">
+                        <input type="submit" value="RESERVAR IMÓVEL" class="btn btn-blue btn-effect w-6p"/>
+                    </div>
+                </form>                    
+            </main>
+    </div>
+
+    <div class="copyright p-2 t-center"></div>
+     
+    <script src="~/js/copyright.js"></script>
+
+</body>
+</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<!--
 <h1>Faça sua reserva</h1>
 
 <hr />
@@ -40,7 +155,4 @@
 <div>
     <a asp-action="Index">Voltar</a>
 </div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+-->
