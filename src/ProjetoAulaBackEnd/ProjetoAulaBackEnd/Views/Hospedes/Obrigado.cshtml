@@ -34,16 +34,29 @@
         <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/Logo_Final_382x148.png"></a>
     </section>-->
 
+    <section class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col">
+        <!--<a href="index_logado.html"><img src="~/img/Logo_Final_382x148.png"></a>-->
+        <div class="p-1 flex flex-col j-center ai-center ">
+            <div class="relative w-1 h-1">
+                <img src="~/img/usuario.jpg" class="rounded-full w-f">
+                <div class="absolute bottom right bg-blue-1 rounded-full ">
+                    <a asp-area="" asp-controller="Hospedes" asp-action="Details"><img width="30px" src="~/img/edit_note.png"></a>
+                </div>
+            </div>
+            <!--<p>Ana Maria</p>-->
+        </div>
+    </section>
+
     <div class="container m-auto flex j-center p-3">
         <section>
-            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 bold-7 t-black font-size-7">
-                Obrigado
+            <div class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-black font-size-7">
+                Agradecemos o seu Contato!
             </div>
+            <br />
 
+            <p class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-blue-1 font-size-6">Mensagem enviada com sucesso</p>
 
-            <p>Mensagem enivada com sucesso!</p>
-
-            <p>Entraremos em contato o mais breve possível!.</p>
+            <p class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-blue-1 font-size-6">Entraremos em contato o mais breve possível</p>
         </section>
     </div>
 

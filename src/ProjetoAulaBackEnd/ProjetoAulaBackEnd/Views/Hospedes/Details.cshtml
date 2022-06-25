@@ -20,6 +20,7 @@
 
     <link rel="icon" type="icon/ico" href="~/img/favicon-32x32.png">
     <link rel="stylesheet" href="~/components/css/card.css">
+    <link rel="stylesheet" href="~/components/css/button.css">
     <link rel="stylesheet" href="~/components/css/checkbox.css">
     <!-- <link rel="stylesheet" href="css/perfil_hospede.css"> -->    
     <link rel="stylesheet" href="~/css/stylepage.css">
@@ -30,7 +31,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-    <title>Perfil do Hóspede | CarpeDiem</title>
+    <title>Perfil do Usuário | CarpeDiem</title>
 </head>
 
 
@@ -58,28 +59,25 @@
                 <div class="flex ai-center gap-3 flex-wrap">
                     <div class="relative w-2 h-2">
                         <img src="~/img/usuario.jpg" class="rounded-full w-f">
-                        <div class="absolute bottom right bg-blue-1 rounded-full">
+                        <!--<div class="absolute bottom right bg-blue-1 rounded-full">
                             <a asp-action="Edit" asp-route-id="@Model.IdHospede"><img width="50px" src="~/img/edit_note.png"></a>
-                        </div>    
+                        </div>-->    
                     </div>  
     
                     <div>
                         <p class="bold-7 t-black font-size-32">@Html.DisplayFor(model => model.Nome)</p>
                         <p class="font-size-24">Sou Hóspede</p>
                     </div>
-
-                </div>
-                
+                </div>                
                 
                 <!--<div class="relative w-1 h-1 flex-center">
                     <a href="index_logado.html"><img src="~/img/svg/salvar.svg" width="64px"></a>
                 </div>-->
-
-            </div>            
-
+            </div>
+            <br /><br />
             
             <div class="flex flex-wrap j-center ai-center gap-3 mt-1 bold-7 t-black font-size-7">
-                Perfil do Hóspede
+                Perfil do Hóspede/Anfitrião
             </div>
               
             <!-- dados do hóspede -->
@@ -93,45 +91,57 @@
               
                     <div class="j-center ai-center">
                        <dl class="w-full">
-                            <dt class = "w-full">
+                            <dt class = "w-full font-size-16 bold-6 t-black">
                                 @Html.DisplayNameFor(model => model.Nome)
                             </dt>
                             <dd class="w-f input mb-3 mt-1" >
                                 @Html.DisplayFor(model => model.Nome)
                             </dd>
-                            <dt class = "w-full">
+                            <dt class = "w-full font-size-16 bold-6 t-black">
                                 @Html.DisplayNameFor(model => model.CPF)
                             </dt>
                             <dd class = "w-f input mb-3 mt-1">
                                 @Html.DisplayFor(model => model.CPF)
                             </dd>
-                            <dt class = "w-full">
+                            <dt class = "w-full font-size-16 bold-6 t-black">
                                 @Html.DisplayNameFor(model => model.DataDeNascimento)
                             </dt>
                             <dd class = "w-f input mb-3 mt-1">
                                 @Html.DisplayFor(model => model.DataDeNascimento)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Endereco)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.Endereco)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Telefone)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.Telefone)
-                            </dd>
-                            <dt class = "w-full">
-                                @Html.DisplayNameFor(model => model.Email)
-                            </dt>
-                            <dd class = "w-f input mb-3 mt-1">
-                                @Html.DisplayFor(model => model.Email)
-                            </dd>
+                            </dd>                            
                         </dl>
+
+                        <div>
+                            <div class="form-group">
+                                <label asp-for="Endereco" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="Endereco" class="w-f input mb-3 mt-1" />
+                                <span asp-validation-for="Endereco" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Telefone" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="Telefone" class="w-f input mb-3 mt-1" />
+                                <span asp-validation-for="Telefone" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Email" class="font-size-16 bold-6 t-black"></label>
+                                <input asp-for="Email" class="w-f input mb-3 mt-1" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div>
+                                <label asp-for="TipoUsuario" class="control-label font-size-16 bold-6">Deseja se tornar um Anfitrião? Selecione a opção abaixo:</label>
+                                <select asp-for="TipoUsuario" style="width: 100%" class="input w-f mb-4" asp-items="Html.GetEnumSelectList<TipoUsuario>()"></select>
+                                <span asp-validation-for="TipoUsuario" class="text-danger"></span>
+                            </div>
+                        </div>
                     </div>                     
-                 </form>                        
+                 </form>         
+                 
+                <div class="flex t-center j-center py-2">
+                    <input type="submit" value="SALVAR ALTERAÇÕES" class="btn btn-blue btn-effect w-6p"/>                        
+                </div>
 
                       <!--  <div> 
                             <form method="post">
@@ -139,34 +149,113 @@
                             </form>
                         </div>-->               
             </main>
-
-            <br>
-            <br>
+            <br><br>
 
             <div class="flex flex-wrap j-start ai-center gap-3 mt-1 p-1 bold-7 t-black font-size-6">
                 Minhas Reservas
             </div>
 
-            <section>                
-                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places">
-                    <div class="flex-1 shadow-1"> 
-                        <img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> 
-                         
-                        <a class="bold-6 t-center p-1 t-black bg-blue-2" asp-area="" asp-controller="Imoveis" asp-action="Details">Detalhes</a>
-
-                        <a href="editar_reserva.html" class="bold-6 t-center p-1 t-black bg-blue-2">Editar Reserva</a>
-
-                        <a href="editar_reserva.html" class="bold-6 t-center p-1 t-black bg-blue-2">Cancelar Reserva</a>
-                    </div>                    
+            <section>   
+                <div id="cards_places" class="grid grid-col-4 md-grid-col-3 sm-grid-col-2 gap-3">
+                    <div class="card" id="div_card">
+                        <img class="card-top" src="~/img/hotel-1.jpg">
+                        <div class="card-reserva">
+                            <div class="card-t card-center card-title">Porto Seguro</div>
+                            <div class="card-m">
+                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Detalhes</a>
+                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Editar Reserva</a>
+                                <a class="font-size-5 bold-7 t-center p-1 t-black btn btn-blue btn-effect w-f" asp-area="" asp-controller="Imoveis" asp-action="Details">Cancelar Reserva</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>                
-            </section>        
-           
+            </section> 
+            <br><br>
+            
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Meus Imóveis Cadastrados
+            </div>
+
+            <!-- cards -->
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
+                        <a href="detalhes_imovel.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR INFORMAÇÕES DO IMÓVEL</p></a> 
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">DESATIVAR IMÓVEL</p></a>
+                    </div>
+                </div>
+            </section>   
+
+            <br>
+            <br>
+
+            <p id="esqueceu" class="possui_cadastro s-end t-right font-size-6">
+                <a href="cadastrar_imovel.html">Deseja cadastrar novo imóvel?</a>
+            </p>
+
+            <div class="flex flex-wrap j-start ai-center gap-3 mt-1 py-2 bold-7 t-black font-size-6">
+                Imóveis Reservados
+            </div>
+            
+            <!-- cards -->
+            <section>                
+                <div class="grid gap-3 grid-col-4 md-grid-col-2 sm-grid-col-1" id="cards_places"><div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-1.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-2.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-3.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+                <div class="flex gap-3 w-f hover:shadow-3 transition" id="card_places">
+                    <div class="flex-1 shadow-1"> 
+                        <a><img class="w-f h-2 object-cover" src="~/img/hotel-4.jpg"> </a>
+                        <a href="editar_reserva.html"><p class="bold-6 t-black t-center p-1 bg-blue-2 m-3">EDITAR RESERVA</p></a>
+                    </div>
+                </div>
+            </section>
+         
+        <!--
         <section class="w-f py-2 flex j-end">
             <a class="" href="index.html">
                 <img src="~/img/svg/sair.svg" width="64px">
             </a>
         </section>
+        -->
     </div>   
+        
         <div class="copyright p-2 t-center"></div>
         
     <script src="~/js/script_perfil.js"></script>

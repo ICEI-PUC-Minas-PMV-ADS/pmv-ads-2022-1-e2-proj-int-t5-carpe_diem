@@ -26,6 +26,12 @@
     padding:0.7em;
 }
 
+.card-reserva {
+    display: grid;
+    grid-template-rows: 1fr 2fr 0;
+    padding: 0.7em;
+}
+
 
 .card-center, .card-center-y, .card-center-x{display: flex;}
 
