@@ -31,7 +31,13 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproxi
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+No tocante às instruções de acesso, os passos são descritos a seguir:
+
+- Abra o browser e informe o link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
+- Execute o download do arquivo do projeto ou faça sua clonagem no GitHub.
+- Descompacte o arquivo.
+- Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
+- Conseguirá visualizar a URL através dos arquivos de formato HTML pelo Live Server localizado no próprio VSC.
 
 
 # Documentação
