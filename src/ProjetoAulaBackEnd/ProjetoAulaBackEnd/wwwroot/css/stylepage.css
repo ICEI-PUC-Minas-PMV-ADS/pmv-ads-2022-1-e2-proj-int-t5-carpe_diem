@@ -49,6 +49,16 @@ a:hover{
     color: #F36E2B;
 }
 
+.direct-footer > p {
+    padding: 5px 0 5px 8px;
+    transition: margin ease-in-out 200ms;
+}
+
+.direct-footer > p:hover {
+    margin-left: 5px;
+    color: #F36E2B;
+}
+
 .container{
     width: 1200px;
     max-width: 100%;

@@ -44,6 +44,8 @@ header {
 }
 
 #erro {
-    color: red;
+    color: #2C9196;
     font-weight: bold;
+    text-align: center;
+    font-size: medium;
 }

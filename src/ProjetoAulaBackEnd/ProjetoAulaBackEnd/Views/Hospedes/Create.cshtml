@@ -40,7 +40,7 @@
 
         <div class="grid grid-col-2 md-grid-col-1">
             <div id="" class="flex j-center ai-center">
-                <img class="w-f pr-6" src="~/img/imagem-3.svg" alt="Cadastrar usuário">
+                <img class="w-f pr-6" src="~/img/svg/undraw_join_re_w1lh.svg" alt="Cadastrar usuário">
             </div>
             
             <div id="cadastro" class="w-full">
@@ -56,8 +56,8 @@
                         <span class="font-size-16 bold-6">Nome Completo</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" name="Nome" value="" required><br>
                         
-                        <span class="font-size-16 bold-6">CPF</span><br>
-                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" maxlength="11" onblur="return verificarCPF(this.value)" value="" required><br>
+                        <span class="font-size-16 bold-6">CPF (digite apenas números)</span><br>
+                        <input style="width: 100%" class="input w-f mb-4" type="text" id="campoCPF" name="CPF" maxlength="11" onblur="return verificarCPF(this.value)" value="" placeholder="000.000.000-00" required><br>
                         
                         <span class="font-size-16 bold-6">Data de Nascimento</span><br>
                         <input style="width: 100%" class="input w-f mb-4" type="text" id="campoData" name="DataDeNascimento" value="" required><br>
@@ -100,15 +100,15 @@
 
         <script>
             jQuery(function($){
-            $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
+            //$("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
             $("#campoTelefone").mask("(99)99999-9999",{placeholder:"(XX)XXXXX-XXXX"});
            });
         </script>
-
-        <script type="text/javascript" src="~/js/validacao_cpf.js"></script>
+        
     </div>
 
+    <script type="text/javascript" src="~/js/validacao_cpf.js"></script>
     <script src="~/js/copyright.js"></script>
 </body>
 
