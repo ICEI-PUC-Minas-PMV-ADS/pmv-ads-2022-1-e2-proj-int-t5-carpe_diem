@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lkTXzkZfyhDDo57IzAv0ZRlQO/i8fmv8N+ckiPLeQeE=",
+  "Hash": "LriIfvDtiOU7hOkiX/294Qc0Ny9Pl016K4ZBaCFv5ZE=",
   "Source": "ProjetoAulaBackEnd",
   "BasePath": "_content/ProjetoAulaBackEnd",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProjetoAulaBackEnd\\wwwroot",
       "Source": "ProjetoAulaBackEnd",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\button.html",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\button.html",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/button.html",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\components\\button.html"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\card.html",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\card.html",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/card.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\components\\card.html"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\checkbox.html",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\checkbox.html",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/checkbox.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\components\\checkbox.html"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\button.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\button.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/css/button.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\components\\css\\button.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\card.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\card.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/css/card.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\components\\css\\card.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\checkbox.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\checkbox.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/css/checkbox.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\components\\css\\checkbox.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\fonts.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\css\\fonts.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/css/fonts.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\components\\css\\fonts.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\icons\\checked.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\components\\icons\\checked.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "components/icons/checked.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\components\\icons\\checked.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\cadastro.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\cadastro.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/cadastro.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\detalhes_imovel.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\detalhes_imovel.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/detalhes_imovel.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\detalhes_imovel.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\erro_busca.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\erro_busca.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/erro_busca.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\erro_busca.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\esqueceu_senha.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\esqueceu_senha.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/esqueceu_senha.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\esqueceu_senha.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\fale_conosco2.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\fale_conosco2.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/fale_conosco2.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fale_conosco2.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\fonts.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\fonts.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/fonts.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\fonts.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\login.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\login.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\login_cadastro.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\login_cadastro.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/login_cadastro.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login_cadastro.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\perfil_anfitriao.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\perfil_anfitriao.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/perfil_anfitriao.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\perfil_anfitriao.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\perfil_hospede.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\perfil_hospede.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/perfil_hospede.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\perfil_hospede.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\reset.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\reset.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/reset.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\reset.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\site.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\site.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\stylepage.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\stylepage.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/stylepage.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\stylepage.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\tablet.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\css\\tablet.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "css/tablet.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\tablet.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Bold.ttf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Bold.ttf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "font/Quicksand-Bold.ttf",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Quicksand-Bold.ttf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Light.ttf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Light.ttf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "font/Quicksand-Light.ttf",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Quicksand-Light.ttf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Medium.ttf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Medium.ttf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "font/Quicksand-Medium.ttf",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Quicksand-Medium.ttf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Regular.ttf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-Regular.ttf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "font/Quicksand-Regular.ttf",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Quicksand-Regular.ttf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-SemiBold.ttf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\font\\Quicksand-SemiBold.ttf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "font/Quicksand-SemiBold.ttf",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\font\\Quicksand-SemiBold.ttf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\add_a_photo.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\add_a_photo.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/add_a_photo.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\add_a_photo.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\android-chrome-192x192.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\android-chrome-192x192.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\android-chrome-192x192.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\android-chrome-512x512.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\android-chrome-512x512.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\android-chrome-512x512.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\angle-left-free-icon-font.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\angle-left-free-icon-font.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/angle-left-free-icon-font.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\angle-left-free-icon-font.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\angle-right-free-icon-font.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\angle-right-free-icon-font.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/angle-right-free-icon-font.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\angle-right-free-icon-font.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\apple-touch-icon.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\apple-touch-icon.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/apple-touch-icon.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\apple-touch-icon.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira (1).png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira (1).png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/banheira (1).png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banheira (1).png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira 1.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira 1.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/banheira 1.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banheira 1.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\banheira.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/banheira.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banheira.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\bathtub.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\bathtub.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/bathtub.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bathtub.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-centro-oeste.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-centro-oeste.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/b-centro-oeste.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b-centro-oeste.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-nordeste.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-nordeste.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/b-nordeste.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b-nordeste.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-norte.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-norte.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/b-norte.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b-norte.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-sudeste.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-sudeste.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/b-sudeste.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b-sudeste.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-sul.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\b-sul.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/b-sul.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\b-sul.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\cadastro.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\cadastro.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/cadastro.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cadastro.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\cama 1.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\cama 1.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/cama 1.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cama 1.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\centro oeste.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\centro oeste.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/centro oeste.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\centro oeste.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\comercial 1.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\comercial 1.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/comercial 1.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\comercial 1.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-1.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-1.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-1.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-1.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-2.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-2.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-2.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-2.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-3.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-3.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-3.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-3.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-4.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-4.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-4.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-4.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-5.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-5.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-5.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-5.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-6.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-6.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-6.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-6.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-7.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-7.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-7.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-7.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-8.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\detalhe-8.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/detalhe-8.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\detalhe-8.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\edit_note.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\edit_note.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/edit_note.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\edit_note.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Ellipse 1.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Ellipse 1.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Ellipse 1.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ellipse 1.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Ellipse.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Ellipse.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Ellipse.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ellipse.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\facebook.pdf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\facebook.pdf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/facebook.pdf",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook.pdf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon.ico",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon.ico",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/favicon.ico",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon-16x16.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon-16x16.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/favicon-16x16.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon-16x16.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon-32x32.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\favicon-32x32.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/favicon-32x32.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon-32x32.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\file_download.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\file_download.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/file_download.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\file_download.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\file_upload.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\file_upload.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/file_upload.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\file_upload.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Florianopolis.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Florianopolis.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Florianopolis.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Florianopolis.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Florianópolis.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Florianópolis.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Florianópolis.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Florianópolis.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\help.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\help.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/help.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\help.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/hotel.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotel.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-1.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-1.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/hotel-1.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotel-1.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-2.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-2.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/hotel-2.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotel-2.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-3.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-3.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/hotel-3.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotel-3.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-4.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\hotel-4.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/hotel-4.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotel-4.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-1.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-1.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/imagem-1.svg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\imagem-1.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-2.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-2.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/imagem-2.svg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\imagem-2.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-3.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\imagem-3.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/imagem-3.svg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\imagem-3.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\instagram.pdf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\instagram.pdf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/instagram.pdf",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\instagram.pdf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\layout.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\layout.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/layout.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\layout.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\licenca-66075060-1691431.pdf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\licenca-66075060-1691431.pdf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/licenca-66075060-1691431.pdf",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\licenca-66075060-1691431.pdf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\login.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\login.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/login.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\login.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\logo.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\logo.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/logo.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Logo_Final.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo_Final.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final_382x148.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final_382x148.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Logo_Final_382x148.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo_Final_382x148.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final_382x175.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Logo_Final_382x175.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Logo_Final_382x175.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo_Final_382x175.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\LogoFinal.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\LogoFinal.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/LogoFinal.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\LogoFinal.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\LogoFinal2.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\LogoFinal2.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/LogoFinal2.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\LogoFinal2.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\logout.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\logout.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/logout.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logout.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\manage_accounts.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\manage_accounts.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/manage_accounts.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\manage_accounts.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\marcador-de-mapa 1.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\marcador-de-mapa 1.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/marcador-de-mapa 1.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\marcador-de-mapa 1.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-2.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-2.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste-2.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste-2.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-3.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-3.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste-3.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste-3.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-4.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-4.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste-4.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste-4.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-5.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-5.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste-5.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste-5.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-6.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\nordeste-6.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/nordeste-6.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nordeste-6.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\norte.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\norte.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/norte.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\norte.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\person.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\person.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/person.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\person.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\photo_camera.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\photo_camera.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/photo_camera.png",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\img\\photo_camera.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pin_drop.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pin_drop.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pin_drop.png",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pin_drop.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\porto-seguro-bahia-1170x650.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\porto-seguro-bahia-1170x650.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/porto-seguro-bahia-1170x650.png",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\img\\porto-seguro-bahia-1170x650.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-1.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-1.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-1.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-1.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-2.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-2.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-2.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-2.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-3.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-3.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-3.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-3.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-4.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-4.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-4.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-4.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-5.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-5.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-5.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-5.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-6.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-6.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-6.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-6.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-7.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-7.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-7.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-7.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-8.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\pousada-8.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/pousada-8.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pousada-8.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia cururu - norte.jfif",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia cururu - norte.jfif",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/praia cururu - norte.jfif",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\img\\praia cururu - norte.jfif"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia ipanema - sudeste.jfif",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia ipanema - sudeste.jfif",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/praia ipanema - sudeste.jfif",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\praia ipanema - sudeste.jfif"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia jatiuca - nordeste.jfif",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia jatiuca - nordeste.jfif",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/praia jatiuca - nordeste.jfif",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\img\\praia jatiuca - nordeste.jfif"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia laranjeiras - sul.jfif",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praia laranjeiras - sul.jfif",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/praia laranjeiras - sul.jfif",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\img\\praia laranjeiras - sul.jfif"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Praia_de_Novo_Prado,_no_centro_de_Prado_-_BA.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Praia_de_Novo_Prado,_no_centro_de_Prado_-_BA.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Praia_de_Novo_Prado,_no_centro_de_Prado_-_BA.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Praia_de_Novo_Prado,_no_centro_de_Prado_-_BA.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praias de vitoria.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\praias de vitoria.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/praias de vitoria.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\img\\praias de vitoria.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\redessociais.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\redessociais.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/redessociais.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\img\\redessociais.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sao luiz.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sao luiz.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/sao luiz.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sao luiz.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\save.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\save.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/save.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\img\\save.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\search-free-icon-font.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\search-free-icon-font.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/search-free-icon-font.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\img\\search-free-icon-font.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\significado_cores.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\significado_cores.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/significado_cores.png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\img\\significado_cores.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sudeste.webp",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sudeste.webp",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/sudeste.webp",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sudeste.webp"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sudeste1.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sudeste1.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/sudeste1.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sudeste1.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sul.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\sul.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/sul.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sul.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\adicionar-usuario-1.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\adicionar-usuario-1.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/adicionar-usuario-1.svg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\adicionar-usuario-1.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\adicionar-usuario-2.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\adicionar-usuario-2.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/adicionar-usuario-2.svg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\adicionar-usuario-2.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\angulo-direita.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\angulo-direita.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/angulo-direita.svg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\angulo-direita.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\angulo-esquerda.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\angulo-esquerda.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/angulo-esquerda.svg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\angulo-esquerda.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\buscar.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\buscar.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/buscar.svg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\buscar.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\camera.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\camera.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/camera.svg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\camera.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\download.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\download.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/download.svg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\download.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\editar-lapis.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\editar-lapis.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/editar-lapis.svg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\editar-lapis.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\editar-papel.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\editar-papel.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/editar-papel.svg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\editar-papel.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\facebook.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\facebook.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/facebook.svg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\facebook.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\facebook-verde.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\facebook-verde.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/facebook-verde.svg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\facebook-verde.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\fale-conosco.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\fale-conosco.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/fale-conosco.svg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\fale-conosco.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\instagram.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\instagram.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/instagram.svg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\instagram.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\instagram-verde.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\instagram-verde.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/instagram-verde.svg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\instagram-verde.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\lixeira.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\lixeira.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/lixeira.svg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\lixeira.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\lixeira-verde.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\lixeira-verde.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/lixeira-verde.svg",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\lixeira-verde.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\localização.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\localização.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/localização.svg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\localização.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\mapa.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\mapa.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/mapa.svg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\mapa.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\quarto.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\quarto.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/quarto.svg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\quarto.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sair.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sair.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/sair.svg",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\sair.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sair-alt.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sair-alt.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/sair-alt.svg",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\sair-alt.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\salvar.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\salvar.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/salvar.svg",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\salvar.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sign-out-alt-free-icon-font.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\sign-out-alt-free-icon-font.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/sign-out-alt-free-icon-font.svg",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\sign-out-alt-free-icon-font.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\twitter.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\twitter.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/twitter.svg",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\twitter.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\twitter-verde.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\twitter-verde.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/twitter-verde.svg",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\twitter-verde.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\upload.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\upload.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/upload.svg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\upload.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\usuario-1.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\usuario-1.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/usuario-1.svg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\usuario-1.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\usuarios.svg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\svg\\usuarios.svg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/svg/usuarios.svg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\img\\svg\\usuarios.svg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\twitter.pdf",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\twitter.pdf",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/twitter.pdf",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\img\\twitter.pdf"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\userDefault.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\userDefault.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/userDefault.png",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\img\\userDefault.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.jpg",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.jpg",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/usuario.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\img\\usuario.jpg"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/usuario.png",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\img\\usuario.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario_homem.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\usuario_homem.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/usuario_homem.png",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\img\\usuario_homem.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Vector.png",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\img\\Vector.png",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "img/Vector.png",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Vector.png"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\alertas.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\alertas.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/alertas.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\js\\alertas.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\copyright.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\copyright.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/copyright.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\js\\copyright.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\homepage.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\homepage.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/homepage.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\js\\homepage.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\icones.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\icones.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/icones.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\js\\icones.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_anfitriao.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_anfitriao.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script_anfitriao.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script_anfitriao.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_detalhesimovel.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_detalhesimovel.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script_detalhesimovel.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script_detalhesimovel.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_perfil.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_perfil.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script_perfil.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script_perfil.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_resultado.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_resultado.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script_resultado.js",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script_resultado.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_resultadobusca.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\script_resultadobusca.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/script_resultadobusca.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\js\\script_resultadobusca.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\site.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\site.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validacao_cpf.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validacao_cpf.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/validacao_cpf.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validacao_cpf.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validar_cpf.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validar_cpf.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/validar_cpf.js",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validar_cpf.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validar_email.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\js\\validar_email.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "js/validar_email.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\js\\validar_email.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProjetoAulaBackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Fabiana e André\\Documents\\GitHub\\pmv-ads-2022-1-e2-proj-int-t5-carpe_diem\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\GitHub\\src\\ProjetoAulaBackEnd\\ProjetoAulaBackEnd\\wwwroot\\",
       "BasePath": "_content/ProjetoAulaBackEnd",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
