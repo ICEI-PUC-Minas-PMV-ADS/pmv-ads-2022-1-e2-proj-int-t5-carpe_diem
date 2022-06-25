@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -133,6 +134,8 @@ namespace ProjetoAulaBackEnd.Models
         [Display(Name = "Valor da Diária")]
         [Required(ErrorMessage = "Obrigatório informar este campo!")]
         public int ValorDiaria { get; set; }
+
+        public ICollection<Reserva> Reservas { get; set; }
 
         [Display(Name = "Disponibilizar Imóvel")]
         [Required(ErrorMessage = "Obrigatório informar este campo!")]

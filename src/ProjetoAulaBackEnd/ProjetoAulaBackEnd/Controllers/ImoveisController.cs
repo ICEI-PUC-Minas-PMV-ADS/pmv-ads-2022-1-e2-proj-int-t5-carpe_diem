@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -18,12 +19,16 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
+        [Authorize]
+
         // GET: Imoveis
         public async Task<IActionResult> Index()
         {
             var contexto = _context.Imoveis.Include(i => i.Hospede);
             return View(await contexto.ToListAsync());
         }
+
+        [AllowAnonymous]
 
         // GET: Imoveis/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -43,6 +48,8 @@ namespace ProjetoAulaBackEnd.Controllers
 
             return View(imovel);
         }
+
+        [Authorize(Roles = "TipoAnfitriao")]
 
         // GET: Imoveis/Create
         public IActionResult Create()
@@ -67,6 +74,8 @@ namespace ProjetoAulaBackEnd.Controllers
             ViewData["HospedeId"] = new SelectList(_context.Hospedes, "IdHospede", "CPF", imovel.HospedeId);
             return View(imovel);
         }
+
+        [Authorize(Roles = "TipoAnfitriao")]
 
         // GET: Imoveis/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -163,6 +172,8 @@ namespace ProjetoAulaBackEnd.Controllers
         {
           return _context.Imoveis.Any(e => e.IdImovel == id);
         }
+
+        [AllowAnonymous]
         //Busca Imóveis
         public async Task<IActionResult> Busca(string sortOrder, string searchString)
         {

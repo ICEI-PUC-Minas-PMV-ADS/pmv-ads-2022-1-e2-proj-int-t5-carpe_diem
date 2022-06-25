@@ -1,0 +1,47 @@
+﻿@model ProjetoAulaBackEnd.Models.Reserva
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Reserva</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdImovel" class="control-label"></label>
+                <select asp-for="IdImovel" class ="form-control" asp-items="ViewBag.IdImovel"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Checkin" class="control-label"></label>
+                <input asp-for="Checkin" class="form-control" />
+                <span asp-validation-for="Checkin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Checkout" class="control-label"></label>
+                <input asp-for="Checkout" class="form-control" />
+                <span asp-validation-for="Checkout" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValorTotal" class="control-label"></label>
+                <input asp-for="ValorTotal" class="form-control" />
+                <span asp-validation-for="ValorTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

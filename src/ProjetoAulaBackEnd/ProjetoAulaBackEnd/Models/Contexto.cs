@@ -11,5 +11,7 @@ namespace ProjetoAulaBackEnd.Models
         public DbSet<Hospede> Hospedes { get; set; }
 
         public DbSet<Imovel> Imoveis { get; set; }
+
+        public DbSet<Reserva> Reservas { get; set; }
     }
 }

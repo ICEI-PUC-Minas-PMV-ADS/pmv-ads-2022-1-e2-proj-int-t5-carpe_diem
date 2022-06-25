@@ -39,9 +39,10 @@ namespace ProjetoAulaBackEnd.Models
 
         public ICollection<Imovel> Imoveis { get; set; }
 
-    }
+        //public ICollection<Reserva> Reservas { get; set; }
+    }    
 
-
+    
     public enum TipoUsuario
     {
         [Display(Name ="Hóspede")]
