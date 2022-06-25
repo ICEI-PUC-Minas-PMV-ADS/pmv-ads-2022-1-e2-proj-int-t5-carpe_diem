@@ -33,7 +33,7 @@ Buscando dirimir essa lacuna, o grupo procura melhorar a interatividade e aproxi
 
 No tocante às instruções de acesso, os passos são descritos a seguir:
 
-- Abra o browser e informe o link <(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem)>.
+- Abra o browser e informe o link <https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem>.
 - Execute o download do arquivo do projeto ou faça sua clonagem no GitHub.
 - Descompacte o arquivo.
 - Execute a pasta, abrindo-a através do Visual Studio Code (VSC).
