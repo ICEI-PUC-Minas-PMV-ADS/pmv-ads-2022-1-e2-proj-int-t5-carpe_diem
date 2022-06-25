@@ -38,6 +38,8 @@ namespace ProjetoAulaBackEnd.Models
         public TipoUsuario TipoUsuario { get; set; }
 
         public ICollection<Imovel> Imoveis { get; set; }
+
+        //public ICollection<Reserva> Reservas { get; set; }
     }    
 
     
