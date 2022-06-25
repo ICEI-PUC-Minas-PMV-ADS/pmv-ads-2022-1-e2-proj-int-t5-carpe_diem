@@ -39,4 +39,27 @@ Fonte: Elaborado pelos Autores
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EYJcMDS5K89HnY8t1TJsp0AB-2UBvT6By0yzN2akYlLY4A?e=MdwrBX
 
 
+### 9.1.3 Vídeo 04 - Caso de Teste 05
+
+
+
+
+### 9.1.3 Vídeo 05 - Caso de Teste 07
+
+
+
+
+### 9.1.3 Vídeo 06 - Caso de Teste 08
+
+
+
+
+### 9.1.3 Vídeo 07 - Caso de Teste 09 e 10
+
+
+
+
+### 9.1.3 Vídeo 08 - Caso de Teste 11
+
+
 
