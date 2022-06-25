@@ -13,7 +13,7 @@ Quadro 8 - Programação das Funcionalidades
 |RF-004   | A aplicação deve permitir que o hóspede reserve o imóvel escolhido. | https://carpediemfinal.azurewebsites.net/Reservas/Create |
 |RF-005   | A aplicação deve permitir ao hóspede realizar a busca de imóveis através da funcionalidade de filtros como localidade ("cidade destino"). | https://carpediemfinal.azurewebsites.net/ |
 |RF-006   | A aplicação deve disponibilizar um formulário de fale conosco para esclarecer dúvidas relacionadas ao site. | https://carpediemfinal.azurewebsites.net/Hospedes/FaleConosco |
-|RF-007   | A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | em desenvolvimento |
+|RF-007   | A aplicação deve permitir ao usuário solicitar a redefinição de sua senha, informando o _e-mail_ cadastrado. | https://carpediemfinal.azurewebsites.net/Hospedes/EsqueceuSenha (em desenvolvimento) |
 |RF-008   | A aplicação deve apresentar ao usuário apenas os imóveis disponíveis na localidade selecionada durante a busca. | https://carpediemfinal.azurewebsites.net/Imoveis/Busca |
 |RF-009   | A aplicação deve permitir que o usuário faça _login_ em sua conta através do seu _e-mail_ e senha cadastrados. | https://carpediemfinal.azurewebsites.net/Hospedes/Login |
 |RF-010   | A aplicação deve permitir ao usuário gerenciar suas reservas, conforme regras contratuais e disponibilidade. | https://carpediemfinal.azurewebsites.net/Reservas/Edit |
