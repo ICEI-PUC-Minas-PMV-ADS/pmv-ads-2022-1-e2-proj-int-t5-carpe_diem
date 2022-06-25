@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,7 @@ namespace ProjetoAulaBackEnd.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
@@ -90,6 +92,8 @@ namespace ProjetoAulaBackEnd.Controllers
             return View();
         }
 
+        [Authorize]
+
         //GET: /FaleConosco/
 
         public IActionResult FaleConosco()
@@ -116,6 +120,8 @@ namespace ProjetoAulaBackEnd.Controllers
         {
             return View();
         }
+
+        [Authorize]
 
         // GET: Hospedes
         public async Task<IActionResult> Index()
@@ -176,6 +182,8 @@ namespace ProjetoAulaBackEnd.Controllers
 
         }
 
+
+        [AllowAnonymous]
 
         // GET: Hospedes/Create
         public IActionResult Create()

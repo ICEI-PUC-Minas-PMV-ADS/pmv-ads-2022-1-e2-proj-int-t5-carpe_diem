@@ -23,9 +23,12 @@
                 <div class="bg-gray flex ai-center j-end px-3 md-flex-wrap md-flex-col t-black">
                     <div class="direct flex md-flex-col navbar-nav flex-grow-1">                              
                             @*<a class="nav-link p-1 m-1 t-black bold-8 font-size-4" asp-area="" asp-controller="Hospedes" asp-action="Create">Cadastro de Hóspedes</a>*@
-                            <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Hospedes" asp-action="Index">Lista de Hóspedes</a>
-                            @*<a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Imoveis" asp-action="Create">Cadastro de Imóveis</a>*@
-                            <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Imoveis" asp-action="Index">Lista de Imóveis</a>
+                            @if (User.Identity.IsAuthenticated)
+                             {
+                                <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Hospedes" asp-action="Index">Lista de Hóspedes</a>
+                                @*<a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Imoveis" asp-action="Create">Cadastro de Imóveis</a>*@
+                                <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Imoveis" asp-action="Index">Lista de Imóveis</a>
+                              }
                             <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Imoveis" asp-action="Create">Anuncie seu Imóvel</a>
                             @*<a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Hospedes" asp-action="Create">Alugue um Imóvel</a>*@
                             <a class="nav-link p-1 m-1 t-black bold-7 font-size-4" asp-area="" asp-controller="Hospedes" asp-action="FaleConosco">Fale Conosco</a>
