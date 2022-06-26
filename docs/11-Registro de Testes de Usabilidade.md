@@ -27,31 +27,31 @@ Quadro 14 - Testes de Usabilidade
 
 |IDENTIFICAÇÃO |TESTE                                   |TEMPO GASTO   |NÍVEL DE DIFICULDADE |NÍVEL DE SATISFAÇÃO |
 |--------------|----------------------------------------|--------------|---------------------|--------------------|
-|Voluntário 01 |Cadastro de novo usuário                |2min 05seg.   |4                    |2                   |
-|Voluntário 01 |Cadastrar Imóvel                        |3min 50seg.   |4                    |1                   |
-|Voluntário 02 |Cadastro de novo usuário                |1min 48seg.   |4                    |1                   |
-|Voluntário 03 |Cadastro de novo usuário                |2min 53seg.   |2                    |2                   |
-|Voluntário 03 |Logar no Sistema                        |1min 10seg.   |4                    |1                   |
-|Voluntário 04 |Cadastro de novo usuário                |1min 40seg.   |4                    |1                   |
-|Voluntário 04 |Cadastrar Imóvel                        |4min 20seg.   |5                    |1                   |
-|Voluntário 04 |Realizar a busca e reserva de um imóvel |2min 24seg.   |3                    |2                   |
+|Voluntário 01 |Cadastro de novo usuário                |2min 05seg.   |4                    |4                   |
+|Voluntário 01 |Cadastrar Imóvel                        |3min 50seg.   |4                    |5                   |
+|Voluntário 02 |Cadastro de novo usuário                |1min 48seg.   |4                    |5                   |
+|Voluntário 03 |Cadastro de novo usuário                |2min 53seg.   |2                    |4                   |
+|Voluntário 03 |Logar no Sistema                        |1min 10seg.   |4                    |5                   |
+|Voluntário 04 |Cadastro de novo usuário                |1min 40seg.   |4                    |5                   |
+|Voluntário 04 |Cadastrar Imóvel                        |4min 20seg.   |5                    |5                   |
+|Voluntário 04 |Realizar a busca e reserva de um imóvel |2min 24seg.   |3                    |4                   |
 |Voluntário 04 |Utilizar o Fale Conosco                 |2min 05seg.   |4                    |3                   |
-|Voluntário 05 |Cadastro de novo usuário                |1min 32seg.   |4                    |1                   |
-|Voluntário 06 |Logar no Sistema                        |1min 24seg.   |4                    |1                   |
-|Voluntário 06 |Cadastrar Imóvel                        |3min 59seg.   |4                    |2                   |
-|Voluntário 06 |Realizar a busca e reserva de um imóvel |1min 48seg.   |4                    |2                   |
-|Voluntário 06 |Utilizar o Fale Conosco                 |1min 50seg.   |3                    |4                   |
-|Voluntário 07 |Logar no Sistema                        |1min 20seg.   |4                    |1                   |
-|Voluntário 08 |Logar no Sistema                        |1min 05seg.   |4                    |1                   |
-|Voluntário 09 |Logar no Sistema                        |1min 22seg.   |4                    |1                   |
-|Voluntário 09 |Realizar a busca e reserva de um imóvel |1min 53seg.   |4                    |2                   |
+|Voluntário 05 |Cadastro de novo usuário                |1min 32seg.   |4                    |5                   |
+|Voluntário 06 |Logar no Sistema                        |1min 24seg.   |4                    |5                   |
+|Voluntário 06 |Cadastrar Imóvel                        |3min 59seg.   |4                    |4                   |
+|Voluntário 06 |Realizar a busca e reserva de um imóvel |1min 48seg.   |4                    |4                   |
+|Voluntário 06 |Utilizar o Fale Conosco                 |1min 50seg.   |3                    |2                   |
+|Voluntário 07 |Logar no Sistema                        |1min 20seg.   |4                    |5                   |
+|Voluntário 08 |Logar no Sistema                        |1min 05seg.   |4                    |5                   |
+|Voluntário 09 |Logar no Sistema                        |1min 22seg.   |4                    |5                   |
+|Voluntário 09 |Realizar a busca e reserva de um imóvel |1min 53seg.   |4                    |4                   |
 |Voluntário 09 |Utilizar o Fale Conosco                 |1min 42seg.   |3                    |3                   |
-|Voluntário 10 |Cadastrar Imóvel                        |3min 42seg.   |4                    |1                   |
-|Voluntário 10 |Realizar a busca e reserva de um imóvel |2min 14seg.   |4                    |1                   |
-|Voluntário 10 |Utilizar o Fale Conosco                 |1min 55seg.   |4                    |2                   |
-|Voluntário 11 |Cadastrar Imóvel                        |4min 09seg.   |4                    |2                   |
-|Voluntário 11 |Realizar a busca e reserva de um imóvel |1min 59seg.   |4                    |2                   |
-|Voluntário 11 |Utilizar o Fale Conosco                 |1min 36seg.   |4                    |2                   |
+|Voluntário 10 |Cadastrar Imóvel                        |3min 42seg.   |4                    |5                   |
+|Voluntário 10 |Realizar a busca e reserva de um imóvel |2min 14seg.   |4                    |5                   |
+|Voluntário 10 |Utilizar o Fale Conosco                 |1min 55seg.   |4                    |4                   |
+|Voluntário 11 |Cadastrar Imóvel                        |4min 09seg.   |4                    |4                   |
+|Voluntário 11 |Realizar a busca e reserva de um imóvel |1min 59seg.   |4                    |4                   |
+|Voluntário 11 |Utilizar o Fale Conosco                 |1min 36seg.   |4                    |4                   |
 
 Fonte: Elaborado pelos autores
 <br>
