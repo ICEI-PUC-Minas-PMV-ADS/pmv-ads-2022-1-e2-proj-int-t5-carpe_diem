@@ -53,6 +53,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Email)
                 </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TipoUsuario)
+                </th>
                 <th></th>
             </tr>
         </thead>
@@ -77,6 +80,9 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoUsuario)
                 </td>
                 <td class="flex t-center j-center py-2">
                     <a class="btn btn-blue btn-effect" asp-action="Edit" asp-route-id="@item.IdHospede">Editar</a>
