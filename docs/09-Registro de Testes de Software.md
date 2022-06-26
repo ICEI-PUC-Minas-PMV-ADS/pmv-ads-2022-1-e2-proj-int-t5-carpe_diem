@@ -24,42 +24,64 @@ Fonte: Elaborado pelos Autores
 
 <br>
 
-### 9.1.1 Vídeo 01 - Caso de Teste 01 e 02
+## 9.2 Resultados
+
+Apresentamos nos tópicos abaixo os vídeos referentes aos registros de teste de software, nos formatos mp4 e/ou zip, e também como link do Sharepoint, para acesso.
+Por incompatibilidade com o GitHub, os vídeos com capacidade superior a 100MB foram zipados.
+
+
+### 9.2.1 Vídeo 01 - Caso de Teste 01 e 02
+
+[Cadastrar e Login.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987242/Funcionalidade.Cadastrar.e.Login.1.zip)
 
 <https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EbJ0U52tJfxPhiUbYHDtwYgBImUFYOG1dovhbEA9nAOzKg?e=FS6BTG>
 
 
-### 9.1.2 Vídeo 02 - Caso de Teste 03 e 04
+### 9.2.2 Vídeo 02 - Caso de Teste 03 e 04
+
+[Editar e excluir usuário.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987209/Editar.e.excluir.usuario.zip)
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/ESdOb0g5zb1Cq2_FSk_UgvYBBpIcF9NSpCiNcc9SPIcu_g?e=3misDh
 
 
-### 9.1.3 Vídeo 03 - Caso de Teste 05
+### 9.2.3 Vídeo 03 - Caso de Teste 05
+
+[Cadastro anfitriao e imovel.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987206/cadastro.anfitriao.e.imovel.zip)
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/ET3oFzSC-FJAjslnBfIV4roBkNoKqNmuC0V-cT5L7MEPJQ?e=WJgRvZ
 
 
-### 9.1.4 Vídeo 04 - Caso de Teste 07
+### 9.2.4 Vídeo 04 - Caso de Teste 07
+
+https://user-images.githubusercontent.com/89549220/175827517-0e48acc6-6a90-4a2e-bf55-bb65f3f70ec2.mp4
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EUXNdFo2rQZNuD8dp_2FSqYB-zBx039gK4MbsUP8WCMPRw?e=UpMlBg
 
 
-### 9.1.5 Vídeo 05 - Caso de Teste 08
+### 9.2.5 Vídeo 05 - Caso de Teste 08
+
+https://user-images.githubusercontent.com/89549220/175827627-f2f8c6d6-ee72-4829-a65d-534bdd49379a.mp4
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EaBrzwgWD71CmPyEwoiyztwB06xVzYQOOfzBzNmiUk3azQ?e=E7cq8J
 
 
-### 9.1.6 Vídeo 06 - Caso de Teste 09 e 10
+### 9.2.6 Vídeo 06 - Caso de Teste 09 e 10
+
+[Editar e excluir reserva.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987189/Editar.e.excluir.reserva.zip)
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/Ed5H4YtBvA5Kn577I4PCHt8Bn8lIH4i_CwfmGckBeVI_bA?e=xVuPyO
 
 
-### 9.1.7 Vídeo 07 - Caso de Teste 11
+### 9.2.7 Vídeo 07 - Caso de Teste 11
+
+https://user-images.githubusercontent.com/89549220/175827566-1304d273-92e8-44eb-b562-1de917a348e9.mp4
 
 https://sgapucminasbr.sharepoint.com/:v:/s/team_sga_865_2022_1_3657105-G5/EZ3J1pFWW2hNrKcmnxzrvcQBQscz9-OlYcl3nh8f9TH2Pg?e=gBzy8n
 
 <br>
-## 9.2 Resultado do Teste de Software
+
+
+## 9.3 Relatório do Teste de Software
 
 Quadro 11 - Resultado
 
