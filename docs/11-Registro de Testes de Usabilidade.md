@@ -54,3 +54,13 @@ Quadro 14 - Testes de Usabilidade
 
 
 Fonte: Elaborado pelos autores
+
+## 11.1 Relatório de Teste de Usabilidade
+
+|TESTE REALIZADO|AVALIAÇÃO DO TESTE|
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|Cadastro de novo usuário|Com a aplicação do teste de cadastro de novo usuário pudemos identificar algumas oportunidades de melhoria na aplicação. Por exemplo, um voluntário relatou que se digitasse qualquer número no CPF, independente da quantidade de dígitos, ele poderia concluir seu cadastro. Outro voluntário relatou que após a finalização do cadastro, ficou um pouco perdido sobre o que deveria fazer. </BR> Diante desses questionamentos, foram implementadas melhorias como a utilização de máscara para o CPF e posteriormente a utilização de código para verificar se o CPF era válido como também, o limite de onze caracteres. No geral, os voluntários enfatizaram a beleza do site e o ambiente agradável de navegação.|
+|Logar no sistema|A tarefa de logar no sistema foi realizada por todos os voluntários sem dificuldades ou queixas, sendo considerada uma tarefa fácil de se realizar.|
+|Realizar a busca e reserva de um imóvel|A tarefa de busca e reserva de imóvel, apesar de suas limitações por algumas funcionalidades não concretizadas, foi realizada sem grandes dificuldades pelos voluntários. Os mesmos foram orientados previamente que a busca deveria ser realizada utilizando-se somente o filtro de "cidade destino", já que os outros filtros ainda não foram implantados. Foram orientados também sobre a impossibilidade de se calcular o valor total da reserva no momento. No geral, os voluntários se sentiram satisfeitos com a realização da tarefa.|
+|Cadastrar imóvel|A tarefa de cadastrar imóvel, mesmo sendo uma tarefa que requer mais tempo para ser realizada, foi conluída sem dificuldades pelos voluntários, sendo elogiada por ser "bem completa". Os voluntários foram orientados previamente sobre uma falha na aplicação, onde o anfitrião precisa selecionar seu CPF entre uma lista de todos os anfitriões cadastrados, para que possa iniciar o cadastro do seu imóvel. Essa falha no sistema foi uma das grandes dificuldades do grupo para a finalização do projeto e não pode ser corrigida em tempo hábil. |
+|Utilizar o Fale Conosco |Apesar da facilidade em se concluir a tarefa de utilizar o Fale Conosco, alguns voluntários consideraram a tarefa como sendo "neutra", já que a tarefa não é efetivada através do envio da mensagem aos administradores do site. Essa foi outra dificuldade encontrada pelo grupo, não sendo possível finalizar a funcionalidade em tempo hábil.|
