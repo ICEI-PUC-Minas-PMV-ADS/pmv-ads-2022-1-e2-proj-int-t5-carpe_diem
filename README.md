@@ -1,6 +1,6 @@
 # Gerenciador de Imóveis - Carpe Diem
 
-![Logo_Final_382x175](https://user-images.githubusercontent.com/89549220/164358507-96df0285-1c61-43ce-b9c0-aea7a7585f5c.png)
+![logo_melhor](https://user-images.githubusercontent.com/89549220/175794677-de2a14da-5ae8-4833-9556-92ce787bd595.png)
 
 `TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
