@@ -6,17 +6,17 @@ Quadro 13 - Perfil dos Voluntários
 
 |IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO    |
 |--------------|----------|----------------------|-------------------------------|------------------------|
-|Voluntário 01 |    46    |Superior Completo     |Servidor Público               |Cadastro de novo usuário e Cadastrar Imóvel|
+|Voluntário 01 |    46    |Superior Completo     |Servidor Público               |Cadastro de novo usuário e cadastrar imóvel|
 |Voluntário 02 |    21    |Superior Incompleto   |Estudante                      |Cadastro de novo usuário|
-|Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Cadastro de novo usuário e Logar no Sistema|
-|Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastro de novo usuário e Cadastrar Imóvel|
+|Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Cadastro de novo usuário e logar no sistema|
+|Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastro de novo usuário, cadastrar imóvel, realizar a busca e reserva de um imóvel e utilizar o Fale Conosco|
 |Voluntário 05 |    30    |Superior Incompleto   |Estudante                      |Cadastro de novo usuário|
-|Voluntário 06 |    42    |Superior Completo     |Administrador                  |Logar no sistema e Cadastrar Imóvel|
+|Voluntário 06 |    42    |Superior Completo     |Administrador                  |Logar no sistema, cadastrar imóvel, realizar a busca e reserva de um imóvel e Utilizar o Fale Conosco|
 |Voluntário 07 |    27    |Superior Incompleto   |Bancario                       |Logar no sistema|
 |Voluntário 08 |    55    |Ensino Médio Incomp.  |Cozinheiro                     |Logar no sistema|
-|Voluntário 09 |    38    |Superior Completo     |Bombeiro Militar               |Logar no sistema|
-|Voluntário 10 |    27    |Superior Completo     |Fisioterapeuta                 |Cadastrar Imóvel|
-|Voluntário 11 |    55    |Superior Incompleto   |Vendedor                       |Cadastrar Imóvel|s
+|Voluntário 09 |    38    |Superior Completo     |Bombeiro Militar               |Logar no sistema, realizar a busca e reserva de um imóvel e utilizar o Fale Conosco|
+|Voluntário 10 |    27    |Superior Completo     |Fisioterapeuta                 |Cadastrar imóvel, realizar a busca e reserva de um imóvel e utilizar o Fale Conosco|
+|Voluntário 11 |    55    |Superior Incompleto   |Vendedor                       |Cadastrar imóvel, realizar a busca e reserva de um imóvel e utilizar o Fale Conosco|
 
 
 Fonte: Elaborado pelos autores
