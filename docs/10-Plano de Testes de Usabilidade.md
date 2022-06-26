@@ -38,11 +38,11 @@ Para cada tarefa executada pelo voluntário será possível medir:
 
 | **Escala** | **Classificação**  |
 |------------|--------------------|
-| 1          | Muito Satisfeito   |
-| 2          | Satisfeito         |
+| 1          | Muito Insatisfeito |
+| 2          | Insatisfeito       |
 | 3          | Neutro             |
-| 4          | Insatisfeito       |
-| 5          | Muito Insatisfeito |
+| 4          | Satisfeito         |
+| 5          | Muito Satisfeito   |
 
 
 ### 10.4 Roteiro
