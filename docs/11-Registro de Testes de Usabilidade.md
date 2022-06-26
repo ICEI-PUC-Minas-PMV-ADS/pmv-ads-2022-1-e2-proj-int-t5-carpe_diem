@@ -6,21 +6,18 @@ Quadro 13 - Perfil dos Voluntários
 
 |IDENTIFICAÇÃO | IDADE    | GRAU DE INSTRUÇÃO    | PROFISSÃO                     | AÇÃO/TESTE APLICADO    |
 |--------------|----------|----------------------|-------------------------------|------------------------|
-|Voluntário 01 |    46    |Superior Completo     |Servidor Público               |Cadastro de novo usuário|
+|Voluntário 01 |    46    |Superior Completo     |Servidor Público               |Cadastro de novo usuário e Cadastrar Imóvel|
 |Voluntário 02 |    21    |Superior Incompleto   |Estudante                      |Cadastro de novo usuário|
-|Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Cadastro de novo usuário|
-|Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastro de novo usuário|
+|Voluntário 03 |    37    |Ensino Médio Incomp.  |Autônomo                       |Cadastro de novo usuário e Logar no Sistema|
+|Voluntário 04 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastro de novo usuário e Cadastrar Imóvel|
 |Voluntário 05 |    30    |Superior Incompleto   |Estudante                      |Cadastro de novo usuário|
-|Voluntário 06 |    42    |Superior Completo     |Administrador                  |Logar no sistema|
+|Voluntário 06 |    42    |Superior Completo     |Administrador                  |Logar no sistema e Cadastrar Imóvel|
 |Voluntário 07 |    27    |Superior Incompleto   |Bancario                       |Logar no sistema|
 |Voluntário 08 |    55    |Ensino Médio Incomp.  |Cozinheiro                     |Logar no sistema|
-|Voluntário 09 |    31    |Ensino Médio Completo |Autônomo                       |Logar no sistema|
-|Voluntário 10 |    38    |Superior Completo     |Bombeiro Militar               |Logar no sistema|
-|Voluntário 11 |    27    |Superior Completo     |Fisioterapeuta                 |Cadastrar Imóvel|
-|Voluntário 12 |    55    |Superior Incompleto   |Vendedor                       |Cadastrar Imóvel|
-|Voluntário 13 |    42    |Superior Completo     |Administrador                  |Cadastrar Imóvel|
-|Voluntário 14 |    33    |Ensino Médio Completo |Manobrador de Locomotiva       |Cadastrar Imóvel|
-|Voluntário 15 |    46    |Superior Completo     |Servidor Público               |Cadastrar Imóvel|
+|Voluntário 09 |    38    |Superior Completo     |Bombeiro Militar               |Logar no sistema|
+|Voluntário 10 |    27    |Superior Completo     |Fisioterapeuta                 |Cadastrar Imóvel|
+|Voluntário 11 |    55    |Superior Incompleto   |Vendedor                       |Cadastrar Imóvel|s
+
 
 Fonte: Elaborado pelos autores
 
@@ -37,12 +34,23 @@ Quadro 14 - Testes de Usabilidade
 |Voluntário 6  |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|34seg.|4 |1 |
 |Voluntário 7  |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 20seg.|4 |1 |
 |Voluntário 8  |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 05seg.|4 |1 |
-|Voluntário 9  |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 10seg.|4 |1 |
-|Voluntário 10 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 22seg.|4 |1 |
-|Voluntário 11 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 42seg.|4 |1 |
-|Voluntário 12 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|4min 09seg.|4 |2 |
-|Voluntário 13 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 59seg.|4 |2 |
-|Voluntário 14 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|4min 20seg.|5 |1 |
-|Voluntário 15 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 50seg.|4 |1 |
+|Voluntário 3  |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 10seg.|4 |1 |
+|Voluntário 09 |Logar no Sistema |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 22seg.|4 |1 |
+|Voluntário 10 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 42seg.|4 |1 |
+|Voluntário 11 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|4min 09seg.|4 |2 |
+|Voluntário 06 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 59seg.|4 |2 |
+|Voluntário 04 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|4min 20seg.|5 |1 |
+|Voluntário 01 |Cadastrar Imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|3min 50seg.|4 |1 |
+|Voluntário 09 |Realizar a busca e reserva de um imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 53seg.|4 |2 |
+|Voluntário 10 |Realizar a busca e reserva de um imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|2min 14seg.|4 |1 |
+|Voluntário 11 |Realizar a busca e reserva de um imóvel|Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 59seg.|4 |2 |
+|Voluntário 06 |Realizar a busca e reserva de um imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 48seg.|4 |2 |
+|Voluntário 04 |Realizar a busca e reserva de um imóvel |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|2min 24seg.|3 |2 |
+|Voluntário 09 |Utilizar o Fale Conosco |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 42seg.|3 |3 |
+|Voluntário 10 |Utilizar o Fale Conosco |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 55seg.|4 |2 |
+|Voluntário 11 |Utilizar o Fale Conosco |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 36seg.|4 |2 |
+|Voluntário 06 |Utilizar o Fale Conosco |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|1min 50seg.|3 |4 |
+|Voluntário 04 |Utilizar o Fale Conosco |Concretização da tarefa. Quantidade e tipo de erros cometidos. Tempo necessário para se concluir.|2min 05seg.|4 |3 |
+
 
 Fonte: Elaborado pelos autores
