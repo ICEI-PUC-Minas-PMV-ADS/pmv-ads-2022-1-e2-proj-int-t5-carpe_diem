@@ -70,3 +70,49 @@ Quadro 15 - Resultado
 
 Fonte: Elaborado pelos autores
 <br>
+
+
+### 11.1.1 Resultados Gráficos Relacionados ao Tempo Gasto
+
+No que tange ao tempo gasto, os resultados foram convertidos para segundos, aspirando uma melhor visualização.
+
+![image](https://user-images.githubusercontent.com/89549220/175822866-db1d3b70-0f4e-446d-ac86-b484d5790b5f.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822871-2e1ad071-0374-42ae-a2e9-ce03108f0f99.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822874-52795129-d9ef-4122-b315-077c7032b559.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822881-b49793f3-7867-48a6-a106-d1143ee11704.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822889-dbaf64e3-5e02-43c9-92a8-53fe11563dea.png)
+<br>
+
+### 11.1.2 Resultados Gráficos Relacionados ao Nível de Dificuldade
+
+No que tange ao nível de dificuldade, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
+
+![image](https://user-images.githubusercontent.com/89549220/175822899-ea6d5dae-31c8-4bfa-8dab-0b538f894762.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822918-432af064-d8e7-4e7f-a71c-713b82c96acb.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822929-7b3e9dfb-b9c3-4592-b6b3-3034fe1112ae.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822939-c1e3a3b2-f58b-4089-8055-f211defbc5ec.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175822946-ad5b5066-f78c-4f44-a0af-e1f40f8ccd36.png)
+<br>
+
+### 11.1.3 Resultados Gráficos Relacionados ao Nível de Satisfação
+
+Em se tratando do nível de satisfação, os resultados foram direcionados ao quantitativo de voluntários que pontuaram cada nível, em cada teste, aspirando uma melhor visualização.
+
+![image](https://user-images.githubusercontent.com/89549220/175822997-734cbbdb-3606-4462-8a3e-4832d8053d4b.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175823005-39a55ddd-ac40-4340-b832-35a3f3f224c1.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175823011-6674d00f-ed25-48de-9039-a8e5e15db5a3.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175823018-ce514b09-f054-48ca-996b-724be434e861.png)
+
+![image](https://user-images.githubusercontent.com/89549220/175823021-018c881a-1d82-40b7-aff8-4d68662e2a19.png)
+<br>
