@@ -69,7 +69,7 @@ Quadro 11 - Resultado
 |CT-02         |Realizar login                                |Resultado obtido com êxito. |
 |CT-03         |Realizar gerenciamento do cadastro (Editar)   |É possível editar o cadastro, porém, para executar a tarefa é preciso acessar, logado, a lista geral de usuários, procurar seu nome e clicar em editar, pois não concluímos a página que irá direcionar diretamente para a edição do cadastro. |
 |CT-04         |Realizar gerenciamento do cadastro (Excluir)  |É possível editar o cadastro, porém, para executar a tarefa é preciso acessar, logado, a lista geral de usuários, procurar seu nome e clicar em deletar, pois não concluímos a página que irá direcionar diretamente para a exclusão do cadastro. |
-|CT-05         |Realizar cadastro anfitrião e imóvel          |Resultado obtido com êxito. |
+|CT-05         |Realizar cadastro anfitrião e imóvel          |Resultado obtido com êxito, com a ressalva de que o anfitrião precisa selecionar seu CPF numa lista contendo todos os CPFs cadastrados. Essa foi uma falha na aplicação que o grupo teve dificuldade de solucionar em tempo hábil. |
 |CT-06         |Redefinir senha                               |Objetivo não alcançado pois a funcionalidade de enviar email para o usuário redefinir sua senha não foi concluída. |
 |CT-07         |Realizar busca por imóvel                     |Não foi possível implementar todos os filtros de busca. <br> Está em funcionamento a busca por “cidade destino”.<br> Caso o usuário não preencha nenhum campo de busca e clique em buscar, será redirecionado para um resultado de busca não encontrada. |
 |CT-08         |Realizar reserva do imóvel                    |Não foi possível implementar a funcionalidade de envio de email de confirmação. |
