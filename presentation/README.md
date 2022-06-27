@@ -20,7 +20,7 @@ Optamos por publicar no formato zip, devido sua dimensão de 285 MB, juntamente 
 
 <br>
 
-Devido a compactação do vídeo para tamanho menor que 25 MB, foi necessário incluir os arquivos abaixo para serem utilizados no momento da descompactação do arquivo acima.<br>
+Devido a compactação do vídeo para tamanho menor que 25 MB (limitado pelo GitHub para arquivos zipados), foi necessário incluir os arquivos abaixo para serem utilizados no momento da descompactação da apresentação acima.<br>
 
 [Apresentação carpe diem (2).zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987771/Apresentacao.carpe.diem.2.zip)<br>
 [Apresentação carpe diem (3).zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t5-carpe_diem/files/8987772/Apresentacao.carpe.diem.3.zip)<br>
