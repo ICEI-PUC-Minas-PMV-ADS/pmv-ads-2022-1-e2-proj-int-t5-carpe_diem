@@ -13,3 +13,7 @@ https://user-images.githubusercontent.com/90981080/158025747-a31e4a5e-221c-4082-
 
 ## Versão Vídeo
 
+Optamos por publicar no formato zip, devido sua dimensão de 285 MB, assim como a incompatibilidade do GitHub em suportar arquivos maiores que 100 MB.
+
+
+Devido a compactação do vídeo para tamanho menor que 25 MB, foi necessário incluir os arquivos abaixo para serem utilizados no momento da descompactação.
